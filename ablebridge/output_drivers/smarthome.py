@@ -1,1 +1,313 @@
-IiIiCmFibGVicmlkZ2Uub3V0cHV0X2RyaXZlcnMuc21hcnRob21lIOKAlCBTbWFydCBob21lIGNvbnRyb2wgb3V0cHV0IGRyaXZlci4KCkludGVncmF0ZXMgd2l0aCBIb21lIEFzc2lzdGFudCAoTVFUVCksIE9wZW5IQUIsIGFuZCBnZW5lcmljIE1RVFQgZGV2aWNlcy4KQWxsb3dzIHVzZXJzIHRvIGNvbnRyb2wgbGlnaHRzLCB0aGVybW9zdGF0cywgZG9vciBsb2NrcywgVFZzLCBhbmQgbW9yZQp1c2luZyB0aGVpciBwcmVmZXJyZWQgaW5wdXQgY2hhbm5lbC4KCkZvciB3aGVlbGNoYWlyIHVzZXJzOiBhbHNvIHN1cHBvcnRzIHBvd2VyIHdoZWVsY2hhaXIgY29udHJvbCBBUElzCihRdWFudHVtLCBQZXJtb2JpbCwgSW52YWNhcmUpIHdoZW4gYXZhaWxhYmxlLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gZW51bSBpbXBvcnQgRW51bQoKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgoKZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0ICgKICAgIEJhc2VPdXRwdXREcml2ZXIsCiAgICBDaGFubmVsU3RhdHVzLAogICAgRHJpdmVyU3RhdGUsCiAgICBPdXRwdXRDaGFubmVsLAogICAgT3V0cHV0Q29uZmlnLAogICAgT3V0cHV0RXZlbnQsCikKCnRyeToKICAgIGltcG9ydCBwYWhvLm1xdHQuY2xpZW50IGFzIG1xdHQKICAgIE1RVFRfQVZBSUxBQkxFID0gVHJ1ZQpleGNlcHQgSW1wb3J0RXJyb3I6CiAgICBNUVRUX0FWQUlMQUJMRSA9IEZhbHNlCgoKY2xhc3MgRGV2aWNlVHlwZShFbnVtKToKICAgIExJR0hUID0gImxpZ2h0IgogICAgU1dJVENIID0gInN3aXRjaCIKICAgIFRIRVJNT1NUQVQgPSAidGhlcm1vc3RhdCIKICAgIExPQ0sgPSAibG9jayIKICAgIENPVkVSID0gImNvdmVyIiAgIyBCbGluZHMsIGN1cnRhaW5zCiAgICBNRURJQSA9ICJtZWRpYSIKICAgIFdIRUVMQ0hBSVIgPSAid2hlZWxjaGFpciIKICAgIENVU1RPTSA9ICJjdXN0b20iCgoKQGRhdGFjbGFzcwpjbGFzcyBTbWFydERldmljZToKICAgICIiIkEgc2luZ2xlIHNtYXJ0IGhvbWUgZGV2aWNlLiIiIgoKICAgIGlkOiBzdHIKICAgIG5hbWU6IHN0cgogICAgdHlwZTogRGV2aWNlVHlwZQogICAgbXF0dF90b3BpYzogc3RyICAjIGUuZy4gImhvbWUvbGl2aW5nX3Jvb20vbGlnaHQvc2V0IgogICAgbXF0dF9wYXlsb2FkX29uOiBzdHIgPSAiT04iCiAgICBtcXR0X3BheWxvYWRfb2ZmOiBzdHIgPSAiT0ZGIgogICAgc3VwcG9ydHNfYnJpZ2h0bmVzczogYm9vbCA9IEZhbHNlCiAgICBzdXBwb3J0c19jb2xvcjogYm9vbCA9IEZhbHNlCiAgICBzdXBwb3J0c190ZW1wZXJhdHVyZTogYm9vbCA9IEZhbHNlCgoKY2xhc3MgU21hcnRIb21lRHJpdmVyKEJhc2VPdXRwdXREcml2ZXIpOgogICAgIiIiCiAgICBTbWFydCBob21lIGNvbnRyb2wgdmlhIE1RVFQgLyBIb21lIEFzc2lzdGFudCBBUEkuCgogICAgQWxsb3dzIGNvbnRyb2wgb2Y6CiAgICAtIExpZ2h0cyAob24vb2ZmLCBicmlnaHRuZXNzLCBjb2xvcikKICAgIC0gVGhlcm1vc3RhdHMgKHRlbXBlcmF0dXJlIHNldHBvaW50KQogICAgLSBEb29yIGxvY2tzIChsb2NrL3VubG9jaykKICAgIC0gTWVkaWEgKHBsYXkvcGF1c2UsIHZvbHVtZSkKICAgIC0gV2hlZWxjaGFpciAoaWYgQVBJIGF2YWlsYWJsZSkKCiAgICBBbGwgYWN0aW9ucyBhcmUgdHJpZ2dlcmVkIGJ5IEFJIGludGVudCByZXNvbHV0aW9uIG9yIGRpcmVjdCBVSS4KICAgICIiIgoKICAgIG5hbWU6IHN0ciA9ICJzbWFydGhvbWVfb3V0cHV0IgogICAgY2hhbm5lbF90eXBlID0gT3V0cHV0Q2hhbm5lbC5TTUFSVF9IT01FCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgY29uZmlnOiBPdXRwdXRDb25maWcsCiAgICAgICAgYnJva2VyX2hvc3Q6IHN0ciA9ICJsb2NhbGhvc3QiLAogICAgICAgIGJyb2tlcl9wb3J0OiBpbnQgPSAxODgzLAogICAgICAgIHVzZXJuYW1lOiBzdHIgPSAiIiwKICAgICAgICBwYXNzd29yZDogc3RyID0gIiIsCiAgICApOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oY29uZmlnKQogICAgICAgIHNlbGYuX2Jyb2tlcl9ob3N0ID0gYnJva2VyX2hvc3QKICAgICAgICBzZWxmLl9icm9rZXJfcG9ydCA9IGJyb2tlcl9wb3J0CiAgICAgICAgc2VsZi5fdXNlcm5hbWUgPSB1c2VybmFtZQogICAgICAgIHNlbGYuX3Bhc3N3b3JkID0gcGFzc3dvcmQKCiAgICAgICAgc2VsZi5fY2xpZW50OiBtcXR0LkNsaWVudCB8IE5vbmUgPSBOb25lCiAgICAgICAgc2VsZi5fY29ubmVjdGVkID0gRmFsc2UKICAgICAgICBzZWxmLl9kZXZpY2VzOiBkaWN0W3N0ciwgU21hcnREZXZpY2VdID0ge30KICAgICAgICBzZWxmLl9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQoKICAgICMg4pSA4pSAIEJhc2VPdXRwdXREcml2ZXIgSW1wbGVtZW50YXRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIHN0YXJ0KHNlbGYpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5fc3RhdGUgPSBEcml2ZXJTdGF0ZS5TVEFSVElORwoKICAgICAgICBpZiBNUVRUX0FWQUlMQUJMRToKICAgICAgICAgICAgc2VsZi5fY2xpZW50ID0gbXF0dC5DbGllbnQoCiAgICAgICAgICAgICAgICBjbGllbnRfaWQ9ZiJhYmxlYnJpZGdlX3tpbnQodGltZS50aW1lKCkpfSIsCiAgICAgICAgICAgICAgICBwcm90b2NvbD1tcXR0Lk1RVFR2MzExLAogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIHNlbGYuX3VzZXJuYW1lOgogICAgICAgICAgICAgICAgc2VsZi5fY2xpZW50LnVzZXJuYW1lX3B3X3NldChzZWxmLl91c2VybmFtZSwgc2VsZi5fcGFzc3dvcmQpCgogICAgICAgICAgICBzZWxmLl9jbGllbnQub25fY29ubmVjdCA9IHNlbGYuX29uX2Nvbm5lY3QKICAgICAgICAgICAgc2VsZi5fY2xpZW50Lm9uX2Rpc2Nvbm5lY3QgPSBzZWxmLl9vbl9kaXNjb25uZWN0CiAgICAgICAgICAgIHNlbGYuX2NsaWVudC5vbl9tZXNzYWdlID0gc2VsZi5fb25fbWVzc2FnZQoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc2VsZi5fY2xpZW50LmNvbm5lY3Qoc2VsZi5fYnJva2VyX2hvc3QsIHNlbGYuX2Jyb2tlcl9wb3J0LCBrZWVwYWxpdmU9NjApCiAgICAgICAgICAgICAgICBzZWxmLl9jbGllbnQubG9vcF9zdGFydCgpCiAgICAgICAgICAgICAgICBsb2dnZXIuaW5mbyhmIltTbWFydEhvbWVEcml2ZXJdIENvbm5lY3RpbmcgdG8ge3NlbGYuX2Jyb2tlcl9ob3N0fTp7c2VsZi5fYnJva2VyX3BvcnR9IikKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJbU21hcnRIb21lRHJpdmVyXSBDb3VsZCBub3QgY29ubmVjdCB0byBNUVRUIGJyb2tlcjoge2V9IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBsb2dnZXIud2FybmluZygiW1NtYXJ0SG9tZURyaXZlcl0gcGFoby1tcXR0IG5vdCBpbnN0YWxsZWQuIFJ1bjogcGlwIGluc3RhbGwgcGFoby1tcXR0IikKCiAgICAgICAgIyBSZWdpc3RlciBkZWZhdWx0IGRlbW8gZGV2aWNlcwogICAgICAgIHNlbGYuX3JlZ2lzdGVyX2RlbW9fZGV2aWNlcygpCiAgICAgICAgc2VsZi5fc3RhdGUgPSBEcml2ZXJTdGF0ZS5SVU5OSU5HCgogICAgZGVmIHN0b3Aoc2VsZikgLT4gTm9uZToKICAgICAgICBpZiBzZWxmLl9jbGllbnQ6CiAgICAgICAgICAgIHNlbGYuX2NsaWVudC5sb29wX3N0b3AoKQogICAgICAgICAgICBzZWxmLl9jbGllbnQuZGlzY29ubmVjdCgpCiAgICAgICAgICAgIHNlbGYuX2NsaWVudCA9IE5vbmUKICAgICAgICBzZWxmLl9jb25uZWN0ZWQgPSBGYWxzZQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RPUFBFRAogICAgICAgIGxvZ2dlci5pbmZvKCJbU21hcnRIb21lRHJpdmVyXSBTdG9wcGVkIikKCiAgICBkZWYgc2VuZChzZWxmLCBldmVudDogT3V0cHV0RXZlbnQpIC0+IGJvb2w6CiAgICAgICAgIiIiSGFuZGxlIGEgc21hcnQgaG9tZSBjb250cm9sIGV2ZW50LiIiIgogICAgICAgIGlmIGV2ZW50LmFjdGlvbiA9PSAiZGV2aWNlX2NvbnRyb2wiOgogICAgICAgICAgICByZXR1cm4gc2VsZi5faGFuZGxlX2RldmljZV9jb250cm9sKGV2ZW50KQogICAgICAgIGVsaWYgZXZlbnQuYWN0aW9uID09ICJ0b2dnbGUiOgogICAgICAgICAgICByZXR1cm4gc2VsZi5faGFuZGxlX3RvZ2dsZShldmVudCkKICAgICAgICBlbGlmIGV2ZW50LmFjdGlvbiA9PSAic2V0X2JyaWdodG5lc3MiOgogICAgICAgICAgICByZXR1cm4gc2VsZi5faGFuZGxlX2JyaWdodG5lc3MoZXZlbnQpCiAgICAgICAgZWxpZiBldmVudC5hY3Rpb24gPT0gInNldF90ZW1wZXJhdHVyZSI6CiAgICAgICAgICAgIHJldHVybiBzZWxmLl9oYW5kbGVfdGVtcGVyYXR1cmUoZXZlbnQpCiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGVmIGdldF9zdGF0dXMoc2VsZikgLT4gQ2hhbm5lbFN0YXR1czoKICAgICAgICByZXR1cm4gQ2hhbm5lbFN0YXR1cygKICAgICAgICAgICAgbmFtZT1zZWxmLm5hbWUsCiAgICAgICAgICAgIGNoYW5uZWxfdHlwZT0ib3V0cHV0IiwKICAgICAgICAgICAgc3RhdGU9c2VsZi5fc3RhdGUsCiAgICAgICAgICAgIGlzX2VuYWJsZWQ9c2VsZi5fY29uZmlnLmVuYWJsZWQsCiAgICAgICAgICAgIGNvbmZpZGVuY2U9MC45NSBpZiBzZWxmLl9jb25uZWN0ZWQgZWxzZSAwLjAsCiAgICAgICAgICAgIGV4dHJhPXsKICAgICAgICAgICAgICAgICJjb25uZWN0ZWQiOiBzZWxmLl9jb25uZWN0ZWQsCiAgICAgICAgICAgICAgICAiZGV2aWNlcyI6IFtkLm5hbWUgZm9yIGQgaW4gc2VsZi5fZGV2aWNlcy52YWx1ZXMoKV0sCiAgICAgICAgICAgICAgICAiYnJva2VyIjogZiJ7c2VsZi5fYnJva2VyX2hvc3R9OntzZWxmLl9icm9rZXJfcG9ydH0iLAogICAgICAgICAgICB9LAogICAgICAgICkKCiAgICAjIOKUgOKUgCBNUVRUIENhbGxiYWNrcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICBkZWYgX29uX2Nvbm5lY3Qoc2VsZiwgY2xpZW50LCB1c2VyZGF0YSwgZmxhZ3MsIHJjOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgaWYgcmMgPT0gMDoKICAgICAgICAgICAgc2VsZi5fY29ubmVjdGVkID0gVHJ1ZQogICAgICAgICAgICBsb2dnZXIuaW5mbygiW1NtYXJ0SG9tZURyaXZlcl0gTVFUVCBjb25uZWN0ZWQiKQogICAgICAgICAgICAjIFN1YnNjcmliZSB0byBkZXZpY2Ugc3RhdGUgdG9waWNzCiAgICAgICAgICAgIGZvciBkZXZpY2UgaW4gc2VsZi5fZGV2aWNlcy52YWx1ZXMoKToKICAgICAgICAgICAgICAgIGlmIGRldmljZS50eXBlID09IERldmljZVR5cGUuTUVESUE6CiAgICAgICAgICAgICAgICAgICAgY2xpZW50LnN1YnNjcmliZShkZXZpY2UubXF0dF90b3BpYy5yZXBsYWNlKCIvc2V0IiwgIi9zdGF0ZSIpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiW1NtYXJ0SG9tZURyaXZlcl0gTVFUVCBjb25uZWN0aW9uIGZhaWxlZDogcmM9e3JjfSIpCgogICAgZGVmIF9vbl9kaXNjb25uZWN0KHNlbGYsIGNsaWVudCwgdXNlcmRhdGEsIHJjOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5fY29ubmVjdGVkID0gRmFsc2UKICAgICAgICBsb2dnZXIud2FybmluZyhmIltTbWFydEhvbWVEcml2ZXJdIE1RVFQgZGlzY29ubmVjdGVkOiByYz17cmN9IikKCiAgICBkZWYgX29uX21lc3NhZ2Uoc2VsZiwgY2xpZW50LCB1c2VyZGF0YSwgbXNnKSAtPiBOb25lOgogICAgICAgICIiIkhhbmRsZSBpbmNvbWluZyBNUVRUIG1lc3NhZ2VzIChkZXZpY2Ugc3RhdGUgdXBkYXRlcykuIiIiCiAgICAgICAgdHJ5OgogICAgICAgICAgICB0b3BpYyA9IG1zZy50b3BpYwogICAgICAgICAgICBwYXlsb2FkID0gbXNnLnBheWxvYWQuZGVjb2RlKCJ1dGYtOCIpCiAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZyhmIltTbWFydEhvbWVEcml2ZXJdIHt0b3BpY306IHtwYXlsb2FkfSIpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcwoKICAgICMg4pSA4pSAIFNtYXJ0IEhvbWUgQWN0aW9ucyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICBkZWYgcmVnaXN0ZXJfZGV2aWNlKHNlbGYsIGRldmljZTogU21hcnREZXZpY2UpIC0+IE5vbmU6CiAgICAgICAgIiIiUmVnaXN0ZXIgYSBzbWFydCBkZXZpY2UuIiIiCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBzZWxmLl9kZXZpY2VzW2RldmljZS5pZF0gPSBkZXZpY2UKICAgICAgICBsb2dnZXIuaW5mbyhmIltTbWFydEhvbWVEcml2ZXJdIFJlZ2lzdGVyZWQgZGV2aWNlOiB7ZGV2aWNlLm5hbWV9IikKCiAgICBkZWYgX2hhbmRsZV9kZXZpY2VfY29udHJvbChzZWxmLCBldmVudDogT3V0cHV0RXZlbnQpIC0+IGJvb2w6CiAgICAgICAgZGV2aWNlX2lkID0gZXZlbnQubWV0YWRhdGEuZ2V0KCJkZXZpY2VfaWQiLCAiIikKICAgICAgICBhY3Rpb24gPSBldmVudC5tZXRhZGF0YS5nZXQoImFjdGlvbiIsICJ0b2dnbGUiKQogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgZGV2aWNlID0gc2VsZi5fZGV2aWNlcy5nZXQoZGV2aWNlX2lkKQoKICAgICAgICBpZiBub3QgZGV2aWNlOgogICAgICAgICAgICAjIFRyeSB0byBmaW5kIGJ5IG5hbWUKICAgICAgICAgICAgZm9yIGQgaW4gc2VsZi5fZGV2aWNlcy52YWx1ZXMoKToKICAgICAgICAgICAgICAgIGlmIGQubmFtZS5sb3dlcigpIGluIChldmVudC5jb250ZW50IG9yICIiKS5sb3dlcigpOgogICAgICAgICAgICAgICAgICAgIGRldmljZSA9IGQKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBpZiBub3QgZGV2aWNlOgogICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIltTbWFydEhvbWVEcml2ZXJdIERldmljZSBub3QgZm91bmQ6IHtkZXZpY2VfaWR9IikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgIHJldHVybiBzZWxmLl9wdWJsaXNoKGRldmljZS5tcXR0X3RvcGljLCBldmVudC5tZXRhZGF0YS5nZXQoInBheWxvYWQiLCAiVE9HR0xFIikpCgogICAgZGVmIF9oYW5kbGVfdG9nZ2xlKHNlbGYsIGV2ZW50OiBPdXRwdXRFdmVudCkgLT4gYm9vbDoKICAgICAgICBzdGF0ZSA9IGV2ZW50Lm1ldGFkYXRhLmdldCgic3RhdGUiLCAiVE9HR0xFIikKICAgICAgICB0b3BpYyA9IGV2ZW50Lm1ldGFkYXRhLmdldCgidG9waWMiLCAiIikKICAgICAgICBpZiBub3QgdG9waWM6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIHJldHVybiBzZWxmLl9wdWJsaXNoKHRvcGljLCBzdGF0ZSkKCiAgICBkZWYgX2hhbmRsZV9icmlnaHRuZXNzKHNlbGYsIGV2ZW50OiBPdXRwdXRFdmVudCkgLT4gYm9vbDoKICAgICAgICBicmlnaHRuZXNzID0gZXZlbnQubWV0YWRhdGEuZ2V0KCJicmlnaHRuZXNzIiwgMTAwKQogICAgICAgIHRvcGljID0gZXZlbnQubWV0YWRhdGEuZ2V0KCJ0b3BpYyIsICIiKQogICAgICAgIGlmIG5vdCB0b3BpYzoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgcmV0dXJuIHNlbGYuX3B1Ymxpc2godG9waWMsIGpzb24uZHVtcHMoeyJicmlnaHRuZXNzIjogYnJpZ2h0bmVzc30pKQoKICAgIGRlZiBfaGFuZGxlX3RlbXBlcmF0dXJlKHNlbGYsIGV2ZW50OiBPdXRwdXRFdmVudCkgLT4gYm9vbDoKICAgICAgICB0ZW1wID0gZXZlbnQubWV0YWRhdGEuZ2V0KCJ0ZW1wZXJhdHVyZSIsIDIyKQogICAgICAgIHRvcGljID0gZXZlbnQubWV0YWRhdGEuZ2V0KCJ0b3BpYyIsICIiKQogICAgICAgIGlmIG5vdCB0b3BpYzoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgcmV0dXJuIHNlbGYuX3B1Ymxpc2godG9waWMsIGpzb24uZHVtcHMoeyJ0ZW1wZXJhdHVyZSI6IHRlbXB9KSkKCiAgICBkZWYgX3B1Ymxpc2goc2VsZiwgdG9waWM6IHN0ciwgcGF5bG9hZDogc3RyKSAtPiBib29sOgogICAgICAgICIiIlB1Ymxpc2ggYW4gTVFUVCBtZXNzYWdlLiIiIgogICAgICAgIGlmIG5vdCBzZWxmLl9jbGllbnQgb3Igbm90IHNlbGYuX2Nvbm5lY3RlZDoKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJbU21hcnRIb21lRHJpdmVyXSBOb3QgY29ubmVjdGVkLCBjYW5ub3QgcHVibGlzaCB0byB7dG9waWN9IikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXN1bHQgPSBzZWxmLl9jbGllbnQucHVibGlzaCh0b3BpYywgcGF5bG9hZCwgcW9zPTEpCiAgICAgICAgICAgIGlmIHJlc3VsdC5yYyA9PSBtcXR0Lk1RVFRfRVJSX1NVQ0NFU1M6CiAgICAgICAgICAgICAgICBsb2dnZXIuZGVidWcoZiJbU21hcnRIb21lRHJpdmVyXSBQdWJsaXNoZWQgdG8ge3RvcGljfToge3BheWxvYWR9IikKICAgICAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIltTbWFydEhvbWVEcml2ZXJdIFB1Ymxpc2ggZmFpbGVkOiByYz17cmVzdWx0LnJjfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIltTbWFydEhvbWVEcml2ZXJdIFB1Ymxpc2ggZXJyb3I6IHtlfSIpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgIGRlZiBfcmVnaXN0ZXJfZGVtb19kZXZpY2VzKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiUmVnaXN0ZXIgYSBzZXQgb2YgZGVtbyBkZXZpY2VzIGZvciB0ZXN0aW5nLiIiIgogICAgICAgIHNlbGYucmVnaXN0ZXJfZGV2aWNlKFNtYXJ0RGV2aWNlKAogICAgICAgICAgICBpZD0ibGlnaHRfbGl2aW5nIiwKICAgICAgICAgICAgbmFtZT0iTGl2aW5nIFJvb20gTGlnaHQiLAogICAgICAgICAgICB0eXBlPURldmljZVR5cGUuTElHSFQsCiAgICAgICAgICAgIG1xdHRfdG9waWM9ImhvbWUvbGl2aW5nX3Jvb20vbGlnaHQvc2V0IiwKICAgICAgICAgICAgc3VwcG9ydHNfYnJpZ2h0bmVzcz1UcnVlLAogICAgICAgICkpCiAgICAgICAgc2VsZi5yZWdpc3Rlcl9kZXZpY2UoU21hcnREZXZpY2UoCiAgICAgICAgICAgIGlkPSJsaWdodF9iZWRyb29tIiwKICAgICAgICAgICAgbmFtZT0iQmVkcm9vbSBMaWdodCIsCiAgICAgICAgICAgIHR5cGU9RGV2aWNlVHlwZS5MSUdIVCwKICAgICAgICAgICAgbXF0dF90b3BpYz0iaG9tZS9iZWRyb29tL2xpZ2h0L3NldCIsCiAgICAgICAgICAgIHN1cHBvcnRzX2JyaWdodG5lc3M9VHJ1ZSwKICAgICAgICApKQogICAgICAgIHNlbGYucmVnaXN0ZXJfZGV2aWNlKFNtYXJ0RGV2aWNlKAogICAgICAgICAgICBpZD0ibG9ja19mcm9udCIsCiAgICAgICAgICAgIG5hbWU9IkZyb250IERvb3IiLAogICAgICAgICAgICB0eXBlPURldmljZVR5cGUuTE9DSywKICAgICAgICAgICAgbXF0dF90b3BpYz0iaG9tZS9mcm9udF9kb29yL2xvY2svc2V0IiwKICAgICAgICAgICAgbXF0dF9wYXlsb2FkX29uPSJMT0NLIiwKICAgICAgICAgICAgbXF0dF9wYXlsb2FkX29mZj0iVU5MT0NLIiwKICAgICAgICApKQogICAgICAgIHNlbGYucmVnaXN0ZXJfZGV2aWNlKFNtYXJ0RGV2aWNlKAogICAgICAgICAgICBpZD0idHZfbGl2aW5nIiwKICAgICAgICAgICAgbmFtZT0iVFYiLAogICAgICAgICAgICB0eXBlPURldmljZVR5cGUuTUVESUEsCiAgICAgICAgICAgIG1xdHRfdG9waWM9ImhvbWUvbGl2aW5nX3Jvb20vdHYvY29tbWFuZCIsCiAgICAgICAgKSkKCiAgICAjIOKUgOKUgCBQdWJsaWMgQVBJIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBsaXN0X2RldmljZXMoc2VsZikgLT4gbGlzdFtTbWFydERldmljZV06CiAgICAgICAgIiIiTGlzdCBhbGwgcmVnaXN0ZXJlZCBkZXZpY2VzLiIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgcmV0dXJuIGxpc3Qoc2VsZi5fZGV2aWNlcy52YWx1ZXMoKSkKCiAgICBkZWYgZGV2aWNlKHNlbGYsIGRldmljZV9pZDogc3RyKSAtPiBTbWFydERldmljZSB8IE5vbmU6CiAgICAgICAgIiIiR2V0IGEgZGV2aWNlIGJ5IElELiIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2RldmljZXMuZ2V0KGRldmljZV9pZCkKCiAgICBkZWYgdHVybl9vbihzZWxmLCBkZXZpY2VfaWQ6IHN0cikgLT4gYm9vbDoKICAgICAgICAiIiJUdXJuIG9uIGEgZGV2aWNlLiIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgZGV2aWNlID0gc2VsZi5fZGV2aWNlcy5nZXQoZGV2aWNlX2lkKQogICAgICAgIGlmIGRldmljZToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX3B1Ymxpc2goZGV2aWNlLm1xdHRfdG9waWMsIGRldmljZS5tcXR0X3BheWxvYWRfb24pCiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGVmIHR1cm5fb2ZmKHNlbGYsIGRldmljZV9pZDogc3RyKSAtPiBib29sOgogICAgICAgICIiIlR1cm4gb2ZmIGEgZGV2aWNlLiIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgZGV2aWNlID0gc2VsZi5fZGV2aWNlcy5nZXQoZGV2aWNlX2lkKQogICAgICAgIGlmIGRldmljZToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX3B1Ymxpc2goZGV2aWNlLm1xdHRfdG9waWMsIGRldmljZS5tcXR0X3BheWxvYWRfb2ZmKQogICAgICAgIHJldHVybiBGYWxzZQo=
+"""
+ablebridge.output_drivers.smarthome — Smart home control output driver.
+
+Integrates with Home Assistant (MQTT), OpenHAB, and generic MQTT devices.
+Allows users to control lights, thermostats, door locks, TVs, and more
+using their preferred input channel.
+
+For wheelchair users: also supports power wheelchair control APIs
+(Quantum, Permobil, Invacare) when available.
+"""
+
+from __future__ import annotations
+
+import json
+import threading
+import time
+from dataclasses import dataclass
+from enum import Enum
+
+from loguru import logger
+
+from ablebridge.core.types import (
+    BaseOutputDriver,
+    ChannelStatus,
+    DriverState,
+    OutputChannel,
+    OutputConfig,
+    OutputEvent,
+)
+
+try:
+    import paho.mqtt.client as mqtt
+    MQTT_AVAILABLE = True
+except ImportError:
+    MQTT_AVAILABLE = False
+
+
+class DeviceType(Enum):
+    LIGHT = "light"
+    SWITCH = "switch"
+    THERMOSTAT = "thermostat"
+    LOCK = "lock"
+    COVER = "cover"  # Blinds, curtains
+    MEDIA = "media"
+    WHEELCHAIR = "wheelchair"
+    CUSTOM = "custom"
+
+
+@dataclass
+class SmartDevice:
+    """A single smart home device."""
+
+    id: str
+    name: str
+    type: DeviceType
+    mqtt_topic: str  # e.g. "home/living_room/light/set"
+    mqtt_payload_on: str = "ON"
+    mqtt_payload_off: str = "OFF"
+    supports_brightness: bool = False
+    supports_color: bool = False
+    supports_temperature: bool = False
+
+
+class SmartHomeDriver(BaseOutputDriver):
+    """
+    Smart home control via MQTT / Home Assistant API.
+
+    Allows control of:
+    - Lights (on/off, brightness, color)
+    - Thermostats (temperature setpoint)
+    - Door locks (lock/unlock)
+    - Media (play/pause, volume)
+    - Wheelchair (if API available)
+
+    All actions are triggered by AI intent resolution or direct UI.
+    """
+
+    name: str = "smarthome_output"
+    channel_type = OutputChannel.SMART_HOME
+
+    def __init__(
+        self,
+        config: OutputConfig,
+        broker_host: str = "localhost",
+        broker_port: int = 1883,
+        username: str = "",
+        password: str = "",
+    ):
+        super().__init__(config)
+        self._broker_host = broker_host
+        self._broker_port = broker_port
+        self._username = username
+        self._password = password
+
+        self._client: mqtt.Client | None = None
+        self._connected = False
+        self._devices: dict[str, SmartDevice] = {}
+        self._lock = threading.Lock()
+
+    # ── BaseOutputDriver Implementation ────────────────────────────────────────
+
+    def start(self) -> None:
+        self._state = DriverState.STARTING
+
+        if MQTT_AVAILABLE:
+            self._client = mqtt.Client(
+                client_id=f"ablebridge_{int(time.time())}",
+                protocol=mqtt.MQTTv311,
+            )
+            if self._username:
+                self._client.username_pw_set(self._username, self._password)
+
+            self._client.on_connect = self._on_connect
+            self._client.on_disconnect = self._on_disconnect
+            self._client.on_message = self._on_message
+
+            try:
+                self._client.connect(self._broker_host, self._broker_port, keepalive=60)
+                self._client.loop_start()
+                logger.info(f"[SmartHomeDriver] Connecting to {self._broker_host}:{self._broker_port}")
+            except Exception as e:
+                logger.warning(f"[SmartHomeDriver] Could not connect to MQTT broker: {e}")
+        else:
+            logger.warning("[SmartHomeDriver] paho-mqtt not installed. Run: pip install paho-mqtt")
+
+        # Register default demo devices
+        self._register_demo_devices()
+        self._state = DriverState.RUNNING
+
+    def stop(self) -> None:
+        if self._client:
+            self._client.loop_stop()
+            self._client.disconnect()
+            self._client = None
+        self._connected = False
+        self._state = DriverState.STOPPED
+        logger.info("[SmartHomeDriver] Stopped")
+
+    def send(self, event: OutputEvent) -> bool:
+        """Handle a smart home control event."""
+        if event.action == "device_control":
+            return self._handle_device_control(event)
+        elif event.action == "toggle":
+            return self._handle_toggle(event)
+        elif event.action == "set_brightness":
+            return self._handle_brightness(event)
+        elif event.action == "set_temperature":
+            return self._handle_temperature(event)
+        return False
+
+    def get_status(self) -> ChannelStatus:
+        return ChannelStatus(
+            name=self.name,
+            channel_type="output",
+            state=self._state,
+            is_enabled=self._config.enabled,
+            confidence=0.95 if self._connected else 0.0,
+            extra={
+                "connected": self._connected,
+                "devices": [d.name for d in self._devices.values()],
+                "broker": f"{self._broker_host}:{self._broker_port}",
+            },
+        )
+
+    # ── MQTT Callbacks ────────────────────────────────────────────────────────
+
+    def _on_connect(self, client, userdata, flags, rc: int) -> None:
+        if rc == 0:
+            self._connected = True
+            logger.info("[SmartHomeDriver] MQTT connected")
+            # Subscribe to device state topics
+            for device in self._devices.values():
+                if device.type == DeviceType.MEDIA:
+                    client.subscribe(device.mqtt_topic.replace("/set", "/state"))
+        else:
+            logger.warning(f"[SmartHomeDriver] MQTT connection failed: rc={rc}")
+
+    def _on_disconnect(self, client, userdata, rc: int) -> None:
+        self._connected = False
+        logger.warning(f"[SmartHomeDriver] MQTT disconnected: rc={rc}")
+
+    def _on_message(self, client, userdata, msg) -> None:
+        """Handle incoming MQTT messages (device state updates)."""
+        try:
+            topic = msg.topic
+            payload = msg.payload.decode("utf-8")
+            logger.debug(f"[SmartHomeDriver] {topic}: {payload}")
+        except Exception:
+            pass
+
+    # ── Smart Home Actions ────────────────────────────────────────────────────
+
+    def register_device(self, device: SmartDevice) -> None:
+        """Register a smart device."""
+        with self._lock:
+            self._devices[device.id] = device
+        logger.info(f"[SmartHomeDriver] Registered device: {device.name}")
+
+    def _handle_device_control(self, event: OutputEvent) -> bool:
+        device_id = event.metadata.get("device_id", "")
+        action = event.metadata.get("action", "toggle")
+        with self._lock:
+            device = self._devices.get(device_id)
+
+        if not device:
+            # Try to find by name
+            for d in self._devices.values():
+                if d.name.lower() in (event.content or "").lower():
+                    device = d
+                    break
+
+        if not device:
+            logger.warning(f"[SmartHomeDriver] Device not found: {device_id}")
+            return False
+
+        return self._publish(device.mqtt_topic, event.metadata.get("payload", "TOGGLE"))
+
+    def _handle_toggle(self, event: OutputEvent) -> bool:
+        state = event.metadata.get("state", "TOGGLE")
+        topic = event.metadata.get("topic", "")
+        if not topic:
+            return False
+        return self._publish(topic, state)
+
+    def _handle_brightness(self, event: OutputEvent) -> bool:
+        brightness = event.metadata.get("brightness", 100)
+        topic = event.metadata.get("topic", "")
+        if not topic:
+            return False
+        return self._publish(topic, json.dumps({"brightness": brightness}))
+
+    def _handle_temperature(self, event: OutputEvent) -> bool:
+        temp = event.metadata.get("temperature", 22)
+        topic = event.metadata.get("topic", "")
+        if not topic:
+            return False
+        return self._publish(topic, json.dumps({"temperature": temp}))
+
+    def _publish(self, topic: str, payload: str) -> bool:
+        """Publish an MQTT message."""
+        if not self._client or not self._connected:
+            logger.warning(f"[SmartHomeDriver] Not connected, cannot publish to {topic}")
+            return False
+        try:
+            result = self._client.publish(topic, payload, qos=1)
+            if result.rc == mqtt.MQTT_ERR_SUCCESS:
+                logger.debug(f"[SmartHomeDriver] Published to {topic}: {payload}")
+                return True
+            else:
+                logger.warning(f"[SmartHomeDriver] Publish failed: rc={result.rc}")
+                return False
+        except Exception as e:
+            logger.error(f"[SmartHomeDriver] Publish error: {e}")
+            return False
+
+    def _register_demo_devices(self) -> None:
+        """Register a set of demo devices for testing."""
+        self.register_device(SmartDevice(
+            id="light_living",
+            name="Living Room Light",
+            type=DeviceType.LIGHT,
+            mqtt_topic="home/living_room/light/set",
+            supports_brightness=True,
+        ))
+        self.register_device(SmartDevice(
+            id="light_bedroom",
+            name="Bedroom Light",
+            type=DeviceType.LIGHT,
+            mqtt_topic="home/bedroom/light/set",
+            supports_brightness=True,
+        ))
+        self.register_device(SmartDevice(
+            id="lock_front",
+            name="Front Door",
+            type=DeviceType.LOCK,
+            mqtt_topic="home/front_door/lock/set",
+            mqtt_payload_on="LOCK",
+            mqtt_payload_off="UNLOCK",
+        ))
+        self.register_device(SmartDevice(
+            id="tv_living",
+            name="TV",
+            type=DeviceType.MEDIA,
+            mqtt_topic="home/living_room/tv/command",
+        ))
+
+    # ── Public API ─────────────────────────────────────────────────────────────
+
+    def list_devices(self) -> list[SmartDevice]:
+        """List all registered devices."""
+        with self._lock:
+            return list(self._devices.values())
+
+    def device(self, device_id: str) -> SmartDevice | None:
+        """Get a device by ID."""
+        with self._lock:
+            return self._devices.get(device_id)
+
+    def turn_on(self, device_id: str) -> bool:
+        """Turn on a device."""
+        with self._lock:
+            device = self._devices.get(device_id)
+        if device:
+            return self._publish(device.mqtt_topic, device.mqtt_payload_on)
+        return False
+
+    def turn_off(self, device_id: str) -> bool:
+        """Turn off a device."""
+        with self._lock:
+            device = self._devices.get(device_id)
+        if device:
+            return self._publish(device.mqtt_topic, device.mqtt_payload_off)
+        return False

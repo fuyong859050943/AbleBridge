@@ -1,1 +1,318 @@
-IiIiCmFibGVicmlkZ2UuZ3VpLmFwcCDigJQgV2ViLWJhc2VkIEdVSSBmb3IgQWJsZUJyaWRnZS4KCkEgc2luZ2xlLXBhZ2UgYXBwbGljYXRpb24gc2VydmVkIGJ5IEZsYXNrICsgU29ja2V0SU8uClByb3ZpZGVzOgotIE9uLXNjcmVlbiBBQUMga2V5Ym9hcmQgd2l0aCB3b3JkIHByZWRpY3Rpb24KLSBSZWFsLXRpbWUgY2hhbm5lbCBzdGF0dXMgcGFuZWwKLSBRdWljayBhY3Rpb24gYnV0dG9ucyAoSGVscCwgV2F0ZXIsIGV0Yy4pCi0gRXllIGdhemUgY2FsaWJyYXRpb24gbGF1bmNoZXIKLSBQcm9maWxlIHN3aXRjaGVyCi0gTGl2ZSBldmVudCBsb2cKClRoZSBVSSBpcyBhIFJlYWN0LWxpa2UgU1BBIHNlcnZlZCBhcyBzdGF0aWMgZmlsZXMsCndpdGggV2ViU29ja2V0IGZvciByZWFsLXRpbWUgdXBkYXRlcy4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSBmbGFzayBpbXBvcnQgRmxhc2ssIHJlbmRlcl90ZW1wbGF0ZSwganNvbmlmeSwgcmVxdWVzdApmcm9tIGZsYXNrX3NvY2tldGlvIGltcG9ydCBTb2NrZXRJTywgZW1pdApmcm9tIGxvZ3VydSBpbXBvcnQgbG9nZ2VyCgpmcm9tIGFibGVicmlkZ2UuY29yZS5lbmdpbmUgaW1wb3J0IEFibGVCcmlkZ2VFbmdpbmUKZnJvbSBhYmxlYnJpZGdlLmNvcmUuZXZlbnRfYnVzIGltcG9ydCBFdmVudFR5cGUsIEJ1c0V2ZW50CmZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCAoCiAgICBPdXRwdXRFdmVudCwKICAgIE91dHB1dENoYW5uZWwsCiAgICBJbnRlbnRFdmVudCwKICAgIFByZWRpY3Rpb25SZXN1bHQsCikKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgRmxhc2sgQXBwCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgphcHAgPSBGbGFzaygKICAgIF9fbmFtZV9fLAogICAgdGVtcGxhdGVfZm9sZGVyPVBhdGgoX19maWxlX18pLnBhcmVudCAvICJ0ZW1wbGF0ZXMiLAogICAgc3RhdGljX2ZvbGRlcj1QYXRoKF9fZmlsZV9fKS5wYXJlbnQgLyAic3RhdGljIiwKKQphcHAuY29uZmlnWyJTRUNSRVRfS0VZIl0gPSBvcy5lbnZpcm9uLmdldCgiU0VDUkVUX0tFWSIsICJhYmxlYnJpZGdlLXNlY3JldC1rZXktMjAyNCIpCmFwcC5jb25maWdbIk1BWF9DT05URU5UX0xFTkdUSCJdID0gMTYgKiAxMDI0ICogMTAyNAoKc29ja2V0aW8gPSBTb2NrZXRJTygKICAgIGFwcCwKICAgIGNvcnNfYWxsb3dlZF9vcmlnaW5zPSIqIiwKICAgIGFzeW5jX21vZGU9InRocmVhZGluZyIsCiAgICBwaW5nX3RpbWVvdXQ9NjAsCiAgICBwaW5nX2ludGVydmFsPTI1LAopCgojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAojIEVuZ2luZSBTaW5nbGV0b24gKHNoYXJlZCBhY3Jvc3MgcmVxdWVzdHMpCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpfZW5naW5lOiBBYmxlQnJpZGdlRW5naW5lIHwgTm9uZSA9IE5vbmUKX2VuZ2luZV9sb2NrID0gdGhyZWFkaW5nLlJMb2NrKCkKCgpkZWYgZ2V0X2VuZ2luZSgpIC0+IEFibGVCcmlkZ2VFbmdpbmU6CiAgICBnbG9iYWwgX2VuZ2luZQogICAgd2l0aCBfZW5naW5lX2xvY2s6CiAgICAgICAgaWYgX2VuZ2luZSBpcyBOb25lOgogICAgICAgICAgICBwcm9maWxlX2RpciA9IFBhdGgoX19maWxlX18pLnBhcmVudC5wYXJlbnQucGFyZW50IC8gImNvbmZpZyIgLyAicHJvZmlsZXMiCiAgICAgICAgICAgIF9lbmdpbmUgPSBBYmxlQnJpZGdlRW5naW5lKHByb2ZpbGVfZGlyPXByb2ZpbGVfZGlyKQogICAgICAgICAgICBfZW5naW5lLmxvYWRfcHJvZmlsZSgiZGVmYXVsdCIpCiAgICAgICAgICAgIF9lbmdpbmUuYXV0b19yZWdpc3Rlcl9kcml2ZXJzKCkKICAgICAgICByZXR1cm4gX2VuZ2luZQoKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgRXZlbnQgQnVzIOKGkiBTb2NrZXRJTyBCcmlkZ2UKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmRlZiBfYnVzX3RvX3NvY2tldChidXNfZXZlbnQ6IEJ1c0V2ZW50KSAtPiBOb25lOgogICAgIiIiRm9yd2FyZCBidXMgZXZlbnRzIHRvIGNvbm5lY3RlZCB3ZWIgY2xpZW50cyB2aWEgV2ViU29ja2V0LiIiIgogICAgcGF5bG9hZF90eXBlID0gdHlwZShidXNfZXZlbnQucGF5bG9hZCkuX19uYW1lX18KICAgIHNvY2tldGlvLmVtaXQoCiAgICAgICAgImVuZ2luZV9ldmVudCIsCiAgICAgICAgewogICAgICAgICAgICAidHlwZSI6IGJ1c19ldmVudC50eXBlLm5hbWUsCiAgICAgICAgICAgICJwYXlsb2FkX3R5cGUiOiBwYXlsb2FkX3R5cGUsCiAgICAgICAgICAgICJwYXlsb2FkIjogX3NlcmlhbGl6ZV9wYXlsb2FkKGJ1c19ldmVudC5wYXlsb2FkKSwKICAgICAgICAgICAgInRpbWVzdGFtcCI6IGJ1c19ldmVudC50aW1lc3RhbXAsCiAgICAgICAgICAgICJzb3VyY2UiOiBidXNfZXZlbnQuc291cmNlLAogICAgICAgIH0sCiAgICAgICAgbmFtZXNwYWNlPSIvIiwKICAgICkKCgpkZWYgX3NlcmlhbGl6ZV9wYXlsb2FkKHBheWxvYWQ6IEFueSkgLT4gZGljdFtzdHIsIEFueV06CiAgICAiIiJTZXJpYWxpemUgZXZlbnQgcGF5bG9hZHMgZm9yIEpTT04uIiIiCiAgICBpZiBpc2luc3RhbmNlKHBheWxvYWQsIFByZWRpY3Rpb25SZXN1bHQpOgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJwcmVkaWN0ZWRfdGV4dCI6IHBheWxvYWQucHJlZGljdGVkX3RleHQsCiAgICAgICAgICAgICJjb25maWRlbmNlIjogcGF5bG9hZC5jb25maWRlbmNlLAogICAgICAgICAgICAiYWx0ZXJuYXRpdmVzIjogcGF5bG9hZC5hbHRlcm5hdGl2ZXMsCiAgICAgICAgfQogICAgaWYgaXNpbnN0YW5jZShwYXlsb2FkLCBJbnRlbnRFdmVudCk6CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgImNhdGVnb3J5IjogcGF5bG9hZC5jYXRlZ29yeS5uYW1lLAogICAgICAgICAgICAicmF3X3RleHQiOiBwYXlsb2FkLnJhd190ZXh0LAogICAgICAgICAgICAiY29uZmlkZW5jZSI6IHBheWxvYWQuY29uZmlkZW5jZSwKICAgICAgICAgICAgInVyZ2VuY3kiOiBwYXlsb2FkLnVyZ2VuY3ksCiAgICAgICAgICAgICJzdHJ1Y3R1cmVkIjogcGF5bG9hZC5zdHJ1Y3R1cmVkLAogICAgICAgIH0KICAgIGlmIGlzaW5zdGFuY2UocGF5bG9hZCwgT3V0cHV0RXZlbnQpOgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJjaGFubmVsIjogcGF5bG9hZC5jaGFubmVsLnZhbHVlLAogICAgICAgICAgICAiY29udGVudCI6IHBheWxvYWQuY29udGVudCwKICAgICAgICAgICAgImFjdGlvbiI6IHBheWxvYWQuYWN0aW9uLAogICAgICAgICAgICAicHJpb3JpdHkiOiBwYXlsb2FkLnByaW9yaXR5LAogICAgICAgIH0KICAgIHJldHVybiB7InJlcHIiOiBzdHIocGF5bG9hZCl9CgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBXZWIgUm91dGVzCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKQGFwcC5yb3V0ZSgiLyIpCmRlZiBpbmRleCgpIC0+IEFueToKICAgICIiIk1haW4gU1BBIHBhZ2UuIiIiCiAgICByZXR1cm4gcmVuZGVyX3RlbXBsYXRlKAogICAgICAgICJpbmRleC5odG1sIiwKICAgICAgICB2ZXJzaW9uPSIwLjEuMCIsCiAgICAgICAgdGl0bGU9IkFibGVCcmlkZ2Ug4oCUIEFjY2Vzc2liaWxpdHkgQnJpZGdlIiwKICAgICkKCgpAYXBwLnJvdXRlKCIvYXBpL3N0YXR1cyIpCmRlZiBzdGF0dXMoKSAtPiBBbnk6CiAgICAiIiJSZXR1cm4gZnVsbCBzeXN0ZW0gc3RhdHVzLiIiIgogICAgZW5naW5lID0gZ2V0X2VuZ2luZSgpCiAgICByZXR1cm4ganNvbmlmeShlbmdpbmUuZ2V0X3N5c3RlbV9zdGF0dXMoKSkKCgpAYXBwLnJvdXRlKCIvYXBpL3ByZWRpY3QiLCBtZXRob2RzPVsiUE9TVCJdKQpkZWYgcHJlZGljdCgpIC0+IEFueToKICAgICIiIkdldCB3b3JkIHByZWRpY3Rpb25zIGZvciBBQUMga2V5Ym9hcmQuIiIiCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgIGRhdGEgPSByZXF1ZXN0Lmpzb24gb3Ige30KICAgIGNvbnRleHQgPSBkYXRhLmdldCgiY29udGV4dCIsICIiKQogICAgcHJlZGljdGlvbnMgPSBlbmdpbmUucHJlZGljdF9uZXh0KGNvbnRleHQpCiAgICByZXR1cm4ganNvbmlmeSh7CiAgICAgICAgInByZWRpY3Rpb25zIjogWwogICAgICAgICAgICB7InRleHQiOiB0ZXh0LCAiY29uZmlkZW5jZSI6IGZsb2F0KGNvbmYpfQogICAgICAgICAgICBmb3IgdGV4dCwgY29uZiBpbiBwcmVkaWN0aW9ucwogICAgICAgIF0KICAgIH0pCgoKQGFwcC5yb3V0ZSgiL2FwaS9zcGVhayIsIG1ldGhvZHM9WyJQT1NUIl0pCmRlZiBzcGVhaygpIC0+IEFueToKICAgICIiIlNlbmQgdGV4dCB0byBUVFMuIiIiCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgIGRhdGEgPSByZXF1ZXN0Lmpzb24gb3Ige30KICAgIHRleHQgPSBkYXRhLmdldCgidGV4dCIsICIiKQogICAgaWYgdGV4dDoKICAgICAgICBlbmdpbmUuc3BlYWsodGV4dCkKICAgIHJldHVybiBqc29uaWZ5KHsib2siOiBUcnVlLCAidGV4dCI6IHRleHR9KQoKCkBhcHAucm91dGUoIi9hcGkvaW5wdXQiLCBtZXRob2RzPVsiUE9TVCJdKQpkZWYgaGFuZGxlX2lucHV0KCkgLT4gQW55OgogICAgIiIiSGFuZGxlIGRpcmVjdCBpbnB1dCBmcm9tIEdVSSAoa2V5Ym9hcmQgY2xpY2tzLCBldGMuKS4iIiIKICAgIGVuZ2luZSA9IGdldF9lbmdpbmUoKQogICAgZGF0YSA9IHJlcXVlc3QuanNvbiBvciB7fQogICAgYWN0aW9uID0gZGF0YS5nZXQoImFjdGlvbiIsICIiKQogICAgdmFsdWUgPSBkYXRhLmdldCgidmFsdWUiLCAiIikKICAgIGVuZ2luZS5oYW5kbGVfaW5wdXQoYWN0aW9uLCB2YWx1ZSkKICAgIHJldHVybiBqc29uaWZ5KHsib2siOiBUcnVlfSkKCgpAYXBwLnJvdXRlKCIvYXBpL2NhbGlicmF0ZSIsIG1ldGhvZHM9WyJQT1NUIl0pCmRlZiBjYWxpYnJhdGUoKSAtPiBBbnk6CiAgICAiIiJUcmlnZ2VyIGV5ZSBnYXplIGNhbGlicmF0aW9uLiIiIgogICAgZW5naW5lID0gZ2V0X2VuZ2luZSgpCiAgICBzdWNjZXNzID0gRmFsc2UKICAgIGZvciBkcml2ZXIgaW4gZW5naW5lLmlucHV0X21hbmFnZXIuX2RyaXZlcnMudmFsdWVzKCk6CiAgICAgICAgaWYgZHJpdmVyLmNoYW5uZWxfdHlwZS52YWx1ZSA9PSAiZXllZ2F6ZSI6CiAgICAgICAgICAgIHN1Y2Nlc3MgPSBkcml2ZXIuY2FsaWJyYXRlKCkKICAgICAgICAgICAgYnJlYWsKICAgIHJldHVybiBqc29uaWZ5KHsib2siOiBUcnVlLCAiY2FsaWJyYXRlZCI6IHN1Y2Nlc3N9KQoKCkBhcHAucm91dGUoIi9hcGkvcHJvZmlsZSIsIG1ldGhvZHM9WyJHRVQiLCAiUE9TVCJdKQpkZWYgcHJvZmlsZSgpIC0+IEFueToKICAgICIiIkxpc3Qgb3Igc3dpdGNoIHVzZXIgcHJvZmlsZS4iIiIKICAgIGVuZ2luZSA9IGdldF9lbmdpbmUoKQogICAgaWYgcmVxdWVzdC5tZXRob2QgPT0gIkdFVCI6CiAgICAgICAgcHJvZmlsZXMgPSBlbmdpbmUubGlzdF9wcm9maWxlcygpCiAgICAgICAgY3VycmVudCA9IGVuZ2luZS5wcm9maWxlLmlkIGlmIGVuZ2luZS5wcm9maWxlIGVsc2UgImRlZmF1bHQiCiAgICAgICAgcmV0dXJuIGpzb25pZnkoeyJwcm9maWxlcyI6IHByb2ZpbGVzLCAiY3VycmVudCI6IGN1cnJlbnR9KQoKICAgIGRhdGEgPSByZXF1ZXN0Lmpzb24gb3Ige30KICAgIHByb2ZpbGVfaWQgPSBkYXRhLmdldCgicHJvZmlsZV9pZCIsICJkZWZhdWx0IikKICAgIHRyeToKICAgICAgICBlbmdpbmUubG9hZF9wcm9maWxlKHByb2ZpbGVfaWQpCiAgICAgICAgcmV0dXJuIGpzb25pZnkoeyJvayI6IFRydWUsICJwcm9maWxlX2lkIjogcHJvZmlsZV9pZH0pCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcmV0dXJuIGpzb25pZnkoeyJvayI6IEZhbHNlLCAiZXJyb3IiOiBzdHIoZSl9KSwgNDAwCgoKQGFwcC5yb3V0ZSgiL2FwaS9kcml2ZXIvc3RhcnQiLCBtZXRob2RzPVsiUE9TVCJdKQpkZWYgc3RhcnRfZHJpdmVyKCkgLT4gQW55OgogICAgIiIiU3RhcnQgYSBzcGVjaWZpYyBkcml2ZXIuIiIiCiAgICBkYXRhID0gcmVxdWVzdC5qc29uIG9yIHt9CiAgICBkcml2ZXJfdHlwZSA9IGRhdGEuZ2V0KCJ0eXBlIiwgIiIpCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgICMgU2ltcGxpZmllZDoganVzdCByZXBvcnQgc3RhdHVzCiAgICByZXR1cm4ganNvbmlmeSh7Im9rIjogVHJ1ZX0pCgoKQGFwcC5yb3V0ZSgiL2FwaS9sb2ciKQpkZWYgZXZlbnRfbG9nKCkgLT4gQW55OgogICAgIiIiUmV0dXJuIHJlY2VudCBldmVudCBsb2cuIiIiCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgIGxpbWl0ID0gaW50KHJlcXVlc3QuYXJncy5nZXQoImxpbWl0IiwgNTApKQogICAgaGlzdG9yeSA9IGVuZ2luZS5idXMuaGlzdG9yeShsaW1pdD1saW1pdCkKICAgIHJldHVybiBqc29uaWZ5KHsKICAgICAgICAiZXZlbnRzIjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAidHlwZSI6IGUudHlwZS5uYW1lLAogICAgICAgICAgICAgICAgInRpbWVzdGFtcCI6IGUudGltZXN0YW1wLAogICAgICAgICAgICAgICAgInNvdXJjZSI6IGUuc291cmNlLAogICAgICAgICAgICAgICAgInBheWxvYWRfdHlwZSI6IHR5cGUoZS5wYXlsb2FkKS5fX25hbWVfXywKICAgICAgICAgICAgfQogICAgICAgICAgICBmb3IgZSBpbiBoaXN0b3J5CiAgICAgICAgXQogICAgfSkKCgojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAojIFdlYlNvY2tldCBFdmVudHMKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpAc29ja2V0aW8ub24oImNvbm5lY3QiKQpkZWYgb25fY29ubmVjdCgpIC0+IE5vbmU6CiAgICBsb2dnZXIuaW5mbygiW1dlYlNvY2tldF0gQ2xpZW50IGNvbm5lY3RlZCIpCiAgICAjIFN1YnNjcmliZSB0byBlbmdpbmUgZXZlbnRzCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgIGVuZ2luZS5idXMuc3Vic2NyaWJlX2dsb2JhbChfYnVzX3RvX3NvY2tldCkKICAgIGVtaXQoImNvbm5lY3RlZCIsIHsic3RhdHVzIjogIm9rIiwgInZlcnNpb24iOiAiMC4xLjAifSkKCgpAc29ja2V0aW8ub24oImRpc2Nvbm5lY3QiKQpkZWYgb25fZGlzY29ubmVjdCgpIC0+IE5vbmU6CiAgICBsb2dnZXIuaW5mbygiW1dlYlNvY2tldF0gQ2xpZW50IGRpc2Nvbm5lY3RlZCIpCgoKQHNvY2tldGlvLm9uKCJrZXlfcHJlc3MiKQpkZWYgb25fa2V5X3ByZXNzKGRhdGE6IGRpY3Rbc3RyLCBBbnldKSAtPiBOb25lOgogICAgIiIiSGFuZGxlIHZpcnR1YWwga2V5Ym9hcmQga2V5IHByZXNzIGZyb20gd2ViIFVJLiIiIgogICAga2V5ID0gZGF0YS5nZXQoImtleSIsICIiKQogICAgaWYgbm90IGtleToKICAgICAgICByZXR1cm4KCiAgICBlbmdpbmUgPSBnZXRfZW5naW5lKCkKICAgIGVuZ2luZS5oYW5kbGVfaW5wdXQoInR5cGUiLCBrZXkpCgogICAgIyBHZXQgcHJlZGljdGlvbnMKICAgIGN1cnJlbnRfdGV4dCA9IGRhdGEuZ2V0KCJjdXJyZW50X3RleHQiLCAiIikgKyBrZXkKICAgIHByZWRpY3Rpb25zID0gZW5naW5lLnByZWRpY3RfbmV4dChjdXJyZW50X3RleHQpCgogICAgZW1pdCgKICAgICAgICAicHJlZGljdGlvbnMiLAogICAgICAgIHsKICAgICAgICAgICAgInByZWRpY3Rpb25zIjogWwogICAgICAgICAgICAgICAgeyJ0ZXh0IjogdGV4dCwgImNvbmZpZGVuY2UiOiBmbG9hdChjb25mKX0KICAgICAgICAgICAgICAgIGZvciB0ZXh0LCBjb25mIGluIHByZWRpY3Rpb25zWzo1XQogICAgICAgICAgICBdCiAgICAgICAgfSwKICAgICkKCgpAc29ja2V0aW8ub24oInNlbmRfbWVzc2FnZSIpCmRlZiBvbl9zZW5kX21lc3NhZ2UoZGF0YTogZGljdFtzdHIsIEFueV0pIC0+IEFueToKICAgICIiIkhhbmRsZSBmdWxsIEFBQyBtZXNzYWdlIHNlbmQuIiIiCiAgICB0ZXh0ID0gZGF0YS5nZXQoInRleHQiLCAiIikKICAgIGlmIG5vdCB0ZXh0OgogICAgICAgIHJldHVybgoKICAgIGVuZ2luZSA9IGdldF9lbmdpbmUoKQogICAgIyBTcGVhayB0aGUgbWVzc2FnZQogICAgZW5naW5lLnNwZWFrKHRleHQpCiAgICAjIEFsc28gZGlzcGF0Y2ggYXMgb3V0cHV0IGV2ZW50CiAgICBvdXRwdXQgPSBPdXRwdXRFdmVudCgKICAgICAgICBjaGFubmVsPU91dHB1dENoYW5uZWwuVFRTLAogICAgICAgIGNvbnRlbnQ9dGV4dCwKICAgICAgICBhY3Rpb249InNwZWFrIiwKICAgICkKICAgIGVuZ2luZS5vdXRwdXRfbWFuYWdlci5kaXNwYXRjaChvdXRwdXQpCgogICAgcmV0dXJuIHsib2siOiBUcnVlfQoKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgU3RhcnR1cAojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKCmRlZiBtYWluKGhvc3Q6IHN0ciA9ICIwLjAuMC4wIiwgcG9ydDogaW50ID0gODc2NSwgZGVidWc6IGJvb2wgPSBGYWxzZSkgLT4gTm9uZToKICAgICIiIkxhdW5jaCB0aGUgd2ViIEdVSSBzZXJ2ZXIuIiIiCiAgICBsb2dnZXIuaW5mbyhmIltHVUldIFN0YXJ0aW5nIEFibGVCcmlkZ2UgV2ViIFVJIGF0IGh0dHA6Ly97aG9zdH06e3BvcnR9IikKICAgIHNvY2tldGlvLnJ1bihhcHAsIGhvc3Q9aG9zdCwgcG9ydD1wb3J0LCBkZWJ1Zz1kZWJ1ZywgYWxsb3dfdW5zYWZlX3dlcmt6ZXVnPVRydWUpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""
+ablebridge.gui.app — Web-based GUI for AbleBridge.
+
+A single-page application served by Flask + SocketIO.
+Provides:
+- On-screen AAC keyboard with word prediction
+- Real-time channel status panel
+- Quick action buttons (Help, Water, etc.)
+- Eye gaze calibration launcher
+- Profile switcher
+- Live event log
+
+The UI is a React-like SPA served as static files,
+with WebSocket for real-time updates.
+"""
+
+from __future__ import annotations
+
+import os
+import threading
+import time
+from pathlib import Path
+from typing import Any
+
+from flask import Flask, render_template, jsonify, request
+from flask_socketio import SocketIO, emit
+from loguru import logger
+
+from ablebridge.core.engine import AbleBridgeEngine
+from ablebridge.core.event_bus import EventType, BusEvent
+from ablebridge.core.types import (
+    OutputEvent,
+    OutputChannel,
+    IntentEvent,
+    PredictionResult,
+)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Flask App
+# ──────────────────────────────────────────────────────────────────────────────
+
+app = Flask(
+    __name__,
+    template_folder=Path(__file__).parent / "templates",
+    static_folder=Path(__file__).parent / "static",
+)
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "ablebridge-secret-key-2024")
+app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024
+
+socketio = SocketIO(
+    app,
+    cors_allowed_origins="*",
+    async_mode="threading",
+    ping_timeout=60,
+    ping_interval=25,
+)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Engine Singleton (shared across requests)
+# ──────────────────────────────────────────────────────────────────────────────
+
+_engine: AbleBridgeEngine | None = None
+_engine_lock = threading.RLock()
+
+
+def get_engine() -> AbleBridgeEngine:
+    global _engine
+    with _engine_lock:
+        if _engine is None:
+            profile_dir = Path(__file__).parent.parent.parent / "config" / "profiles"
+            _engine = AbleBridgeEngine(profile_dir=profile_dir)
+            _engine.load_profile("default")
+            _engine.auto_register_drivers()
+        return _engine
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Event Bus → SocketIO Bridge
+# ──────────────────────────────────────────────────────────────────────────────
+
+def _bus_to_socket(bus_event: BusEvent) -> None:
+    """Forward bus events to connected web clients via WebSocket."""
+    payload_type = type(bus_event.payload).__name__
+    socketio.emit(
+        "engine_event",
+        {
+            "type": bus_event.type.name,
+            "payload_type": payload_type,
+            "payload": _serialize_payload(bus_event.payload),
+            "timestamp": bus_event.timestamp,
+            "source": bus_event.source,
+        },
+        namespace="/",
+    )
+
+
+def _serialize_payload(payload: Any) -> dict[str, Any]:
+    """Serialize event payloads for JSON."""
+    if isinstance(payload, PredictionResult):
+        return {
+            "predicted_text": payload.predicted_text,
+            "confidence": payload.confidence,
+            "alternatives": payload.alternatives,
+        }
+    if isinstance(payload, IntentEvent):
+        return {
+            "category": payload.category.name,
+            "raw_text": payload.raw_text,
+            "confidence": payload.confidence,
+            "urgency": payload.urgency,
+            "structured": payload.structured,
+        }
+    if isinstance(payload, OutputEvent):
+        return {
+            "channel": payload.channel.value,
+            "content": payload.content,
+            "action": payload.action,
+            "priority": payload.priority,
+        }
+    return {"repr": str(payload)}
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Web Routes
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+@app.route("/")
+def index() -> Any:
+    """Main SPA page."""
+    return render_template(
+        "index.html",
+        version="0.1.0",
+        title="AbleBridge — Accessibility Bridge",
+    )
+
+
+@app.route("/api/status")
+def status() -> Any:
+    """Return full system status."""
+    engine = get_engine()
+    return jsonify(engine.get_system_status())
+
+
+@app.route("/api/predict", methods=["POST"])
+def predict() -> Any:
+    """Get word predictions for AAC keyboard."""
+    engine = get_engine()
+    data = request.json or {}
+    context = data.get("context", "")
+    predictions = engine.predict_next(context)
+    return jsonify({
+        "predictions": [
+            {"text": text, "confidence": float(conf)}
+            for text, conf in predictions
+        ]
+    })
+
+
+@app.route("/api/speak", methods=["POST"])
+def speak() -> Any:
+    """Send text to TTS."""
+    engine = get_engine()
+    data = request.json or {}
+    text = data.get("text", "")
+    if text:
+        engine.speak(text)
+    return jsonify({"ok": True, "text": text})
+
+
+@app.route("/api/input", methods=["POST"])
+def handle_input() -> Any:
+    """Handle direct input from GUI (keyboard clicks, etc.)."""
+    engine = get_engine()
+    data = request.json or {}
+    action = data.get("action", "")
+    value = data.get("value", "")
+    engine.handle_input(action, value)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/calibrate", methods=["POST"])
+def calibrate() -> Any:
+    """Trigger eye gaze calibration."""
+    engine = get_engine()
+    success = False
+    for driver in engine.input_manager._drivers.values():
+        if driver.channel_type.value == "eyegaze":
+            success = driver.calibrate()
+            break
+    return jsonify({"ok": True, "calibrated": success})
+
+
+@app.route("/api/profile", methods=["GET", "POST"])
+def profile() -> Any:
+    """List or switch user profile."""
+    engine = get_engine()
+    if request.method == "GET":
+        profiles = engine.list_profiles()
+        current = engine.profile.id if engine.profile else "default"
+        return jsonify({"profiles": profiles, "current": current})
+
+    data = request.json or {}
+    profile_id = data.get("profile_id", "default")
+    try:
+        engine.load_profile(profile_id)
+        return jsonify({"ok": True, "profile_id": profile_id})
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
+
+
+@app.route("/api/driver/start", methods=["POST"])
+def start_driver() -> Any:
+    """Start a specific driver."""
+    data = request.json or {}
+    driver_type = data.get("type", "")
+    engine = get_engine()
+    # Simplified: just report status
+    return jsonify({"ok": True})
+
+
+@app.route("/api/log")
+def event_log() -> Any:
+    """Return recent event log."""
+    engine = get_engine()
+    limit = int(request.args.get("limit", 50))
+    history = engine.bus.history(limit=limit)
+    return jsonify({
+        "events": [
+            {
+                "type": e.type.name,
+                "timestamp": e.timestamp,
+                "source": e.source,
+                "payload_type": type(e.payload).__name__,
+            }
+            for e in history
+        ]
+    })
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# WebSocket Events
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+@socketio.on("connect")
+def on_connect() -> None:
+    logger.info("[WebSocket] Client connected")
+    # Subscribe to engine events
+    engine = get_engine()
+    engine.bus.subscribe_global(_bus_to_socket)
+    emit("connected", {"status": "ok", "version": "0.1.0"})
+
+
+@socketio.on("disconnect")
+def on_disconnect() -> None:
+    logger.info("[WebSocket] Client disconnected")
+
+
+@socketio.on("key_press")
+def on_key_press(data: dict[str, Any]) -> None:
+    """Handle virtual keyboard key press from web UI."""
+    key = data.get("key", "")
+    if not key:
+        return
+
+    engine = get_engine()
+    engine.handle_input("type", key)
+
+    # Get predictions
+    current_text = data.get("current_text", "") + key
+    predictions = engine.predict_next(current_text)
+
+    emit(
+        "predictions",
+        {
+            "predictions": [
+                {"text": text, "confidence": float(conf)}
+                for text, conf in predictions[:5]
+            ]
+        },
+    )
+
+
+@socketio.on("send_message")
+def on_send_message(data: dict[str, Any]) -> Any:
+    """Handle full AAC message send."""
+    text = data.get("text", "")
+    if not text:
+        return
+
+    engine = get_engine()
+    # Speak the message
+    engine.speak(text)
+    # Also dispatch as output event
+    output = OutputEvent(
+        channel=OutputChannel.TTS,
+        content=text,
+        action="speak",
+    )
+    engine.output_manager.dispatch(output)
+
+    return {"ok": True}
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Startup
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+def main(host: str = "0.0.0.0", port: int = 8765, debug: bool = False) -> None:
+    """Launch the web GUI server."""
+    logger.info(f"[GUI] Starting AbleBridge Web UI at http://{host}:{port}")
+    socketio.run(app, host=host, port=port, debug=debug, allow_unsafe_werkzeug=True)
+
+
+if __name__ == "__main__":
+    main()

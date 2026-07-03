@@ -1,1 +1,246 @@
-IiIiCmNhbGlicmF0ZV9leWVnYXplLnB5IOKAlCBTdGFuZGFsb25lIGV5ZSB0cmFja2luZyBjYWxpYnJhdGlvbiB0b29sLgoKUnVuIHRoaXMgYmVmb3JlIHVzaW5nIEV5ZUdhemVEcml2ZXIgZm9yIHRoZSBmaXJzdCB0aW1lLgpVc2FnZTogcHl0aG9uIHNjcmlwdHMvY2FsaWJyYXRlX2V5ZWdhemUucHkKClRoaXMgb3BlbnMgYSBzaW1wbGUgd2luZG93IHdpdGggY2FsaWJyYXRpb24gdGFyZ2V0cy4KTG9vayBhdCBlYWNoIHRhcmdldCBmb3IgMiBzZWNvbmRzLiBUaGUgc3lzdGVtIHJlY29yZHMgeW91ciBleWUgcG9zaXRpb24KYW5kIGJ1aWxkcyBhIG1hcHBpbmcgbW9kZWwuCiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHN5cwppbXBvcnQgdGltZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCiMgQWRkIHBhcmVudCB0byBwYXRoIGZvciBpbXBvcnRzCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudCkpCgp0cnk6CiAgICBpbXBvcnQgY3YyCiAgICBpbXBvcnQgbWVkaWFwaXBlIGFzIG1wCiAgICBpbXBvcnQgbnVtcHkgYXMgbnAKZXhjZXB0IEltcG9ydEVycm9yIGFzIGU6CiAgICBwcmludChmIkVycm9yOiBNaXNzaW5nIGRlcGVuZGVuY2llcy4gUnVuOiBwaXAgaW5zdGFsbCBvcGVuY3YtcHl0aG9uIG1lZGlhcGlwZSBudW1weSIpCiAgICBwcmludChmIkRldGFpbHM6IHtlfSIpCiAgICBzeXMuZXhpdCgxKQoKCiMg4pSA4pSAIENhbGlicmF0aW9uIFBvaW50cyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKQ0FMSUJSQVRJT05fUE9JTlRTID0gWwogICAgKDAuNSwgMC41LCAiQ2VudGVyIiksCiAgICAoMC4xLCAwLjEsICJUb3AtTGVmdCIpLAogICAgKDAuNSwgMC4xLCAiVG9wLUNlbnRlciIpLAogICAgKDAuOSwgMC4xLCAiVG9wLVJpZ2h0IiksCiAgICAoMC4xLCAwLjUsICJNaWRkbGUtTGVmdCIpLAogICAgKDAuOSwgMC41LCAiTWlkZGxlLVJpZ2h0IiksCiAgICAoMC4xLCAwLjksICJCb3R0b20tTGVmdCIpLAogICAgKDAuNSwgMC45LCAiQm90dG9tLUNlbnRlciIpLAogICAgKDAuOSwgMC45LCAiQm90dG9tLVJpZ2h0IiksCl0KClNBTVBMRV9EVVJBVElPTiA9IDIuMCAgIyBzZWNvbmRzIHBlciBwb2ludApTQU1QTEVfSU5URVJWQUwgPSAwLjA1ICAjIHNlY29uZHMgYmV0d2VlbiBzYW1wbGVzCgoKZGVmIGdldF9zY3JlZW5fcmVzb2x1dGlvbigpOgogICAgIiIiR2V0IHRoZSBwcmltYXJ5IHNjcmVlbiByZXNvbHV0aW9uLiIiIgogICAgdHJ5OgogICAgICAgIGltcG9ydCB0a2ludGVyIGFzIHRrCiAgICAgICAgcm9vdCA9IHRrLlRrKCkKICAgICAgICB3ID0gcm9vdC53aW5mb19zY3JlZW53aWR0aCgpCiAgICAgICAgaCA9IHJvb3Qud2luZm9fc2NyZWVuaGVpZ2h0KCkKICAgICAgICByb290LmRlc3Ryb3koKQogICAgICAgIHJldHVybiB3LCBoCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiAxOTIwLCAxMDgwICAjIERlZmF1bHQgZmFsbGJhY2sKCgpkZWYgY29sbGVjdF9zYW1wbGVzKGNhbWVyYV9pZDogaW50ID0gMCkgLT4gbGlzdFtkaWN0XToKICAgICIiIgogICAgQ29sbGVjdCBleWUgdHJhY2tpbmcgc2FtcGxlcyBhdCBjYWxpYnJhdGlvbiBwb2ludHMuCiAgICBSZXR1cm5zIGEgbGlzdCBvZiBkaWN0czoge2xhYmVsLCBzY3JlZW5feCwgc2NyZWVuX3ksIGdhemVfeCwgZ2F6ZV95fQogICAgIiIiCiAgICBtcF9mYWNlX21lc2ggPSBtcC5zb2x1dGlvbnMuZmFjZV9tZXNoCiAgICBmYWNlX21lc2ggPSBtcF9mYWNlX21lc2guRmFjZU1lc2goCiAgICAgICAgbWF4X251bV9mYWNlcz0xLAogICAgICAgIHJlZmluZV9sYW5kbWFya3M9VHJ1ZSwKICAgICAgICBtaW5fZGV0ZWN0aW9uX2NvbmZpZGVuY2U9MC41LAogICAgICAgIG1pbl90cmFja2luZ19jb25maWRlbmNlPTAuNSwKICAgICkKCiAgICBjYXAgPSBjdjIuVmlkZW9DYXB0dXJlKGNhbWVyYV9pZCkKICAgIGNhcC5zZXQoY3YyLkNBUF9QUk9QX0ZSQU1FX1dJRFRILCA2NDApCiAgICBjYXAuc2V0KGN2Mi5DQVBfUFJPUF9GUkFNRV9IRUlHSFQsIDQ4MCkKICAgIGNhcC5zZXQoY3YyLkNBUF9QUk9QX0ZQUywgMzApCgogICAgaWYgbm90IGNhcC5pc09wZW5lZCgpOgogICAgICAgIHByaW50KGYiRXJyb3I6IENhbm5vdCBvcGVuIGNhbWVyYSB7Y2FtZXJhX2lkfSIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBzYW1wbGVzOiBsaXN0W2RpY3RdID0gW10KCiAgICBwcmludCgiXG7wn46vIEV5ZSBUcmFja2luZyBDYWxpYnJhdGlvbiIpCiAgICBwcmludCgiPSIgKiA1MCkKICAgIHByaW50KGYiTG9vayBkaXJlY3RseSBhdCBlYWNoIHRhcmdldC4gU3RheSBzdGlsbC4iKQogICAgcHJpbnQoZiJQcmVzcyBTUEFDRSBvciBFTlRFUiB0byBzdGFydC5cbiIpCiAgICBwcmludChmIkNhbWVyYToge2NhbWVyYV9pZH0iKQogICAgcHJpbnQoZiJQb2ludHM6IHtsZW4oQ0FMSUJSQVRJT05fUE9JTlRTKX0iKQogICAgcHJpbnQoKQoKICAgIGlucHV0KCJQcmVzcyBFbnRlciB3aGVuIHJlYWR5Li4uIikKCiAgICBmb3Igc2NyZWVuX3gsIHNjcmVlbl95LCBsYWJlbCBpbiBDQUxJQlJBVElPTl9QT0lOVFM6CiAgICAgICAgcHJpbnQoZiJcbuKWtiAgTG9vayBhdDoge2xhYmVsfSAoe3NjcmVlbl94Oi4wJX0sIHtzY3JlZW5feTouMCV9KSIpCiAgICAgICAgcHJpbnQoZiIgICBDb2xsZWN0aW5nIHNhbXBsZXMgZm9yIHtTQU1QTEVfRFVSQVRJT046LjBmfXMuLi4iLCBlbmQ9IiIsIGZsdXNoPVRydWUpCgogICAgICAgIGdhemVfcmVhZGluZ3M6IGxpc3RbdHVwbGVbZmxvYXQsIGZsb2F0XV0gPSBbXQogICAgICAgIHN0YXJ0X3RpbWUgPSB0aW1lLnRpbWUoKQoKICAgICAgICB3aGlsZSB0aW1lLnRpbWUoKSAtIHN0YXJ0X3RpbWUgPCBTQU1QTEVfRFVSQVRJT046CiAgICAgICAgICAgIHJldCwgZnJhbWUgPSBjYXAucmVhZCgpCiAgICAgICAgICAgIGlmIG5vdCByZXQ6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgcmdiID0gY3YyLmN2dENvbG9yKGZyYW1lLCBjdjIuQ09MT1JfQkdSMlJHQikKICAgICAgICAgICAgcmVzdWx0cyA9IGZhY2VfbWVzaC5wcm9jZXNzKHJnYikKCiAgICAgICAgICAgIGlmIHJlc3VsdHMubXVsdGlfZmFjZV9sYW5kbWFya3M6CiAgICAgICAgICAgICAgICBsYW5kbWFya3MgPSByZXN1bHRzLm11bHRpX2ZhY2VfbGFuZG1hcmtzWzBdLmxhbmRtYXJrCgogICAgICAgICAgICAgICAgIyBFc3RpbWF0ZSBnYXplCiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgbGVmdF9leWVfbCA9IGxhbmRtYXJrc1szM10KICAgICAgICAgICAgICAgICAgICBsZWZ0X2V5ZV9yID0gbGFuZG1hcmtzWzEzM10KICAgICAgICAgICAgICAgICAgICBsZWZ0X2lyaXMgPSBsYW5kbWFya3NbNDY4XQoKICAgICAgICAgICAgICAgICAgICByaWdodF9leWVfbCA9IGxhbmRtYXJrc1szNjJdCiAgICAgICAgICAgICAgICAgICAgcmlnaHRfZXllX3IgPSBsYW5kbWFya3NbMjYzXQogICAgICAgICAgICAgICAgICAgIHJpZ2h0X2lyaXMgPSBsYW5kbWFya3NbNDczXQoKICAgICAgICAgICAgICAgICAgICBkZWYgaXJpc19yYXRpbyhpbm5lciwgb3V0ZXIsIGlyaXMpOgogICAgICAgICAgICAgICAgICAgICAgICB0b3RhbCA9IGFicyhvdXRlci54IC0gaW5uZXIueCkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdG90YWwgPCAwLjAwMToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAwLjUKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG1heCgwLjAsIG1pbigxLjAsIChpcmlzLnggLSBpbm5lci54KSAvIHRvdGFsKSkKCiAgICAgICAgICAgICAgICAgICAgZ3ggPSAoaXJpc19yYXRpbyhsZWZ0X2V5ZV9yLCBsZWZ0X2V5ZV9sLCBsZWZ0X2lyaXMpICsKICAgICAgICAgICAgICAgICAgICAgICAgICAoMSAtIGlyaXNfcmF0aW8ocmlnaHRfZXllX2wsIHJpZ2h0X2V5ZV9yLCByaWdodF9pcmlzKSkpIC8gMi4wCiAgICAgICAgICAgICAgICAgICAgZ3kgPSAoaXJpc19yYXRpbyhsYW5kbWFya3NbMTU5XSwgbGFuZG1hcmtzWzE0NV0sIGxlZnRfaXJpcykgKwogICAgICAgICAgICAgICAgICAgICAgICAgIGlyaXNfcmF0aW8obGFuZG1hcmtzWzM4Nl0sIGxhbmRtYXJrc1szNzRdLCByaWdodF9pcmlzKSkgLyAyLjAKCiAgICAgICAgICAgICAgICAgICAgZ2F6ZV9yZWFkaW5ncy5hcHBlbmQoKGd4LCBneSkpCiAgICAgICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgICAgIHBhc3MKCiAgICAgICAgICAgICMgRHJhdyB0YXJnZXQgaW5kaWNhdG9yIG9uIHByZXZpZXcKICAgICAgICAgICAgcHJldmlld194ID0gaW50KHNjcmVlbl94ICogZnJhbWUuc2hhcGVbMV0pCiAgICAgICAgICAgIHByZXZpZXdfeSA9IGludChzY3JlZW5feSAqIGZyYW1lLnNoYXBlWzBdKQogICAgICAgICAgICBjdjIuY2lyY2xlKGZyYW1lLCAocHJldmlld194LCBwcmV2aWV3X3kpLCAyMCwgKDAsIDI1NSwgMCksIC0xKQogICAgICAgICAgICBjdjIucHV0VGV4dChmcmFtZSwgbGFiZWwsIChwcmV2aWV3X3ggKyAyNSwgcHJldmlld195KSwgY3YyLkZPTlRfSEVSU0hFWV9TSU1QTEVYLAogICAgICAgICAgICAgICAgICAgICAgICAwLjcsICgwLCAyNTUsIDApLCAyKQoKICAgICAgICAgICAgY3YyLmltc2hvdygiQ2FsaWJyYXRpb24gUHJldmlldyIsIGZyYW1lKQogICAgICAgICAgICBjdjIud2FpdEtleSgxKQoKICAgICAgICBwcmludChmIiDinJMgR290IHtsZW4oZ2F6ZV9yZWFkaW5ncyl9IHJlYWRpbmdzIikKCiAgICAgICAgaWYgZ2F6ZV9yZWFkaW5nczoKICAgICAgICAgICAgYXZnX2d4ID0gbnAubWVhbihbclswXSBmb3IgciBpbiBnYXplX3JlYWRpbmdzXSkKICAgICAgICAgICAgYXZnX2d5ID0gbnAubWVhbihbclsxXSBmb3IgciBpbiBnYXplX3JlYWRpbmdzXSkKICAgICAgICAgICAgc2FtcGxlcy5hcHBlbmQoewogICAgICAgICAgICAgICAgImxhYmVsIjogbGFiZWwsCiAgICAgICAgICAgICAgICAic2NyZWVuX3giOiBzY3JlZW5feCwKICAgICAgICAgICAgICAgICJzY3JlZW5feSI6IHNjcmVlbl95LAogICAgICAgICAgICAgICAgImdhemVfeCI6IGZsb2F0KGF2Z19neCksCiAgICAgICAgICAgICAgICAiZ2F6ZV95IjogZmxvYXQoYXZnX2d5KSwKICAgICAgICAgICAgfSkKCiAgICBjYXAucmVsZWFzZSgpCiAgICBjdjIuZGVzdHJveUFsbFdpbmRvd3MoKQoKICAgIHJldHVybiBzYW1wbGVzCgoKZGVmIGZpdF9tb2RlbChzYW1wbGVzOiBsaXN0W2RpY3RdKSAtPiB0dXBsZVtucC5uZGFycmF5LCBucC5uZGFycmF5XToKICAgICIiIgogICAgRml0IGEgcG9seW5vbWlhbCByZWdyZXNzaW9uIG1vZGVsIG1hcHBpbmcgZ2F6ZSDihpIgc2NyZWVuIGNvb3JkaW5hdGVzLgogICAgUmV0dXJucyAoY29lZmZfeCwgY29lZmZfeSkuCiAgICAiIiIKICAgIGlmIGxlbihzYW1wbGVzKSA8IDQ6CiAgICAgICAgcHJpbnQoIkVycm9yOiBOb3QgZW5vdWdoIGNhbGlicmF0aW9uIHNhbXBsZXMiKQogICAgICAgIHJldHVybiBOb25lLCBOb25lCgogICAgZ3ggPSBucC5hcnJheShbc1siZ2F6ZV94Il0gZm9yIHMgaW4gc2FtcGxlc10pLnJlc2hhcGUoLTEsIDEpCiAgICBneSA9IG5wLmFycmF5KFtzWyJnYXplX3kiXSBmb3IgcyBpbiBzYW1wbGVzXSkucmVzaGFwZSgtMSwgMSkKICAgIHN4ID0gbnAuYXJyYXkoW3NbInNjcmVlbl94Il0gZm9yIHMgaW4gc2FtcGxlc10pCiAgICBzeSA9IG5wLmFycmF5KFtzWyJzY3JlZW5feSJdIGZvciBzIGluIHNhbXBsZXNdKQoKICAgICMgUG9seW5vbWlhbCBmZWF0dXJlczogWzEsIGd4LCBneSwgZ3heMiwgZ3leMiwgZ3gqZ3ldCiAgICBvbmVzID0gbnAub25lcygobGVuKGd4KSwgMSkpCiAgICBmZWF0dXJlcyA9IG5wLmhzdGFjayhbb25lcywgZ3gsIGd5LCBneCoqMiwgZ3kqKjIsIGd4ICogZ3ldKQoKICAgIGNvZWZmX3ggPSBucC5saW5hbGcubHN0c3EoZmVhdHVyZXMsIHN4LCByY29uZD1Ob25lKVswXQogICAgY29lZmZfeSA9IG5wLmxpbmFsZy5sc3RzcShmZWF0dXJlcywgc3ksIHJjb25kPU5vbmUpWzBdCgogICAgcmV0dXJuIGNvZWZmX3gsIGNvZWZmX3kKCgpkZWYgc2F2ZV9tb2RlbChjb2VmZl94OiBucC5uZGFycmF5LCBjb2VmZl95OiBucC5uZGFycmF5LCBwYXRoOiBQYXRoIHwgc3RyKSAtPiBOb25lOgogICAgIiIiU2F2ZSB0aGUgY2FsaWJyYXRpb24gbW9kZWwgdG8gYSBmaWxlLiIiIgogICAgaW1wb3J0IGpzb24KICAgIHBhdGggPSBQYXRoKHBhdGgpCiAgICBwYXRoLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCgogICAgZGF0YSA9IHsKICAgICAgICAiY29lZmZfeCI6IGNvZWZmX3gudG9saXN0KCksCiAgICAgICAgImNvZWZmX3kiOiBjb2VmZl95LnRvbGlzdCgpLAogICAgICAgICJjYWxpYnJhdGVkX2F0IjogdGltZS5zdHJmdGltZSgiJVktJW0tJWQgJUg6JU06JVMiKSwKICAgIH0KICAgIHdpdGggb3BlbihwYXRoLCAidyIpIGFzIGY6CiAgICAgICAganNvbi5kdW1wKGRhdGEsIGYpCiAgICBwcmludChmIlxu4pyFIENhbGlicmF0aW9uIG1vZGVsIHNhdmVkIHRvOiB7cGF0aH0iKQoKCmRlZiBtYWluKCk6CiAgICBwcmludCgiPSIgKiA1MCkKICAgIHByaW50KCJBYmxlQnJpZGdlIOKAlCBFeWUgVHJhY2tpbmcgQ2FsaWJyYXRpb24iKQogICAgcHJpbnQoIj0iICogNTApCgogICAgc2FtcGxlcyA9IGNvbGxlY3Rfc2FtcGxlcygpCiAgICBwcmludChmIlxu8J+TiiBDb2xsZWN0ZWQge2xlbihzYW1wbGVzKX0gY2FsaWJyYXRpb24gc2FtcGxlcyIpCgogICAgaWYgbGVuKHNhbXBsZXMpIDwgNDoKICAgICAgICBwcmludCgi4p2MIENhbGlicmF0aW9uIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2Fpbi4iKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgcHJpbnQoIlxu8J+UpyBGaXR0aW5nIGNhbGlicmF0aW9uIG1vZGVsLi4uIikKICAgIGNvZWZmX3gsIGNvZWZmX3kgPSBmaXRfbW9kZWwoc2FtcGxlcykKCiAgICBpZiBjb2VmZl94IGlzIE5vbmU6CiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICAjIFNhdmUgdG8gZGVmYXVsdCBsb2NhdGlvbgogICAgbW9kZWxfcGF0aCA9IFBhdGgoImNvbmZpZy9leWVnYXplX2NhbGlicmF0aW9uLmpzb24iKQogICAgc2F2ZV9tb2RlbChjb2VmZl94LCBjb2VmZl95LCBtb2RlbF9wYXRoKQoKICAgICMgUHJpbnQgc2FtcGxlIGFjY3VyYWN5CiAgICBwcmludCgiXG7wn5OIIENhbGlicmF0aW9uIEFjY3VyYWN5IChzYW1wbGUg4oaSIGVzdGltYXRlZCk6IikKICAgIGZvciBzIGluIHNhbXBsZXM6CiAgICAgICAgZmVhdCA9IG5wLmFycmF5KFtbMS4wLCBzWyJnYXplX3giXSwgc1siZ2F6ZV95Il0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgc1siZ2F6ZV94Il0qKjIsIHNbImdhemVfeSJdKioyLAogICAgICAgICAgICAgICAgICAgICAgICAgIHNbImdhemVfeCJdICogc1siZ2F6ZV95Il1dXSkKICAgICAgICBlc3RfeCA9IGZsb2F0KG5wLmRvdChmZWF0LCBjb2VmZl94KSkKICAgICAgICBlc3RfeSA9IGZsb2F0KG5wLmRvdChmZWF0LCBjb2VmZl95KSkKICAgICAgICBlcnIgPSBhYnMoZXN0X3ggLSBzWyJzY3JlZW5feCJdKSArIGFicyhlc3RfeSAtIHNbInNjcmVlbl95Il0pCiAgICAgICAgc3RhdHVzID0gIuKckyIgaWYgZXJyIDwgMC4xIGVsc2UgIn4iIGlmIGVyciA8IDAuMiBlbHNlICLinJciCiAgICAgICAgcHJpbnQoZiIgIHtzdGF0dXN9IHtzWydsYWJlbCddOjE1c30gIGVycm9yOiB7ZXJyOi4zZn0iKQoKICAgIHByaW50KCJcbvCfjokgQ2FsaWJyYXRpb24gY29tcGxldGUhIikKICAgIHByaW50KCJUaGUgRXllR2F6ZURyaXZlciB3aWxsIG5vdyB1c2UgdGhpcyBjYWxpYnJhdGlvbiBhdXRvbWF0aWNhbGx5LiIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""
+calibrate_eyegaze.py — Standalone eye tracking calibration tool.
+
+Run this before using EyeGazeDriver for the first time.
+Usage: python scripts/calibrate_eyegaze.py
+
+This opens a simple window with calibration targets.
+Look at each target for 2 seconds. The system records your eye position
+and builds a mapping model.
+"""
+
+from __future__ import annotations
+
+import sys
+import time
+from pathlib import Path
+
+# Add parent to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+try:
+    import cv2
+    import mediapipe as mp
+    import numpy as np
+except ImportError as e:
+    print(f"Error: Missing dependencies. Run: pip install opencv-python mediapipe numpy")
+    print(f"Details: {e}")
+    sys.exit(1)
+
+
+# ── Calibration Points ─────────────────────────────────────────────────────────
+CALIBRATION_POINTS = [
+    (0.5, 0.5, "Center"),
+    (0.1, 0.1, "Top-Left"),
+    (0.5, 0.1, "Top-Center"),
+    (0.9, 0.1, "Top-Right"),
+    (0.1, 0.5, "Middle-Left"),
+    (0.9, 0.5, "Middle-Right"),
+    (0.1, 0.9, "Bottom-Left"),
+    (0.5, 0.9, "Bottom-Center"),
+    (0.9, 0.9, "Bottom-Right"),
+]
+
+SAMPLE_DURATION = 2.0  # seconds per point
+SAMPLE_INTERVAL = 0.05  # seconds between samples
+
+
+def get_screen_resolution():
+    """Get the primary screen resolution."""
+    try:
+        import tkinter as tk
+        root = tk.Tk()
+        w = root.winfo_screenwidth()
+        h = root.winfo_screenheight()
+        root.destroy()
+        return w, h
+    except Exception:
+        return 1920, 1080  # Default fallback
+
+
+def collect_samples(camera_id: int = 0) -> list[dict]:
+    """
+    Collect eye tracking samples at calibration points.
+    Returns a list of dicts: {label, screen_x, screen_y, gaze_x, gaze_y}
+    """
+    mp_face_mesh = mp.solutions.face_mesh
+    face_mesh = mp_face_mesh.FaceMesh(
+        max_num_faces=1,
+        refine_landmarks=True,
+        min_detection_confidence=0.5,
+        min_tracking_confidence=0.5,
+    )
+
+    cap = cv2.VideoCapture(camera_id)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+    cap.set(cv2.CAP_PROP_FPS, 30)
+
+    if not cap.isOpened():
+        print(f"Error: Cannot open camera {camera_id}")
+        sys.exit(1)
+
+    samples: list[dict] = []
+
+    print("\n🎯 Eye Tracking Calibration")
+    print("=" * 50)
+    print(f"Look directly at each target. Stay still.")
+    print(f"Press SPACE or ENTER to start.\n")
+    print(f"Camera: {camera_id}")
+    print(f"Points: {len(CALIBRATION_POINTS)}")
+    print()
+
+    input("Press Enter when ready...")
+
+    for screen_x, screen_y, label in CALIBRATION_POINTS:
+        print(f"\n▶  Look at: {label} ({screen_x:.0%}, {screen_y:.0%})")
+        print(f"   Collecting samples for {SAMPLE_DURATION:.0f}s...", end="", flush=True)
+
+        gaze_readings: list[tuple[float, float]] = []
+        start_time = time.time()
+
+        while time.time() - start_time < SAMPLE_DURATION:
+            ret, frame = cap.read()
+            if not ret:
+                continue
+
+            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            results = face_mesh.process(rgb)
+
+            if results.multi_face_landmarks:
+                landmarks = results.multi_face_landmarks[0].landmark
+
+                # Estimate gaze
+                try:
+                    left_eye_l = landmarks[33]
+                    left_eye_r = landmarks[133]
+                    left_iris = landmarks[468]
+
+                    right_eye_l = landmarks[362]
+                    right_eye_r = landmarks[263]
+                    right_iris = landmarks[473]
+
+                    def iris_ratio(inner, outer, iris):
+                        total = abs(outer.x - inner.x)
+                        if total < 0.001:
+                            return 0.5
+                        return max(0.0, min(1.0, (iris.x - inner.x) / total))
+
+                    gx = (iris_ratio(left_eye_r, left_eye_l, left_iris) +
+                          (1 - iris_ratio(right_eye_l, right_eye_r, right_iris))) / 2.0
+                    gy = (iris_ratio(landmarks[159], landmarks[145], left_iris) +
+                          iris_ratio(landmarks[386], landmarks[374], right_iris)) / 2.0
+
+                    gaze_readings.append((gx, gy))
+                except Exception:
+                    pass
+
+            # Draw target indicator on preview
+            preview_x = int(screen_x * frame.shape[1])
+            preview_y = int(screen_y * frame.shape[0])
+            cv2.circle(frame, (preview_x, preview_y), 20, (0, 255, 0), -1)
+            cv2.putText(frame, label, (preview_x + 25, preview_y), cv2.FONT_HERSHEY_SIMPLEX,
+                        0.7, (0, 255, 0), 2)
+
+            cv2.imshow("Calibration Preview", frame)
+            cv2.waitKey(1)
+
+        print(f" ✓ Got {len(gaze_readings)} readings")
+
+        if gaze_readings:
+            avg_gx = np.mean([r[0] for r in gaze_readings])
+            avg_gy = np.mean([r[1] for r in gaze_readings])
+            samples.append({
+                "label": label,
+                "screen_x": screen_x,
+                "screen_y": screen_y,
+                "gaze_x": float(avg_gx),
+                "gaze_y": float(avg_gy),
+            })
+
+    cap.release()
+    cv2.destroyAllWindows()
+
+    return samples
+
+
+def fit_model(samples: list[dict]) -> tuple[np.ndarray, np.ndarray]:
+    """
+    Fit a polynomial regression model mapping gaze → screen coordinates.
+    Returns (coeff_x, coeff_y).
+    """
+    if len(samples) < 4:
+        print("Error: Not enough calibration samples")
+        return None, None
+
+    gx = np.array([s["gaze_x"] for s in samples]).reshape(-1, 1)
+    gy = np.array([s["gaze_y"] for s in samples]).reshape(-1, 1)
+    sx = np.array([s["screen_x"] for s in samples])
+    sy = np.array([s["screen_y"] for s in samples])
+
+    # Polynomial features: [1, gx, gy, gx^2, gy^2, gx*gy]
+    ones = np.ones((len(gx), 1))
+    features = np.hstack([ones, gx, gy, gx**2, gy**2, gx * gy])
+
+    coeff_x = np.linalg.lstsq(features, sx, rcond=None)[0]
+    coeff_y = np.linalg.lstsq(features, sy, rcond=None)[0]
+
+    return coeff_x, coeff_y
+
+
+def save_model(coeff_x: np.ndarray, coeff_y: np.ndarray, path: Path | str) -> None:
+    """Save the calibration model to a file."""
+    import json
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    data = {
+        "coeff_x": coeff_x.tolist(),
+        "coeff_y": coeff_y.tolist(),
+        "calibrated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+    }
+    with open(path, "w") as f:
+        json.dump(data, f)
+    print(f"\n✅ Calibration model saved to: {path}")
+
+
+def main():
+    print("=" * 50)
+    print("AbleBridge — Eye Tracking Calibration")
+    print("=" * 50)
+
+    samples = collect_samples()
+    print(f"\n📊 Collected {len(samples)} calibration samples")
+
+    if len(samples) < 4:
+        print("❌ Calibration failed. Please try again.")
+        sys.exit(1)
+
+    print("\n🔧 Fitting calibration model...")
+    coeff_x, coeff_y = fit_model(samples)
+
+    if coeff_x is None:
+        sys.exit(1)
+
+    # Save to default location
+    model_path = Path("config/eyegaze_calibration.json")
+    save_model(coeff_x, coeff_y, model_path)
+
+    # Print sample accuracy
+    print("\n📈 Calibration Accuracy (sample → estimated):")
+    for s in samples:
+        feat = np.array([[1.0, s["gaze_x"], s["gaze_y"],
+                          s["gaze_x"]**2, s["gaze_y"]**2,
+                          s["gaze_x"] * s["gaze_y"]]])
+        est_x = float(np.dot(feat, coeff_x))
+        est_y = float(np.dot(feat, coeff_y))
+        err = abs(est_x - s["screen_x"]) + abs(est_y - s["screen_y"])
+        status = "✓" if err < 0.1 else "~" if err < 0.2 else "✗"
+        print(f"  {status} {s['label']:15s}  error: {err:.3f}")
+
+    print("\n🎉 Calibration complete!")
+    print("The EyeGazeDriver will now use this calibration automatically.")
+
+
+if __name__ == "__main__":
+    main()

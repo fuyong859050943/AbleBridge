@@ -1,1 +1,87 @@
-IyEvYmluL2Jhc2gKIyBBYmxlQnJpZGdlIOKAlCBEZXBlbmRlbmN5IEluc3RhbGxhdGlvbiBTY3JpcHQKIyBGb3IgTGludXgvbWFjT1MuIEZvciBXaW5kb3dzLCB1c2UgUG93ZXJTaGVsbC4KCnNldCAtZQoKZWNobyAi8J+knSBBYmxlQnJpZGdlIOKAlCBJbnN0YWxsaW5nIERlcGVuZGVuY2llcyIKZWNobyAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKCiMgRGV0ZWN0IE9TCk9TPSIkKHVuYW1lIC1zKSIKZWNobyAiRGV0ZWN0ZWQgT1M6ICRPUyIKCiMg4pSA4pSAIFN5c3RlbSBEZXBlbmRlbmNpZXMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmlmIFsgIiRPUyIgPSAiTGludXgiIF07IHRoZW4KICAgIGlmIGNvbW1hbmQgLXYgYXB0LWdldCAmPiAvZGV2L251bGw7IHRoZW4KICAgICAgICBlY2hvICJbTGludXhdIEluc3RhbGxpbmcgc3lzdGVtIHBhY2thZ2VzLi4uIgogICAgICAgIHN1ZG8gYXB0LWdldCB1cGRhdGUKICAgICAgICBzdWRvIGFwdC1nZXQgaW5zdGFsbCAteSBcCiAgICAgICAgICAgIHB5dGhvbjMtZGV2IHB5dGhvbjMtcGlwIFwKICAgICAgICAgICAgcG9ydGF1ZGlvMTktZGV2IGxpYmFzb3VuZDItZGV2IFwKICAgICAgICAgICAgbGlidXNiLTEuMC0wLWRldiBsaWJ1ZGV2LWRldiBcCiAgICAgICAgICAgIGZmbXBlZyAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBlbGlmIGNvbW1hbmQgLXYgYnJldyAmPiAvZGV2L251bGw7IHRoZW4KICAgICAgICBlY2hvICJbbWFjT1NdIEluc3RhbGxpbmcgc3lzdGVtIHBhY2thZ2VzLi4uIgogICAgICAgIGJyZXcgaW5zdGFsbCBwb3J0YXVkaW8KICAgIGZpCmZpCgojIOKUgOKUgCBQeXRob24gUGFja2FnZXMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmVjaG8gIltQeXRob25dIEluc3RhbGxpbmcgcGlwIHBhY2thZ2VzLi4uIgpwaXAzIGluc3RhbGwgLS11cGdyYWRlIHBpcAoKIyBDb3JlCnBpcDMgaW5zdGFsbCBweWRhbnRpYyBweWRhbnRpYy1zZXR0aW5ncyBsb2d1cnUgdHlwZXIgcmljaCBmbGFzayBmbGFzay1zb2NrZXRpbyBmbGFzay1jb3JzIGppbmphMiBudW1weSBzb3VuZGRldmljZSBzY2lweQoKIyBPcHRpb25hbDogdW5jb21tZW50IHRvIGluc3RhbGwgYWxsIGV4dHJhcwojIHBpcDMgaW5zdGFsbCAtZSAiLlthbGxdIgoKIyBFeWUgdHJhY2tpbmcgKE1lZGlhUGlwZSkKZWNobyAiW09wdGlvbmFsXSBJbnN0YWxsaW5nIE1lZGlhUGlwZSBmb3IgZXllIHRyYWNraW5nLi4uIgpwaXAzIGluc3RhbGwgb3BlbmN2LXB5dGhvbiBtZWRpYXBpcGUgMj4vZGV2L251bGwgfHwgZWNobyAiW1NraXBdIE1lZGlhUGlwZSBub3QgYXZhaWxhYmxlIgoKIyBWb2ljZSByZWNvZ25pdGlvbiAoVm9zaykKZWNobyAiW09wdGlvbmFsXSBJbnN0YWxsaW5nIFZvc2sgZm9yIHNwZWVjaCByZWNvZ25pdGlvbi4uLiIKcGlwMyBpbnN0YWxsIHZvc2sgMj4vZGV2L251bGwgfHwgZWNobyAiW1NraXBdIFZvc2sgbm90IGF2YWlsYWJsZSIKZWNobyAiW09wdGlvbmFsXSBEb3dubG9hZCBhIFZvc2sgbW9kZWwgd2l0aDogcHl0aG9uIC1tIHZvc2sgZG93bmxvYWRfbW9kZWwgc21hbGwtZW4tdXMiCgojIFRUUwplY2hvICJbT3B0aW9uYWxdIEluc3RhbGxpbmcgVFRTIHBhY2thZ2VzLi4uIgpwaXAzIGluc3RhbGwgcHl0dHN4MyAyPi9kZXYvbnVsbCB8fCBlY2hvICJbU2tpcF0gcHl0dHN4MyBub3QgYXZhaWxhYmxlIgoKIyBTbWFydCBIb21lCmVjaG8gIltPcHRpb25hbF0gSW5zdGFsbGluZyBNUVRULi4uIgpwaXAzIGluc3RhbGwgcGFoby1tcXR0IDI+L2Rldi9udWxsIHx8IGVjaG8gIltTa2lwXSBwYWhvLW1xdHQgbm90IGF2YWlsYWJsZSIKCiMg4pSA4pSAIE9sbGFtYSAoZm9yIGxvY2FsIExMTSkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmVjaG8gIiIKZWNobyAi8J+kliBBSSBTZXR1cDogT2xsYW1hIChmb3IgbG9jYWwgTExNIGludGVudCBlbmdpbmUpIgppZiBjb21tYW5kIC12IG9sbGFtYSAmPiAvZGV2L251bGw7IHRoZW4KICAgIGVjaG8gIk9sbGFtYSBpcyBpbnN0YWxsZWQ6ICQob2xsYW1hIC0tdmVyc2lvbikiCiAgICBlY2hvICJQdWxsaW5nIGRlZmF1bHQgbW9kZWwgKGxsYW1hMy4yKS4uLiIKICAgIG9sbGFtYSBwdWxsIGxsYW1hMy4yIDI+L2Rldi9udWxsIHx8IGVjaG8gIltTa2lwXSBNb2RlbCBwdWxsIGZhaWxlZCAocnVuIG1hbnVhbGx5OiBvbGxhbWEgcHVsbCBsbGFtYTMuMikiCmVsc2UKICAgIGVjaG8gIltJbmZvXSBPbGxhbWEgbm90IGZvdW5kLiBUbyBpbnN0YWxsOiIKICAgIGVjaG8gIiAgY3VybCAtZnNTTCBodHRwczovL29sbGFtYS5haS9pbnN0YWxsLnNoIHwgc2giCiAgICBlY2hvICJUaGVuOiBvbGxhbWEgcHVsbCBsbGFtYTMuMiIKZmkKCiMg4pSA4pSAIFZvc2sgTW9kZWwg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACmVjaG8gIiIKZWNobyAi8J+OpCBTcGVlY2ggTW9kZWw6IFZvc2siCk1PREVMX0RJUj0iJEhPTUUvLmNhY2hlL3Zvc2siCmlmIFsgLWQgIiRNT0RFTF9ESVIiIF07IHRoZW4KICAgIGVjaG8gIlZvc2sgbW9kZWxzIGZvdW5kIGluICRNT0RFTF9ESVIiCmVsc2UKICAgIGVjaG8gIltJbmZvXSBUbyBkb3dubG9hZCBhIFZvc2sgbW9kZWw6IgogICAgZWNobyAiICBweXRob24gLW0gdm9zayBkb3dubG9hZF9tb2RlbCBzbWFsbC1lbi11cyIKZmkKCmVjaG8gIiIKZWNobyAi4pyFIEluc3RhbGxhdGlvbiBjb21wbGV0ZSEiCmVjaG8gIiIKZWNobyAiUXVpY2sgU3RhcnQ6IgplY2hvICIgIHB5dGhvbiAtbSBhYmxlYnJpZGdlLmd1aSAgICAgICAgICAjIExhdW5jaCB3ZWIgR1VJIgplY2hvICIgIHB5dGhvbiAtbSBhYmxlYnJpZGdlLmNvcmUgICAgICAgICAjIFJ1biBjb3JlIGVuZ2luZSIKZWNobyAiICBhYmxlYnJpZGdlIHN0YXR1cyAgICAgICAgICAgICAgICAgIyBDaGVjayBzeXN0ZW0gc3RhdHVzIgo=
+#!/bin/bash
+# AbleBridge — Dependency Installation Script
+# For Linux/macOS. For Windows, use PowerShell.
+
+set -e
+
+echo "🤝 AbleBridge — Installing Dependencies"
+echo "========================================"
+
+# Detect OS
+OS="$(uname -s)"
+echo "Detected OS: $OS"
+
+# ── System Dependencies ─────────────────────────────────────────────────────────
+if [ "$OS" = "Linux" ]; then
+    if command -v apt-get &> /dev/null; then
+        echo "[Linux] Installing system packages..."
+        sudo apt-get update
+        sudo apt-get install -y \
+            python3-dev python3-pip \
+            portaudio19-dev libasound2-dev \
+            libusb-1.0-0-dev libudev-dev \
+            ffmpeg 2>/dev/null || true
+    elif command -v brew &> /dev/null; then
+        echo "[macOS] Installing system packages..."
+        brew install portaudio
+    fi
+fi
+
+# ── Python Packages ────────────────────────────────────────────────────────────
+echo "[Python] Installing pip packages..."
+pip3 install --upgrade pip
+
+# Core
+pip3 install pydantic pydantic-settings loguru typer rich flask flask-socketio flask-cors jinja2 numpy sounddevice scipy
+
+# Optional: uncomment to install all extras
+# pip3 install -e ".[all]"
+
+# Eye tracking (MediaPipe)
+echo "[Optional] Installing MediaPipe for eye tracking..."
+pip3 install opencv-python mediapipe 2>/dev/null || echo "[Skip] MediaPipe not available"
+
+# Voice recognition (Vosk)
+echo "[Optional] Installing Vosk for speech recognition..."
+pip3 install vosk 2>/dev/null || echo "[Skip] Vosk not available"
+echo "[Optional] Download a Vosk model with: python -m vosk download_model small-en-us"
+
+# TTS
+echo "[Optional] Installing TTS packages..."
+pip3 install pyttsx3 2>/dev/null || echo "[Skip] pyttsx3 not available"
+
+# Smart Home
+echo "[Optional] Installing MQTT..."
+pip3 install paho-mqtt 2>/dev/null || echo "[Skip] paho-mqtt not available"
+
+# ── Ollama (for local LLM) ─────────────────────────────────────────────────────
+echo ""
+echo "🤖 AI Setup: Ollama (for local LLM intent engine)"
+if command -v ollama &> /dev/null; then
+    echo "Ollama is installed: $(ollama --version)"
+    echo "Pulling default model (llama3.2)..."
+    ollama pull llama3.2 2>/dev/null || echo "[Skip] Model pull failed (run manually: ollama pull llama3.2)"
+else
+    echo "[Info] Ollama not found. To install:"
+    echo "  curl -fsSL https://ollama.ai/install.sh | sh"
+    echo "Then: ollama pull llama3.2"
+fi
+
+# ── Vosk Model ────────────────────────────────────────────────────────────────
+echo ""
+echo "🎤 Speech Model: Vosk"
+MODEL_DIR="$HOME/.cache/vosk"
+if [ -d "$MODEL_DIR" ]; then
+    echo "Vosk models found in $MODEL_DIR"
+else
+    echo "[Info] To download a Vosk model:"
+    echo "  python -m vosk download_model small-en-us"
+fi
+
+echo ""
+echo "✅ Installation complete!"
+echo ""
+echo "Quick Start:"
+echo "  python -m ablebridge.gui          # Launch web GUI"
+echo "  python -m ablebridge.core         # Run core engine"
+echo "  ablebridge status                 # Check system status"

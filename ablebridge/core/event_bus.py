@@ -1,1 +1,283 @@
-IiIiCmFibGVicmlkZ2UuY29yZS5ldmVudF9idXMg4oCUIFB1Yi9zdWIgZXZlbnQgYnVzIGZvciBsb29zZSBjb3VwbGluZyBiZXR3ZWVuIG1vZHVsZXMuCgpUaGUgZXZlbnQgYnVzIGlzIHRoZSBuZXJ2b3VzIHN5c3RlbSBvZiBBYmxlQnJpZGdlLiBBbGwgY29tcG9uZW50cyBjb21tdW5pY2F0ZQp0aHJvdWdoIHR5cGVkIGV2ZW50cywgbmV2ZXIgZGlyZWN0bHkuIFRoaXMgZW5hYmxlcyBob3Qtc3dhcHBpbmcgZHJpdmVycywKYWRkaW5nIG5ldyBBSSBtb2RlbHMsIGFuZCBjaGFuZ2luZyBVSSB3aXRob3V0IHRvdWNoaW5nIG90aGVyIHBhcnRzLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhc3luY2lvCmltcG9ydCBxdWV1ZQppbXBvcnQgdGhyZWFkaW5nCmltcG9ydCB0aW1lCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcywgZmllbGQKZnJvbSBlbnVtIGltcG9ydCBFbnVtLCBhdXRvCmZyb20gdHlwaW5nIGltcG9ydCBBbnksIENhbGxhYmxlLCBHZW5lcmljLCBUeXBlVmFyCgpmcm9tIGxvZ3VydSBpbXBvcnQgbG9nZ2VyCgpmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgKAogICAgSW5wdXRFdmVudCwKICAgIElucHV0Q2hhbm5lbCwKICAgIEludGVudEV2ZW50LAogICAgSW50ZW50Q2F0ZWdvcnksCiAgICBPdXRwdXRFdmVudCwKICAgIE91dHB1dENoYW5uZWwsCiAgICBQcmVkaWN0aW9uUmVzdWx0LAogICAgQ2hhbm5lbFN0YXR1cywKKQoKCmNsYXNzIEV2ZW50VHlwZShFbnVtKToKICAgICIiIkFsbCBldmVudCB0eXBlcyB0aGF0IGZsb3cgdGhyb3VnaCB0aGUgYnVzLiIiIgoKICAgICMgSW5wdXQgZXZlbnRzIChmcm9tIGRyaXZlcnMg4oaSIGVuZ2luZSkKICAgIElOUFVUID0gYXV0bygpCiAgICBJTlBVVF9TVEFSVCA9IGF1dG8oKQogICAgSU5QVVRfU1RPUCA9IGF1dG8oKQogICAgSU5QVVRfRVJST1IgPSBhdXRvKCkKCiAgICAjIEVuZ2luZSBldmVudHMgKGludGVybmFsKQogICAgSU5URU5UX1JFU09MVkVEID0gYXV0bygpCiAgICBQUkVESUNUSU9OX1VQREFURUQgPSBhdXRvKCkKICAgIFBST0ZJTEVfQ0hBTkdFRCA9IGF1dG8oKQoKICAgICMgT3V0cHV0IGV2ZW50cyAoZnJvbSBlbmdpbmUg4oaSIGRyaXZlcnMpCiAgICBPVVRQVVRfRElTUEFUQ0ggPSBhdXRvKCkKICAgIE9VVFBVVF9FUlJPUiA9IGF1dG8oKQoKICAgICMgU3lzdGVtIGV2ZW50cwogICAgQ0FMSUJSQVRJT05fU1RBUlQgPSBhdXRvKCkKICAgIENBTElCUkFUSU9OX0NPTVBMRVRFID0gYXV0bygpCiAgICBDQUxJQlJBVElPTl9GQUlMRUQgPSBhdXRvKCkKICAgIERSSVZFUl9SRUdJU1RFUkVEID0gYXV0bygpCiAgICBEUklWRVJfU1RBVEVfQ0hBTkdFID0gYXV0bygpCiAgICBFTkdJTkVfU1RBUlQgPSBhdXRvKCkKICAgIEVOR0lORV9TVE9QID0gYXV0bygpCiAgICBIRUFSVEJFQVQgPSBhdXRvKCkKCgpAZGF0YWNsYXNzCmNsYXNzIEJ1c0V2ZW50OgogICAgIiIiCiAgICBBIHR5cGVkIGVudmVsb3BlIGZvciBhbGwgZXZlbnRzIG9uIHRoZSBidXMuCiAgICAiIiIKCiAgICB0eXBlOiBFdmVudFR5cGUKICAgIHBheWxvYWQ6IEFueSA9IE5vbmUKICAgIHRpbWVzdGFtcDogZmxvYXQgPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9dGltZS50aW1lKQogICAgc291cmNlOiBzdHIgPSAiIiAgIyBNb2R1bGUgbmFtZSB0aGF0IGVtaXR0ZWQgdGhlIGV2ZW50CiAgICBzZXNzaW9uX2lkOiBzdHIgPSAiIgoKCiMgVHlwZSBhbGlhcyBmb3IgZXZlbnQgaGFuZGxlcnMKSGFuZGxlciA9IENhbGxhYmxlW1tCdXNFdmVudF0sIE5vbmVdClRQYXlsb2FkID0gVHlwZVZhcigiVFBheWxvYWQiKQoKCmNsYXNzIEV2ZW50QnVzOgogICAgIiIiCiAgICBUaHJlYWQtc2FmZSwgYXN5bmMtY2FwYWJsZSBwdWJsaXNoL3N1YnNjcmliZSBldmVudCBidXMuCgogICAgRmVhdHVyZXM6CiAgICAtIFR5cGVkIHN1YnNjcmlwdGlvbnMgKHN1YnNjcmliZSB0byBzcGVjaWZpYyBFdmVudFR5cGUsIG5vdCBhbGwgZXZlbnRzKQogICAgLSBTeW5jaHJvbm91cyAodGhyZWFkKSBhbmQgYXN5bmNocm9ub3VzIChhc3luY2lvKSBoYW5kbGVyIHN1cHBvcnQKICAgIC0gRGVhZC1sZXR0ZXIgcXVldWUgZm9yIHVuaGFuZGxlZCBldmVudHMKICAgIC0gRXZlbnQgaGlzdG9yeSByaW5nIGJ1ZmZlciBmb3IgZGVidWdnaW5nCiAgICAtIEhhbmRsZXIgbWV0YWRhdGEgKHByaW9yaXR5LCBvbmUtc2hvdCkKCiAgICBVc2FnZToKICAgICAgICBidXMgPSBFdmVudEJ1cygpCiAgICAgICAgYnVzLnN1YnNjcmliZShFdmVudFR5cGUuSU5QVVQsIG15X2hhbmRsZXIpCiAgICAgICAgYnVzLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLklOUFVULCBzb21lX2V2ZW50KSkKICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBoaXN0b3J5X3NpemU6IGludCA9IDUwMCk6CiAgICAgICAgc2VsZi5fc3Vic2NyaWJlcnM6IGRpY3RbRXZlbnRUeXBlLCBsaXN0W3R1cGxlW2ludCwgSGFuZGxlciwgc3RyXV1dID0ge30KICAgICAgICAjIHByaW9yaXR5IChsb3dlcj1oaWdoZXIgcHJpb3JpdHkpLCBoYW5kbGVyLCBuYW1lCiAgICAgICAgc2VsZi5fZ2xvYmFsX2hhbmRsZXJzOiBsaXN0W3R1cGxlW2ludCwgSGFuZGxlciwgc3RyXV0gPSBbXQogICAgICAgIHNlbGYuX2hpc3Rvcnk6IGxpc3RbQnVzRXZlbnRdID0gW10KICAgICAgICBzZWxmLl9oaXN0b3J5X3NpemUgPSBoaXN0b3J5X3NpemUKICAgICAgICBzZWxmLl9sb2NrID0gdGhyZWFkaW5nLlJMb2NrKCkKICAgICAgICBzZWxmLl9kZWFkX2xldHRlcl9xdWV1ZTogbGlzdFtCdXNFdmVudF0gPSBbXQogICAgICAgIHNlbGYuX3N0YXRzID0geyJwdWJsaXNoZWQiOiAwLCAiaGFuZGxlZCI6IDAsICJkZWFkX2xldHRlciI6IDB9CgogICAgIyDilIDilIAgU3Vic2NyaXB0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBzdWJzY3JpYmUoCiAgICAgICAgc2VsZiwKICAgICAgICBldmVudF90eXBlOiBFdmVudFR5cGUsCiAgICAgICAgaGFuZGxlcjogSGFuZGxlciwKICAgICAgICBwcmlvcml0eTogaW50ID0gMTAwLAogICAgICAgIG5hbWU6IHN0ciA9ICIiLAogICAgKSAtPiBOb25lOgogICAgICAgICIiIgogICAgICAgIFN1YnNjcmliZSB0byBhIHNwZWNpZmljIGV2ZW50IHR5cGUuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIGV2ZW50X3R5cGU6IFRoZSBldmVudCB0eXBlIHRvIGxpc3RlbiBmb3IKICAgICAgICAgICAgaGFuZGxlcjogQ2FsbGFibGUgdGhhdCB0YWtlcyBhIEJ1c0V2ZW50CiAgICAgICAgICAgIHByaW9yaXR5OiBMb3dlciBudW1iZXIgPSBoaWdoZXIgcHJpb3JpdHkgKHJ1bnMgZmlyc3QpCiAgICAgICAgICAgIG5hbWU6IE9wdGlvbmFsIG5hbWUgZm9yIHRoaXMgc3Vic2NyaXB0aW9uIChmb3IgZGVidWdnaW5nKQogICAgICAgICIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgaWYgZXZlbnRfdHlwZSBub3QgaW4gc2VsZi5fc3Vic2NyaWJlcnM6CiAgICAgICAgICAgICAgICBzZWxmLl9zdWJzY3JpYmVyc1tldmVudF90eXBlXSA9IFtdCiAgICAgICAgICAgIHNlbGYuX3N1YnNjcmliZXJzW2V2ZW50X3R5cGVdLmFwcGVuZCgocHJpb3JpdHksIGhhbmRsZXIsIG5hbWUpKQogICAgICAgICAgICBzZWxmLl9zdWJzY3JpYmVyc1tldmVudF90eXBlXS5zb3J0KGtleT1sYW1iZGEgeDogeFswXSkKICAgICAgICBsb2dnZXIuZGVidWcoZiJbRXZlbnRCdXNdIFN1YnNjcmliZWQgJ3tuYW1lIG9yIGhhbmRsZXJ9JyDihpIge2V2ZW50X3R5cGUubmFtZX0iKQoKICAgIGRlZiBzdWJzY3JpYmVfZ2xvYmFsKAogICAgICAgIHNlbGYsIGhhbmRsZXI6IEhhbmRsZXIsIHByaW9yaXR5OiBpbnQgPSAxMDAsIG5hbWU6IHN0ciA9ICIiCiAgICApIC0+IE5vbmU6CiAgICAgICAgIiIiU3Vic2NyaWJlIHRvIEFMTCBldmVudHMgKHVzZSBzcGFyaW5nbHkpLiIiIgogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgc2VsZi5fZ2xvYmFsX2hhbmRsZXJzLmFwcGVuZCgocHJpb3JpdHksIGhhbmRsZXIsIG5hbWUpKQogICAgICAgICAgICBzZWxmLl9nbG9iYWxfaGFuZGxlcnMuc29ydChrZXk9bGFtYmRhIHg6IHhbMF0pCgogICAgZGVmIHVuc3Vic2NyaWJlKHNlbGYsIGV2ZW50X3R5cGU6IEV2ZW50VHlwZSwgaGFuZGxlcjogSGFuZGxlcikgLT4gYm9vbDoKICAgICAgICAiIiJSZW1vdmUgYSBoYW5kbGVyLiBSZXR1cm5zIFRydWUgaWYgZm91bmQgYW5kIHJlbW92ZWQuIiIiCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBpZiBldmVudF90eXBlIG5vdCBpbiBzZWxmLl9zdWJzY3JpYmVyczoKICAgICAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgICAgICBiZWZvcmUgPSBsZW4oc2VsZi5fc3Vic2NyaWJlcnNbZXZlbnRfdHlwZV0pCiAgICAgICAgICAgIHNlbGYuX3N1YnNjcmliZXJzW2V2ZW50X3R5cGVdID0gWwogICAgICAgICAgICAgICAgKHAsIGgsIG4pIGZvciBwLCBoLCBuIGluIHNlbGYuX3N1YnNjcmliZXJzW2V2ZW50X3R5cGVdIGlmIGggIT0gaGFuZGxlcgogICAgICAgICAgICBdCiAgICAgICAgICAgIHJlbW92ZWQgPSBiZWZvcmUgLSBsZW4oc2VsZi5fc3Vic2NyaWJlcnNbZXZlbnRfdHlwZV0pCiAgICAgICAgICAgIHJldHVybiByZW1vdmVkID4gMAoKICAgICMg4pSA4pSAIFB1Ymxpc2hpbmcg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIHB1Ymxpc2goc2VsZiwgZXZlbnQ6IEJ1c0V2ZW50KSAtPiBOb25lOgogICAgICAgICIiIgogICAgICAgIFB1Ymxpc2ggYW4gZXZlbnQgdG8gYWxsIHN1YnNjcmliZXJzLiBUaHJlYWQtc2FmZS4KICAgICAgICBVbmhhbmRsZWQgZXZlbnRzIGdvIHRvIHRoZSBkZWFkLWxldHRlciBxdWV1ZS4KICAgICAgICAiIiIKICAgICAgICBzZWxmLl9zdGF0c1sicHVibGlzaGVkIl0gKz0gMQoKICAgICAgICAjIFJlY29yZCB0byBoaXN0b3J5CiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBzZWxmLl9oaXN0b3J5LmFwcGVuZChldmVudCkKICAgICAgICAgICAgaWYgbGVuKHNlbGYuX2hpc3RvcnkpID4gc2VsZi5faGlzdG9yeV9zaXplOgogICAgICAgICAgICAgICAgc2VsZi5faGlzdG9yeS5wb3AoMCkKCiAgICAgICAgIyBDb2xsZWN0IGhhbmRsZXJzIHRvIGNhbGwgKHNuYXBzaG90IHVuZGVyIGxvY2spCiAgICAgICAgaGFuZGxlcnNfdG9fY2FsbDogbGlzdFtIYW5kbGVyXSA9IFtdCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBmb3IgXywgaGFuZGxlciwgbmFtZSBpbiBzZWxmLl9nbG9iYWxfaGFuZGxlcnM6CiAgICAgICAgICAgICAgICBoYW5kbGVyc190b19jYWxsLmFwcGVuZChoYW5kbGVyKQogICAgICAgICAgICBmb3IgXywgaGFuZGxlciwgbmFtZSBpbiBzZWxmLl9zdWJzY3JpYmVycy5nZXQoZXZlbnQudHlwZSwgW10pOgogICAgICAgICAgICAgICAgaGFuZGxlcnNfdG9fY2FsbC5hcHBlbmQoaGFuZGxlcikKCiAgICAgICAgIyBDYWxsIGhhbmRsZXJzIG91dHNpZGUgdGhlIGxvY2sKICAgICAgICBoYW5kbGVkID0gRmFsc2UKICAgICAgICBmb3IgaGFuZGxlciBpbiBoYW5kbGVyc190b19jYWxsOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBoYW5kbGVyKGV2ZW50KQogICAgICAgICAgICAgICAgc2VsZi5fc3RhdHNbImhhbmRsZWQiXSArPSAxCiAgICAgICAgICAgICAgICBoYW5kbGVkID0gVHJ1ZQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgbG9nZ2VyLmV4Y2VwdGlvbihmIltFdmVudEJ1c10gSGFuZGxlciBlcnJvciBmb3Ige2V2ZW50LnR5cGUubmFtZX0iKQoKICAgICAgICBpZiBub3QgaGFuZGxlZDoKICAgICAgICAgICAgc2VsZi5fZGVhZF9sZXR0ZXJfcXVldWUuYXBwZW5kKGV2ZW50KQogICAgICAgICAgICBzZWxmLl9zdGF0c1siZGVhZF9sZXR0ZXIiXSArPSAxCgogICAgZGVmIHB1Ymxpc2hfaW5wdXQoc2VsZiwgZXZlbnQ6IElucHV0RXZlbnQsIHNvdXJjZTogc3RyID0gIiIpIC0+IE5vbmU6CiAgICAgICAgIiIiQ29udmVuaWVuY2U6IHB1Ymxpc2ggYW4gSW5wdXRFdmVudC4iIiIKICAgICAgICBzZWxmLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLklOUFVULCBldmVudCwgc291cmNlPXNvdXJjZSkpCgogICAgZGVmIHB1Ymxpc2hfb3V0cHV0KHNlbGYsIGV2ZW50OiBPdXRwdXRFdmVudCwgc291cmNlOiBzdHIgPSAiIikgLT4gTm9uZToKICAgICAgICAiIiJDb252ZW5pZW5jZTogcHVibGlzaCBhbiBPdXRwdXRFdmVudC4iIiIKICAgICAgICBzZWxmLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLk9VVFBVVF9ESVNQQVRDSCwgZXZlbnQsIHNvdXJjZT1zb3VyY2UpKQoKICAgICMg4pSA4pSAIEhpc3RvcnkgJiBEZWJ1ZyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICBkZWYgaGlzdG9yeShzZWxmLCBldmVudF90eXBlOiBFdmVudFR5cGUgfCBOb25lID0gTm9uZSwgbGltaXQ6IGludCA9IDUwKSAtPiBsaXN0W0J1c0V2ZW50XToKICAgICAgICAiIiJSZXR1cm4gcmVjZW50IGV2ZW50IGhpc3RvcnkuIiIiCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBldmVudHMgPSBzZWxmLl9oaXN0b3J5CiAgICAgICAgICAgIGlmIGV2ZW50X3R5cGU6CiAgICAgICAgICAgICAgICBldmVudHMgPSBbZSBmb3IgZSBpbiBldmVudHMgaWYgZS50eXBlID09IGV2ZW50X3R5cGVdCiAgICAgICAgICAgIHJldHVybiBsaXN0KGV2ZW50c1stbGltaXQ6XSkKCiAgICBkZWYgZGVhZF9sZXR0ZXJzKHNlbGYpIC0+IGxpc3RbQnVzRXZlbnRdOgogICAgICAgICIiIlJldHVybiBhbGwgdW5oYW5kbGVkIGV2ZW50cy4iIiIKICAgICAgICByZXR1cm4gbGlzdChzZWxmLl9kZWFkX2xldHRlcl9xdWV1ZSkKCiAgICBkZWYgc3RhdHMoc2VsZikgLT4gZGljdFtzdHIsIGludF06CiAgICAgICAgIiIiUmV0dXJuIGJ1cyBzdGF0aXN0aWNzLiIiIgogICAgICAgIHJldHVybiBkaWN0KHNlbGYuX3N0YXRzKQoKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgQXN5bmMgRXZlbnQgQnVzIChmb3IgYXN5bmNpby1iYXNlZCBHVUkpCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKY2xhc3MgQXN5bmNFdmVudEJ1cyhFdmVudEJ1cyk6CiAgICAiIiIKICAgIEFzeW5jLWF3YXJlIGV2ZW50IGJ1cyB0aGF0IGFsc28gc3VwcG9ydHMgYXN5bmNpbyBjb3JvdXRpbmVzIGFzIGhhbmRsZXJzLgogICAgVXNlIHRoaXMgZm9yIHRoZSBHVUkgLyB3ZWIgbGF5ZXI7IHRoZSBjb3JlIGVuZ2luZSBjYW4gdXNlIGVpdGhlci4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCAqYXJncywgKiprd2FyZ3MpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKmFyZ3MsICoqa3dhcmdzKQogICAgICAgIHNlbGYuX2FzeW5jX3F1ZXVlOiBhc3luY2lvLlF1ZXVlW0J1c0V2ZW50IHwgTm9uZV0gPSBhc3luY2lvLlF1ZXVlKCkKICAgICAgICBzZWxmLl9ydW5uZXJfdGFzazogYXN5bmNpby5UYXNrIHwgTm9uZSA9IE5vbmUKCiAgICBhc3luYyBkZWYgc3RhcnQoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdGFydCB0aGUgYXN5bmMgZGlzcGF0Y2ggbG9vcC4iIiIKICAgICAgICBzZWxmLl9ydW5uZXJfdGFzayA9IGFzeW5jaW8uY3JlYXRlX3Rhc2soc2VsZi5fcnVuX2Rpc3BhdGNoZXIoKSkKCiAgICBhc3luYyBkZWYgc3RvcChzZWxmKSAtPiBOb25lOgogICAgICAgICIiIlN0b3AgdGhlIGFzeW5jIGRpc3BhdGNoIGxvb3AuIiIiCiAgICAgICAgaWYgc2VsZi5fcnVubmVyX3Rhc2s6CiAgICAgICAgICAgIHNlbGYuX3J1bm5lcl90YXNrLmNhbmNlbCgpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGF3YWl0IHNlbGYuX3J1bm5lcl90YXNrCiAgICAgICAgICAgIGV4Y2VwdCBhc3luY2lvLkNhbmNlbGxlZEVycm9yOgogICAgICAgICAgICAgICAgcGFzcwoKICAgIGFzeW5jIGRlZiBfcnVuX2Rpc3BhdGNoZXIoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJBc3luYyBsb29wIHRoYXQgZGlzcGF0Y2hlcyBldmVudHMgZnJvbSB0aGUgcXVldWUuIiIiCiAgICAgICAgd2hpbGUgVHJ1ZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgZXZlbnQgPSBhd2FpdCBzZWxmLl9hc3luY19xdWV1ZS5nZXQoKQogICAgICAgICAgICAgICAgaWYgZXZlbnQgaXMgTm9uZTogICMgU2VudGluZWwgZm9yIHNodXRkb3duCiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIHNlbGYuX2Rpc3BhdGNoX3N5bmMoZXZlbnQpCiAgICAgICAgICAgIGV4Y2VwdCBhc3luY2lvLkNhbmNlbGxlZEVycm9yOgogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGxvZ2dlci5leGNlcHRpb24oIltBc3luY0V2ZW50QnVzXSBEaXNwYXRjaCBlcnJvciIpCgogICAgYXN5bmMgZGVmIHB1Ymxpc2hfYXN5bmMoc2VsZiwgZXZlbnQ6IEJ1c0V2ZW50KSAtPiBOb25lOgogICAgICAgICIiIlB1Ymxpc2ggZnJvbSBhbiBhc3luYyBjb250ZXh0IChub24tYmxvY2tpbmcpLiIiIgogICAgICAgIGF3YWl0IHNlbGYuX2FzeW5jX3F1ZXVlLnB1dChldmVudCkKCiAgICBkZWYgX2Rpc3BhdGNoX3N5bmMoc2VsZiwgZXZlbnQ6IEJ1c0V2ZW50KSAtPiBOb25lOgogICAgICAgICIiIlN5bmNocm9ub3VzIGRpc3BhdGNoIGZvciBldmVudHMgcHVzaGVkIGZyb20gYXN5bmMgY29udGV4dC4iIiIKICAgICAgICBzZWxmLl9zdGF0c1sicHVibGlzaGVkIl0gKz0gMQogICAgICAgIHdpdGggc2VsZi5fbG9jazoKICAgICAgICAgICAgc2VsZi5faGlzdG9yeS5hcHBlbmQoZXZlbnQpCiAgICAgICAgICAgIGlmIGxlbihzZWxmLl9oaXN0b3J5KSA+IHNlbGYuX2hpc3Rvcnlfc2l6ZToKICAgICAgICAgICAgICAgIHNlbGYuX2hpc3RvcnkucG9wKDApCiAgICAgICAgaGFuZGxlcnNfdG9fY2FsbDogbGlzdFtIYW5kbGVyXSA9IFtdCiAgICAgICAgd2l0aCBzZWxmLl9sb2NrOgogICAgICAgICAgICBmb3IgXywgaGFuZGxlciwgbmFtZSBpbiBzZWxmLl9nbG9iYWxfaGFuZGxlcnM6CiAgICAgICAgICAgICAgICBoYW5kbGVyc190b19jYWxsLmFwcGVuZChoYW5kbGVyKQogICAgICAgICAgICBmb3IgXywgaGFuZGxlciwgbmFtZSBpbiBzZWxmLl9zdWJzY3JpYmVycy5nZXQoZXZlbnQudHlwZSwgW10pOgogICAgICAgICAgICAgICAgaGFuZGxlcnNfdG9fY2FsbC5hcHBlbmQoaGFuZGxlcikKICAgICAgICBmb3IgaGFuZGxlciBpbiBoYW5kbGVyc190b19jYWxsOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAjIFRyeSB0byBhd2FpdCBpZiBpdCdzIGEgY29yb3V0aW5lCiAgICAgICAgICAgICAgICByZXN1bHQgPSBoYW5kbGVyKGV2ZW50KQogICAgICAgICAgICAgICAgaWYgYXN5bmNpby5pc2Nvcm91dGluZShyZXN1bHQpOgogICAgICAgICAgICAgICAgICAgIGFzeW5jaW8uY3JlYXRlX3Rhc2socmVzdWx0KQogICAgICAgICAgICAgICAgc2VsZi5fc3RhdHNbImhhbmRsZWQiXSArPSAxCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBsb2dnZXIuZXhjZXB0aW9uKGYiW0FzeW5jRXZlbnRCdXNdIEhhbmRsZXIgZXJyb3IgZm9yIHtldmVudC50eXBlLm5hbWV9IikK
+"""
+ablebridge.core.event_bus — Pub/sub event bus for loose coupling between modules.
+
+The event bus is the nervous system of AbleBridge. All components communicate
+through typed events, never directly. This enables hot-swapping drivers,
+adding new AI models, and changing UI without touching other parts.
+"""
+
+from __future__ import annotations
+
+import asyncio
+import queue
+import threading
+import time
+from dataclasses import dataclass, field
+from enum import Enum, auto
+from typing import Any, Callable, Generic, TypeVar
+
+from loguru import logger
+
+from ablebridge.core.types import (
+    InputEvent,
+    InputChannel,
+    IntentEvent,
+    IntentCategory,
+    OutputEvent,
+    OutputChannel,
+    PredictionResult,
+    ChannelStatus,
+)
+
+
+class EventType(Enum):
+    """All event types that flow through the bus."""
+
+    # Input events (from drivers → engine)
+    INPUT = auto()
+    INPUT_START = auto()
+    INPUT_STOP = auto()
+    INPUT_ERROR = auto()
+
+    # Engine events (internal)
+    INTENT_RESOLVED = auto()
+    PREDICTION_UPDATED = auto()
+    PROFILE_CHANGED = auto()
+
+    # Output events (from engine → drivers)
+    OUTPUT_DISPATCH = auto()
+    OUTPUT_ERROR = auto()
+
+    # System events
+    CALIBRATION_START = auto()
+    CALIBRATION_COMPLETE = auto()
+    CALIBRATION_FAILED = auto()
+    DRIVER_REGISTERED = auto()
+    DRIVER_STATE_CHANGE = auto()
+    ENGINE_START = auto()
+    ENGINE_STOP = auto()
+    HEARTBEAT = auto()
+
+
+@dataclass
+class BusEvent:
+    """
+    A typed envelope for all events on the bus.
+    """
+
+    type: EventType
+    payload: Any = None
+    timestamp: float = field(default_factory=time.time)
+    source: str = ""  # Module name that emitted the event
+    session_id: str = ""
+
+
+# Type alias for event handlers
+Handler = Callable[[BusEvent], None]
+TPayload = TypeVar("TPayload")
+
+
+class EventBus:
+    """
+    Thread-safe, async-capable publish/subscribe event bus.
+
+    Features:
+    - Typed subscriptions (subscribe to specific EventType, not all events)
+    - Synchronous (thread) and asynchronous (asyncio) handler support
+    - Dead-letter queue for unhandled events
+    - Event history ring buffer for debugging
+    - Handler metadata (priority, one-shot)
+
+    Usage:
+        bus = EventBus()
+        bus.subscribe(EventType.INPUT, my_handler)
+        bus.publish(BusEvent(EventType.INPUT, some_event))
+    """
+
+    def __init__(self, history_size: int = 500):
+        self._subscribers: dict[EventType, list[tuple[int, Handler, str]]] = {}
+        # priority (lower=higher priority), handler, name
+        self._global_handlers: list[tuple[int, Handler, str]] = []
+        self._history: list[BusEvent] = []
+        self._history_size = history_size
+        self._lock = threading.RLock()
+        self._dead_letter_queue: list[BusEvent] = []
+        self._stats = {"published": 0, "handled": 0, "dead_letter": 0}
+
+    # ── Subscription ──────────────────────────────────────────────────────────
+
+    def subscribe(
+        self,
+        event_type: EventType,
+        handler: Handler,
+        priority: int = 100,
+        name: str = "",
+    ) -> None:
+        """
+        Subscribe to a specific event type.
+
+        Args:
+            event_type: The event type to listen for
+            handler: Callable that takes a BusEvent
+            priority: Lower number = higher priority (runs first)
+            name: Optional name for this subscription (for debugging)
+        """
+        with self._lock:
+            if event_type not in self._subscribers:
+                self._subscribers[event_type] = []
+            self._subscribers[event_type].append((priority, handler, name))
+            self._subscribers[event_type].sort(key=lambda x: x[0])
+        logger.debug(f"[EventBus] Subscribed '{name or handler}' → {event_type.name}")
+
+    def subscribe_global(
+        self, handler: Handler, priority: int = 100, name: str = ""
+    ) -> None:
+        """Subscribe to ALL events (use sparingly)."""
+        with self._lock:
+            self._global_handlers.append((priority, handler, name))
+            self._global_handlers.sort(key=lambda x: x[0])
+
+    def unsubscribe(self, event_type: EventType, handler: Handler) -> bool:
+        """Remove a handler. Returns True if found and removed."""
+        with self._lock:
+            if event_type not in self._subscribers:
+                return False
+            before = len(self._subscribers[event_type])
+            self._subscribers[event_type] = [
+                (p, h, n) for p, h, n in self._subscribers[event_type] if h != handler
+            ]
+            removed = before - len(self._subscribers[event_type])
+            return removed > 0
+
+    # ── Publishing ────────────────────────────────────────────────────────────
+
+    def publish(self, event: BusEvent) -> None:
+        """
+        Publish an event to all subscribers. Thread-safe.
+        Unhandled events go to the dead-letter queue.
+        """
+        self._stats["published"] += 1
+
+        # Record to history
+        with self._lock:
+            self._history.append(event)
+            if len(self._history) > self._history_size:
+                self._history.pop(0)
+
+        # Collect handlers to call (snapshot under lock)
+        handlers_to_call: list[Handler] = []
+        with self._lock:
+            for _, handler, name in self._global_handlers:
+                handlers_to_call.append(handler)
+            for _, handler, name in self._subscribers.get(event.type, []):
+                handlers_to_call.append(handler)
+
+        # Call handlers outside the lock
+        handled = False
+        for handler in handlers_to_call:
+            try:
+                handler(event)
+                self._stats["handled"] += 1
+                handled = True
+            except Exception:
+                logger.exception(f"[EventBus] Handler error for {event.type.name}")
+
+        if not handled:
+            self._dead_letter_queue.append(event)
+            self._stats["dead_letter"] += 1
+
+    def publish_input(self, event: InputEvent, source: str = "") -> None:
+        """Convenience: publish an InputEvent."""
+        self.publish(BusEvent(EventType.INPUT, event, source=source))
+
+    def publish_output(self, event: OutputEvent, source: str = "") -> None:
+        """Convenience: publish an OutputEvent."""
+        self.publish(BusEvent(EventType.OUTPUT_DISPATCH, event, source=source))
+
+    # ── History & Debug ───────────────────────────────────────────────────────
+
+    def history(self, event_type: EventType | None = None, limit: int = 50) -> list[BusEvent]:
+        """Return recent event history."""
+        with self._lock:
+            events = self._history
+            if event_type:
+                events = [e for e in events if e.type == event_type]
+            return list(events[-limit:])
+
+    def dead_letters(self) -> list[BusEvent]:
+        """Return all unhandled events."""
+        return list(self._dead_letter_queue)
+
+    def stats(self) -> dict[str, int]:
+        """Return bus statistics."""
+        return dict(self._stats)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Async Event Bus (for asyncio-based GUI)
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+class AsyncEventBus(EventBus):
+    """
+    Async-aware event bus that also supports asyncio coroutines as handlers.
+    Use this for the GUI / web layer; the core engine can use either.
+    """
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._async_queue: asyncio.Queue[BusEvent | None] = asyncio.Queue()
+        self._runner_task: asyncio.Task | None = None
+
+    async def start(self) -> None:
+        """Start the async dispatch loop."""
+        self._runner_task = asyncio.create_task(self._run_dispatcher())
+
+    async def stop(self) -> None:
+        """Stop the async dispatch loop."""
+        if self._runner_task:
+            self._runner_task.cancel()
+            try:
+                await self._runner_task
+            except asyncio.CancelledError:
+                pass
+
+    async def _run_dispatcher(self) -> None:
+        """Async loop that dispatches events from the queue."""
+        while True:
+            try:
+                event = await self._async_queue.get()
+                if event is None:  # Sentinel for shutdown
+                    break
+                self._dispatch_sync(event)
+            except asyncio.CancelledError:
+                break
+            except Exception:
+                logger.exception("[AsyncEventBus] Dispatch error")
+
+    async def publish_async(self, event: BusEvent) -> None:
+        """Publish from an async context (non-blocking)."""
+        await self._async_queue.put(event)
+
+    def _dispatch_sync(self, event: BusEvent) -> None:
+        """Synchronous dispatch for events pushed from async context."""
+        self._stats["published"] += 1
+        with self._lock:
+            self._history.append(event)
+            if len(self._history) > self._history_size:
+                self._history.pop(0)
+        handlers_to_call: list[Handler] = []
+        with self._lock:
+            for _, handler, name in self._global_handlers:
+                handlers_to_call.append(handler)
+            for _, handler, name in self._subscribers.get(event.type, []):
+                handlers_to_call.append(handler)
+        for handler in handlers_to_call:
+            try:
+                # Try to await if it's a coroutine
+                result = handler(event)
+                if asyncio.iscoroutine(result):
+                    asyncio.create_task(result)
+                self._stats["handled"] += 1
+            except Exception:
+                logger.exception(f"[AsyncEventBus] Handler error for {event.type.name}")

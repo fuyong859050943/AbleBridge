@@ -1,1 +1,121 @@
-W2J1aWxkLXN5c3RlbV0KcmVxdWlyZXMgPSBbInNldHVwdG9vbHM+PTY4LjAiLCAid2hlZWwiXQpidWlsZC1iYWNrZW5kID0gInNldHVwdG9vbHMuYnVpbGRfbWV0YSIKCltwcm9qZWN0XQpuYW1lID0gImFibGVicmlkZ2UiCnZlcnNpb24gPSAiMC4xLjAiCmRlc2NyaXB0aW9uID0gIkEgdW5pdmVyc2FsIEFJLXBvd2VyZWQgYWNjZXNzaWJpbGl0eSBicmlkZ2UgZm9yIHBlb3BsZSB3aXRoIGRpc2FiaWxpdGllcyIKcmVhZG1lID0gIlJFQURNRS5tZCIKbGljZW5zZSA9IHt0ZXh0ID0gIk1JVCJ9CmF1dGhvcnMgPSBbCiAgICB7bmFtZSA9ICJBYmxlQnJpZGdlIENvbW11bml0eSJ9Cl0Ka2V5d29yZHMgPSBbCiAgICAiYWNjZXNzaWJpbGl0eSIsICJhYWMiLCAiZXllLXRyYWNraW5nIiwgImFzc2lzdGl2ZS10ZWNobm9sb2d5IiwKICAgICJkaXNhYmlsaXR5IiwgImluY2x1c2l2ZSIsICJhaSIsICJtb3Rvci1kaXNhYmlsaXR5IiwgImFscyIsCiAgICAicmVoYWJpbGl0YXRpb24iLCAidW5pdmVyc2FsLWRlc2lnbiIsICJvcGVuLXNvdXJjZSIKXQpjbGFzc2lmaWVycyA9IFsKICAgICJEZXZlbG9wbWVudCBTdGF0dXMgOjogMyAtIEFscGhhIiwKICAgICJJbnRlbmRlZCBBdWRpZW5jZSA6OiBEZXZlbG9wZXJzIiwKICAgICJJbnRlbmRlZCBBdWRpZW5jZSA6OiBIZWFsdGhjYXJlIEluZHVzdHJ5IiwKICAgICJJbnRlbmRlZCBBdWRpZW5jZSA6OiBFbmQgVXNlcnMvRGVza3RvcCIsCiAgICAiTGljZW5zZSA6OiBPU0kgQXBwcm92ZWQgOjogTUlUIExpY2Vuc2UiLAogICAgIk9wZXJhdGluZyBTeXN0ZW0gOjogT1MgSW5kZXBlbmRlbnQiLAogICAgIlByb2dyYW1taW5nIExhbmd1YWdlIDo6IFB5dGhvbiA6OiAzIiwKICAgICJQcm9ncmFtbWluZyBMYW5ndWFnZSA6OiBQeXRob24gOjogMy4xMSIsCiAgICAiUHJvZ3JhbW1pbmcgTGFuZ3VhZ2UgOjogUHl0aG9uIDo6IDMuMTIiLAogICAgIlRvcGljIDo6IEFjY2Vzc2liaWxpdHkiLAogICAgIlRvcGljIDo6IFNjaWVudGlmaWMvRW5naW5lZXJpbmcgOjogQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UiLAogICAgIlRvcGljIDo6IFNjaWVudGlmaWMvRW5naW5lZXJpbmcgOjogSHVtYW4gTWFjaGluZSBJbnRlcmZhY2VzIiwKXQpyZXF1aXJlcy1weXRob24gPSAiPj0zLjExIgpkZXBlbmRlbmNpZXMgPSBbCiAgICAicHlkYW50aWM+PTIuMCIsCiAgICAicHlkYW50aWMtc2V0dGluZ3M+PTIuMCIsCiAgICAibG9ndXJ1Pj0wLjciLAogICAgInR5cGVyPj0wLjkiLAogICAgInJpY2g+PTEzLjAiLAogICAgImZsYXNrPj0zLjAiLAogICAgImZsYXNrLXNvY2tldGlvPj01LjMiLAogICAgImZsYXNrLWNvcnM+PTQuMCIsCiAgICAiamluamEyPj0zLjEiLAogICAgIm51bXB5Pj0xLjI2IiwKICAgICJzb3VuZGRldmljZT49MC40IiwKICAgICJzY2lweT49MS4xMSIsCl0KCltwcm9qZWN0Lm9wdGlvbmFsLWRlcGVuZGVuY2llc10KZXllZ2F6ZSA9IFsKICAgICJvcGVuY3YtcHl0aG9uPj00LjgiLAogICAgIm1lZGlhcGlwZT49MC4xMCIsCl0Kdm9pY2UgPSBbCiAgICAidm9zaz49MC4zLjQ1IiwKICAgICJ0cmFuc2Zvcm1lcnM+PTQuMzUiLAogICAgInRvcmNoPj0yLjAiLApdCnR0cyA9IFsKICAgICJweXR0c3gzPj0yLjkwIiwKXQpzbWFydGhvbWUgPSBbCiAgICAicGFoby1tcXR0Pj0xLjYiLApdCmFpID0gWwogICAgIm9sbGFtYT49MC4xIiwKICAgICJsbGFtYS1jcHAtcHl0aG9uPj0wLjIiLApdCmRldiA9IFsKICAgICJweXRlc3Q+PTcuNCIsCiAgICAicHl0ZXN0LWFzeW5jaW8+PTAuMjEiLAogICAgInB5dGVzdC1jb3Y+PTQuMSIsCiAgICAicnVmZj49MC4xIiwKICAgICJteXB5Pj0xLjciLAogICAgInByZS1jb21taXQ+PTMuNSIsCl0KYWxsID0gWwogICAgIm9wZW5jdi1weXRob24+PTQuOCIsCiAgICAibWVkaWFwaXBlPj0wLjEwIiwKICAgICJ2b3NrPj0wLjMuNDUiLAogICAgInRyYW5zZm9ybWVycz49NC4zNSIsCiAgICAidG9yY2g+PTIuMCIsCiAgICAicHl0dHN4Mz49Mi45MCIsCiAgICAicGFoby1tcXR0Pj0xLjYiLAogICAgIm9sbGFtYT49MC4xIiwKICAgICJsbGFtYS1jcHAtcHl0aG9uPj0wLjIiLApdCgpbcHJvamVjdC5zY3JpcHRzXQphYmxlYnJpZGdlID0gImFibGVicmlkZ2UuY2xpOm1haW4iCmFibGVicmlkZ2UtY29yZSA9ICJhYmxlYnJpZGdlLmNvcmUuZW5naW5lOm1haW4iCmFibGVicmlkZ2UtZ3VpID0gImFibGVicmlkZ2UuZ3VpLmFwcDptYWluIgphYmxlYnJpZGdlLXNldHVwID0gImFibGVicmlkZ2Uuc2V0dXA6bWFpbiIKYWJsZWJyaWRnZS1jb25maWcgPSAiYWJsZWJyaWRnZS5jb25maWdfY2xpOm1haW4iCgpbcHJvamVjdC51cmxzXQpIb21lcGFnZSA9ICJodHRwczovL2dpdGh1Yi5jb20vYWJsZWJyaWRnZS9hYmxlYnJpZGdlIgpEb2N1bWVudGF0aW9uID0gImh0dHBzOi8vYWJsZWJyaWRnZS5yZWFkdGhlZG9jcy5pbyIKUmVwb3NpdG9yeSA9ICJodHRwczovL2dpdGh1Yi5jb20vYWJsZWJyaWRnZS9hYmxlYnJpZGdlIgoiQnVnIFJlcG9ydHMiID0gImh0dHBzOi8vZ2l0aHViLmNvbS9hYmxlYnJpZGdlL2FibGVicmlkZ2UvaXNzdWVzIgpEaXNjdXNzaW9ucyA9ICJodHRwczovL2dpdGh1Yi5jb20vYWJsZWJyaWRnZS9hYmxlYnJpZGdlL2Rpc2N1c3Npb25zIgoKW3Rvb2wuc2V0dXB0b29scy5wYWNrYWdlcy5maW5kXQp3aGVyZSA9IFsiLiJdCmluY2x1ZGUgPSBbImFibGVicmlkZ2UqIl0KClt0b29sLnJ1ZmZdCmxpbmUtbGVuZ3RoID0gMTAwCnRhcmdldC12ZXJzaW9uID0gInB5MzExIgpzZWxlY3QgPSBbIkUiLCAiRiIsICJXIiwgIkkiLCAiTiIsICJVUCIsICJCIiwgIkM0IiwgIkRUWiIsICJUMjAiXQppZ25vcmUgPSBbIkU1MDEiXQoKW3Rvb2wubXlweV0KcHl0aG9uX3ZlcnNpb24gPSAiMy4xMSIKd2Fybl9yZXR1cm5fYW55ID0gdHJ1ZQp3YXJuX3VudXNlZF9jb25maWdzID0gdHJ1ZQppZ25vcmVfbWlzc2luZ19pbXBvcnRzID0gdHJ1ZQoKW3Rvb2wucHl0ZXN0LmluaV9vcHRpb25zXQp0ZXN0cGF0aHMgPSBbInRlc3RzIl0KYXN5bmNpb19tb2RlID0gImF1dG8iCg==
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ablebridge"
+version = "0.1.0"
+description = "A universal AI-powered accessibility bridge for people with disabilities"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "AbleBridge Community"}
+]
+keywords = [
+    "accessibility", "aac", "eye-tracking", "assistive-technology",
+    "disability", "inclusive", "ai", "motor-disability", "als",
+    "rehabilitation", "universal-design", "open-source"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Accessibility",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Human Machine Interfaces",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "loguru>=0.7",
+    "typer>=0.9",
+    "rich>=13.0",
+    "flask>=3.0",
+    "flask-socketio>=5.3",
+    "flask-cors>=4.0",
+    "jinja2>=3.1",
+    "numpy>=1.26",
+    "sounddevice>=0.4",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+eyegaze = [
+    "opencv-python>=4.8",
+    "mediapipe>=0.10",
+]
+voice = [
+    "vosk>=0.3.45",
+    "transformers>=4.35",
+    "torch>=2.0",
+]
+tts = [
+    "pyttsx3>=2.90",
+]
+smarthome = [
+    "paho-mqtt>=1.6",
+]
+ai = [
+    "ollama>=0.1",
+    "llama-cpp-python>=0.2",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-asyncio>=0.21",
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+    "mypy>=1.7",
+    "pre-commit>=3.5",
+]
+all = [
+    "opencv-python>=4.8",
+    "mediapipe>=0.10",
+    "vosk>=0.3.45",
+    "transformers>=4.35",
+    "torch>=2.0",
+    "pyttsx3>=2.90",
+    "paho-mqtt>=1.6",
+    "ollama>=0.1",
+    "llama-cpp-python>=0.2",
+]
+
+[project.scripts]
+ablebridge = "ablebridge.cli:main"
+ablebridge-core = "ablebridge.core.engine:main"
+ablebridge-gui = "ablebridge.gui.app:main"
+ablebridge-setup = "ablebridge.setup:main"
+ablebridge-config = "ablebridge.config_cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ablebridge/ablebridge"
+Documentation = "https://ablebridge.readthedocs.io"
+Repository = "https://github.com/ablebridge/ablebridge"
+"Bug Reports" = "https://github.com/ablebridge/ablebridge/issues"
+Discussions = "https://github.com/ablebridge/ablebridge/discussions"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ablebridge*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "DTZ", "T20"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

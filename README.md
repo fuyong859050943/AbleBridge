@@ -1,1 +1,312 @@
-IyBBYmxlQnJpZGdlIPCfpJ0KCioqQSB1bml2ZXJzYWwsIEFJLXBvd2VyZWQgYWNjZXNzaWJpbGl0eSBicmlkZ2UgdGhhdCBjb25uZWN0cyBldmVyeSBpbnB1dCBhbmQgb3V0cHV0IGNoYW5uZWwg4oCUIHNvIG5vIG9uZSBnZXRzIGxlZnQgYmVoaW5kLioqCgo+ICJEaXNhYmlsaXR5IGlzIG5vdCBhIHByb2JsZW0gb2YgdGhlIHBlcnNvbiwgYnV0IGEgbWlzbWF0Y2ggYmV0d2VlbiB0aGUgcGVyc29uIGFuZCB0aGVpciBlbnZpcm9ubWVudC4iIOKAlCBUaGF0J3Mgd2h5IHdlIGJ1aWxkIGJyaWRnZXMuCgotLS0KCiMjIPCfjq8gV2hhdCBpcyBBYmxlQnJpZGdlPwoKQWJsZUJyaWRnZSBpcyBhICoqbG9jYWwtZmlyc3QsIEFJLXBvd2VyZWQgYWNjZXNzaWJpbGl0eSBtaWRkbGV3YXJlKiogdGhhdCB1bmlmaWVzIGhldGVyb2dlbmVvdXMgaW5wdXQvb3V0cHV0IGNoYW5uZWxzIGZvciBwZW9wbGUgd2l0aCBkaXNhYmlsaXRpZXMuIEluc3RlYWQgb2Ygc2lsb2VkIGFwcHMgdGhhdCBzb2x2ZSBvbmUgcHJvYmxlbSwgQWJsZUJyaWRnZSBwcm92aWRlcyBhICoqcGx1Z2luLWJhc2VkIGFyY2hpdGVjdHVyZSoqIHdoZXJlIGFueSBpbnB1dCBjYW4gdGFsayB0byBhbnkgb3V0cHV0LCB3aXRoIEFJIGJyaWRnaW5nIHRoZSBnYXAuCgoqKldobyBpcyBpdCBmb3I/KioKLSDwn6egICoqQUxTIC8gTW90b3IgTmV1cm9uIERpc2Vhc2UqKiDigJQgRXllIGdhemUsIHJlc2lkdWFsIG1pY3JvLW1vdmVtZW50cywgYnJlYXRoIGNvbnRyb2wKLSDwn6a9ICoqU3BpbmFsIENvcmQgSW5qdXJ5IC8gQ2VyZWJyYWwgUGFsc3kqKiDigJQgU3dpdGNoIHNjYW5uaW5nLCBzaXAtYW5kLXB1ZmYsIGhlYWQgdHJhY2tpbmcKLSDwn5GB77iPICoqVmlzdWFsIEltcGFpcm1lbnQqKiDigJQgU2NyZWVuIHJlYWRlciBpbnRlZ3JhdGlvbiwgdm9pY2UgY29tbWFuZCwgaGFwdGljIGZlZWRiYWNrCi0g8J+RgiAqKkRlYWYgLyBIYXJkIG9mIEhlYXJpbmcqKiDigJQgUmVhbC10aW1lIGNhcHRpb25pbmcsIHZpc3VhbCBhbGVydHMsIHZpYnJhdGlvbiBwYXR0ZXJucwotIPCfl6PvuI8gKipBcGhhc2lhIC8gU3BlZWNoIERpc2FiaWxpdHkqKiDigJQgQUFDIHdpdGggcGVyc29uYWxpemVkIHZvaWNlIHN5bnRoZXNpcwotIPCfp6kgKipDb2duaXRpdmUgLyBMZWFybmluZyBEaXNhYmlsaXR5Kiog4oCUIFNpbXBsaWZpZWQgVUksIHByZWRpY3Rpb24sIHZpc3VhbCBjdWVzCi0g8J+noCAqKkF1dGlzbSAvIFNlbnNvcnkgUHJvY2Vzc2luZyoqIOKAlCBTb2NpYWwgY3VlIGF1Z21lbnRhdGlvbiwgcHJlZGljdGFibGUgaW50ZXJhY3Rpb24KCi0tLQoKIyMg8J+Pl++4jyBBcmNoaXRlY3R1cmUKCmBgYArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCICAgICAgICAgICAgICAgICAgICAgIFVTRVIgSU5URVJGQUNFIExBWUVSICAgICAgICAgICAgICAgICAgICAgIOKUggrilIIgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIIK4pSCICAg4pSCT24tU2NyZWVuIOKUgiAg4pSCICBBQUMgQm9hcmQgICAg4pSCICDilIIgIFNtYXJ0IEhvbWUgQ29udHJvbCAgIOKUgiAg4pSCCuKUgiAgIOKUgiBLZXlib2FyZCDilIIgIOKUgiAgKEdyaWRzL1RleHQpIOKUgiAg4pSCICAoVmlzdWFsIERhc2hib2FyZCkgICDilIIgIOKUggrilIIgICDilJTilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilJggIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilIIK4pSCICAgICAgICDilIIgICAgICAgICAgICAgICDilIIgICAgICAgICAgICAgICAgICAgICAg4pSCICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pS84pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgIOKWvCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIIK4pSCICDilIIgICAgICAgICAgICAgIEFCTEVCUklER0UgQ09SRSBFTkdJTkUgICAgICAgICAgICAgICAgICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIgIOKUggrilIIgIOKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICAg4pSCICDilIIK4pSCICDilIIgIOKUgiBJbnRlbnQgRW5naW5lIOKUguKUgOKUgOKUgOKUgOKWtuKUgiBBZGFwdGl2ZSBMZWFybmluZyBFbmdpbmUgIOKUgiAgICDilIIgIOKUggrilIIgIOKUgiAg4pSCICAoTG9jYWwgTExNKSAg4pSCICAgICDilIIgICAoUGVyLXVzZXIgcHJlZmVyZW5jZSkgICAg4pSCICAgIOKUgiAg4pSCCuKUgiAg4pSCICDilJTilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilJggICAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgICDilIIgIOKUggrilIIgIOKUgiAgICAgICAgICDilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIgIOKUggrilIIgIOKUgiAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pS04pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICDilIIgICAgICAgICAgIENIQU5ORUwgT1JDSEVTVFJBVE9SICAgICAgICAgICAgICAgIOKUgiAgICAgICDilIIgIOKUggrilIIgIOKUgiAg4pSCICBNdWx0aS1jaGFubmVsIGZ1c2lvbiArIGNvbmZpZGVuY2Ugc2NvcmluZyAgIOKUgiAgICAgICDilIIgIOKUggrilIIgIOKUgiAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSs4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICAgICAgICAgIOKUgiAgICAgICAgICAgICAgICDilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCICDilIIK4pSCICDilIIgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKWvOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCDilIzilIDilIDilIDilIDilIDilIDilrzilIDilIDilIDilIDilIDilIDilJAgICAgICAgICAgICAgICAgICAgICAgIOKUgiAg4pSCCuKUgiAg4pSCICDilIIgSU5QVVQgTUFOQUdFUiDilIIg4pSCIE9VVFBVVCBNR1IgIOKUgiAgICAgICAgICAgICAgICAgICAgICAg4pSCICDilIIK4pSCICDilIIgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCDilJTilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilJggICAgICAgICAgICAgICAgICAgICAgIOKUgiAg4pSCCuKUgiAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pS84pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pS84pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilIIK4pSCICAgICAgICAgICAgIOKUgiAgICAgICAgICAgICAgICDilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilrzilIDilIDilIDilIDilIDilIDilIDilJAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pa84pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICDilIIK4pSCICDilIIgSU5QVVQgRFJJVkVSUyAgICAg4pSCIOKUgk9VVFBVVCBEUklWRVJT4pSCICDilIIgSU5URUdSQVRJT05TICAgIOKUgiAgIOKUggrilIIgIOKUgiAgICAgICAgICAgICAgICAgIOKUgiDilIIgICAgICAgICAgICAg4pSCICDilIIgICAgICAgICAgICAgICAgIOKUgiAgIOKUggrilIIgIOKUgiDwn5GB77iPIEV5ZUdhemVEcml2ZXIg4pSCIOKUgiBUVFMgRHJpdmVyICDilIIgIOKUgiBIb21lQXNzaXN0YW50ICAg4pSCICAg4pSCCuKUgiAg4pSCIPCfjqQgVm9pY2VEcml2ZXIgICDilIIg4pSCIFNjcmVlbiBSZWFkZXLilIIgIOKUgiBXaGVlbGNoYWlyIEFQSSAg4pSCICAg4pSCCuKUgiAg4pSCIPCflJggU3dpdGNoRHJpdmVyICDilIIg4pSCIFZpYnJhdGUgRHJpdmVy4pSCIOKUgiBPcGVuQUkvTG9jYWxMTE0g4pSCICAg4pSCCuKUgiAg4pSCIOKMqO+4jyBLZXlib2FyZERyaXZlcuKUgiDilIIgVmlzdWFsIERyaXZlcuKUgiAg4pSCIFdoYXRzQXBwL0Rpc2NvcmTilIIgICDilIIK4pSCICDilIIg8J+WkO+4jyBIZWFkVHJhY2tEcml2ZXLilIIg4pSCIEFsZXJ0IERyaXZlciDilIIgIOKUgiBPcGVuQkNJIChCQ0kpICAg4pSCICAg4pSCCuKUgiAg4pSCIPCfkqggQnJlYXRoRHJpdmVyICDilIIg4pSCIEhhcHRpYyBEcml2ZXLilIIgIOKUgiBNUVRUL1NtYXJ0SG9tZSAg4pSCICAg4pSCCuKUgiAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCi0tLQoKIyMg4pyoIEtleSBGZWF0dXJlcwoKIyMjIPCfp6AgQUktUG93ZXJlZCBJbnRlbGxpZ2VuY2UKLSAqKkludGVudCBQcmVkaWN0aW9uKiog4oCUIExvY2FsIExMTSAoT2xsYW1hKSBwcmVkaWN0cyB3aGF0IHRoZSB1c2VyIHdhbnRzIGJlZm9yZSB0aGV5IGZpbmlzaCB0eXBpbmcvc3BlYWtpbmcKLSAqKk11bHRpLWNoYW5uZWwgRnVzaW9uKiog4oCUIENvbWJpbmVzIGV5ZSBnYXplICsgdm9pY2UgKyBzd2l0Y2ggaW5wdXRzIHNpbXVsdGFuZW91c2x5LCBBSSBwaWNrcyBoaWdoZXN0LWNvbmZpZGVuY2Ugc2lnbmFsCi0gKipBZGFwdGl2ZSBMZWFybmluZyoqIOKAlCBMZWFybnMgZWFjaCB1c2VyJ3Mgdm9jYWJ1bGFyeSwgYmVoYXZpb3IgcGF0dGVybnMsIGFuZCBwcmVmZXJyZWQgaW50ZXJhY3Rpb24gc3R5bGUgb3ZlciB0aW1lCi0gKipDb250ZXh0LUF3YXJlIFN1Z2dlc3Rpb25zKiog4oCUIFVuZGVyc3RhbmRzIGNvbnZlcnNhdGlvbiBjb250ZXh0IGZvciBzbWFydGVyIEFBQyBwcmVkaWN0aW9ucwoKIyMjIPCflIwgVW5pdmVyc2FsIElucHV0IFN1cHBvcnQKfCBEcml2ZXIgfCBUZWNobm9sb2d5IHwgTGF0ZW5jeSB8IENvc3QgfAp8LS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLXwKfCBFeWVHYXplIHwgTWVkaWFQaXBlICsgd2ViY2FtIHwgPDUwbXMgfCB+JDAgfAp8IFZvaWNlIHwgVm9zayAvIFdoaXNwZXIgKGxvY2FsKSB8IDwyMDBtcyB8ICQwIHwKfCBTd2l0Y2ggfCBHUElPIC8gVVNCIC8gQmx1ZXRvb3RoIHwgPDEwbXMgfCB+JDE1IHwKfCBIZWFkVHJhY2sgfCB3ZWJjYW0gKyBNTCB8IDw1MG1zIHwgJDAgfAp8IEJyZWF0aCB8IFByZXNzdXJlIHNlbnNvciB8IDwyMG1zIHwgfiQzMCB8CnwgS2V5Ym9hcmQgfCBTdGFuZGFyZCArIHNjYW5uaW5nIHwgPDEwbXMgfCAkMCB8CgojIyMg8J+UiiBSaWNoIE91dHB1dCBNb2RlcwotICoqUGVyc29uYWxpemVkIFRUUyoqIOKAlCBDbG9uZSB1c2VyJ3Mgdm9pY2UgZnJvbSAzMCBzZWNvbmRzIG9mIGF1ZGlvCi0gKipBQUMgQm9hcmRzKiog4oCUIER5bmFtaWMgZ3JpZCBib2FyZHMgd2l0aCBzZW1hbnRpYyBwcmVkaWN0aW9uCi0gKipWaXN1YWwgLyBIYXB0aWMqKiDigJQgQ29sb3ItY29kZWQgZmVlZGJhY2ssIHZpYnJhdGlvbiBwYXR0ZXJucwotICoqU21hcnQgSG9tZSoqIOKAlCBEaXJlY3QgY29udHJvbCBvZiBsaWdodHMsIFRWLCB3aGVlbGNoYWlyLCBkb29yIGxvY2tzCgojIyMg8J+PoCAxMDAlIExvY2FsICYgUHJpdmF0ZQotIEFsbCBBSSBpbmZlcmVuY2UgcnVucyAqKm9uLWRldmljZSoqIChPbGxhbWEgKyBsbGFtYS5jcHApCi0gTm8gY2xvdWQgZGVwZW5kZW5jaWVzIGZvciBjb3JlIGZ1bmN0aW9uYWxpdHkKLSBVc2VyIGRhdGEgbmV2ZXIgbGVhdmVzIHRoZSBkZXZpY2UKLSBHRFBSLWNvbXBsaWFudCBieSBkZXNpZ24KCi0tLQoKIyMg8J+agCBRdWljayBTdGFydAoKIyMjIFByZXJlcXVpc2l0ZXMKLSBQeXRob24gMy4xMSsKLSA4R0IrIFJBTSAoMTZHQiByZWNvbW1lbmRlZCBmb3IgbG9jYWwgTExNKQotIFdlYmNhbSAoZm9yIGV5ZSB0cmFja2luZyAvIGhlYWQgdHJhY2tpbmcpCi0gT3B0aW9uYWw6IFVTQiBzd2l0Y2gsIEFyZHVpbm8sIE1RVFQgYnJva2VyCgojIyMgSW5zdGFsbAoKYGBgYmFzaApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL1lPVVJfVVNFUk5BTUUvQWJsZUJyaWRnZS5naXQKY2QgQWJsZUJyaWRnZQoKIyBJbnN0YWxsIGRlcGVuZGVuY2llcwpwaXAgaW5zdGFsbCAtZSAuCiMgb3Igb24gbWFjT1MvTGludXg6CnBpcDMgaW5zdGFsbCAtZSAuCgojIFJ1biB0aGUgR1VJCnB5dGhvbiAtbSBhYmxlYnJpZGdlLmd1aQpgYGAKCiMjIyBGaXJzdC1UaW1lIFNldHVwCgpgYGBiYXNoCiMgTGF1bmNoIHNldHVwIHdpemFyZApweXRob24gLW0gYWJsZWJyaWRnZS5zZXR1cAoKIyBDb25maWd1cmUgeW91ciBpbnB1dHMKcHl0aG9uIC1tIGFibGVicmlkZ2UuY29uZmlnIC0tYWRkLWlucHV0IGV5ZWdhemUKcHl0aG9uIC1tIGFibGVicmlkZ2UuY29uZmlnIC0tYWRkLWlucHV0IHZvaWNlCgojIFJ1biB3aXRoIGEgc3BlY2lmaWMgcHJvZmlsZQpweXRob24gLW0gYWJsZWJyaWRnZS5jb3JlIC0tcHJvZmlsZSBteXByb2ZpbGUKYGBgCgojIyMgV2ViIFVJIChEZWZhdWx0KQoKT3BlbiBicm93c2VyOiBgaHR0cDovL2xvY2FsaG9zdDo4NzY1YAoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgIEFibGVCcmlkZ2UgR1VJICAgICAgICAgICAgICAgICAgICAgICAgICBb4pqZ77iPXSBb8J+Til0gIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkCAgIOKUggrilIIgICDilIIgICAgICAgICBPTi1TQ1JFRU4gS0VZQk9BUkQgICAgICAgICAgICAgICAgICAg4pSCICAg4pSCCuKUgiAgIOKUgiAgUSBXIEUgUiBUIFkgVSBJIE8gUCAgICAgICAgICAgICAgICAgICAgICAgIOKUgiAgIOKUggrilIIgICDilIIgICBBIFMgRCBGIEcgSCBKIEsgTCAgICAgICAgICAgICAgICAgICAgICAgICDilIIgICDilIIK4pSCICAg4pSCICDih6cgIFogWCBDIFYgQiBOIE0gIOKMqyAgICAgICAgICAgICAgICAgICAgICAg4pSCICAg4pSCCuKUgiAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgIOKUggrilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgIOKUggrilIIgICDilIIgIEFBQyBQUkVESUNUSU9OICDilIIgIOKUgiAgIENIQU5ORUwgU1RBVFVTICAgICAgIOKUgiAg4pSCCuKUgiAgIOKUgiAgPiBIZWxsbywgaG93ICAgIOKUgiAg4pSCICAg8J+Rge+4jyBFeWU6IDk0JSAg8J+foiAgICAg4pSCICDilIIK4pSCICAg4pSCICAgIGFyZSB5b3U/IFvwn5SKXSDilIIgIOKUgiAgIPCfjqQgVm9pY2U6IDc4JSDwn5+iICAgICDilIIgIOKUggrilIIgICDilIIgICAgICAgICAgICAgICAgICDilIIgIOKUgiAgIPCflJggU3dpdGNoOiAtLSAgICAgICAg4pSCICDilIIK4pSCICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJggIOKUggrilIIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAg4pSCCuKUgiAgIOKUgiAgUVVJQ0sgQUNUSU9OUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIgICDilIIK4pSCICAg4pSCICBbSGVscCBNZV0gW0NhbGxdIFtXYXRlcl0gW0JhdGhyb29tXSBbWWVzXSBbTm9dIOKUggrilIIgICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJggICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCmBgYAoKLS0tCgojIyDwn5OBIFByb2plY3QgU3RydWN0dXJlCgpgYGAKYWJsZWJyaWRnZS8K4pSc4pSA4pSAIGFibGVicmlkZ2UvICAgICAgICAgICAgICAjIE1haW4gUHl0aG9uIHBhY2thZ2UK4pSCICAg4pSc4pSA4pSAIF9faW5pdF9fLnB5CuKUgiAgIOKUnOKUgOKUgCBjb3JlLyAgICAgICAgICAgICAgICAjIENvcmUgZW5naW5lCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBlbmdpbmUucHkgICAgICAgICMgTWFpbiBvcmNoZXN0cmF0b3IK4pSCICAg4pSCICAg4pSc4pSA4pSAIGV2ZW50X2J1cy5weSAgICAgIyBQdWIvc3ViIGV2ZW50IHN5c3RlbQrilIIgICDilIIgICDilJzilIDilIAgcHJvZmlsZS5weSAgICAgICAjIFVzZXIgcHJvZmlsZSBtYW5hZ2VtZW50CuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB0eXBlcy5weSAgICAgICAgICMgU2hhcmVkIHR5cGUgZGVmaW5pdGlvbnMK4pSCICAg4pSc4pSA4pSAIGlucHV0X2RyaXZlcnMvICAgICAgICMgSW5wdXQgY2hhbm5lbCBkcml2ZXJzCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBiYXNlLnB5ICAgICAgICAgICMgQWJzdHJhY3QgYmFzZSBkcml2ZXIK4pSCICAg4pSCICAg4pSc4pSA4pSAIGV5ZWdhemUucHkgICAgICAgIyBNZWRpYVBpcGUgd2ViY2FtIGV5ZSB0cmFja2luZwrilIIgICDilIIgICDilJzilIDilIAgdm9pY2UucHkgICAgICAgICAjIExvY2FsIEFTUiAoVm9zay9XaGlzcGVyKQrilIIgICDilIIgICDilJzilIDilIAgc3dpdGNoLnB5ICAgICAgICAjIFVTQi9HUElPIHN3aXRjaCBpbnB1dArilIIgICDilIIgICDilJzilIDilIAga2V5Ym9hcmQucHkgICAgICAjIFN0YW5kYXJkIGtleWJvYXJkCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCBoZWFkdHJhY2sucHkgICAgICMgSGVhZCBtb3ZlbWVudCB0cmFja2luZwrilIIgICDilJzilIDilIAgb3V0cHV0X2RyaXZlcnMvICAgICAgIyBPdXRwdXQgY2hhbm5lbCBkcml2ZXJzCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBiYXNlLnB5ICAgICAgICAgICMgQWJzdHJhY3QgYmFzZSBkcml2ZXIK4pSCICAg4pSCICAg4pSc4pSA4pSAIHR0cy5weSAgICAgICAgICAgIyBUZXh0LXRvLXNwZWVjaArilIIgICDilIIgICDilJzilIDilIAgdm9pY2VsaW5rLnB5ICAgICAjIFZvaWNlIGNsb25pbmcgKyBUVFMK4pSCICAg4pSCICAg4pSc4pSA4pSAIHNjcmVlbnJlYWRlci5weSAgIyBTY3JlZW4gcmVhZGVyIG91dHB1dArilIIgICDilIIgICDilJTilIDilIAgc21hcnRob21lLnB5ICAgICAjIEhvbWUgYXV0b21hdGlvbgrilIIgICDilJzilIDilIAgYWkvICAgICAgICAgICAgICAgICAgIyBBSSBtb2R1bGVzCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBpbnRlbnQucHkgICAgICAgICMgSW50ZW50IHVuZGVyc3RhbmRpbmcK4pSCICAg4pSCICAg4pSc4pSA4pSAIHByZWRpY3Rvci5weSAgICAgIyBUZXh0L2FjdGlvbiBwcmVkaWN0aW9uCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCBhZGFwdGl2ZS5weSAgICAgICMgUGVyLXVzZXIgbGVhcm5pbmcK4pSCICAg4pSc4pSA4pSAIGd1aS8gICAgICAgICAgICAgICAgICMgV2ViLWJhc2VkIEdVSQrilIIgICDilIIgICDilJzilIDilIAgYXBwLnB5ICAgICAgICAgICAjIEZsYXNrIGFwcArilIIgICDilIIgICDilJzilIDilIAgcm91dGVzLnB5ICAgICAgICAjIEFQSSByb3V0ZXMK4pSCICAg4pSCICAg4pSU4pSA4pSAIHN0YXRpYy8gICAgICAgICAgIyBGcm9udGVuZCBhc3NldHMK4pSCICAg4pSc4pSA4pSAIGludGVncmF0aW9ucy8gICAgICAgICMgVGhpcmQtcGFydHkgaW50ZWdyYXRpb25zCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBob21lYXNzaXN0YW50LnB5CuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBvbGxhbWEucHkgICAgICAgICMgTG9jYWwgTExNCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB3aGF0c2FwcC5weQrilIIgICDilJzilIDilIAgY29uZmlnLyAgICAgICAgICAgICAgIyBDb25maWd1cmF0aW9uCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCBzZXR0aW5ncy5weQrilIIgICDilJTilIDilIAgdXRpbHMvICAgICAgICAgICAgICAgIyBVdGlsaXRpZXMK4pSCICAgICAgIOKUnOKUgOKUgCBhdWRpby5weSAgICAgICAgICMgQXVkaW8gcHJvY2Vzc2luZwrilIIgICAgICAg4pSc4pSA4pSAIGNhbGlicmF0aW9uLnB5ICAgIyBFeWUgdHJhY2tpbmcgY2FsaWJyYXRpb24K4pSCICAgICAgIOKUlOKUgOKUgCBsb2dnZXIucHkK4pSc4pSA4pSAIHRlc3RzLyAgICAgICAgICAgICAgICAgICAjIFRlc3Qgc3VpdGUK4pSc4pSA4pSAIGRvY3MvICAgICAgICAgICAgICAgICAgICAjIERvY3VtZW50YXRpb24K4pSc4pSA4pSAIHNjcmlwdHMvICAgICAgICAgICAgICAgICAjIFNldHVwIHNjcmlwdHMK4pSCICAg4pSc4pSA4pSAIGluc3RhbGxfZGVwcy5zaArilIIgICDilJTilIDilIAgY2FsaWJyYXRlX2V5ZWdhemUucHkK4pSc4pSA4pSAIHB5cHJvamVjdC50b21sCuKUnOKUgOKUgCBSRUFETUUubWQK4pSc4pSA4pSAIExJQ0VOU0UgKE1JVCkK4pSU4pSA4pSAIENPTlRSSUJVVElORy5tZApgYGAKCi0tLQoKIyMg8J+UpyBDb25maWd1cmF0aW9uIEV4YW1wbGUKCmBgYHlhbWwKIyBjb25maWcvcHJvZmlsZXMvZGVmYXVsdC55YW1sCnByb2ZpbGU6CiAgbmFtZTogIkRlZmF1bHQiCiAgaW5wdXRzOgogICAgZXllZ2F6ZToKICAgICAgZW5hYmxlZDogdHJ1ZQogICAgICBjYW1lcmFfaWQ6IDAKICAgICAgZHdlbGxfdGltZTogNTAwbXMKICAgICAgY2FsaWJyYXRpb25fcmVxdWlyZWQ6IHRydWUKICAgIHZvaWNlOgogICAgICBlbmFibGVkOiB0cnVlCiAgICAgIG1vZGVsOiAidm9zay1tb2RlbC1zbWFsbC1lbi11cyIKICAgICAgdGhyZXNob2xkOiAwLjYKICAgIHN3aXRjaDoKICAgICAgZW5hYmxlZDogZmFsc2UKICAgICAgcG9ydDogIi9kZXYvdHR5VVNCMCIKICBvdXRwdXRzOgogICAgdHRzOgogICAgICBlbmFibGVkOiB0cnVlCiAgICAgIGVuZ2luZTogInB5dHRzeDMiICAjIG9yICJndHRzIiwgImNvcXVpIgogICAgICB2b2ljZV9jbG9uZTogZmFsc2UKICAgICAgcmF0ZTogMTUwCiAgICAgIHBpdGNoOiAxLjAKICAgIHNtYXJ0aG9tZToKICAgICAgZW5hYmxlZDogZmFsc2UKICAgICAgbXF0dF9icm9rZXI6ICJsb2NhbGhvc3Q6MTg4MyIKICBhaToKICAgIGludGVudDoKICAgICAgcHJvdmlkZXI6ICJvbGxhbWEiCiAgICAgIG1vZGVsOiAibGxhbWEzLjI6bGF0ZXN0IgogICAgICBsb2NhbDogdHJ1ZQogICAgcHJlZGljdGlvbjoKICAgICAgZW5hYmxlZDogdHJ1ZQogICAgICBtb2RlbDogInBoaTMtbWluaSIKICB1aToKICAgIHRoZW1lOiAibGlnaHQiCiAgICBmb250X3NpemU6IDE4CiAgICBncmlkX2xheW91dDogImFhY19zdGFuZGFyZCIKYGBgCgotLS0KCiMjIPCfpJ0gQ29udHJpYnV0aW5nCgpXZSB3ZWxjb21lIGNvbnRyaWJ1dGlvbnMhIFBsZWFzZSByZWFkIFtDT05UUklCVVRJTkcubWRdKENPTlRSSUJVVElORy5tZCkgYmVmb3JlIHN1Ym1pdHRpbmcgUFJzLgoKIyMjIEdvb2QgRmlyc3QgSXNzdWVzCi0gQWRkIGEgbmV3IGlucHV0IGRyaXZlciAoTGVhcCBNb3Rpb24sIGZhY2lhbCBnZXN0dXJlcykKLSBBZGQgYSBuZXcgb3V0cHV0IGRyaXZlciAoQnJhaWxsZSBkaXNwbGF5LCBUZWxlZ3JhbSBib3QpCi0gSW1wcm92ZSB0aGUgZXllIHRyYWNraW5nIGNhbGlicmF0aW9uIFVJCi0gQWRkIG1vcmUgbGFuZ3VhZ2Ugc3VwcG9ydCBmb3IgVFRTCi0gV3JpdGUgaW50ZWdyYXRpb24gdGVzdHMgZm9yIHNwZWNpZmljIGRyaXZlcnMKCi0tLQoKIyMg8J+TnCBMaWNlbnNlCgpNSVQgTGljZW5zZSDigJQgc2VlIFtMSUNFTlNFXShMSUNFTlNFKS4gIApUaGlzIG1lYW5zICoqYW55b25lIGNhbiB1c2UsIG1vZGlmeSwgYW5kIGRpc3RyaWJ1dGUqKiBBYmxlQnJpZGdlLCBpbmNsdWRpbmcgZm9yICoqY29tbWVyY2lhbCBwdXJwb3NlcyoqLCBhcyBsb25nIGFzIHRoZXkgaW5jbHVkZSB0aGUgY29weXJpZ2h0IG5vdGljZS4KCi0tLQoKIyMg8J+MnyBSb2FkbWFwCgp8IFZlcnNpb24gfCBNaWxlc3RvbmUgfCBTdGF0dXMgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tfAp8IHYwLjEgfCBDb3JlIGVuZ2luZSArIEtleWJvYXJkL1N3aXRjaCBJL08gKyBCYXNpYyBUVFMgfCDinIUgKipZb3UgYXJlIGhlcmUqKiB8CnwgdjAuMiB8IEV5ZUdhemUgZHJpdmVyICsgTWVkaWFQaXBlIGludGVncmF0aW9uIHwg8J+UqCBJbiBQcm9ncmVzcyB8CnwgdjAuMyB8IFZvaWNlIGRyaXZlciAoVm9zayBBU1IpICsgQUFDIHByZWRpY3Rpb24gfCDwn5SoIFBsYW5uZWQgfAp8IHYwLjQgfCBPbGxhbWEgTExNIGludGVudCBlbmdpbmUgKyBhZGFwdGl2ZSBsZWFybmluZyB8IPCflKggUGxhbm5lZCB8CnwgdjAuNSB8IFZvaWNlIGNsb25pbmcgKENvcXVpIFRUUykgKyBTbWFydCBIb21lIHwg8J+UqCBQbGFubmVkIHwKfCB2MC42IHwgRmlyc3QgcHVibGljIGJldGEgKyBkb2N1bWVudGF0aW9uIHwg8J+UqCBQbGFubmVkIHwKfCB2MS4wIHwgUHJvZHVjdGlvbi1yZWFkeSArIGNvbW11bml0eSBnb3Zlcm5hbmNlIHwg8J+UqCBQbGFubmVkIHwKCi0tLQoKIyMg8J+SrCBDb21tdW5pdHkKCi0gKipHaXRIdWIgSXNzdWVzKiog4oCUIEJ1ZyByZXBvcnRzLCBmZWF0dXJlIHJlcXVlc3RzCi0gKipEaXNjdXNzaW9ucyoqIOKAlCBRJkEsIGlkZWFzLCBzaG93LWFuZC10ZWxsCi0gKipEaXNjb3JkKiog4oCUIFJlYWwtdGltZSBjaGF0IChjb21pbmcgc29vbikKCi0tLQoKKkJ1aWx0IHdpdGgg4p2k77iPIGZvciB0aGUgZGlzYWJpbGl0eSBjb21tdW5pdHkuIEV2ZXJ5IGh1bWFuIGRlc2VydmVzIHRvIGJlIGhlYXJkLioK
+# AbleBridge 🤝
+
+**A universal, AI-powered accessibility bridge that connects every input and output channel — so no one gets left behind.**
+
+> "Disability is not a problem of the person, but a mismatch between the person and their environment." — That's why we build bridges.
+
+---
+
+## 🎯 What is AbleBridge?
+
+AbleBridge is a **local-first, AI-powered accessibility middleware** that unifies heterogeneous input/output channels for people with disabilities. Instead of siloed apps that solve one problem, AbleBridge provides a **plugin-based architecture** where any input can talk to any output, with AI bridging the gap.
+
+**Who is it for?**
+- 🧠 **ALS / Motor Neuron Disease** — Eye gaze, residual micro-movements, breath control
+- 🦽 **Spinal Cord Injury / Cerebral Palsy** — Switch scanning, sip-and-puff, head tracking
+- 👁️ **Visual Impairment** — Screen reader integration, voice command, haptic feedback
+- 👂 **Deaf / Hard of Hearing** — Real-time captioning, visual alerts, vibration patterns
+- 🗣️ **Aphasia / Speech Disability** — AAC with personalized voice synthesis
+- 🧩 **Cognitive / Learning Disability** — Simplified UI, prediction, visual cues
+- 🧠 **Autism / Sensory Processing** — Social cue augmentation, predictable interaction
+
+---
+
+## 🏗️ Architecture
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│                      USER INTERFACE LAYER                      │
+│   ┌──────────┐  ┌──────────────┐  ┌────────────────────────┐  │
+│   │On-Screen │  │  AAC Board    │  │  Smart Home Control   │  │
+│   │ Keyboard │  │  (Grids/Text) │  │  (Visual Dashboard)   │  │
+│   └────┬─────┘  └──────┬───────┘  └──────────┬─────────────┘  │
+│        │               │                      │               │
+│        └───────────────┼──────────────────────┘               │
+│                        ▼                                      │
+│  ┌─────────────────────────────────────────────────────────┐  │
+│  │              ABLEBRIDGE CORE ENGINE                       │  │
+│  │                                                           │  │
+│  │  ┌──────────────┐     ┌────────────────────────────┐    │  │
+│  │  │ Intent Engine │────▶│ Adaptive Learning Engine  │    │  │
+│  │  │  (Local LLM)  │     │   (Per-user preference)    │    │  │
+│  │  └───────┬───────┘     └────────────────────────────┘    │  │
+│  │          │                                                │  │
+│  │  ┌───────┴───────────────────────────────────────┐       │  │
+│  │  │           CHANNEL ORCHESTRATOR                │       │  │
+│  │  │  Multi-channel fusion + confidence scoring   │       │  │
+│  │  └───────┬────────────────┬──────────────────────┘       │  │
+│  │          │                │                               │  │
+│  │  ┌───────▼───────┐ ┌──────▼──────┐                       │  │
+│  │  │ INPUT MANAGER │ │ OUTPUT MGR  │                       │  │
+│  │  └───────┬───────┘ └──────┬──────┘                       │  │
+│  └──────────┼────────────────┼───────────────────────────────┘  │
+│             │                │                                 │
+│  ┌──────────▼───────┐ ┌──────▼──────┐  ┌─────────────────┐   │
+│  │ INPUT DRIVERS     │ │OUTPUT DRIVERS│  │ INTEGRATIONS    │   │
+│  │                  │ │             │  │                 │   │
+│  │ 👁️ EyeGazeDriver │ │ TTS Driver  │  │ HomeAssistant   │   │
+│  │ 🎤 VoiceDriver   │ │ Screen Reader│  │ Wheelchair API  │   │
+│  │ 🔘 SwitchDriver  │ │ Vibrate Driver│ │ OpenAI/LocalLLM │   │
+│  │ ⌨️ KeyboardDriver│ │ Visual Driver│  │ WhatsApp/Discord│   │
+│  │ 🖐️ HeadTrackDriver│ │ Alert Driver │  │ OpenBCI (BCI)   │   │
+│  │ 💨 BreathDriver  │ │ Haptic Driver│  │ MQTT/SmartHome  │   │
+│  └──────────────────┘ └─────────────┘  └─────────────────┘   │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## ✨ Key Features
+
+### 🧠 AI-Powered Intelligence
+- **Intent Prediction** — Local LLM (Ollama) predicts what the user wants before they finish typing/speaking
+- **Multi-channel Fusion** — Combines eye gaze + voice + switch inputs simultaneously, AI picks highest-confidence signal
+- **Adaptive Learning** — Learns each user's vocabulary, behavior patterns, and preferred interaction style over time
+- **Context-Aware Suggestions** — Understands conversation context for smarter AAC predictions
+
+### 🔌 Universal Input Support
+| Driver | Technology | Latency | Cost |
+|--------|-----------|---------|------|
+| EyeGaze | MediaPipe + webcam | <50ms | ~$0 |
+| Voice | Vosk / Whisper (local) | <200ms | $0 |
+| Switch | GPIO / USB / Bluetooth | <10ms | ~$15 |
+| HeadTrack | webcam + ML | <50ms | $0 |
+| Breath | Pressure sensor | <20ms | ~$30 |
+| Keyboard | Standard + scanning | <10ms | $0 |
+
+### 🔊 Rich Output Modes
+- **Personalized TTS** — Clone user's voice from 30 seconds of audio
+- **AAC Boards** — Dynamic grid boards with semantic prediction
+- **Visual / Haptic** — Color-coded feedback, vibration patterns
+- **Smart Home** — Direct control of lights, TV, wheelchair, door locks
+
+### 🏠 100% Local & Private
+- All AI inference runs **on-device** (Ollama + llama.cpp)
+- No cloud dependencies for core functionality
+- User data never leaves the device
+- GDPR-compliant by design
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.11+
+- 8GB+ RAM (16GB recommended for local LLM)
+- Webcam (for eye tracking / head tracking)
+- Optional: USB switch, Arduino, MQTT broker
+
+### Install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/AbleBridge.git
+cd AbleBridge
+
+# Install dependencies
+pip install -e .
+# or on macOS/Linux:
+pip3 install -e .
+
+# Run the GUI
+python -m ablebridge.gui
+```
+
+### First-Time Setup
+
+```bash
+# Launch setup wizard
+python -m ablebridge.setup
+
+# Configure your inputs
+python -m ablebridge.config --add-input eyegaze
+python -m ablebridge.config --add-input voice
+
+# Run with a specific profile
+python -m ablebridge.core --profile myprofile
+```
+
+### Web UI (Default)
+
+Open browser: `http://localhost:8765`
+
+```
+┌──────────────────────────────────────────────────────┐
+│  AbleBridge GUI                          [⚙️] [📊]  │
+├──────────────────────────────────────────────────────┤
+│                                                      │
+│   ┌─────────────────────────────────────────────┐   │
+│   │         ON-SCREEN KEYBOARD                   │   │
+│   │  Q W E R T Y U I O P                        │   │
+│   │   A S D F G H J K L                         │   │
+│   │  ⇧  Z X C V B N M  ⌫                       │   │
+│   └─────────────────────────────────────────────┘   │
+│                                                      │
+│   ┌──────────────────┐  ┌────────────────────────┐  │
+│   │  AAC PREDICTION  │  │   CHANNEL STATUS       │  │
+│   │  > Hello, how    │  │   👁️ Eye: 94%  🟢     │  │
+│   │    are you? [🔊] │  │   🎤 Voice: 78% 🟢     │  │
+│   │                  │  │   🔘 Switch: --        │  │
+│   └──────────────────┘  └────────────────────────┘  │
+│                                                      │
+│   ┌─────────────────────────────────────────────┐   │
+│   │  QUICK ACTIONS                               │   │
+│   │  [Help Me] [Call] [Water] [Bathroom] [Yes] [No] │
+│   └─────────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📁 Project Structure
+
+```
+ablebridge/
+├── ablebridge/              # Main Python package
+│   ├── __init__.py
+│   ├── core/                # Core engine
+│   │   ├── engine.py        # Main orchestrator
+│   │   ├── event_bus.py     # Pub/sub event system
+│   │   ├── profile.py       # User profile management
+│   │   └── types.py         # Shared type definitions
+│   ├── input_drivers/       # Input channel drivers
+│   │   ├── base.py          # Abstract base driver
+│   │   ├── eyegaze.py       # MediaPipe webcam eye tracking
+│   │   ├── voice.py         # Local ASR (Vosk/Whisper)
+│   │   ├── switch.py        # USB/GPIO switch input
+│   │   ├── keyboard.py      # Standard keyboard
+│   │   └── headtrack.py     # Head movement tracking
+│   ├── output_drivers/      # Output channel drivers
+│   │   ├── base.py          # Abstract base driver
+│   │   ├── tts.py           # Text-to-speech
+│   │   ├── voicelink.py     # Voice cloning + TTS
+│   │   ├── screenreader.py  # Screen reader output
+│   │   └── smarthome.py     # Home automation
+│   ├── ai/                  # AI modules
+│   │   ├── intent.py        # Intent understanding
+│   │   ├── predictor.py     # Text/action prediction
+│   │   └── adaptive.py      # Per-user learning
+│   ├── gui/                 # Web-based GUI
+│   │   ├── app.py           # Flask app
+│   │   ├── routes.py        # API routes
+│   │   └── static/          # Frontend assets
+│   ├── integrations/        # Third-party integrations
+│   │   ├── homeassistant.py
+│   │   ├── ollama.py        # Local LLM
+│   │   └── whatsapp.py
+│   ├── config/              # Configuration
+│   │   └── settings.py
+│   └── utils/               # Utilities
+│       ├── audio.py         # Audio processing
+│       ├── calibration.py   # Eye tracking calibration
+│       └── logger.py
+├── tests/                   # Test suite
+├── docs/                    # Documentation
+├── scripts/                 # Setup scripts
+│   ├── install_deps.sh
+│   └── calibrate_eyegaze.py
+├── pyproject.toml
+├── README.md
+├── LICENSE (MIT)
+└── CONTRIBUTING.md
+```
+
+---
+
+## 🔧 Configuration Example
+
+```yaml
+# config/profiles/default.yaml
+profile:
+  name: "Default"
+  inputs:
+    eyegaze:
+      enabled: true
+      camera_id: 0
+      dwell_time: 500ms
+      calibration_required: true
+    voice:
+      enabled: true
+      model: "vosk-model-small-en-us"
+      threshold: 0.6
+    switch:
+      enabled: false
+      port: "/dev/ttyUSB0"
+  outputs:
+    tts:
+      enabled: true
+      engine: "pyttsx3"  # or "gtts", "coqui"
+      voice_clone: false
+      rate: 150
+      pitch: 1.0
+    smarthome:
+      enabled: false
+      mqtt_broker: "localhost:1883"
+  ai:
+    intent:
+      provider: "ollama"
+      model: "llama3.2:latest"
+      local: true
+    prediction:
+      enabled: true
+      model: "phi3-mini"
+  ui:
+    theme: "light"
+    font_size: 18
+    grid_layout: "aac_standard"
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting PRs.
+
+### Good First Issues
+- Add a new input driver (Leap Motion, facial gestures)
+- Add a new output driver (Braille display, Telegram bot)
+- Improve the eye tracking calibration UI
+- Add more language support for TTS
+- Write integration tests for specific drivers
+
+---
+
+## 📜 License
+
+MIT License — see [LICENSE](LICENSE).  
+This means **anyone can use, modify, and distribute** AbleBridge, including for **commercial purposes**, as long as they include the copyright notice.
+
+---
+
+## 🌟 Roadmap
+
+| Version | Milestone | Status |
+|---------|-----------|--------|
+| v0.1 | Core engine + Keyboard/Switch I/O + Basic TTS | ✅ **You are here** |
+| v0.2 | EyeGaze driver + MediaPipe integration | 🔨 In Progress |
+| v0.3 | Voice driver (Vosk ASR) + AAC prediction | 🔨 Planned |
+| v0.4 | Ollama LLM intent engine + adaptive learning | 🔨 Planned |
+| v0.5 | Voice cloning (Coqui TTS) + Smart Home | 🔨 Planned |
+| v0.6 | First public beta + documentation | 🔨 Planned |
+| v1.0 | Production-ready + community governance | 🔨 Planned |
+
+---
+
+## 💬 Community
+
+- **GitHub Issues** — Bug reports, feature requests
+- **Discussions** — Q&A, ideas, show-and-tell
+- **Discord** — Real-time chat (coming soon)
+
+---
+
+*Built with ❤️ for the disability community. Every human deserves to be heard.*

@@ -1,1 +1,372 @@
-IiIiCmFibGVicmlkZ2UuY29yZS50eXBlcyDigJQgU2hhcmVkIHR5cGUgZGVmaW5pdGlvbnMgZm9yIHRoZSBlbnRpcmUgc3lzdGVtLgoKQWxsIGlucHV0IGRyaXZlcnMsIG91dHB1dCBkcml2ZXJzLCBBSSBtb2R1bGVzLCBhbmQgdGhlIGNvcmUgZW5naW5lCnNoYXJlIHRoZXNlIHR5cGVzIHRvIGVuc3VyZSB0eXBlLXNhZmUsIGNvbnNpc3RlbnQgY29tbXVuaWNhdGlvbi4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgdGltZQpmcm9tIGFiYyBpbXBvcnQgQUJDLCBhYnN0cmFjdG1ldGhvZApmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MsIGZpZWxkCmZyb20gZW51bSBpbXBvcnQgRW51bSwgYXV0bwpmcm9tIHR5cGluZyBpbXBvcnQgQW55LCBDYWxsYWJsZSwgR2VuZXJpYywgVHlwZVZhcgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBFbnVtZXJhdGlvbnMKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpjbGFzcyBJbnB1dENoYW5uZWwoRW51bSk6CiAgICAiIiJBbGwgc3VwcG9ydGVkIGlucHV0IGNoYW5uZWwgdHlwZXMuIiIiCgogICAgS0VZQk9BUkQgPSAia2V5Ym9hcmQiCiAgICBFWUVHQVpFID0gImV5ZWdhemUiCiAgICBWT0lDRSA9ICJ2b2ljZSIKICAgIFNXSVRDSCA9ICJzd2l0Y2giCiAgICBIRUFEVFJBQ0sgPSAiaGVhZHRyYWNrIgogICAgS0VZQk9BUkRfU0NBTiA9ICJrZXlib2FyZF9zY2FuIgogICAgQlJFQVRIID0gImJyZWF0aCIKICAgIFRPVUNIID0gInRvdWNoIgogICAgQkNJID0gImJjaSIgICMgQnJhaW4tQ29tcHV0ZXIgSW50ZXJmYWNlIChPcGVuQkNJLCBldGMuKQogICAgRU1HID0gImVtZyIgICMgRWxlY3Ryb215b2dyYXBoeSAo5q6L5a2Y6IKM6IKJ5L+h5Y+3KQogICAgQ1VTVE9NID0gImN1c3RvbSIKCgpjbGFzcyBPdXRwdXRDaGFubmVsKEVudW0pOgogICAgIiIiQWxsIHN1cHBvcnRlZCBvdXRwdXQgY2hhbm5lbCB0eXBlcy4iIiIKCiAgICBUVFMgPSAidHRzIiAgIyBUZXh0LXRvLVNwZWVjaAogICAgU0NSRUVOID0gInNjcmVlbiIKICAgIFNDUkVFTlJFQURFUiA9ICJzY3JlZW5yZWFkZXIiCiAgICBWSUJSQVRJT04gPSAidmlicmF0aW9uIgogICAgU01BUlRfSE9NRSA9ICJzbWFydF9ob21lIgogICAgU01TID0gInNtcyIKICAgIE1FU1NBR0lORyA9ICJtZXNzYWdpbmciCiAgICBXSEVFTENIQUlSID0gIndoZWVsY2hhaXIiCiAgICBCUkFJTExFID0gImJyYWlsbGUiCiAgICBOT1RJRklDQVRJT04gPSAibm90aWZpY2F0aW9uIgogICAgQ1VTVE9NID0gImN1c3RvbSIKCgpjbGFzcyBJbnRlbnRDYXRlZ29yeShFbnVtKToKICAgICIiIkhpZ2gtbGV2ZWwgaW50ZW50IGNhdGVnb3JpZXMgdGhlIEFJIGVuZ2luZSBjYW4gY2xhc3NpZnkuIiIiCgogICAgQ09NTVVOSUNBVEUgPSBhdXRvKCkgICMgR2VuZXJhbCBjb21tdW5pY2F0aW9uIC8gQUFDCiAgICBDT05UUk9MX0RFVklDRSA9IGF1dG8oKSAgIyBDb250cm9sIHNtYXJ0IGhvbWUsIFRWLCBsaWdodHMKICAgIEVNRVJHRU5DWSA9IGF1dG8oKSAgIyBDYWxsIGZvciBoZWxwLCBlbWVyZ2VuY3kgYWxlcnQKICAgIE5BVklHQVRJT04gPSBhdXRvKCkgICMgTW92ZSB3aGVlbGNoYWlyLCBuYXZpZ2F0ZQogICAgRU1PVElPTiA9IGF1dG8oKSAgIyBFeHByZXNzIGVtb3Rpb24sIHBhaW4gbGV2ZWwsIG1vb2QKICAgIE5FRUQgPSBhdXRvKCkgICMgQmFzaWMgbmVlZHM6IHdhdGVyLCBiYXRocm9vbSwgZm9vZAogICAgUVVFU1RJT04gPSBhdXRvKCkgICMgQXNrIGEgcXVlc3Rpb24KICAgIENPTkZJUk0gPSBhdXRvKCkgICMgWWVzL05vIGNvbmZpcm1hdGlvbgogICAgQ1VTVE9NID0gYXV0bygpCgoKY2xhc3MgRHJpdmVyU3RhdGUoRW51bSk6CiAgICAiIiJMaWZlY3ljbGUgc3RhdGUgb2YgYSBkcml2ZXIuIiIiCgogICAgU1RPUFBFRCA9ICJzdG9wcGVkIgogICAgU1RBUlRJTkcgPSAic3RhcnRpbmciCiAgICBSVU5OSU5HID0gInJ1bm5pbmciCiAgICBQQVVTRUQgPSAicGF1c2VkIgogICAgRVJST1IgPSAiZXJyb3IiCiAgICBDQUxJQlJBVElORyA9ICJjYWxpYnJhdGluZyIKCgpjbGFzcyBDb25maWRlbmNlTGV2ZWwoRW51bSk6CiAgICAiIiJIdW1hbi1yZWFkYWJsZSBjb25maWRlbmNlIHRpZXIuIiIiCgogICAgSElHSCA9ICJoaWdoIiAgIyDiiaUgMC44NQogICAgTUVESVVNID0gIm1lZGl1bSIgICMg4omlIDAuNjAKICAgIExPVyA9ICJsb3ciICAjIOKJpSAwLjQwCiAgICBWRVJZX0xPVyA9ICJ2ZXJ5X2xvdyIgICMgPCAwLjQwCgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBTY29yZSBUeXBlcwojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKVCA9IFR5cGVWYXIoIlQiKQoKCkBkYXRhY2xhc3MoZnJvemVuPVRydWUpCmNsYXNzIENvbmZpZGVuY2VTY29yZShHZW5lcmljW1RdKToKICAgICIiIgogICAgQSBjb25maWRlbmNlLXNjb3JlZCB2YWx1ZSBmcm9tIGFueSBpbnB1dCBjaGFubmVsLgogICAgVXNlZCB0aHJvdWdob3V0IHRoZSBzeXN0ZW0gdG8gcmVwcmVzZW50IGdyYWRlZCBzaWduYWwgcXVhbGl0eS4KICAgICIiIgoKICAgIHZhbHVlOiBUCiAgICBjb25maWRlbmNlOiBmbG9hdCA9IGZpZWxkKGRlZmF1bHQ9MC4wKSAgIyAwLjDigJMxLjAKICAgIGNoYW5uZWw6IElucHV0Q2hhbm5lbCA9IElucHV0Q2hhbm5lbC5DVVNUT00KICAgIHRpbWVzdGFtcDogZmxvYXQgPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9dGltZS50aW1lKQogICAgbWV0YWRhdGE6IGRpY3Rbc3RyLCBBbnldID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWRpY3QpCgogICAgQHByb3BlcnR5CiAgICBkZWYgbGV2ZWwoc2VsZikgLT4gQ29uZmlkZW5jZUxldmVsOgogICAgICAgIGlmIHNlbGYuY29uZmlkZW5jZSA+PSAwLjg1OgogICAgICAgICAgICByZXR1cm4gQ29uZmlkZW5jZUxldmVsLkhJR0gKICAgICAgICBlbGlmIHNlbGYuY29uZmlkZW5jZSA+PSAwLjYwOgogICAgICAgICAgICByZXR1cm4gQ29uZmlkZW5jZUxldmVsLk1FRElVTQogICAgICAgIGVsaWYgc2VsZi5jb25maWRlbmNlID49IDAuNDA6CiAgICAgICAgICAgIHJldHVybiBDb25maWRlbmNlTGV2ZWwuTE9XCiAgICAgICAgcmV0dXJuIENvbmZpZGVuY2VMZXZlbC5WRVJZX0xPVwoKICAgIGRlZiBpc191c2FibGUoc2VsZiwgdGhyZXNob2xkOiBmbG9hdCA9IDAuNTApIC0+IGJvb2w6CiAgICAgICAgcmV0dXJuIHNlbGYuY29uZmlkZW5jZSA+PSB0aHJlc2hvbGQKCgojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAojIEV2ZW50IFR5cGVzCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKQGRhdGFjbGFzcwpjbGFzcyBJbnB1dEV2ZW50OgogICAgIiIiCiAgICBVbmlmaWVkIHJlcHJlc2VudGF0aW9uIG9mIGFueSB1c2VyIGlucHV0IGV2ZW50LgogICAgQWxsIGlucHV0IGRyaXZlcnMgZW1pdCB0aGlzIHR5cGUgYWZ0ZXIgbm9ybWFsaXphdGlvbi4KICAgICIiIgoKICAgIGNoYW5uZWw6IElucHV0Q2hhbm5lbAogICAgdGltZXN0YW1wOiBmbG9hdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT10aW1lLnRpbWUpCiAgICBhY3Rpb246IHN0ciA9ICIiICAjIGUuZy4gImR3ZWxsIiwgImNsaWNrIiwgInR5cGUiLCAic3BlYWsiCiAgICByYXdfdmFsdWU6IEFueSA9IE5vbmUgICMgUmF3IGRyaXZlci1zcGVjaWZpYyBkYXRhCiAgICBwYXJzZWQ6IENvbmZpZGVuY2VTY29yZVtBbnldIHwgTm9uZSA9IE5vbmUKICAgIHNlcXVlbmNlX2lkOiBpbnQgPSAwICAjIE1vbm90b25pYyBzZXF1ZW5jZSBudW1iZXIgcGVyIGNoYW5uZWwKICAgIHNlc3Npb25faWQ6IHN0ciA9ICIiICAjIEZvciBjcm9zcy1jaGFubmVsIGNvcnJlbGF0aW9uCgoKQGRhdGFjbGFzcwpjbGFzcyBPdXRwdXRFdmVudDoKICAgICIiIlVuaWZpZWQgcmVwcmVzZW50YXRpb24gb2YgYW55IG91dHB1dCBldmVudCBkaXNwYXRjaGVkIGJ5IHRoZSBlbmdpbmUuIiIiCgogICAgY2hhbm5lbDogT3V0cHV0Q2hhbm5lbAogICAgdGltZXN0YW1wOiBmbG9hdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT10aW1lLnRpbWUpCiAgICBjb250ZW50OiBzdHIgPSAiIgogICAgY29uZmlkZW5jZTogZmxvYXQgPSAxLjAKICAgIGFjdGlvbjogc3RyID0gImRpc3BsYXkiICAjIGUuZy4gInNwZWFrIiwgInZpYnJhdGUiLCAiYWxlcnQiCiAgICBtZXRhZGF0YTogZGljdFtzdHIsIEFueV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKICAgIHByaW9yaXR5OiBpbnQgPSAwICAjIEhpZ2hlciA9IG1vcmUgdXJnZW50IChlbWVyZ2VuY3k9MTAwKQoKCkBkYXRhY2xhc3MKY2xhc3MgSW50ZW50RXZlbnQ6CiAgICAiIiIKICAgIFJlc3VsdCBvZiB0aGUgQUkgaW50ZW50IGVuZ2luZSdzIGFuYWx5c2lzIG9mIG9uZSBvciBtb3JlIGlucHV0IGV2ZW50cy4KICAgICIiIgoKICAgIGNhdGVnb3J5OiBJbnRlbnRDYXRlZ29yeQogICAgcmF3X3RleHQ6IHN0ciA9ICIiCiAgICBzdHJ1Y3R1cmVkOiBkaWN0W3N0ciwgQW55XSA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1kaWN0KQogICAgIyBQYXJzZWQgZmllbGRzIGZvciBjb21tb24gaW50ZW50cwogICAgZW50aXRpZXM6IGRpY3Rbc3RyLCBzdHJdID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWRpY3QpCiAgICBzZW50aW1lbnQ6IGZsb2F0ID0gMC4wICAjIC0xLjAgdG8gMS4wCiAgICB1cmdlbmN5OiBmbG9hdCA9IDAuMCAgIyAwLjAgdG8gMS4wCiAgICBjb25maWRlbmNlOiBmbG9hdCA9IDAuMAogICAgc291cmNlczogbGlzdFtJbnB1dENoYW5uZWxdID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWxpc3QpCiAgICB0aW1lc3RhbXA6IGZsb2F0ID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PXRpbWUudGltZSkKICAgIHNlc3Npb25faWQ6IHN0ciA9ICIiCgoKQGRhdGFjbGFzcwpjbGFzcyBQcmVkaWN0aW9uUmVzdWx0OgogICAgIiIiCiAgICBBIHNpbmdsZSBwcmVkaWN0aW9uIGZyb20gdGhlIGFkYXB0aXZlIGxlYXJuaW5nIGVuZ2luZS4KICAgICIiIgoKICAgIHByZWRpY3RlZF90ZXh0OiBzdHIgPSAiIgogICAgcHJlZGljdGVkX2FjdGlvbjogc3RyID0gIiIKICAgIGNvbmZpZGVuY2U6IGZsb2F0ID0gMC4wCiAgICBhbHRlcm5hdGl2ZXM6IGxpc3RbdHVwbGVbc3RyLCBmbG9hdF1dID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWxpc3QpCiAgICBtb2RlbF9pZDogc3RyID0gIiIKICAgIHRpbWVzdGFtcDogZmxvYXQgPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9dGltZS50aW1lKQoKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgQ2hhbm5lbCBTdGF0dXMKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpAZGF0YWNsYXNzCmNsYXNzIENoYW5uZWxTdGF0dXM6CiAgICAiIiJSdW50aW1lIHN0YXR1cyBzbmFwc2hvdCBvZiBhIHNpbmdsZSBpbnB1dCBvciBvdXRwdXQgY2hhbm5lbC4iIiIKCiAgICBuYW1lOiBzdHIKICAgIGNoYW5uZWxfdHlwZTogc3RyID0gIiIgICMgImlucHV0IiBvciAib3V0cHV0IgogICAgc3RhdGU6IERyaXZlclN0YXRlID0gRHJpdmVyU3RhdGUuU1RPUFBFRAogICAgaXNfZW5hYmxlZDogYm9vbCA9IEZhbHNlCiAgICBjb25maWRlbmNlOiBmbG9hdCA9IDAuMAogICAgbGF0ZW5jeV9tczogZmxvYXQgPSAwLjAKICAgIGVycm9yX21lc3NhZ2U6IHN0ciA9ICIiCiAgICBleHRyYTogZGljdFtzdHIsIEFueV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKCgojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAojIFVzZXIgUHJvZmlsZQojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKCkBkYXRhY2xhc3MKY2xhc3MgSW5wdXRDb25maWc6CiAgICAiIiJDb25maWd1cmF0aW9uIGZvciBhIHNpbmdsZSBpbnB1dCBjaGFubmVsIHdpdGhpbiBhIHVzZXIgcHJvZmlsZS4iIiIKCiAgICBlbmFibGVkOiBib29sID0gRmFsc2UKICAgIGR3ZWxsX3RpbWVfbXM6IGludCA9IDUwMAogICAgc2Nhbl9yYXRlX2h6OiBmbG9hdCA9IDIuMAogICAgc2Vuc2l0aXZpdHk6IGZsb2F0ID0gMC41ICAjIDAuMOKAkzEuMAogICAgY3VzdG9tX3BhcmFtczogZGljdFtzdHIsIEFueV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKCgpAZGF0YWNsYXNzCmNsYXNzIE91dHB1dENvbmZpZzoKICAgICIiIkNvbmZpZ3VyYXRpb24gZm9yIGEgc2luZ2xlIG91dHB1dCBjaGFubmVsIHdpdGhpbiBhIHVzZXIgcHJvZmlsZS4iIiIKCiAgICBlbmFibGVkOiBib29sID0gRmFsc2UKICAgIHZvbHVtZTogZmxvYXQgPSAxLjAgICMgMC4w4oCTMS4wCiAgICByYXRlOiBmbG9hdCA9IDEuMCAgIyBlLmcuIHNwZWVjaCByYXRlIG11bHRpcGxpZXIKICAgIHBpdGNoOiBmbG9hdCA9IDEuMAogICAgY3VzdG9tX3BhcmFtczogZGljdFtzdHIsIEFueV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKCgpAZGF0YWNsYXNzCmNsYXNzIEFJQ29uZmlnOgogICAgIiIiQ29uZmlndXJhdGlvbiBmb3IgQUkgY29tcG9uZW50cy4iIiIKCiAgICBwcm92aWRlcjogc3RyID0gIm9sbGFtYSIgICMgIm9sbGFtYSIgfCAib3BlbmFpIiB8ICJtb2NrIgogICAgbW9kZWw6IHN0ciA9ICJsbGFtYTMuMjpsYXRlc3QiCiAgICBiYXNlX3VybDogc3RyID0gImh0dHA6Ly9sb2NhbGhvc3Q6MTE0MzQiCiAgICBhcGlfa2V5OiBzdHIgPSAiIgogICAgbG9jYWw6IGJvb2wgPSBUcnVlCiAgICB0ZW1wZXJhdHVyZTogZmxvYXQgPSAwLjcKICAgIG1heF90b2tlbnM6IGludCA9IDI1NgogICAgcHJlZGljdGlvbl9lbmFibGVkOiBib29sID0gVHJ1ZQogICAgYWRhcHRpdmVfbGVhcm5pbmdfZW5hYmxlZDogYm9vbCA9IFRydWUKICAgIGludGVudF9jb25maWRlbmNlX3RocmVzaG9sZDogZmxvYXQgPSAwLjYwCgoKQGRhdGFjbGFzcwpjbGFzcyBVc2VyUHJvZmlsZToKICAgICIiIgogICAgQ29tcGxldGUgdXNlciBwcm9maWxlIGNvbnRhaW5pbmcgYWxsIGNoYW5uZWwgY29uZmlncyBhbmQgQUkgc2V0dGluZ3MuCiAgICBMb2FkZWQgZnJvbSBZQU1MIG9uIHN0YXJ0dXAsIHBlcnNpc3RlZCBvbiBjaGFuZ2UuCiAgICAiIiIKCiAgICBpZDogc3RyID0gImRlZmF1bHQiCiAgICBuYW1lOiBzdHIgPSAiRGVmYXVsdCBVc2VyIgogICAgZGVzY3JpcHRpb246IHN0ciA9ICIiCiAgICBjcmVhdGVkX2F0OiBmbG9hdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT10aW1lLnRpbWUpCiAgICB1cGRhdGVkX2F0OiBmbG9hdCA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT10aW1lLnRpbWUpCiAgICBpbnB1dHM6IGRpY3Rbc3RyLCBJbnB1dENvbmZpZ10gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKICAgIG91dHB1dHM6IGRpY3Rbc3RyLCBPdXRwdXRDb25maWddID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWRpY3QpCiAgICBhaTogQUlDb25maWcgPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9QUlDb25maWcpCiAgICB1aTogZGljdFtzdHIsIEFueV0gPSBmaWVsZCgKICAgICAgICBkZWZhdWx0X2ZhY3Rvcnk9bGFtYmRhOiB7CiAgICAgICAgICAgICJ0aGVtZSI6ICJsaWdodCIsCiAgICAgICAgICAgICJmb250X3NpemUiOiAxOCwKICAgICAgICAgICAgImdyaWRfbGF5b3V0IjogImFhY19zdGFuZGFyZCIsCiAgICAgICAgICAgICJsYW5ndWFnZSI6ICJlbiIsCiAgICAgICAgICAgICJhYWNfcHJlc2V0IjogInN0YW5kYXJkIiwKICAgICAgICB9CiAgICApCgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBBYnN0cmFjdCBCYXNlIERyaXZlciBJbnRlcmZhY2UKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCkNhbGxiYWNrID0gQ2FsbGFibGVbW0lucHV0RXZlbnQgfCBPdXRwdXRFdmVudF0sIE5vbmVdCgoKY2xhc3MgQmFzZUlucHV0RHJpdmVyKEFCQyk6CiAgICAiIiIKICAgIEFic3RyYWN0IGJhc2UgY2xhc3MgZm9yIGFsbCBpbnB1dCBkcml2ZXJzLgogICAgSW1wbGVtZW50IHRoaXMgdG8gYWRkIGEgbmV3IGlucHV0IGNoYW5uZWwuCiAgICAiIiIKCiAgICBuYW1lOiBzdHIgPSAiYmFzZV9pbnB1dCIKICAgIGNoYW5uZWxfdHlwZTogSW5wdXRDaGFubmVsID0gSW5wdXRDaGFubmVsLkNVU1RPTQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjb25maWc6IElucHV0Q29uZmlnLCBldmVudF9jYWxsYmFjazogQ2FsbGJhY2sgfCBOb25lID0gTm9uZSk6CiAgICAgICAgc2VsZi5jb25maWcgPSBjb25maWcKICAgICAgICBzZWxmLl9jYWxsYmFjayA9IGV2ZW50X2NhbGxiYWNrCiAgICAgICAgc2VsZi5fc3RhdGUgPSBEcml2ZXJTdGF0ZS5TVE9QUEVECiAgICAgICAgc2VsZi5fc2VxID0gMAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHN0YXRlKHNlbGYpIC0+IERyaXZlclN0YXRlOgogICAgICAgIHJldHVybiBzZWxmLl9zdGF0ZQoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHN0YXJ0KHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiU3RhcnQgdGhlIGRyaXZlci4gTXVzdCBiZSBub24tYmxvY2tpbmcgb3IgcnVuIGluIGEgdGhyZWFkLiIiIgogICAgICAgIC4uLgoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHN0b3Aoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdG9wIGFuZCBjbGVhbiB1cCB0aGUgZHJpdmVyLiIiIgogICAgICAgIC4uLgoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIGNhbGlicmF0ZShzZWxmKSAtPiBib29sOgogICAgICAgICIiIlJ1biBjYWxpYnJhdGlvbiByb3V0aW5lLiBSZXR1cm5zIFRydWUgb24gc3VjY2Vzcy4iIiIKICAgICAgICAuLi4KCiAgICBAYWJzdHJhY3RtZXRob2QKICAgIGRlZiBnZXRfc3RhdHVzKHNlbGYpIC0+IENoYW5uZWxTdGF0dXM6CiAgICAgICAgIiIiUmV0dXJuIGN1cnJlbnQgcnVudGltZSBzdGF0dXMuIiIiCiAgICAgICAgLi4uCgogICAgZGVmIF9lbWl0KHNlbGYsIGFjdGlvbjogc3RyLCByYXdfdmFsdWU6IEFueSwgY29uZmlkZW5jZTogZmxvYXQgPSAxLjApIC0+IE5vbmU6CiAgICAgICAgIiIiSGVscGVyIHRvIGVtaXQgYSBub3JtYWxpemVkIElucHV0RXZlbnQuIiIiCiAgICAgICAgc2VsZi5fc2VxICs9IDEKICAgICAgICBldmVudCA9IElucHV0RXZlbnQoCiAgICAgICAgICAgIGNoYW5uZWw9c2VsZi5jaGFubmVsX3R5cGUsCiAgICAgICAgICAgIGFjdGlvbj1hY3Rpb24sCiAgICAgICAgICAgIHJhd192YWx1ZT1yYXdfdmFsdWUsCiAgICAgICAgICAgIHBhcnNlZD1Db25maWRlbmNlU2NvcmUoCiAgICAgICAgICAgICAgICB2YWx1ZT1yYXdfdmFsdWUsCiAgICAgICAgICAgICAgICBjb25maWRlbmNlPWNvbmZpZGVuY2UsCiAgICAgICAgICAgICAgICBjaGFubmVsPXNlbGYuY2hhbm5lbF90eXBlLAogICAgICAgICAgICApLAogICAgICAgICAgICBzZXF1ZW5jZV9pZD1zZWxmLl9zZXEsCiAgICAgICAgKQogICAgICAgIGlmIHNlbGYuX2NhbGxiYWNrOgogICAgICAgICAgICBzZWxmLl9jYWxsYmFjayhldmVudCkKCgpjbGFzcyBCYXNlT3V0cHV0RHJpdmVyKEFCQyk6CiAgICAiIiIKICAgIEFic3RyYWN0IGJhc2UgY2xhc3MgZm9yIGFsbCBvdXRwdXQgZHJpdmVycy4KICAgIEltcGxlbWVudCB0aGlzIHRvIGFkZCBhIG5ldyBvdXRwdXQgY2hhbm5lbC4KICAgICIiIgoKICAgIG5hbWU6IHN0ciA9ICJiYXNlX291dHB1dCIKICAgIGNoYW5uZWxfdHlwZTogT3V0cHV0Q2hhbm5lbCA9IE91dHB1dENoYW5uZWwuQ1VTVE9NCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNvbmZpZzogT3V0cHV0Q29uZmlnKToKICAgICAgICBzZWxmLmNvbmZpZyA9IGNvbmZpZwogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RPUFBFRAoKICAgIEBwcm9wZXJ0eQogICAgZGVmIHN0YXRlKHNlbGYpIC0+IERyaXZlclN0YXRlOgogICAgICAgIHJldHVybiBzZWxmLl9zdGF0ZQoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHNlbmQoc2VsZiwgZXZlbnQ6IE91dHB1dEV2ZW50KSAtPiBib29sOgogICAgICAgICIiIlNlbmQgYW4gb3V0cHV0IGV2ZW50LiBSZXR1cm5zIFRydWUgb24gc3VjY2Vzcy4iIiIKICAgICAgICAuLi4KCiAgICBAYWJzdHJhY3RtZXRob2QKICAgIGRlZiBzdGFydChzZWxmKSAtPiBOb25lOgogICAgICAgIC4uLgoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHN0b3Aoc2VsZikgLT4gTm9uZToKICAgICAgICAuLi4KCiAgICBAYWJzdHJhY3RtZXRob2QKICAgIGRlZiBnZXRfc3RhdHVzKHNlbGYpIC0+IENoYW5uZWxTdGF0dXM6CiAgICAgICAgLi4uCg==
+"""
+ablebridge.core.types — Shared type definitions for the entire system.
+
+All input drivers, output drivers, AI modules, and the core engine
+share these types to ensure type-safe, consistent communication.
+"""
+
+from __future__ import annotations
+
+import time
+from abc import ABC, abstractmethod
+from dataclasses import dataclass, field
+from enum import Enum, auto
+from typing import Any, Callable, Generic, TypeVar
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Enumerations
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+class InputChannel(Enum):
+    """All supported input channel types."""
+
+    KEYBOARD = "keyboard"
+    EYEGAZE = "eyegaze"
+    VOICE = "voice"
+    SWITCH = "switch"
+    HEADTRACK = "headtrack"
+    KEYBOARD_SCAN = "keyboard_scan"
+    BREATH = "breath"
+    TOUCH = "touch"
+    BCI = "bci"  # Brain-Computer Interface (OpenBCI, etc.)
+    EMG = "emg"  # Electromyography (残存肌肉信号)
+    CUSTOM = "custom"
+
+
+class OutputChannel(Enum):
+    """All supported output channel types."""
+
+    TTS = "tts"  # Text-to-Speech
+    SCREEN = "screen"
+    SCREENREADER = "screenreader"
+    VIBRATION = "vibration"
+    SMART_HOME = "smart_home"
+    SMS = "sms"
+    MESSAGING = "messaging"
+    WHEELCHAIR = "wheelchair"
+    BRAILLE = "braille"
+    NOTIFICATION = "notification"
+    CUSTOM = "custom"
+
+
+class IntentCategory(Enum):
+    """High-level intent categories the AI engine can classify."""
+
+    COMMUNICATE = auto()  # General communication / AAC
+    CONTROL_DEVICE = auto()  # Control smart home, TV, lights
+    EMERGENCY = auto()  # Call for help, emergency alert
+    NAVIGATION = auto()  # Move wheelchair, navigate
+    EMOTION = auto()  # Express emotion, pain level, mood
+    NEED = auto()  # Basic needs: water, bathroom, food
+    QUESTION = auto()  # Ask a question
+    CONFIRM = auto()  # Yes/No confirmation
+    CUSTOM = auto()
+
+
+class DriverState(Enum):
+    """Lifecycle state of a driver."""
+
+    STOPPED = "stopped"
+    STARTING = "starting"
+    RUNNING = "running"
+    PAUSED = "paused"
+    ERROR = "error"
+    CALIBRATING = "calibrating"
+
+
+class ConfidenceLevel(Enum):
+    """Human-readable confidence tier."""
+
+    HIGH = "high"  # ≥ 0.85
+    MEDIUM = "medium"  # ≥ 0.60
+    LOW = "low"  # ≥ 0.40
+    VERY_LOW = "very_low"  # < 0.40
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Score Types
+# ──────────────────────────────────────────────────────────────────────────────
+
+T = TypeVar("T")
+
+
+@dataclass(frozen=True)
+class ConfidenceScore(Generic[T]):
+    """
+    A confidence-scored value from any input channel.
+    Used throughout the system to represent graded signal quality.
+    """
+
+    value: T
+    confidence: float = field(default=0.0)  # 0.0–1.0
+    channel: InputChannel = InputChannel.CUSTOM
+    timestamp: float = field(default_factory=time.time)
+    metadata: dict[str, Any] = field(default_factory=dict)
+
+    @property
+    def level(self) -> ConfidenceLevel:
+        if self.confidence >= 0.85:
+            return ConfidenceLevel.HIGH
+        elif self.confidence >= 0.60:
+            return ConfidenceLevel.MEDIUM
+        elif self.confidence >= 0.40:
+            return ConfidenceLevel.LOW
+        return ConfidenceLevel.VERY_LOW
+
+    def is_usable(self, threshold: float = 0.50) -> bool:
+        return self.confidence >= threshold
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Event Types
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+@dataclass
+class InputEvent:
+    """
+    Unified representation of any user input event.
+    All input drivers emit this type after normalization.
+    """
+
+    channel: InputChannel
+    timestamp: float = field(default_factory=time.time)
+    action: str = ""  # e.g. "dwell", "click", "type", "speak"
+    raw_value: Any = None  # Raw driver-specific data
+    parsed: ConfidenceScore[Any] | None = None
+    sequence_id: int = 0  # Monotonic sequence number per channel
+    session_id: str = ""  # For cross-channel correlation
+
+
+@dataclass
+class OutputEvent:
+    """Unified representation of any output event dispatched by the engine."""
+
+    channel: OutputChannel
+    timestamp: float = field(default_factory=time.time)
+    content: str = ""
+    confidence: float = 1.0
+    action: str = "display"  # e.g. "speak", "vibrate", "alert"
+    metadata: dict[str, Any] = field(default_factory=dict)
+    priority: int = 0  # Higher = more urgent (emergency=100)
+
+
+@dataclass
+class IntentEvent:
+    """
+    Result of the AI intent engine's analysis of one or more input events.
+    """
+
+    category: IntentCategory
+    raw_text: str = ""
+    structured: dict[str, Any] = field(default_factory=dict)
+    # Parsed fields for common intents
+    entities: dict[str, str] = field(default_factory=dict)
+    sentiment: float = 0.0  # -1.0 to 1.0
+    urgency: float = 0.0  # 0.0 to 1.0
+    confidence: float = 0.0
+    sources: list[InputChannel] = field(default_factory=list)
+    timestamp: float = field(default_factory=time.time)
+    session_id: str = ""
+
+
+@dataclass
+class PredictionResult:
+    """
+    A single prediction from the adaptive learning engine.
+    """
+
+    predicted_text: str = ""
+    predicted_action: str = ""
+    confidence: float = 0.0
+    alternatives: list[tuple[str, float]] = field(default_factory=list)
+    model_id: str = ""
+    timestamp: float = field(default_factory=time.time)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Channel Status
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+@dataclass
+class ChannelStatus:
+    """Runtime status snapshot of a single input or output channel."""
+
+    name: str
+    channel_type: str = ""  # "input" or "output"
+    state: DriverState = DriverState.STOPPED
+    is_enabled: bool = False
+    confidence: float = 0.0
+    latency_ms: float = 0.0
+    error_message: str = ""
+    extra: dict[str, Any] = field(default_factory=dict)
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# User Profile
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+@dataclass
+class InputConfig:
+    """Configuration for a single input channel within a user profile."""
+
+    enabled: bool = False
+    dwell_time_ms: int = 500
+    scan_rate_hz: float = 2.0
+    sensitivity: float = 0.5  # 0.0–1.0
+    custom_params: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass
+class OutputConfig:
+    """Configuration for a single output channel within a user profile."""
+
+    enabled: bool = False
+    volume: float = 1.0  # 0.0–1.0
+    rate: float = 1.0  # e.g. speech rate multiplier
+    pitch: float = 1.0
+    custom_params: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass
+class AIConfig:
+    """Configuration for AI components."""
+
+    provider: str = "ollama"  # "ollama" | "openai" | "mock"
+    model: str = "llama3.2:latest"
+    base_url: str = "http://localhost:11434"
+    api_key: str = ""
+    local: bool = True
+    temperature: float = 0.7
+    max_tokens: int = 256
+    prediction_enabled: bool = True
+    adaptive_learning_enabled: bool = True
+    intent_confidence_threshold: float = 0.60
+
+
+@dataclass
+class UserProfile:
+    """
+    Complete user profile containing all channel configs and AI settings.
+    Loaded from YAML on startup, persisted on change.
+    """
+
+    id: str = "default"
+    name: str = "Default User"
+    description: str = ""
+    created_at: float = field(default_factory=time.time)
+    updated_at: float = field(default_factory=time.time)
+    inputs: dict[str, InputConfig] = field(default_factory=dict)
+    outputs: dict[str, OutputConfig] = field(default_factory=dict)
+    ai: AIConfig = field(default_factory=AIConfig)
+    ui: dict[str, Any] = field(
+        default_factory=lambda: {
+            "theme": "light",
+            "font_size": 18,
+            "grid_layout": "aac_standard",
+            "language": "en",
+            "aac_preset": "standard",
+        }
+    )
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Abstract Base Driver Interface
+# ──────────────────────────────────────────────────────────────────────────────
+
+Callback = Callable[[InputEvent | OutputEvent], None]
+
+
+class BaseInputDriver(ABC):
+    """
+    Abstract base class for all input drivers.
+    Implement this to add a new input channel.
+    """
+
+    name: str = "base_input"
+    channel_type: InputChannel = InputChannel.CUSTOM
+
+    def __init__(self, config: InputConfig, event_callback: Callback | None = None):
+        self.config = config
+        self._callback = event_callback
+        self._state = DriverState.STOPPED
+        self._seq = 0
+
+    @property
+    def state(self) -> DriverState:
+        return self._state
+
+    @abstractmethod
+    def start(self) -> None:
+        """Start the driver. Must be non-blocking or run in a thread."""
+        ...
+
+    @abstractmethod
+    def stop(self) -> None:
+        """Stop and clean up the driver."""
+        ...
+
+    @abstractmethod
+    def calibrate(self) -> bool:
+        """Run calibration routine. Returns True on success."""
+        ...
+
+    @abstractmethod
+    def get_status(self) -> ChannelStatus:
+        """Return current runtime status."""
+        ...
+
+    def _emit(self, action: str, raw_value: Any, confidence: float = 1.0) -> None:
+        """Helper to emit a normalized InputEvent."""
+        self._seq += 1
+        event = InputEvent(
+            channel=self.channel_type,
+            action=action,
+            raw_value=raw_value,
+            parsed=ConfidenceScore(
+                value=raw_value,
+                confidence=confidence,
+                channel=self.channel_type,
+            ),
+            sequence_id=self._seq,
+        )
+        if self._callback:
+            self._callback(event)
+
+
+class BaseOutputDriver(ABC):
+    """
+    Abstract base class for all output drivers.
+    Implement this to add a new output channel.
+    """
+
+    name: str = "base_output"
+    channel_type: OutputChannel = OutputChannel.CUSTOM
+
+    def __init__(self, config: OutputConfig):
+        self.config = config
+        self._state = DriverState.STOPPED
+
+    @property
+    def state(self) -> DriverState:
+        return self._state
+
+    @abstractmethod
+    def send(self, event: OutputEvent) -> bool:
+        """Send an output event. Returns True on success."""
+        ...
+
+    @abstractmethod
+    def start(self) -> None:
+        ...
+
+    @abstractmethod
+    def stop(self) -> None:
+        ...
+
+    @abstractmethod
+    def get_status(self) -> ChannelStatus:
+        ...

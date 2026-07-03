@@ -1,1 +1,149 @@
-IiIiCmFibGVicmlkZ2UuY29yZS5wcm9maWxlIOKAlCBVc2VyIHByb2ZpbGUgcGVyc2lzdGVuY2UuCgpQcm9maWxlcyBhcmUgWUFNTCBmaWxlcyB0aGF0IHN0b3JlIGNvbXBsZXRlIGNvbmZpZ3VyYXRpb246CmlucHV0cywgb3V0cHV0cywgQUkgc2V0dGluZ3MsIFVJIHByZWZlcmVuY2VzLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCB0aW1lCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHlhbWwKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgpmcm9tIHB5ZGFudGljIGltcG9ydCBWYWxpZGF0aW9uRXJyb3IKCmZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCBVc2VyUHJvZmlsZSwgSW5wdXRDb25maWcsIE91dHB1dENvbmZpZywgQUlDb25maWcKCgpjbGFzcyBQcm9maWxlTWFuYWdlcjoKICAgICIiIgogICAgTG9hZCwgc2F2ZSwgYW5kIGxpc3QgdXNlciBwcm9maWxlcyBmcm9tIHRoZSBmaWxlc3lzdGVtLgogICAgUHJvZmlsZXMgYXJlIHN0b3JlZCBhcyBZQU1MIGZpbGVzIGluIHRoZSBwcm9maWxlIGRpcmVjdG9yeS4KICAgICIiIgoKICAgIERFRkFVTFRfUFJPRklMRSA9ICIiIgpwcm9maWxlOgogIGlkOiBkZWZhdWx0CiAgbmFtZTogRGVmYXVsdCBVc2VyCiAgZGVzY3JpcHRpb246IERlZmF1bHQgYWNjZXNzaWJpbGl0eSBwcm9maWxlIGZvciBBYmxlQnJpZGdlCiAgaW5wdXRzOgogICAga2V5Ym9hcmQ6CiAgICAgIGVuYWJsZWQ6IHRydWUKICAgICAgZHdlbGxfdGltZV9tczogMAogICAgICBzY2FuX3JhdGVfaHo6IDIuMAogICAgICBzZW5zaXRpdml0eTogMS4wCiAgICBleWVnYXplOgogICAgICBlbmFibGVkOiBmYWxzZQogICAgICBkd2VsbF90aW1lX21zOiA1MDAKICAgICAgc2Nhbl9yYXRlX2h6OiAyLjAKICAgICAgc2Vuc2l0aXZpdHk6IDAuNwogICAgICBjdXN0b21fcGFyYW1zOgogICAgICAgIGNhbWVyYV9pZDogMAogICAgdm9pY2U6CiAgICAgIGVuYWJsZWQ6IGZhbHNlCiAgICAgIGR3ZWxsX3RpbWVfbXM6IDAKICAgICAgc2Nhbl9yYXRlX2h6OiAxLjAKICAgICAgc2Vuc2l0aXZpdHk6IDAuNgogICAgc3dpdGNoOgogICAgICBlbmFibGVkOiBmYWxzZQogICAgICBkd2VsbF90aW1lX21zOiAzMDAKICAgICAgc2Nhbl9yYXRlX2h6OiAyLjAKICAgICAgc2Vuc2l0aXZpdHk6IDEuMAogICAgICBjdXN0b21fcGFyYW1zOgogICAgICAgIHBvcnQ6IC9kZXYvdHR5VVNCMAogIG91dHB1dHM6CiAgICB0dHM6CiAgICAgIGVuYWJsZWQ6IHRydWUKICAgICAgdm9sdW1lOiAxLjAKICAgICAgcmF0ZTogMS4wCiAgICAgIHBpdGNoOiAxLjAKICAgIHNtYXJ0aG9tZToKICAgICAgZW5hYmxlZDogZmFsc2UKICAgICAgdm9sdW1lOiAxLjAKICAgICAgcmF0ZTogMS4wCiAgICAgIHBpdGNoOiAxLjAKICBhaToKICAgIHByb3ZpZGVyOiBvbGxhbWEKICAgIG1vZGVsOiBsbGFtYTMuMjpsYXRlc3QKICAgIGJhc2VfdXJsOiBodHRwOi8vbG9jYWxob3N0OjExNDM0CiAgICBsb2NhbDogdHJ1ZQogICAgdGVtcGVyYXR1cmU6IDAuNwogICAgbWF4X3Rva2VuczogMjU2CiAgICBwcmVkaWN0aW9uX2VuYWJsZWQ6IHRydWUKICAgIGFkYXB0aXZlX2xlYXJuaW5nX2VuYWJsZWQ6IHRydWUKICAgIGludGVudF9jb25maWRlbmNlX3RocmVzaG9sZDogMC42MAogIHVpOgogICAgdGhlbWU6IGxpZ2h0CiAgICBmb250X3NpemU6IDE4CiAgICBncmlkX2xheW91dDogYWFjX3N0YW5kYXJkCiAgICBsYW5ndWFnZTogZW4KICAgIGFhY19wcmVzZXQ6IHN0YW5kYXJkCiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwcm9maWxlX2RpcjogUGF0aCB8IHN0ciA9ICJjb25maWcvcHJvZmlsZXMiKToKICAgICAgICBzZWxmLl9kaXIgPSBQYXRoKHByb2ZpbGVfZGlyKQogICAgICAgIHNlbGYuX2Rpci5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCgogICAgICAgICMgV3JpdGUgZGVmYXVsdCBwcm9maWxlIGlmIG5vbmUgZXhpc3QKICAgICAgICBpZiBub3QgbGlzdChzZWxmLl9kaXIuZ2xvYigiKi55YW1sIikpIGFuZCBub3QgbGlzdChzZWxmLl9kaXIuZ2xvYigiKi55bWwiKSk6CiAgICAgICAgICAgIHNlbGYuX3dyaXRlX2RlZmF1bHRfcHJvZmlsZSgpCgogICAgZGVmIF93cml0ZV9kZWZhdWx0X3Byb2ZpbGUoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJXcml0ZSB0aGUgYnVpbHQtaW4gZGVmYXVsdCBwcm9maWxlLiIiIgogICAgICAgIGRlZmF1bHRfcGF0aCA9IHNlbGYuX2RpciAvICJkZWZhdWx0LnlhbWwiCiAgICAgICAgY29udGVudCA9IHlhbWwuc2FmZV9sb2FkKHNlbGYuREVGQVVMVF9QUk9GSUxFKQogICAgICAgIHdpdGggb3BlbihkZWZhdWx0X3BhdGgsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICAgICAgeWFtbC5kdW1wKGNvbnRlbnQsIGYsIGRlZmF1bHRfZmxvd19zdHlsZT1GYWxzZSwgYWxsb3dfdW5pY29kZT1UcnVlKQogICAgICAgIGxvZ2dlci5pbmZvKGYiW1Byb2ZpbGVNYW5hZ2VyXSBDcmVhdGVkIGRlZmF1bHQgcHJvZmlsZSBhdCB7ZGVmYXVsdF9wYXRofSIpCgogICAgZGVmIF9wcm9maWxlX3BhdGgoc2VsZiwgcHJvZmlsZV9pZDogc3RyKSAtPiBQYXRoOgogICAgICAgIHJldHVybiBzZWxmLl9kaXIgLyBmIntwcm9maWxlX2lkfS55YW1sIgoKICAgIGRlZiBsaXN0X3Byb2ZpbGVzKHNlbGYpIC0+IGxpc3Rbc3RyXToKICAgICAgICAiIiJSZXR1cm4gYWxsIGF2YWlsYWJsZSBwcm9maWxlIElEcy4iIiIKICAgICAgICByZXR1cm4gWwogICAgICAgICAgICBwLnN0ZW0gZm9yIHAgaW4gc2VsZi5fZGlyLmdsb2IoIioueWFtbCIpCiAgICAgICAgXSArIFsKICAgICAgICAgICAgcC5zdGVtIGZvciBwIGluIHNlbGYuX2Rpci5nbG9iKCIqLnltbCIpCiAgICAgICAgXQoKICAgIGRlZiBsb2FkKHNlbGYsIHByb2ZpbGVfaWQ6IHN0cikgLT4gVXNlclByb2ZpbGU6CiAgICAgICAgIiIiTG9hZCBhIHByb2ZpbGUgYnkgSUQuIENyZWF0ZXMgZGVmYXVsdCBpZiBub3QgZm91bmQuIiIiCiAgICAgICAgcGF0aCA9IHNlbGYuX3Byb2ZpbGVfcGF0aChwcm9maWxlX2lkKQogICAgICAgIGlmIG5vdCBwYXRoLmV4aXN0cygpOgogICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIltQcm9maWxlTWFuYWdlcl0gUHJvZmlsZSAne3Byb2ZpbGVfaWR9JyBub3QgZm91bmQsIGNyZWF0aW5nIGRlZmF1bHQiKQogICAgICAgICAgICByZXR1cm4gc2VsZi5fY3JlYXRlX2RlZmF1bHQocHJvZmlsZV9pZCkKCiAgICAgICAgd2l0aCBvcGVuKHBhdGgsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgIHJhdyA9IHlhbWwuc2FmZV9sb2FkKGYpCgogICAgICAgIHRyeToKICAgICAgICAgICAgZGF0YSA9IHJhdy5nZXQoInByb2ZpbGUiLCByYXcpIGlmIGlzaW5zdGFuY2UocmF3LCBkaWN0KSBlbHNlIHt9CiAgICAgICAgICAgIHJldHVybiBVc2VyUHJvZmlsZSgqKmRhdGEpCiAgICAgICAgZXhjZXB0IFZhbGlkYXRpb25FcnJvciBhcyBlOgogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiJbUHJvZmlsZU1hbmFnZXJdIFByb2ZpbGUgdmFsaWRhdGlvbiBlcnJvcjoge2V9IikKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX2NyZWF0ZV9kZWZhdWx0KHByb2ZpbGVfaWQpCgogICAgZGVmIHNhdmUoc2VsZiwgcHJvZmlsZTogVXNlclByb2ZpbGUpIC0+IE5vbmU6CiAgICAgICAgIiIiU2F2ZSBhIHByb2ZpbGUgdG8gZGlzay4iIiIKICAgICAgICBwYXRoID0gc2VsZi5fcHJvZmlsZV9wYXRoKHByb2ZpbGUuaWQpCiAgICAgICAgZGF0YSA9IHsicHJvZmlsZSI6IHByb2ZpbGUubW9kZWxfZHVtcCgpfQogICAgICAgIHdpdGggb3BlbihwYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgIHlhbWwuZHVtcChkYXRhLCBmLCBkZWZhdWx0X2Zsb3dfc3R5bGU9RmFsc2UsIGFsbG93X3VuaWNvZGU9VHJ1ZSkKICAgICAgICBsb2dnZXIuaW5mbyhmIltQcm9maWxlTWFuYWdlcl0gU2F2ZWQgcHJvZmlsZSAne3Byb2ZpbGUuaWR9JyB0byB7cGF0aH0iKQoKICAgIGRlZiBfY3JlYXRlX2RlZmF1bHQoc2VsZiwgcHJvZmlsZV9pZDogc3RyKSAtPiBVc2VyUHJvZmlsZToKICAgICAgICAiIiJDcmVhdGUgYW5kIHNhdmUgYSBkZWZhdWx0IHByb2ZpbGUuIiIiCiAgICAgICAgcHJvZmlsZSA9IFVzZXJQcm9maWxlKGlkPXByb2ZpbGVfaWQpCiAgICAgICAgc2VsZi5zYXZlKHByb2ZpbGUpCiAgICAgICAgcmV0dXJuIHByb2ZpbGUKCiAgICBkZWYgZGVsZXRlKHNlbGYsIHByb2ZpbGVfaWQ6IHN0cikgLT4gYm9vbDoKICAgICAgICAiIiJEZWxldGUgYSBwcm9maWxlLiBSZXR1cm5zIEZhbHNlIGlmIGl0IGRvZXNuJ3QgZXhpc3QuIiIiCiAgICAgICAgcGF0aCA9IHNlbGYuX3Byb2ZpbGVfcGF0aChwcm9maWxlX2lkKQogICAgICAgIGlmIHBhdGguZXhpc3RzKCk6CiAgICAgICAgICAgIHBhdGgudW5saW5rKCkKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2UK
+"""
+ablebridge.core.profile — User profile persistence.
+
+Profiles are YAML files that store complete configuration:
+inputs, outputs, AI settings, UI preferences.
+"""
+
+from __future__ import annotations
+
+import time
+from pathlib import Path
+
+import yaml
+from loguru import logger
+from pydantic import ValidationError
+
+from ablebridge.core.types import UserProfile, InputConfig, OutputConfig, AIConfig
+
+
+class ProfileManager:
+    """
+    Load, save, and list user profiles from the filesystem.
+    Profiles are stored as YAML files in the profile directory.
+    """
+
+    DEFAULT_PROFILE = """
+profile:
+  id: default
+  name: Default User
+  description: Default accessibility profile for AbleBridge
+  inputs:
+    keyboard:
+      enabled: true
+      dwell_time_ms: 0
+      scan_rate_hz: 2.0
+      sensitivity: 1.0
+    eyegaze:
+      enabled: false
+      dwell_time_ms: 500
+      scan_rate_hz: 2.0
+      sensitivity: 0.7
+      custom_params:
+        camera_id: 0
+    voice:
+      enabled: false
+      dwell_time_ms: 0
+      scan_rate_hz: 1.0
+      sensitivity: 0.6
+    switch:
+      enabled: false
+      dwell_time_ms: 300
+      scan_rate_hz: 2.0
+      sensitivity: 1.0
+      custom_params:
+        port: /dev/ttyUSB0
+  outputs:
+    tts:
+      enabled: true
+      volume: 1.0
+      rate: 1.0
+      pitch: 1.0
+    smarthome:
+      enabled: false
+      volume: 1.0
+      rate: 1.0
+      pitch: 1.0
+  ai:
+    provider: ollama
+    model: llama3.2:latest
+    base_url: http://localhost:11434
+    local: true
+    temperature: 0.7
+    max_tokens: 256
+    prediction_enabled: true
+    adaptive_learning_enabled: true
+    intent_confidence_threshold: 0.60
+  ui:
+    theme: light
+    font_size: 18
+    grid_layout: aac_standard
+    language: en
+    aac_preset: standard
+"""
+
+    def __init__(self, profile_dir: Path | str = "config/profiles"):
+        self._dir = Path(profile_dir)
+        self._dir.mkdir(parents=True, exist_ok=True)
+
+        # Write default profile if none exist
+        if not list(self._dir.glob("*.yaml")) and not list(self._dir.glob("*.yml")):
+            self._write_default_profile()
+
+    def _write_default_profile(self) -> None:
+        """Write the built-in default profile."""
+        default_path = self._dir / "default.yaml"
+        content = yaml.safe_load(self.DEFAULT_PROFILE)
+        with open(default_path, "w", encoding="utf-8") as f:
+            yaml.dump(content, f, default_flow_style=False, allow_unicode=True)
+        logger.info(f"[ProfileManager] Created default profile at {default_path}")
+
+    def _profile_path(self, profile_id: str) -> Path:
+        return self._dir / f"{profile_id}.yaml"
+
+    def list_profiles(self) -> list[str]:
+        """Return all available profile IDs."""
+        return [
+            p.stem for p in self._dir.glob("*.yaml")
+        ] + [
+            p.stem for p in self._dir.glob("*.yml")
+        ]
+
+    def load(self, profile_id: str) -> UserProfile:
+        """Load a profile by ID. Creates default if not found."""
+        path = self._profile_path(profile_id)
+        if not path.exists():
+            logger.warning(f"[ProfileManager] Profile '{profile_id}' not found, creating default")
+            return self._create_default(profile_id)
+
+        with open(path, encoding="utf-8") as f:
+            raw = yaml.safe_load(f)
+
+        try:
+            data = raw.get("profile", raw) if isinstance(raw, dict) else {}
+            return UserProfile(**data)
+        except ValidationError as e:
+            logger.error(f"[ProfileManager] Profile validation error: {e}")
+            return self._create_default(profile_id)
+
+    def save(self, profile: UserProfile) -> None:
+        """Save a profile to disk."""
+        path = self._profile_path(profile.id)
+        data = {"profile": profile.model_dump()}
+        with open(path, "w", encoding="utf-8") as f:
+            yaml.dump(data, f, default_flow_style=False, allow_unicode=True)
+        logger.info(f"[ProfileManager] Saved profile '{profile.id}' to {path}")
+
+    def _create_default(self, profile_id: str) -> UserProfile:
+        """Create and save a default profile."""
+        profile = UserProfile(id=profile_id)
+        self.save(profile)
+        return profile
+
+    def delete(self, profile_id: str) -> bool:
+        """Delete a profile. Returns False if it doesn't exist."""
+        path = self._profile_path(profile_id)
+        if path.exists():
+            path.unlink()
+            return True
+        return False

@@ -1,1 +1,3 @@
-IiIiT3V0cHV0IGRyaXZlciBiYXNlIGNsYXNzIOKAlCByZS1leHBvcnRlZCBmcm9tIGNvcmUudHlwZXMgZm9yIGNvbnZlbmllbmNlLiIiIgpmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgQmFzZU91dHB1dERyaXZlcgpfX2FsbF9fID0gWyJCYXNlT3V0cHV0RHJpdmVyIl0K
+"""Output driver base class — re-exported from core.types for convenience."""
+from ablebridge.core.types import BaseOutputDriver
+__all__ = ["BaseOutputDriver"]

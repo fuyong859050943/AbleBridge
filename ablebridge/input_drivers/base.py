@@ -1,1 +1,3 @@
-IiIiSW5wdXQgZHJpdmVyIGJhc2UgY2xhc3Mg4oCUIHJlLWV4cG9ydGVkIGZyb20gY29yZS50eXBlcyBmb3IgY29udmVuaWVuY2UuIiIiCmZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCBCYXNlSW5wdXREcml2ZXIKX19hbGxfXyA9IFsiQmFzZUlucHV0RHJpdmVyIl0K
+"""Input driver base class — re-exported from core.types for convenience."""
+from ablebridge.core.types import BaseInputDriver
+__all__ = ["BaseInputDriver"]

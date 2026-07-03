@@ -1,1 +1,254 @@
-IiIiCmFibGVicmlkZ2UuY2xpIOKAlCBDb21tYW5kLWxpbmUgaW50ZXJmYWNlLgoKVXNhZ2U6CiAgICBhYmxlYnJpZGdlIGd1aSAgICAgICAgICAjIExhdW5jaCB3ZWIgR1VJCiAgICBhYmxlYnJpZGdlIGNvcmUgICAgICAgICAjIFJ1biBjb3JlIGVuZ2luZSAobm8gR1VJKQogICAgYWJsZWJyaWRnZSBjYWxpYnJhdGUgICAgIyBSdW4gZXllIHRyYWNraW5nIGNhbGlicmF0aW9uCiAgICBhYmxlYnJpZGdlIHN0YXR1cyAgICAgICAjIFNob3cgc3lzdGVtIHN0YXR1cwogICAgYWJsZWJyaWRnZSBwcmVkaWN0ICAgICAgIyBUZXN0IHByZWRpY3Rpb24gZW5naW5lCiAgICBhYmxlYnJpZGdlIHZvaWNlc3BlYWsgICAjIFRlc3QgVFRTCiAgICBhYmxlYnJpZGdlIGRyaXZlciBsaXN0ICAjIExpc3QgYXZhaWxhYmxlIGRyaXZlcnMKICAgIGFibGVicmlkZ2UgZHJpdmVyIHRlc3QgPGRyaXZlcj4gICMgVGVzdCBhIHNwZWNpZmljIGRyaXZlcgogICAgYWJsZWJyaWRnZSBwcm9maWxlIGxpc3QgIyBMaXN0IHByb2ZpbGVzCiAgICBhYmxlYnJpZGdlIHByb2ZpbGUgbmV3IDxuYW1lPiAgICAjIENyZWF0ZSBuZXcgcHJvZmlsZQoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgdHlwZXIKZnJvbSByaWNoLmNvbnNvbGUgaW1wb3J0IENvbnNvbGUKZnJvbSByaWNoLnRhYmxlIGltcG9ydCBUYWJsZQpmcm9tIHJpY2gucGFuZWwgaW1wb3J0IFBhbmVsCmZyb20gcmljaCBpbXBvcnQgcHJpbnQgYXMgcnByaW50Cgpmcm9tIGFibGVicmlkZ2UgaW1wb3J0IF9fdmVyc2lvbl9fCmZyb20gYWJsZWJyaWRnZS5jb3JlLmVuZ2luZSBpbXBvcnQgQWJsZUJyaWRnZUVuZ2luZQpmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgSW5wdXRDaGFubmVsLCBPdXRwdXRDaGFubmVsCgphcHAgPSB0eXBlci5UeXBlcigKICAgIG5hbWU9ImFibGVicmlkZ2UiLAogICAgaGVscD0iQWJsZUJyaWRnZSDigJQgVW5pdmVyc2FsIEFJIEFjY2Vzc2liaWxpdHkgQnJpZGdlIiwKICAgIGFkZF9jb21wbGV0aW9uPUZhbHNlLAopCmNvbnNvbGUgPSBDb25zb2xlKCkKCgpkZWYgX2dldF9lbmdpbmUocHJvZmlsZV9kaXI6IHN0ciA9ICJjb25maWcvcHJvZmlsZXMiKSAtPiBBYmxlQnJpZGdlRW5naW5lOgogICAgZW5naW5lID0gQWJsZUJyaWRnZUVuZ2luZShwcm9maWxlX2Rpcj1wcm9maWxlX2RpcikKICAgIGVuZ2luZS5sb2FkX3Byb2ZpbGUoImRlZmF1bHQiKQogICAgcmV0dXJuIGVuZ2luZQoKCkBhcHAuY29tbWFuZCgpCmRlZiBndWkoCiAgICBob3N0OiBzdHIgPSB0eXBlci5PcHRpb24oIjAuMC4wLjAiLCBoZWxwPSJIb3N0IHRvIGJpbmQiKSwKICAgIHBvcnQ6IGludCA9IHR5cGVyLk9wdGlvbig4NzY1LCBoZWxwPSJQb3J0IHRvIGJpbmQiKSwKICAgIHByb2ZpbGU6IHN0ciA9IHR5cGVyLk9wdGlvbigiZGVmYXVsdCIsIGhlbHA9IlByb2ZpbGUgSUQiKSwKICAgIHByb2ZpbGVfZGlyOiBzdHIgPSB0eXBlci5PcHRpb24oImNvbmZpZy9wcm9maWxlcyIsIGhlbHA9IlByb2ZpbGUgZGlyZWN0b3J5IiksCikgLT4gTm9uZToKICAgICIiIkxhdW5jaCB0aGUgd2ViLWJhc2VkIEdVSS4iIiIKICAgIGZyb20gYWJsZWJyaWRnZS5ndWkuYXBwIGltcG9ydCBtYWluIGFzIGd1aV9tYWluCgogICAgY29uc29sZS5wcmludChQYW5lbC5maXQoCiAgICAgICAgZiJbYm9sZF1BYmxlQnJpZGdlIHZ7X192ZXJzaW9uX199Wy9ib2xkXVxuIgogICAgICAgICJVbml2ZXJzYWwgQUkgQWNjZXNzaWJpbGl0eSBCcmlkZ2VcblxuIgogICAgICAgIGYi8J+MkCBHVUk6IGh0dHA6Ly9sb2NhbGhvc3Q6e3BvcnR9XG4iCiAgICAgICAgZiLwn5OBIFByb2ZpbGU6IHtwcm9maWxlfSIsCiAgICAgICAgYm9yZGVyX3N0eWxlPSJncmVlbiIsCiAgICApKQoKICAgIGVuZ2luZSA9IEFibGVCcmlkZ2VFbmdpbmUocHJvZmlsZV9kaXI9cHJvZmlsZV9kaXIpCiAgICBlbmdpbmUubG9hZF9wcm9maWxlKHByb2ZpbGUpCiAgICBlbmdpbmUuYXV0b19yZWdpc3Rlcl9kcml2ZXJzKCkKICAgIGVuZ2luZS5zdGFydCgpCgogICAgdHJ5OgogICAgICAgIGd1aV9tYWluKGhvc3Q9aG9zdCwgcG9ydD1wb3J0KQogICAgZXhjZXB0IEtleWJvYXJkSW50ZXJydXB0OgogICAgICAgIGNvbnNvbGUucHJpbnQoIlxuW3llbGxvd11TaHV0dGluZyBkb3duLi4uWy95ZWxsb3ddIikKICAgIGZpbmFsbHk6CiAgICAgICAgZW5naW5lLnN0b3AoKQoKCkBhcHAuY29tbWFuZCgpCmRlZiBjb3JlKAogICAgcHJvZmlsZTogc3RyID0gdHlwZXIuT3B0aW9uKCJkZWZhdWx0IiwgaGVscD0iUHJvZmlsZSBJRCIpLAogICAgcHJvZmlsZV9kaXI6IHN0ciA9IHR5cGVyLk9wdGlvbigiY29uZmlnL3Byb2ZpbGVzIiwgaGVscD0iUHJvZmlsZSBkaXJlY3RvcnkiKSwKKSAtPiBOb25lOgogICAgIiIiUnVuIHRoZSBjb3JlIGVuZ2luZSB3aXRob3V0IEdVSSAoZm9yIGhlYWRsZXNzIHNlcnZlcnMgLyBSYXNwYmVycnkgUGkpLiIiIgogICAgY29uc29sZS5wcmludChmIltib2xkXVN0YXJ0aW5nIEFibGVCcmlkZ2UgQ29yZVsvYm9sZF0g4oCUIHByb2ZpbGU6IHtwcm9maWxlfSIpCgogICAgZW5naW5lID0gQWJsZUJyaWRnZUVuZ2luZShwcm9maWxlX2Rpcj1wcm9maWxlX2RpcikKICAgIGVuZ2luZS5sb2FkX3Byb2ZpbGUocHJvZmlsZSkKICAgIGVuZ2luZS5hdXRvX3JlZ2lzdGVyX2RyaXZlcnMoKQogICAgZW5naW5lLnN0YXJ0KCkKCiAgICBjb25zb2xlLnByaW50KGYiW2dyZWVuXUVuZ2luZSBydW5uaW5nLiBTZXNzaW9uOiB7ZW5naW5lLnNlc3Npb25faWR9Wy9ncmVlbl0iKQogICAgY29uc29sZS5wcmludCgiUHJlc3MgQ3RybCtDIHRvIHN0b3AuXG4iKQoKICAgIHRyeToKICAgICAgICB3aGlsZSBlbmdpbmUuaXNfcnVubmluZzoKICAgICAgICAgICAgdGltZS5zbGVlcCg1KQogICAgICAgICAgICBzdGF0dXMgPSBlbmdpbmUuZ2V0X3N5c3RlbV9zdGF0dXMoKQogICAgICAgICAgICBydW5uaW5nX2lucHV0cyA9IHN1bSgKICAgICAgICAgICAgICAgIDEgZm9yIHMgaW4gc3RhdHVzWyJpbnB1dHMiXS52YWx1ZXMoKQogICAgICAgICAgICAgICAgaWYgcy5nZXQoInN0YXRlIikgPT0gInJ1bm5pbmciCiAgICAgICAgICAgICkKICAgICAgICAgICAgcnVubmluZ19vdXRwdXRzID0gc3VtKAogICAgICAgICAgICAgICAgMSBmb3IgcyBpbiBzdGF0dXNbIm91dHB1dHMiXS52YWx1ZXMoKQogICAgICAgICAgICAgICAgaWYgcy5nZXQoInN0YXRlIikgPT0gInJ1bm5pbmciCiAgICAgICAgICAgICkKICAgICAgICAgICAgY29uc29sZS5wcmludCgKICAgICAgICAgICAgICAgIGYiICBbe3RpbWUuc3RyZnRpbWUoJyVIOiVNOiVTJyl9XSAiCiAgICAgICAgICAgICAgICBmIklucHV0czoge3J1bm5pbmdfaW5wdXRzfSB8IE91dHB1dHM6IHtydW5uaW5nX291dHB1dHN9IHwgIgogICAgICAgICAgICAgICAgZiJCdXMgZXZlbnRzOiB7c3RhdHVzWydidXNfc3RhdHMnXVsncHVibGlzaGVkJ119IgogICAgICAgICAgICApCiAgICBleGNlcHQgS2V5Ym9hcmRJbnRlcnJ1cHQ6CiAgICAgICAgY29uc29sZS5wcmludCgiXG5beWVsbG93XVN0b3BwaW5nLi4uWy95ZWxsb3ddIikKICAgIGZpbmFsbHk6CiAgICAgICAgZW5naW5lLnN0b3AoKQogICAgICAgIGNvbnNvbGUucHJpbnQoIltncmVlbl1TdG9wcGVkLlsvZ3JlZW5dIikKCgpAYXBwLmNvbW1hbmQoKQpkZWYgc3RhdHVzKAogICAgcHJvZmlsZV9kaXI6IHN0ciA9IHR5cGVyLk9wdGlvbigiY29uZmlnL3Byb2ZpbGVzIiwgaGVscD0iUHJvZmlsZSBkaXJlY3RvcnkiKSwKKSAtPiBOb25lOgogICAgIiIiU2hvdyBzeXN0ZW0gc3RhdHVzIChpbnB1dHMsIG91dHB1dHMsIEFJIGVuZ2luZXMpLiIiIgogICAgZW5naW5lID0gQWJsZUJyaWRnZUVuZ2luZShwcm9maWxlX2Rpcj1wcm9maWxlX2RpcikKICAgIGVuZ2luZS5sb2FkX3Byb2ZpbGUoImRlZmF1bHQiKQoKICAgIHN0YXR1cyA9IGVuZ2luZS5nZXRfc3lzdGVtX3N0YXR1cygpCgogICAgIyBJbnB1dHMgdGFibGUKICAgIHRhYmxlID0gVGFibGUodGl0bGU9IklucHV0IENoYW5uZWxzIikKICAgIHRhYmxlLmFkZF9jb2x1bW4oIkNoYW5uZWwiLCBzdHlsZT0iY3lhbiIpCiAgICB0YWJsZS5hZGRfY29sdW1uKCJTdGF0ZSIsIHN0eWxlPSJ5ZWxsb3ciKQogICAgdGFibGUuYWRkX2NvbHVtbigiQ29uZmlkZW5jZSIsIHN0eWxlPSJncmVlbiIpCiAgICB0YWJsZS5hZGRfY29sdW1uKCJMYXRlbmN5Iiwgc3R5bGU9Im1hZ2VudGEiKQoKICAgIGZvciBjaF9pZCwgY2hfc3RhdHVzIGluIHN0YXR1c1siaW5wdXRzIl0uaXRlbXMoKToKICAgICAgICBzdGF0ZSA9IGNoX3N0YXR1cy5nZXQoInN0YXRlIiwgInVua25vd24iKQogICAgICAgIGNvbmYgPSBmIntjaF9zdGF0dXMuZ2V0KCdjb25maWRlbmNlJywgMCkgKiAxMDA6LjBmfSUiCiAgICAgICAgbGF0ID0gZiJ7Y2hfc3RhdHVzLmdldCgnbGF0ZW5jeV9tcycsIDApOi4wZn1tcyIKICAgICAgICB0YWJsZS5hZGRfcm93KGNoX2lkLCBzdGF0ZSwgY29uZiwgbGF0KQoKICAgIGNvbnNvbGUucHJpbnQodGFibGUpCiAgICBjb25zb2xlLnByaW50KCkKCiAgICAjIE91dHB1dHMgdGFibGUKICAgIHRhYmxlMiA9IFRhYmxlKHRpdGxlPSJPdXRwdXQgQ2hhbm5lbHMiKQogICAgdGFibGUyLmFkZF9jb2x1bW4oIkNoYW5uZWwiLCBzdHlsZT0iY3lhbiIpCiAgICB0YWJsZTIuYWRkX2NvbHVtbigiU3RhdGUiLCBzdHlsZT0ieWVsbG93IikKICAgIGZvciBjaF9pZCwgY2hfc3RhdHVzIGluIHN0YXR1c1sib3V0cHV0cyJdLml0ZW1zKCk6CiAgICAgICAgdGFibGUyLmFkZF9yb3coY2hfaWQsIGNoX3N0YXR1cy5nZXQoInN0YXRlIiwgInVua25vd24iKSkKICAgIGNvbnNvbGUucHJpbnQodGFibGUyKQogICAgY29uc29sZS5wcmludCgpCgogICAgIyBBSSBlbmdpbmVzCiAgICBhaSA9IHN0YXR1cy5nZXQoImFpIiwge30pCiAgICBjb25zb2xlLnByaW50KFBhbmVsKAogICAgICAgIGYiW2JvbGRdSW50ZW50IEVuZ2luZTpbL2JvbGRdIHthaS5nZXQoJ2ludGVudCcsICdOb25lJyl9XG4iCiAgICAgICAgZiJbYm9sZF1QcmVkaWN0aW9uOlsvYm9sZF0ge2FpLmdldCgncHJlZGljdGlvbicsICdOb25lJyl9IiwKICAgICAgICB0aXRsZT0iQUkgRW5naW5lcyIsCiAgICAgICAgYm9yZGVyX3N0eWxlPSJibHVlIiwKICAgICkpCgoKQGFwcC5jb21tYW5kKCkKZGVmIHByZWRpY3QoCiAgICB0ZXh0OiBzdHIgPSB0eXBlci5Bcmd1bWVudCgiIiwgaGVscD0iVGV4dCB0byBnZXQgcHJlZGljdGlvbnMgZm9yIiksCiAgICBwcm9maWxlX2Rpcjogc3RyID0gdHlwZXIuT3B0aW9uKCJjb25maWcvcHJvZmlsZXMiLCBoZWxwPSJQcm9maWxlIGRpcmVjdG9yeSIpLAopIC0+IE5vbmU6CiAgICAiIiJUZXN0IHRoZSBwcmVkaWN0aW9uIGVuZ2luZS4iIiIKICAgIGVuZ2luZSA9IF9nZXRfZW5naW5lKHByb2ZpbGVfZGlyKQogICAgZW5naW5lLmF1dG9fcmVnaXN0ZXJfZHJpdmVycygpCiAgICBlbmdpbmUuc3RhcnQoKQoKICAgIGlmIG5vdCB0ZXh0OgogICAgICAgIGNvbnNvbGUucHJpbnQoIlt5ZWxsb3ddRW50ZXIgdGV4dCB0byBwcmVkaWN0OlsveWVsbG93XSIpCiAgICAgICAgdGV4dCA9IHR5cGVyLnByb21wdCgiVGV4dCIpCgogICAgcHJlZGljdGlvbnMgPSBlbmdpbmUucHJlZGljdF9uZXh0KHRleHQpCiAgICBjb25zb2xlLnByaW50KGYiXG5bYm9sZF1QcmVkaWN0aW9ucyBmb3I6Wy9ib2xkXSAne3RleHR9JyIpCiAgICBmb3Igd29yZCwgY29uZiBpbiBwcmVkaWN0aW9uczoKICAgICAgICBiYXIgPSAi4paIIiAqIGludChjb25mICogMjApICsgIuKWkSIgKiAoMjAgLSBpbnQoY29uZiAqIDIwKSkKICAgICAgICBjb25zb2xlLnByaW50KGYiICB7d29yZDo8MjB9IHtiYXJ9IHtjb25mOi4yJX0iKQoKICAgIGVuZ2luZS5zdG9wKCkKCgpAYXBwLmNvbW1hbmQoKQpkZWYgdGVzdF90dHMoCiAgICB0ZXh0OiBzdHIgPSB0eXBlci5PcHRpb24oIkhlbGxvISBBYmxlQnJpZGdlIGlzIHdvcmtpbmcuIiwgaGVscD0iVGV4dCB0byBzcGVhayIpLAogICAgcHJvZmlsZV9kaXI6IHN0ciA9IHR5cGVyLk9wdGlvbigiY29uZmlnL3Byb2ZpbGVzIiwgaGVscD0iUHJvZmlsZSBkaXJlY3RvcnkiKSwKKSAtPiBOb25lOgogICAgIiIiVGVzdCB0aGUgVFRTIG91dHB1dC4iIiIKICAgIGVuZ2luZSA9IF9nZXRfZW5naW5lKHByb2ZpbGVfZGlyKQogICAgZW5naW5lLmF1dG9fcmVnaXN0ZXJfZHJpdmVycygpCiAgICBlbmdpbmUuc3RhcnQoKQogICAgY29uc29sZS5wcmludChmIltncmVlbl1TcGVha2luZzpbL2dyZWVuXSAne3RleHR9JyIpCiAgICBlbmdpbmUuc3BlYWsodGV4dCkKICAgIHRpbWUuc2xlZXAoMykKICAgIGVuZ2luZS5zdG9wKCkKCgpAYXBwLmNvbW1hbmQoKQpkZWYgZHJpdmVyX2xpc3QoKSAtPiBOb25lOgogICAgIiIiTGlzdCBhbGwgYXZhaWxhYmxlIGlucHV0IGFuZCBvdXRwdXQgZHJpdmVycy4iIiIKICAgIHRhYmxlID0gVGFibGUodGl0bGU9IkF2YWlsYWJsZSBEcml2ZXJzIikKICAgIHRhYmxlLmFkZF9jb2x1bW4oIlR5cGUiLCBzdHlsZT0iY3lhbiIpCiAgICB0YWJsZS5hZGRfY29sdW1uKCJOYW1lIiwgc3R5bGU9ImdyZWVuIikKICAgIHRhYmxlLmFkZF9jb2x1bW4oIlN0YXR1cyIsIHN0eWxlPSJ5ZWxsb3ciKQoKICAgICMgSW5wdXQgZHJpdmVycwogICAgZm9yIGNoIGluIElucHV0Q2hhbm5lbDoKICAgICAgICB0YWJsZS5hZGRfcm93KCJpbnB1dCIsIGNoLnZhbHVlLCAi4pyFIEF2YWlsYWJsZSIpCiAgICBmb3IgY2ggaW4gT3V0cHV0Q2hhbm5lbDoKICAgICAgICB0YWJsZS5hZGRfcm93KCJvdXRwdXQiLCBjaC52YWx1ZSwgIuKchSBBdmFpbGFibGUiKQoKICAgIGNvbnNvbGUucHJpbnQodGFibGUpCgoKQGFwcC5jb21tYW5kKCkKZGVmIHByb2ZpbGVfbGlzdCgKICAgIHByb2ZpbGVfZGlyOiBzdHIgPSB0eXBlci5PcHRpb24oImNvbmZpZy9wcm9maWxlcyIsIGhlbHA9IlByb2ZpbGUgZGlyZWN0b3J5IiksCikgLT4gTm9uZToKICAgICIiIkxpc3QgYWxsIHVzZXIgcHJvZmlsZXMuIiIiCiAgICBlbmdpbmUgPSBBYmxlQnJpZGdlRW5naW5lKHByb2ZpbGVfZGlyPXByb2ZpbGVfZGlyKQogICAgcHJvZmlsZXMgPSBlbmdpbmUubGlzdF9wcm9maWxlcygpCiAgICBjb25zb2xlLnByaW50KCJbYm9sZF1BdmFpbGFibGUgcHJvZmlsZXM6Wy9ib2xkXSIpCiAgICBmb3IgcCBpbiBwcm9maWxlczoKICAgICAgICBjb25zb2xlLnByaW50KGYiICDigKIge3B9IikKCgpAYXBwLmNvbW1hbmQoKQpkZWYgcHJvZmlsZV9uZXcoCiAgICBuYW1lOiBzdHIgPSB0eXBlci5Bcmd1bWVudCguLi4sIGhlbHA9IlByb2ZpbGUgbmFtZSIpLAogICAgcHJvZmlsZV9kaXI6IHN0ciA9IHR5cGVyLk9wdGlvbigiY29uZmlnL3Byb2ZpbGVzIiwgaGVscD0iUHJvZmlsZSBkaXJlY3RvcnkiKSwKKSAtPiBOb25lOgogICAgIiIiQ3JlYXRlIGEgbmV3IHVzZXIgcHJvZmlsZS4iIiIKICAgIGZyb20gYWJsZWJyaWRnZS5jb3JlLnByb2ZpbGUgaW1wb3J0IFByb2ZpbGVNYW5hZ2VyCiAgICBmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgVXNlclByb2ZpbGUKCiAgICBtZ3IgPSBQcm9maWxlTWFuYWdlcihQYXRoKHByb2ZpbGVfZGlyKSkKICAgIHByb2ZpbGUgPSBVc2VyUHJvZmlsZShpZD1uYW1lLCBuYW1lPW5hbWUpCiAgICBtZ3Iuc2F2ZShwcm9maWxlKQogICAgY29uc29sZS5wcmludChmIltncmVlbl1DcmVhdGVkIHByb2ZpbGU6Wy9ncmVlbl0ge25hbWV9IikKCgojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAojIE1haW4gZW50cnkgcG9pbnQgKHVzZWQgYnkgcHlwcm9qZWN0LnRvbWwpCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpkZWYgbWFpbigpIC0+IE5vbmU6CiAgICBhcHAoKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+"""
+ablebridge.cli — Command-line interface.
+
+Usage:
+    ablebridge gui          # Launch web GUI
+    ablebridge core         # Run core engine (no GUI)
+    ablebridge calibrate    # Run eye tracking calibration
+    ablebridge status       # Show system status
+    ablebridge predict      # Test prediction engine
+    ablebridge voicespeak   # Test TTS
+    ablebridge driver list  # List available drivers
+    ablebridge driver test <driver>  # Test a specific driver
+    ablebridge profile list # List profiles
+    ablebridge profile new <name>    # Create new profile
+"""
+
+from __future__ import annotations
+
+import sys
+import time
+from pathlib import Path
+
+import typer
+from rich.console import Console
+from rich.table import Table
+from rich.panel import Panel
+from rich import print as rprint
+
+from ablebridge import __version__
+from ablebridge.core.engine import AbleBridgeEngine
+from ablebridge.core.types import InputChannel, OutputChannel
+
+app = typer.Typer(
+    name="ablebridge",
+    help="AbleBridge — Universal AI Accessibility Bridge",
+    add_completion=False,
+)
+console = Console()
+
+
+def _get_engine(profile_dir: str = "config/profiles") -> AbleBridgeEngine:
+    engine = AbleBridgeEngine(profile_dir=profile_dir)
+    engine.load_profile("default")
+    return engine
+
+
+@app.command()
+def gui(
+    host: str = typer.Option("0.0.0.0", help="Host to bind"),
+    port: int = typer.Option(8765, help="Port to bind"),
+    profile: str = typer.Option("default", help="Profile ID"),
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Launch the web-based GUI."""
+    from ablebridge.gui.app import main as gui_main
+
+    console.print(Panel.fit(
+        f"[bold]AbleBridge v{__version__}[/bold]\n"
+        "Universal AI Accessibility Bridge\n\n"
+        f"🌐 GUI: http://localhost:{port}\n"
+        f"📁 Profile: {profile}",
+        border_style="green",
+    ))
+
+    engine = AbleBridgeEngine(profile_dir=profile_dir)
+    engine.load_profile(profile)
+    engine.auto_register_drivers()
+    engine.start()
+
+    try:
+        gui_main(host=host, port=port)
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Shutting down...[/yellow]")
+    finally:
+        engine.stop()
+
+
+@app.command()
+def core(
+    profile: str = typer.Option("default", help="Profile ID"),
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Run the core engine without GUI (for headless servers / Raspberry Pi)."""
+    console.print(f"[bold]Starting AbleBridge Core[/bold] — profile: {profile}")
+
+    engine = AbleBridgeEngine(profile_dir=profile_dir)
+    engine.load_profile(profile)
+    engine.auto_register_drivers()
+    engine.start()
+
+    console.print(f"[green]Engine running. Session: {engine.session_id}[/green]")
+    console.print("Press Ctrl+C to stop.\n")
+
+    try:
+        while engine.is_running:
+            time.sleep(5)
+            status = engine.get_system_status()
+            running_inputs = sum(
+                1 for s in status["inputs"].values()
+                if s.get("state") == "running"
+            )
+            running_outputs = sum(
+                1 for s in status["outputs"].values()
+                if s.get("state") == "running"
+            )
+            console.print(
+                f"  [{time.strftime('%H:%M:%S')}] "
+                f"Inputs: {running_inputs} | Outputs: {running_outputs} | "
+                f"Bus events: {status['bus_stats']['published']}"
+            )
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Stopping...[/yellow]")
+    finally:
+        engine.stop()
+        console.print("[green]Stopped.[/green]")
+
+
+@app.command()
+def status(
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Show system status (inputs, outputs, AI engines)."""
+    engine = AbleBridgeEngine(profile_dir=profile_dir)
+    engine.load_profile("default")
+
+    status = engine.get_system_status()
+
+    # Inputs table
+    table = Table(title="Input Channels")
+    table.add_column("Channel", style="cyan")
+    table.add_column("State", style="yellow")
+    table.add_column("Confidence", style="green")
+    table.add_column("Latency", style="magenta")
+
+    for ch_id, ch_status in status["inputs"].items():
+        state = ch_status.get("state", "unknown")
+        conf = f"{ch_status.get('confidence', 0) * 100:.0f}%"
+        lat = f"{ch_status.get('latency_ms', 0):.0f}ms"
+        table.add_row(ch_id, state, conf, lat)
+
+    console.print(table)
+    console.print()
+
+    # Outputs table
+    table2 = Table(title="Output Channels")
+    table2.add_column("Channel", style="cyan")
+    table2.add_column("State", style="yellow")
+    for ch_id, ch_status in status["outputs"].items():
+        table2.add_row(ch_id, ch_status.get("state", "unknown"))
+    console.print(table2)
+    console.print()
+
+    # AI engines
+    ai = status.get("ai", {})
+    console.print(Panel(
+        f"[bold]Intent Engine:[/bold] {ai.get('intent', 'None')}\n"
+        f"[bold]Prediction:[/bold] {ai.get('prediction', 'None')}",
+        title="AI Engines",
+        border_style="blue",
+    ))
+
+
+@app.command()
+def predict(
+    text: str = typer.Argument("", help="Text to get predictions for"),
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Test the prediction engine."""
+    engine = _get_engine(profile_dir)
+    engine.auto_register_drivers()
+    engine.start()
+
+    if not text:
+        console.print("[yellow]Enter text to predict:[/yellow]")
+        text = typer.prompt("Text")
+
+    predictions = engine.predict_next(text)
+    console.print(f"\n[bold]Predictions for:[/bold] '{text}'")
+    for word, conf in predictions:
+        bar = "█" * int(conf * 20) + "░" * (20 - int(conf * 20))
+        console.print(f"  {word:<20} {bar} {conf:.2%}")
+
+    engine.stop()
+
+
+@app.command()
+def test_tts(
+    text: str = typer.Option("Hello! AbleBridge is working.", help="Text to speak"),
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Test the TTS output."""
+    engine = _get_engine(profile_dir)
+    engine.auto_register_drivers()
+    engine.start()
+    console.print(f"[green]Speaking:[/green] '{text}'")
+    engine.speak(text)
+    time.sleep(3)
+    engine.stop()
+
+
+@app.command()
+def driver_list() -> None:
+    """List all available input and output drivers."""
+    table = Table(title="Available Drivers")
+    table.add_column("Type", style="cyan")
+    table.add_column("Name", style="green")
+    table.add_column("Status", style="yellow")
+
+    # Input drivers
+    for ch in InputChannel:
+        table.add_row("input", ch.value, "✅ Available")
+    for ch in OutputChannel:
+        table.add_row("output", ch.value, "✅ Available")
+
+    console.print(table)
+
+
+@app.command()
+def profile_list(
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """List all user profiles."""
+    engine = AbleBridgeEngine(profile_dir=profile_dir)
+    profiles = engine.list_profiles()
+    console.print("[bold]Available profiles:[/bold]")
+    for p in profiles:
+        console.print(f"  • {p}")
+
+
+@app.command()
+def profile_new(
+    name: str = typer.Argument(..., help="Profile name"),
+    profile_dir: str = typer.Option("config/profiles", help="Profile directory"),
+) -> None:
+    """Create a new user profile."""
+    from ablebridge.core.profile import ProfileManager
+    from ablebridge.core.types import UserProfile
+
+    mgr = ProfileManager(Path(profile_dir))
+    profile = UserProfile(id=name, name=name)
+    mgr.save(profile)
+    console.print(f"[green]Created profile:[/green] {name}")
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Main entry point (used by pyproject.toml)
+# ──────────────────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    app()
+
+
+if __name__ == "__main__":
+    main()

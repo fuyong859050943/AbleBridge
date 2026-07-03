@@ -1,1 +1,240 @@
-IiIiCmFibGVicmlkZ2UuaW5wdXRfZHJpdmVycy5zd2l0Y2hfZHJpdmVyIOKAlCBTd2l0Y2gvc2Nhbm5lciBpbnB1dCBkcml2ZXIuCgpTdXBwb3J0czoKLSBVU0IvQmx1ZXRvb3RoIGJ1dHRvbiBzd2l0Y2hlcyAoc2luZ2xlIG9yIGR1YWwpCi0gU2lwLWFuZC1wdWZmIGNvbnRyb2xsZXJzCi0gR1BJTy1jb25uZWN0ZWQgYnV0dG9ucyAoUmFzcGJlcnJ5IFBpKQotIEtleWJvYXJkLWFzLXN3aXRjaCAoZm9yIHRlc3RpbmcpCgpGb3Igc2Nhbm5pbmcgdXNlcnM6IGltcGxlbWVudHMgYXV0b21hdGljIHNjYW5uaW5nIHRocm91Z2ggb24tc2NyZWVuIGJvYXJkcywKd2l0aCBhZGp1c3RhYmxlIHNjYW4gc3BlZWQgYW5kIGl0ZW0gaGlnaGxpZ2h0aW5nLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVxdWUKCmZyb20gbG9ndXJ1IGltcG9ydCBsb2dnZXIKCmZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCAoCiAgICBCYXNlSW5wdXREcml2ZXIsCiAgICBDaGFubmVsU3RhdHVzLAogICAgRHJpdmVyU3RhdGUsCiAgICBJbnB1dENoYW5uZWwsCiAgICBJbnB1dENvbmZpZywKKQoKdHJ5OgogICAgaW1wb3J0IHNlcmlhbAogICAgU0VSSUFMX0FWQUlMQUJMRSA9IFRydWUKZXhjZXB0IEltcG9ydEVycm9yOgogICAgU0VSSUFMX0FWQUlMQUJMRSA9IEZhbHNlCgoKY2xhc3MgU3dpdGNoRHJpdmVyKEJhc2VJbnB1dERyaXZlcik6CiAgICAiIiIKICAgIFN3aXRjaCBpbnB1dCBkcml2ZXIgc3VwcG9ydGluZyBtdWx0aXBsZSBzd2l0Y2ggdHlwZXMuCgogICAgTW9kZXM6CiAgICAxLiBEaXJlY3QgbW9kZTogRWFjaCBzd2l0Y2ggbWFwcyBkaXJlY3RseSB0byBhbiBhY3Rpb24gKGUuZy4sIGxlZnQvcmlnaHQpCiAgICAyLiBTY2FubmluZyBtb2RlOiBBdXRvLXNjYW4gdGhyb3VnaCBvcHRpb25zLCBzd2l0Y2ggcHJlc3Mgc2VsZWN0cyBjdXJyZW50CiAgICAzLiBTdGVwIG1vZGU6IFN3aXRjaCBwcmVzcyBhZHZhbmNlcyB0byBuZXh0IG9wdGlvbiwgbG9uZy1wcmVzcyBzZWxlY3RzCgogICAgQ29tbW9uIGhhcmR3YXJlOgogICAgLSBKZWxseSBCZWFkIC8gQnVkZHkgQnV0dG9uICh+JDMwKQogICAgLSBTaXAtYW5kLVB1ZmYgKCQyMDAtNTAwKQogICAgLSBBVE9NIFN3aXRjaCAofiQ1MCkKICAgICIiIgoKICAgIG5hbWU6IHN0ciA9ICJzd2l0Y2hfaW5wdXQiCiAgICBjaGFubmVsX3R5cGUgPSBJbnB1dENoYW5uZWwuU1dJVENICgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgY29uZmlnOiBJbnB1dENvbmZpZywKICAgICAgICBwb3J0OiBzdHIgPSAiL2Rldi90dHlVU0IwIiwKICAgICAgICBiYXVkcmF0ZTogaW50ID0gOTYwMCwKICAgICk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhjb25maWcpCiAgICAgICAgc2VsZi5fcG9ydCA9IHBvcnQKICAgICAgICBzZWxmLl9iYXVkcmF0ZSA9IGJhdWRyYXRlCiAgICAgICAgc2VsZi5fc2Nhbl9yYXRlID0gY29uZmlnLnNjYW5fcmF0ZV9oeiAgIyBTY2FucyBwZXIgc2Vjb25kCiAgICAgICAgc2VsZi5fZHdlbGxfdGltZSA9IGNvbmZpZy5kd2VsbF90aW1lX21zIC8gMTAwMC4wCgogICAgICAgICMgU3RhdGUKICAgICAgICBzZWxmLl9zZXJpYWw6IHNlcmlhbC5TZXJpYWwgfCBOb25lID0gTm9uZQogICAgICAgIHNlbGYuX3RocmVhZDogdGhyZWFkaW5nLlRocmVhZCB8IE5vbmUgPSBOb25lCiAgICAgICAgc2VsZi5fc3RvcF9ldmVudCA9IHRocmVhZGluZy5FdmVudCgpCgogICAgICAgICMgU3dpdGNoIHN0YXRlcwogICAgICAgIHNlbGYuX3N3aXRjaGVzOiBkaWN0W3N0ciwgYm9vbF0gPSB7CiAgICAgICAgICAgICJzd2l0Y2hfYSI6IEZhbHNlLAogICAgICAgICAgICAic3dpdGNoX2IiOiBGYWxzZSwKICAgICAgICB9CiAgICAgICAgc2VsZi5fbGFzdF9wcmVzc190aW1lOiBkaWN0W3N0ciwgZmxvYXRdID0ge30KICAgICAgICBzZWxmLl9kZWJvdW5jZV90aW1lID0gMC4wNSAgIyA1MG1zIGRlYm91bmNlCgogICAgICAgICMgU2Nhbm5pbmcKICAgICAgICBzZWxmLl9zY2FuX3Bvc2l0aW9uID0gMAogICAgICAgIHNlbGYuX2lzX3NjYW5uaW5nID0gRmFsc2UKICAgICAgICBzZWxmLl9zY2FuX29wdGlvbnM6IGxpc3Rbc3RyXSA9IFtdCiAgICAgICAgc2VsZi5fc2Nhbl9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQoKICAgICAgICAjIFN0YXRzCiAgICAgICAgc2VsZi5fcHJlc3NfY291bnQgPSAwCgogICAgIyDilIDilIAgQmFzZUlucHV0RHJpdmVyIEltcGxlbWVudGF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBzdGFydChzZWxmKSAtPiBOb25lOgogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RBUlRJTkcKICAgICAgICBzZWxmLl9zdG9wX2V2ZW50LmNsZWFyKCkKCiAgICAgICAgIyBUcnkgdG8gb3BlbiBzZXJpYWwgY29ubmVjdGlvbiAoZm9yIGhhcmR3YXJlIHN3aXRjaGVzKQogICAgICAgIGlmIFNFUklBTF9BVkFJTEFCTEUgYW5kIG5vdCBzZWxmLl9wb3J0LnN0YXJ0c3dpdGgoImtleWJvYXJkIik6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlbGYuX3NlcmlhbCA9IHNlcmlhbC5TZXJpYWwoCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fcG9ydCwKICAgICAgICAgICAgICAgICAgICBzZWxmLl9iYXVkcmF0ZSwKICAgICAgICAgICAgICAgICAgICB0aW1lb3V0PTAuMSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKGYiW1N3aXRjaERyaXZlcl0gQ29ubmVjdGVkIHRvIHtzZWxmLl9wb3J0fSIpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiW1N3aXRjaERyaXZlcl0gQ291bGQgbm90IG9wZW4ge3NlbGYuX3BvcnR9OiB7ZX0iKQogICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oIltTd2l0Y2hEcml2ZXJdIFJ1bm5pbmcgaW4ga2V5Ym9hcmQtc2ltdWxhdGlvbiBtb2RlIikKICAgICAgICAgICAgICAgIHNlbGYuX3NlcmlhbCA9IE5vbmUKCiAgICAgICAgc2VsZi5fdGhyZWFkID0gdGhyZWFkaW5nLlRocmVhZCh0YXJnZXQ9c2VsZi5fcG9sbF9sb29wLCBkYWVtb249VHJ1ZSkKICAgICAgICBzZWxmLl90aHJlYWQuc3RhcnQoKQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuUlVOTklORwogICAgICAgIGxvZ2dlci5pbmZvKCJbU3dpdGNoRHJpdmVyXSBTdGFydGVkIikKCiAgICBkZWYgc3RvcChzZWxmKSAtPiBOb25lOgogICAgICAgIHNlbGYuX3N0b3BfZXZlbnQuc2V0KCkKICAgICAgICBpZiBzZWxmLl90aHJlYWQ6CiAgICAgICAgICAgIHNlbGYuX3RocmVhZC5qb2luKHRpbWVvdXQ9Mi4wKQogICAgICAgIGlmIHNlbGYuX3NlcmlhbDoKICAgICAgICAgICAgc2VsZi5fc2VyaWFsLmNsb3NlKCkKICAgICAgICAgICAgc2VsZi5fc2VyaWFsID0gTm9uZQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RPUFBFRAogICAgICAgIGxvZ2dlci5pbmZvKCJbU3dpdGNoRHJpdmVyXSBTdG9wcGVkIikKCiAgICBkZWYgY2FsaWJyYXRlKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIiIiQ2FsaWJyYXRpb24gZm9yIHN3aXRjaDogc2Vuc2l0aXZpdHkgLyBkZWJvdW5jZSB0dW5pbmcuIiIiCiAgICAgICAgcmV0dXJuIFRydWUgICMgU3dpdGNoZXMgYXJlIGdlbmVyYWxseSBzZWxmLWNhbGlicmF0aW5nCgogICAgZGVmIGdldF9zdGF0dXMoc2VsZikgLT4gQ2hhbm5lbFN0YXR1czoKICAgICAgICByZXR1cm4gQ2hhbm5lbFN0YXR1cygKICAgICAgICAgICAgbmFtZT1zZWxmLm5hbWUsCiAgICAgICAgICAgIGNoYW5uZWxfdHlwZT0iaW5wdXQiLAogICAgICAgICAgICBzdGF0ZT1zZWxmLl9zdGF0ZSwKICAgICAgICAgICAgaXNfZW5hYmxlZD1zZWxmLl9jb25maWcuZW5hYmxlZCwKICAgICAgICAgICAgY29uZmlkZW5jZT0xLjAsCiAgICAgICAgICAgIGxhdGVuY3lfbXM9MTAuMCwKICAgICAgICAgICAgZXh0cmE9ewogICAgICAgICAgICAgICAgInN3aXRjaGVzIjogZGljdChzZWxmLl9zd2l0Y2hlcyksCiAgICAgICAgICAgICAgICAic2Nhbl9wb3NpdGlvbiI6IHNlbGYuX3NjYW5fcG9zaXRpb24sCiAgICAgICAgICAgICAgICAiaXNfc2Nhbm5pbmciOiBzZWxmLl9pc19zY2FubmluZywKICAgICAgICAgICAgICAgICJwcmVzc19jb3VudCI6IHNlbGYuX3ByZXNzX2NvdW50LAogICAgICAgICAgICB9LAogICAgICAgICkKCiAgICAjIOKUgOKUgCBTY2FubmluZyBJbnRlcmZhY2Ug4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIHNldF9zY2FuX29wdGlvbnMoc2VsZiwgb3B0aW9uczogbGlzdFtzdHJdKSAtPiBOb25lOgogICAgICAgICIiIlNldCB0aGUgbGlzdCBvZiBpdGVtcyB0byBzY2FuIHRocm91Z2guIiIiCiAgICAgICAgd2l0aCBzZWxmLl9zY2FuX2xvY2s6CiAgICAgICAgICAgIHNlbGYuX3NjYW5fb3B0aW9ucyA9IGxpc3Qob3B0aW9ucykKICAgICAgICAgICAgc2VsZi5fc2Nhbl9wb3NpdGlvbiA9IDAKCiAgICBkZWYgc3RhcnRfc2Nhbm5pbmcoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdGFydCBhdXRvbWF0aWMgc2Nhbm5pbmcuIiIiCiAgICAgICAgc2VsZi5faXNfc2Nhbm5pbmcgPSBUcnVlCiAgICAgICAgc2VsZi5fc2Nhbl9wb3NpdGlvbiA9IDAKCiAgICBkZWYgc3RvcF9zY2FubmluZyhzZWxmKSAtPiBOb25lOgogICAgICAgICIiIlN0b3AgYXV0b21hdGljIHNjYW5uaW5nLiIiIgogICAgICAgIHNlbGYuX2lzX3NjYW5uaW5nID0gRmFsc2UKCiAgICBkZWYgZ2V0X2N1cnJlbnRfc2Nhbl9pdGVtKHNlbGYpIC0+IHN0ciB8IE5vbmU6CiAgICAgICAgIiIiR2V0IHRoZSBjdXJyZW50bHkgaGlnaGxpZ2h0ZWQgc2NhbiBpdGVtLiIiIgogICAgICAgIHdpdGggc2VsZi5fc2Nhbl9sb2NrOgogICAgICAgICAgICBpZiBzZWxmLl9zY2FuX29wdGlvbnMgYW5kIDAgPD0gc2VsZi5fc2Nhbl9wb3NpdGlvbiA8IGxlbihzZWxmLl9zY2FuX29wdGlvbnMpOgogICAgICAgICAgICAgICAgcmV0dXJuIHNlbGYuX3NjYW5fb3B0aW9uc1tzZWxmLl9zY2FuX3Bvc2l0aW9uXQogICAgICAgIHJldHVybiBOb25lCgogICAgIyDilIDilIAgSW50ZXJuYWwg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIF9wb2xsX2xvb3Aoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJQb2xsaW5nIGxvb3AgZm9yIHN3aXRjaCBzdGF0ZXMuIFJ1bnMgaW4gYmFja2dyb3VuZCB0aHJlYWQuIiIiCiAgICAgICAgc2Nhbl9pbnRlcnZhbCA9IDEuMCAvIG1heChzZWxmLl9zY2FuX3JhdGUsIDAuNSkKICAgICAgICBsYXN0X3NjYW5fdGltZSA9IDAuMAoKICAgICAgICB3aGlsZSBub3Qgc2VsZi5fc3RvcF9ldmVudC5pc19zZXQoKToKICAgICAgICAgICAgbm93ID0gdGltZS50aW1lKCkKCiAgICAgICAgICAgICMgQ2hlY2sgaGFyZHdhcmUgc3dpdGNoCiAgICAgICAgICAgIHN3aXRjaF9wcmVzc2VkID0gc2VsZi5fcmVhZF9oYXJkd2FyZV9zd2l0Y2goKQoKICAgICAgICAgICAgIyBDaGVjayBmb3IgZGVib3VuY2UKICAgICAgICAgICAgZm9yIHN3LCBzdGF0ZSBpbiBzd2l0Y2hfcHJlc3NlZC5pdGVtcygpOgogICAgICAgICAgICAgICAgaWYgc3RhdGUgYW5kIChub3cgLSBzZWxmLl9sYXN0X3ByZXNzX3RpbWUuZ2V0KHN3LCAwKSkgPiBzZWxmLl9kZWJvdW5jZV90aW1lOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX2hhbmRsZV9zd2l0Y2hfcHJlc3Moc3cpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fbGFzdF9wcmVzc190aW1lW3N3XSA9IG5vdwoKICAgICAgICAgICAgIyBIYW5kbGUgc2Nhbm5pbmcKICAgICAgICAgICAgaWYgc2VsZi5faXNfc2Nhbm5pbmc6CiAgICAgICAgICAgICAgICBpZiBub3cgLSBsYXN0X3NjYW5fdGltZSA+PSBzY2FuX2ludGVydmFsOgogICAgICAgICAgICAgICAgICAgIGxhc3Rfc2Nhbl90aW1lID0gbm93CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fYWR2YW5jZV9zY2FuKCkKCiAgICAgICAgICAgIHRpbWUuc2xlZXAoMC4wMSkKCiAgICBkZWYgX3JlYWRfaGFyZHdhcmVfc3dpdGNoKHNlbGYpIC0+IGRpY3Rbc3RyLCBib29sXToKICAgICAgICAiIiJSZWFkIGN1cnJlbnQgc3dpdGNoIHN0YXRlcyBmcm9tIGhhcmR3YXJlLiIiIgogICAgICAgIHJlc3VsdCA9IGRpY3Qoc2VsZi5fc3dpdGNoZXMpCgogICAgICAgIGlmIHNlbGYuX3NlcmlhbCBhbmQgc2VsZi5fc2VyaWFsLmlzX29wZW46CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGxpbmUgPSBzZWxmLl9zZXJpYWwucmVhZGxpbmUoKS5kZWNvZGUoInV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKS5zdHJpcCgpCiAgICAgICAgICAgICAgICBpZiBsaW5lOgogICAgICAgICAgICAgICAgICAgICMgRm9ybWF0OiAiU1cxOjEsU1cyOjAiIG9yICJQUkVTUyIgKHNpbmdsZSBzd2l0Y2gpCiAgICAgICAgICAgICAgICAgICAgaWYgbGluZSA9PSAiUFJFU1MiIG9yIGxpbmUgPT0gIjEiOgogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRbInN3aXRjaF9hIl0gPSBUcnVlCiAgICAgICAgICAgICAgICAgICAgZWxpZiAiU1cxIiBpbiBsaW5lOgogICAgICAgICAgICAgICAgICAgICAgICBwYXJ0cyA9IGxpbmUuc3BsaXQoIiwiKQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgcCBpbiBwYXJ0czoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICI6IiBpbiBwOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGssIHYgPSBwLnNwbGl0KCI6IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBrIGluIHJlc3VsdDoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0W2tdID0gdi5zdHJpcCgpID09ICIxIgogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwoKICAgICAgICByZXR1cm4gcmVzdWx0CgogICAgZGVmIF9oYW5kbGVfc3dpdGNoX3ByZXNzKHNlbGYsIHN3aXRjaDogc3RyKSAtPiBOb25lOgogICAgICAgICIiIkhhbmRsZSBhIHN3aXRjaCBwcmVzcyBldmVudC4iIiIKICAgICAgICBzZWxmLl9wcmVzc19jb3VudCArPSAxCiAgICAgICAgc2VsZi5fc3dpdGNoZXNbc3dpdGNoXSA9IFRydWUKCiAgICAgICAgaWYgc2VsZi5faXNfc2Nhbm5pbmc6CiAgICAgICAgICAgICMgSW4gc2Nhbm5pbmcgbW9kZTogcHJlc3Mgc2VsZWN0cyBjdXJyZW50IGl0ZW0KICAgICAgICAgICAgaXRlbSA9IHNlbGYuZ2V0X2N1cnJlbnRfc2Nhbl9pdGVtKCkKICAgICAgICAgICAgaWYgaXRlbToKICAgICAgICAgICAgICAgIHNlbGYuX2VtaXQoInNjYW5fc2VsZWN0IiwgaXRlbSwgY29uZmlkZW5jZT0xLjApCiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyBEaXJlY3QgbW9kZTogZWFjaCBzd2l0Y2ggaGFzIGEgZGlyZWN0IGFjdGlvbgogICAgICAgICAgICBzZWxmLl9lbWl0KCJzd2l0Y2hfcHJlc3MiLCBzd2l0Y2gsIGNvbmZpZGVuY2U9MS4wKQoKICAgIGRlZiBfYWR2YW5jZV9zY2FuKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgIiIiQWR2YW5jZSB0byB0aGUgbmV4dCBzY2FuIGl0ZW0uIiIiCiAgICAgICAgd2l0aCBzZWxmLl9zY2FuX2xvY2s6CiAgICAgICAgICAgIGlmIG5vdCBzZWxmLl9zY2FuX29wdGlvbnM6CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgc2VsZi5fc2Nhbl9wb3NpdGlvbiA9IChzZWxmLl9zY2FuX3Bvc2l0aW9uICsgMSkgJSBsZW4oc2VsZi5fc2Nhbl9vcHRpb25zKQogICAgICAgICAgICBpdGVtID0gc2VsZi5fc2Nhbl9vcHRpb25zW3NlbGYuX3NjYW5fcG9zaXRpb25dCgogICAgICAgIHNlbGYuX2VtaXQoInNjYW5faGlnaGxpZ2h0IiwgaXRlbSwgY29uZmlkZW5jZT0xLjApCg==
+"""
+ablebridge.input_drivers.switch_driver — Switch/scanner input driver.
+
+Supports:
+- USB/Bluetooth button switches (single or dual)
+- Sip-and-puff controllers
+- GPIO-connected buttons (Raspberry Pi)
+- Keyboard-as-switch (for testing)
+
+For scanning users: implements automatic scanning through on-screen boards,
+with adjustable scan speed and item highlighting.
+"""
+
+from __future__ import annotations
+
+import threading
+import time
+from collections import deque
+
+from loguru import logger
+
+from ablebridge.core.types import (
+    BaseInputDriver,
+    ChannelStatus,
+    DriverState,
+    InputChannel,
+    InputConfig,
+)
+
+try:
+    import serial
+    SERIAL_AVAILABLE = True
+except ImportError:
+    SERIAL_AVAILABLE = False
+
+
+class SwitchDriver(BaseInputDriver):
+    """
+    Switch input driver supporting multiple switch types.
+
+    Modes:
+    1. Direct mode: Each switch maps directly to an action (e.g., left/right)
+    2. Scanning mode: Auto-scan through options, switch press selects current
+    3. Step mode: Switch press advances to next option, long-press selects
+
+    Common hardware:
+    - Jelly Bead / Buddy Button (~$30)
+    - Sip-and-Puff ($200-500)
+    - ATOM Switch (~$50)
+    """
+
+    name: str = "switch_input"
+    channel_type = InputChannel.SWITCH
+
+    def __init__(
+        self,
+        config: InputConfig,
+        port: str = "/dev/ttyUSB0",
+        baudrate: int = 9600,
+    ):
+        super().__init__(config)
+        self._port = port
+        self._baudrate = baudrate
+        self._scan_rate = config.scan_rate_hz  # Scans per second
+        self._dwell_time = config.dwell_time_ms / 1000.0
+
+        # State
+        self._serial: serial.Serial | None = None
+        self._thread: threading.Thread | None = None
+        self._stop_event = threading.Event()
+
+        # Switch states
+        self._switches: dict[str, bool] = {
+            "switch_a": False,
+            "switch_b": False,
+        }
+        self._last_press_time: dict[str, float] = {}
+        self._debounce_time = 0.05  # 50ms debounce
+
+        # Scanning
+        self._scan_position = 0
+        self._is_scanning = False
+        self._scan_options: list[str] = []
+        self._scan_lock = threading.Lock()
+
+        # Stats
+        self._press_count = 0
+
+    # ── BaseInputDriver Implementation ────────────────────────────────────────
+
+    def start(self) -> None:
+        self._state = DriverState.STARTING
+        self._stop_event.clear()
+
+        # Try to open serial connection (for hardware switches)
+        if SERIAL_AVAILABLE and not self._port.startswith("keyboard"):
+            try:
+                self._serial = serial.Serial(
+                    self._port,
+                    self._baudrate,
+                    timeout=0.1,
+                )
+                logger.info(f"[SwitchDriver] Connected to {self._port}")
+            except Exception as e:
+                logger.warning(f"[SwitchDriver] Could not open {self._port}: {e}")
+                logger.info("[SwitchDriver] Running in keyboard-simulation mode")
+                self._serial = None
+
+        self._thread = threading.Thread(target=self._poll_loop, daemon=True)
+        self._thread.start()
+        self._state = DriverState.RUNNING
+        logger.info("[SwitchDriver] Started")
+
+    def stop(self) -> None:
+        self._stop_event.set()
+        if self._thread:
+            self._thread.join(timeout=2.0)
+        if self._serial:
+            self._serial.close()
+            self._serial = None
+        self._state = DriverState.STOPPED
+        logger.info("[SwitchDriver] Stopped")
+
+    def calibrate(self) -> bool:
+        """Calibration for switch: sensitivity / debounce tuning."""
+        return True  # Switches are generally self-calibrating
+
+    def get_status(self) -> ChannelStatus:
+        return ChannelStatus(
+            name=self.name,
+            channel_type="input",
+            state=self._state,
+            is_enabled=self._config.enabled,
+            confidence=1.0,
+            latency_ms=10.0,
+            extra={
+                "switches": dict(self._switches),
+                "scan_position": self._scan_position,
+                "is_scanning": self._is_scanning,
+                "press_count": self._press_count,
+            },
+        )
+
+    # ── Scanning Interface ────────────────────────────────────────────────────
+
+    def set_scan_options(self, options: list[str]) -> None:
+        """Set the list of items to scan through."""
+        with self._scan_lock:
+            self._scan_options = list(options)
+            self._scan_position = 0
+
+    def start_scanning(self) -> None:
+        """Start automatic scanning."""
+        self._is_scanning = True
+        self._scan_position = 0
+
+    def stop_scanning(self) -> None:
+        """Stop automatic scanning."""
+        self._is_scanning = False
+
+    def get_current_scan_item(self) -> str | None:
+        """Get the currently highlighted scan item."""
+        with self._scan_lock:
+            if self._scan_options and 0 <= self._scan_position < len(self._scan_options):
+                return self._scan_options[self._scan_position]
+        return None
+
+    # ── Internal ─────────────────────────────────────────────────────────────
+
+    def _poll_loop(self) -> None:
+        """Polling loop for switch states. Runs in background thread."""
+        scan_interval = 1.0 / max(self._scan_rate, 0.5)
+        last_scan_time = 0.0
+
+        while not self._stop_event.is_set():
+            now = time.time()
+
+            # Check hardware switch
+            switch_pressed = self._read_hardware_switch()
+
+            # Check for debounce
+            for sw, state in switch_pressed.items():
+                if state and (now - self._last_press_time.get(sw, 0)) > self._debounce_time:
+                    self._handle_switch_press(sw)
+                    self._last_press_time[sw] = now
+
+            # Handle scanning
+            if self._is_scanning:
+                if now - last_scan_time >= scan_interval:
+                    last_scan_time = now
+                    self._advance_scan()
+
+            time.sleep(0.01)
+
+    def _read_hardware_switch(self) -> dict[str, bool]:
+        """Read current switch states from hardware."""
+        result = dict(self._switches)
+
+        if self._serial and self._serial.is_open:
+            try:
+                line = self._serial.readline().decode("utf-8", errors="ignore").strip()
+                if line:
+                    # Format: "SW1:1,SW2:0" or "PRESS" (single switch)
+                    if line == "PRESS" or line == "1":
+                        result["switch_a"] = True
+                    elif "SW1" in line:
+                        parts = line.split(",")
+                        for p in parts:
+                            if ":" in p:
+                                k, v = p.split(":")
+                                if k in result:
+                                    result[k] = v.strip() == "1"
+            except Exception:
+                pass
+
+        return result
+
+    def _handle_switch_press(self, switch: str) -> None:
+        """Handle a switch press event."""
+        self._press_count += 1
+        self._switches[switch] = True
+
+        if self._is_scanning:
+            # In scanning mode: press selects current item
+            item = self.get_current_scan_item()
+            if item:
+                self._emit("scan_select", item, confidence=1.0)
+        else:
+            # Direct mode: each switch has a direct action
+            self._emit("switch_press", switch, confidence=1.0)
+
+    def _advance_scan(self) -> None:
+        """Advance to the next scan item."""
+        with self._scan_lock:
+            if not self._scan_options:
+                return
+            self._scan_position = (self._scan_position + 1) % len(self._scan_options)
+            item = self._scan_options[self._scan_position]
+
+        self._emit("scan_highlight", item, confidence=1.0)

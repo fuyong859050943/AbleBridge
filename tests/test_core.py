@@ -1,1 +1,360 @@
-IiIiCkFibGVCcmlkZ2Ug4oCUIFRlc3QgU3VpdGUKClJ1biB3aXRoOgogICAgcHl0ZXN0IHRlc3RzLyAtdgogICAgcHl0ZXN0IHRlc3RzLyAtdiAtLWNvdj1hYmxlYnJpZGdlICAod2l0aCBjb3ZlcmFnZSkKICAgIHB5dGVzdCB0ZXN0cy8gLXYgLWsgImVuZ2luZSIgICAgICAgIChmaWx0ZXIgYnkgbmFtZSkKIiIiCgppbXBvcnQgcHl0ZXN0CmltcG9ydCB0aW1lCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHVuaXR0ZXN0Lm1vY2sgaW1wb3J0IE1hZ2ljTW9jaywgcGF0Y2gKCiMg4pSA4pSAIFRlc3QgRml4dHVyZXMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKQHB5dGVzdC5maXh0dXJlCmRlZiB0ZW1wX3Byb2ZpbGVfZGlyKHRtcF9wYXRoKToKICAgICIiIlRlbXBvcmFyeSBwcm9maWxlIGRpcmVjdG9yeS4iIiIKICAgIHByb2ZpbGVfZGlyID0gdG1wX3BhdGggLyAicHJvZmlsZXMiCiAgICBwcm9maWxlX2Rpci5ta2RpcigpCiAgICByZXR1cm4gcHJvZmlsZV9kaXIKCgpAcHl0ZXN0LmZpeHR1cmUKZGVmIGVuZ2luZSh0ZW1wX3Byb2ZpbGVfZGlyKToKICAgICIiIkZyZXNoIGVuZ2luZSBpbnN0YW5jZSBmb3IgZWFjaCB0ZXN0LiIiIgogICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZW5naW5lIGltcG9ydCBBYmxlQnJpZGdlRW5naW5lCiAgICBlbmdpbmUgPSBBYmxlQnJpZGdlRW5naW5lKHByb2ZpbGVfZGlyPXN0cih0ZW1wX3Byb2ZpbGVfZGlyKSkKICAgIGVuZ2luZS5sb2FkX3Byb2ZpbGUoInRlc3RfdXNlciIpCiAgICByZXR1cm4gZW5naW5lCgoKIyDilIDilIAgQ29yZSBFbmdpbmUgVGVzdHMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKY2xhc3MgVGVzdEFibGVCcmlkZ2VFbmdpbmU6CiAgICBkZWYgdGVzdF9lbmdpbmVfaW5pdGlhbGl6YXRpb24oc2VsZiwgdGVtcF9wcm9maWxlX2Rpcik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZW5naW5lIGltcG9ydCBBYmxlQnJpZGdlRW5naW5lCiAgICAgICAgZW5naW5lID0gQWJsZUJyaWRnZUVuZ2luZShwcm9maWxlX2Rpcj1zdHIodGVtcF9wcm9maWxlX2RpcikpCiAgICAgICAgYXNzZXJ0IGVuZ2luZSBpcyBub3QgTm9uZQogICAgICAgIGFzc2VydCBub3QgZW5naW5lLmlzX3J1bm5pbmcKICAgICAgICBhc3NlcnQgZW5naW5lLmJ1cyBpcyBub3QgTm9uZQoKICAgIGRlZiB0ZXN0X3Byb2ZpbGVfbG9hZChzZWxmLCB0ZW1wX3Byb2ZpbGVfZGlyKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS5lbmdpbmUgaW1wb3J0IEFibGVCcmlkZ2VFbmdpbmUKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgVXNlclByb2ZpbGUKCiAgICAgICAgZW5naW5lID0gQWJsZUJyaWRnZUVuZ2luZShwcm9maWxlX2Rpcj1zdHIodGVtcF9wcm9maWxlX2RpcikpCiAgICAgICAgcHJvZmlsZSA9IGVuZ2luZS5sb2FkX3Byb2ZpbGUoImRlZmF1bHQiKQogICAgICAgIGFzc2VydCBwcm9maWxlIGlzIG5vdCBOb25lCiAgICAgICAgYXNzZXJ0IHByb2ZpbGUuaWQgPT0gImRlZmF1bHQiCgogICAgZGVmIHRlc3RfZW5naW5lX3N0YXJ0X3N0b3Aoc2VsZiwgZW5naW5lKToKICAgICAgICBlbmdpbmUuc3RhcnQoKQogICAgICAgIGFzc2VydCBlbmdpbmUuaXNfcnVubmluZwogICAgICAgIGVuZ2luZS5zdG9wKCkKICAgICAgICBhc3NlcnQgbm90IGVuZ2luZS5pc19ydW5uaW5nCgogICAgZGVmIHRlc3Rfc3BlYWtfZG9lc19ub3RfY3Jhc2goc2VsZiwgZW5naW5lKToKICAgICAgICAiIiJzcGVhaygpIHNob3VsZCBub3QgcmFpc2UgZXZlbiB3aXRoIG5vIG91dHB1dCBkcml2ZXJzLiIiIgogICAgICAgIGVuZ2luZS5zdGFydCgpCiAgICAgICAgZW5naW5lLnNwZWFrKCJUZXN0IG1lc3NhZ2UiKQogICAgICAgIGVuZ2luZS5zdG9wKCkKCiAgICBkZWYgdGVzdF9wcmVkaWN0X3JldHVybnNfbGlzdChzZWxmLCBlbmdpbmUpOgogICAgICAgICIiInByZWRpY3RfbmV4dCBzaG91bGQgYWx3YXlzIHJldHVybiBhIGxpc3QuIiIiCiAgICAgICAgcmVzdWx0ID0gZW5naW5lLnByZWRpY3RfbmV4dCgiSGVsbG8gIikKICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShyZXN1bHQsIGxpc3QpCgogICAgZGVmIHRlc3Rfc3lzdGVtX3N0YXR1cyhzZWxmLCBlbmdpbmUpOgogICAgICAgICIiImdldF9zeXN0ZW1fc3RhdHVzIHJldHVybnMgYSB2YWxpZCBkaWN0LiIiIgogICAgICAgIHN0YXR1cyA9IGVuZ2luZS5nZXRfc3lzdGVtX3N0YXR1cygpCiAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2Uoc3RhdHVzLCBkaWN0KQogICAgICAgIGFzc2VydCAicnVubmluZyIgaW4gc3RhdHVzCiAgICAgICAgYXNzZXJ0ICJpbnB1dHMiIGluIHN0YXR1cwogICAgICAgIGFzc2VydCAib3V0cHV0cyIgaW4gc3RhdHVzCgogICAgZGVmIHRlc3RfcHJvZmlsZV9zYXZlX2xvYWQoc2VsZiwgZW5naW5lLCB0ZW1wX3Byb2ZpbGVfZGlyKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS5wcm9maWxlIGltcG9ydCBQcm9maWxlTWFuYWdlcgoKICAgICAgICBwcm9maWxlID0gZW5naW5lLnByb2ZpbGUKICAgICAgICBwcm9maWxlLnVpWyJ0ZXN0X2tleSJdID0gInRlc3RfdmFsdWUiCiAgICAgICAgZW5naW5lLnNhdmVfcHJvZmlsZShwcm9maWxlKQoKICAgICAgICBtZ3IgPSBQcm9maWxlTWFuYWdlcih0ZW1wX3Byb2ZpbGVfZGlyKQogICAgICAgIGxvYWRlZCA9IG1nci5sb2FkKCJ0ZXN0X3VzZXIiKQogICAgICAgIGFzc2VydCBsb2FkZWQudWkuZ2V0KCJ0ZXN0X2tleSIpID09ICJ0ZXN0X3ZhbHVlIgoKICAgIGRlZiB0ZXN0X211bHRpX2RyaXZlcl9yZWdpc3RyYXRpb24oc2VsZiwgZW5naW5lKToKICAgICAgICAiIiJDYW4gcmVnaXN0ZXIgbXVsdGlwbGUgZHJpdmVycyB3aXRob3V0IGNvbmZsaWN0LiIiIgogICAgICAgIGZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCBCYXNlSW5wdXREcml2ZXIsIElucHV0Q29uZmlnCgogICAgICAgIGNsYXNzIE1vY2tEcml2ZXIoQmFzZUlucHV0RHJpdmVyKToKICAgICAgICAgICAgbmFtZSA9ICJtb2NrIgogICAgICAgICAgICBjaGFubmVsX3R5cGUgPSBOb25lCgogICAgICAgICAgICBkZWYgc3RhcnQoc2VsZik6IHBhc3MKICAgICAgICAgICAgZGVmIHN0b3Aoc2VsZik6IHBhc3MKICAgICAgICAgICAgZGVmIGNhbGlicmF0ZShzZWxmKTogcmV0dXJuIFRydWUKICAgICAgICAgICAgZGVmIGdldF9zdGF0dXMoc2VsZik6IGZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCBDaGFubmVsU3RhdHVzOyByZXR1cm4gQ2hhbm5lbFN0YXR1cyhuYW1lPSJtb2NrIikKCiAgICAgICAgIyBSZWdpc3RlciBtdWx0aXBsZSBtb2NrIGRyaXZlcnMKICAgICAgICBmb3IgaSBpbiByYW5nZSgzKToKICAgICAgICAgICAgZW5naW5lLnJlZ2lzdGVyX2lucHV0X2RyaXZlcihNb2NrRHJpdmVyKElucHV0Q29uZmlnKCkpKQogICAgICAgIGVuZ2luZS5zdGFydCgpCiAgICAgICAgZW5naW5lLnN0b3AoKQoKCiMg4pSA4pSAIEV2ZW50IEJ1cyBUZXN0cyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpjbGFzcyBUZXN0RXZlbnRCdXM6CiAgICBkZWYgdGVzdF9zdWJzY3JpYmVfYW5kX3B1Ymxpc2goc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZXZlbnRfYnVzIGltcG9ydCBFdmVudEJ1cywgRXZlbnRUeXBlLCBCdXNFdmVudAoKICAgICAgICBidXMgPSBFdmVudEJ1cygpCiAgICAgICAgcmVjZWl2ZWQgPSBbXQoKICAgICAgICBkZWYgaGFuZGxlcihldmVudDogQnVzRXZlbnQpIC0+IE5vbmU6CiAgICAgICAgICAgIHJlY2VpdmVkLmFwcGVuZChldmVudCkKCiAgICAgICAgYnVzLnN1YnNjcmliZShFdmVudFR5cGUuSU5QVVQsIGhhbmRsZXIpCiAgICAgICAgYnVzLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLklOUFVULCBwYXlsb2FkPXsidGVzdCI6ICJkYXRhIn0pKQoKICAgICAgICBhc3NlcnQgbGVuKHJlY2VpdmVkKSA9PSAxCiAgICAgICAgYXNzZXJ0IHJlY2VpdmVkWzBdLnBheWxvYWRbInRlc3QiXSA9PSAiZGF0YSIKCiAgICBkZWYgdGVzdF9nbG9iYWxfaGFuZGxlcihzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS5ldmVudF9idXMgaW1wb3J0IEV2ZW50QnVzLCBFdmVudFR5cGUsIEJ1c0V2ZW50CgogICAgICAgIGJ1cyA9IEV2ZW50QnVzKCkKICAgICAgICByZWNlaXZlZCA9IFtdCgogICAgICAgIGRlZiBnbG9iYWxfaGFuZGxlcihldmVudDogQnVzRXZlbnQpIC0+IE5vbmU6CiAgICAgICAgICAgIHJlY2VpdmVkLmFwcGVuZChldmVudCkKCiAgICAgICAgYnVzLnN1YnNjcmliZV9nbG9iYWwoZ2xvYmFsX2hhbmRsZXIpCiAgICAgICAgYnVzLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLkVOR0lORV9TVEFSVCwgcGF5bG9hZD0iZW5naW5lIikpCiAgICAgICAgYXNzZXJ0IGxlbihyZWNlaXZlZCkgPT0gMQoKICAgIGRlZiB0ZXN0X2hpc3Rvcnkoc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZXZlbnRfYnVzIGltcG9ydCBFdmVudEJ1cywgRXZlbnRUeXBlLCBCdXNFdmVudAoKICAgICAgICBidXMgPSBFdmVudEJ1cyhoaXN0b3J5X3NpemU9NSkKICAgICAgICBmb3IgaSBpbiByYW5nZSgxMCk6CiAgICAgICAgICAgIGJ1cy5wdWJsaXNoKEJ1c0V2ZW50KEV2ZW50VHlwZS5FTkdJTkVfU1RBUlQsIHBheWxvYWQ9aSkpCiAgICAgICAgaGlzdG9yeSA9IGJ1cy5oaXN0b3J5KGxpbWl0PTUpCiAgICAgICAgYXNzZXJ0IGxlbihoaXN0b3J5KSA9PSA1CiAgICAgICAgYXNzZXJ0IGhpc3RvcnlbMF0ucGF5bG9hZCA9PSA5ICAjIE1vc3QgcmVjZW50IGZpcnN0CgogICAgZGVmIHRlc3RfZGVhZF9sZXR0ZXJfcXVldWUoc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZXZlbnRfYnVzIGltcG9ydCBFdmVudEJ1cywgRXZlbnRUeXBlLCBCdXNFdmVudAoKICAgICAgICBidXMgPSBFdmVudEJ1cygpCiAgICAgICAgIyBObyBzdWJzY3JpYmVycyDigJQgc2hvdWxkIGdvIHRvIGRlYWQgbGV0dGVyCiAgICAgICAgYnVzLnB1Ymxpc2goQnVzRXZlbnQoRXZlbnRUeXBlLklOUFVULCBwYXlsb2FkPSJvcnBoYW5lZCIpKQogICAgICAgIGRscyA9IGJ1cy5kZWFkX2xldHRlcnMoKQogICAgICAgIGFzc2VydCBsZW4oZGxzKSA+PSAxCgogICAgZGVmIHRlc3Rfc3RhdHMoc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUuZXZlbnRfYnVzIGltcG9ydCBFdmVudEJ1cywgRXZlbnRUeXBlLCBCdXNFdmVudAoKICAgICAgICBidXMgPSBFdmVudEJ1cygpCiAgICAgICAgYnVzLnN1YnNjcmliZShFdmVudFR5cGUuSU5QVVQsIGxhbWJkYSBlOiBOb25lKQogICAgICAgIGZvciBfIGluIHJhbmdlKDUpOgogICAgICAgICAgICBidXMucHVibGlzaChCdXNFdmVudChFdmVudFR5cGUuSU5QVVQsIHBheWxvYWQ9IngiKSkKICAgICAgICBzdGF0cyA9IGJ1cy5zdGF0cygpCiAgICAgICAgYXNzZXJ0IHN0YXRzWyJwdWJsaXNoZWQiXSA9PSA1CiAgICAgICAgYXNzZXJ0IHN0YXRzWyJoYW5kbGVkIl0gPT0gNQoKCiMg4pSA4pSAIFR5cGVzIFRlc3RzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKCmNsYXNzIFRlc3RUeXBlczoKICAgIGRlZiB0ZXN0X2NvbmZpZGVuY2Vfc2NvcmUoc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0IENvbmZpZGVuY2VTY29yZQoKICAgICAgICBzY29yZSA9IENvbmZpZGVuY2VTY29yZSh2YWx1ZT0idGVzdCIsIGNvbmZpZGVuY2U9MC44NSwgY2hhbm5lbD1Ob25lKQogICAgICAgIGFzc2VydCBzY29yZS5sZXZlbC52YWx1ZSA9PSAiaGlnaCIKICAgICAgICBhc3NlcnQgc2NvcmUuaXNfdXNhYmxlKDAuOCkgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBzY29yZS5pc191c2FibGUoMC45KSBpcyBGYWxzZQoKICAgIGRlZiB0ZXN0X2NvbmZpZGVuY2Vfc2NvcmVfdmVyeV9sb3coc2VsZik6CiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0IENvbmZpZGVuY2VTY29yZQoKICAgICAgICBzY29yZSA9IENvbmZpZGVuY2VTY29yZSh2YWx1ZT0idGVzdCIsIGNvbmZpZGVuY2U9MC4xKQogICAgICAgIGFzc2VydCBzY29yZS5sZXZlbC52YWx1ZSA9PSAidmVyeV9sb3ciCgogICAgZGVmIHRlc3RfdXNlcl9wcm9maWxlX2RlZmF1bHRzKHNlbGYpOgogICAgICAgIGZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCBVc2VyUHJvZmlsZQoKICAgICAgICBwcm9maWxlID0gVXNlclByb2ZpbGUoaWQ9InRlc3QiLCBuYW1lPSJUZXN0IFVzZXIiKQogICAgICAgIGFzc2VydCBwcm9maWxlLmlkID09ICJ0ZXN0IgogICAgICAgIGFzc2VydCBwcm9maWxlLmFpLnByb3ZpZGVyID09ICJvbGxhbWEiCiAgICAgICAgYXNzZXJ0IHByb2ZpbGUuYWkubG9jYWwgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBwcm9maWxlLnVpWyJ0aGVtZSJdID09ICJsaWdodCIKCgojIOKUgOKUgCBQcmVkaWN0aW9uIEVuZ2luZSBUZXN0cyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpjbGFzcyBUZXN0TkdyYW1QcmVkaWN0b3I6CiAgICBkZWYgdGVzdF90cmFpbl9hbmRfcHJlZGljdChzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuYWkucHJlZGljdG9yIGltcG9ydCBOR3JhbVByZWRpY3RvcgoKICAgICAgICBwcmVkaWN0b3IgPSBOR3JhbVByZWRpY3RvcihvcmRlcj0zKQogICAgICAgIHByZWRpY3Rvci50cmFpbl9vbl90ZXh0KCJoZWxsbyBob3cgYXJlIHlvdSBkb2luZyB0b2RheSIpCiAgICAgICAgcHJlZGljdG9yLnRyYWluX29uX3RleHQoImhlbGxvIGhvdyBhcmUgeW91IGZlZWxpbmcgdG9kYXkiKQogICAgICAgIHByZWRpY3Rvci50cmFpbl9vbl90ZXh0KCJoZWxsbyBob3cgYXJlIHlvdSIpCgogICAgICAgIHByZWRpY3Rpb25zID0gcHJlZGljdG9yLnByZWRpY3QoImhlbGxvIGhvdyBhcmUiKQogICAgICAgIHdvcmRzID0gW3cgZm9yIHcsIF8gaW4gcHJlZGljdGlvbnNdCgogICAgICAgICMgU2hvdWxkIHByZWRpY3QgInlvdSIgYXMgdG9wIHdvcmQgKGFwcGVhcnMgYWZ0ZXIgImhlbGxvIGhvdyBhcmUiKQogICAgICAgIGFzc2VydCAieW91IiBpbiB3b3JkcwoKICAgIGRlZiB0ZXN0X3Nob3J0Y3V0X2V4cGFuc2lvbihzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuYWkucHJlZGljdG9yIGltcG9ydCBOR3JhbVByZWRpY3RvcgoKICAgICAgICBwcmVkaWN0b3IgPSBOR3JhbVByZWRpY3RvcigpCiAgICAgICAgcHJlZGljdG9yLmFkZF9zaG9ydGN1dCgiaHciLCAiaGVsbG8gd29ybGQiKQoKICAgICAgICByZXN1bHQgPSBwcmVkaWN0b3IucHJlZGljdCgiaHciKQogICAgICAgIGFzc2VydCByZXN1bHRbMF1bMF0gPT0gImhlbGxvIHdvcmxkIgoKICAgIGRlZiB0ZXN0X2NvbW1vbl93b3Jkc19mYWxsYmFjayhzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuYWkucHJlZGljdG9yIGltcG9ydCBOR3JhbVByZWRpY3RvcgoKICAgICAgICBwcmVkaWN0b3IgPSBOR3JhbVByZWRpY3RvcigpCiAgICAgICAgcHJlZGljdGlvbnMgPSBwcmVkaWN0b3IucHJlZGljdCgiIiwgbj0zKQogICAgICAgIGFzc2VydCBsZW4ocHJlZGljdGlvbnMpID09IDMKICAgICAgICBhc3NlcnQgYWxsKGlzaW5zdGFuY2Uodywgc3RyKSBmb3IgdywgXyBpbiBwcmVkaWN0aW9ucykKCiAgICBkZWYgdGVzdF9zYXZlX2xvYWQoc2VsZiwgdG1wX3BhdGgpOgogICAgICAgIGZyb20gYWJsZWJyaWRnZS5haS5wcmVkaWN0b3IgaW1wb3J0IE5HcmFtUHJlZGljdG9yCgogICAgICAgIHByZWRpY3RvciA9IE5HcmFtUHJlZGljdG9yKG9yZGVyPTIpCiAgICAgICAgcHJlZGljdG9yLnRyYWluX29uX3RleHQoInRoZSBxdWljayBicm93biBmb3giKQogICAgICAgIHBhdGggPSB0bXBfcGF0aCAvICJtb2RlbC5qc29uIgogICAgICAgIHByZWRpY3Rvci5zYXZlKHBhdGgpCgogICAgICAgIHByZWRpY3RvcjIgPSBOR3JhbVByZWRpY3RvcihvcmRlcj0yKQogICAgICAgIHN1Y2Nlc3MgPSBwcmVkaWN0b3IyLmxvYWQocGF0aCkKICAgICAgICBhc3NlcnQgc3VjY2VzcwogICAgICAgIHByZWRpY3Rpb25zID0gcHJlZGljdG9yMi5wcmVkaWN0KCJxdWljayIpCiAgICAgICAgYXNzZXJ0IGxlbihwcmVkaWN0aW9ucykgPiAwCgoKIyDilIDilIAgSW50ZW50IEVuZ2luZSBUZXN0cyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpjbGFzcyBUZXN0TW9ja0ludGVudEVuZ2luZToKICAgIGRlZiB0ZXN0X2NoYXRfZW1lcmdlbmN5KHNlbGYpOgogICAgICAgIGZyb20gYWJsZWJyaWRnZS5haS5pbnRlbnQgaW1wb3J0IE1vY2tJbnRlbnRFbmdpbmUKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgSW50ZW50Q2F0ZWdvcnkKCiAgICAgICAgZW5naW5lID0gTW9ja0ludGVudEVuZ2luZSgpCiAgICAgICAgcmVzcG9uc2UsIGNvbmYgPSBlbmdpbmUuY2hhdCgiaGVscCIpCiAgICAgICAgYXNzZXJ0IGNvbmYgPj0gMC44CiAgICAgICAgYXNzZXJ0ICJoZWxwIiBpbiByZXNwb25zZS5sb3dlcigpCgogICAgZGVmIHRlc3RfY2hhdF9uZWVkcyhzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuYWkuaW50ZW50IGltcG9ydCBNb2NrSW50ZW50RW5naW5lCgogICAgICAgIGVuZ2luZSA9IE1vY2tJbnRlbnRFbmdpbmUoKQogICAgICAgIHJlc3BvbnNlLCBfID0gZW5naW5lLmNoYXQoIkkgbmVlZCB3YXRlciIpCiAgICAgICAgYXNzZXJ0IGxlbihyZXNwb25zZSkgPiAwCgogICAgZGVmIHRlc3RfcHJvY2Vzc19pbnB1dF9ldmVudChzZWxmKToKICAgICAgICBmcm9tIGFibGVicmlkZ2UuYWkuaW50ZW50IGltcG9ydCBNb2NrSW50ZW50RW5naW5lCiAgICAgICAgZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0IElucHV0RXZlbnQsIEludGVudENhdGVnb3J5CgogICAgICAgIGVuZ2luZSA9IE1vY2tJbnRlbnRFbmdpbmUoKQogICAgICAgIGV2ZW50ID0gSW5wdXRFdmVudCgKICAgICAgICAgICAgY2hhbm5lbD1Ob25lLAogICAgICAgICAgICBhY3Rpb249InZvaWNlX2lucHV0IiwKICAgICAgICAgICAgcmF3X3ZhbHVlPSJJIG5lZWQgdGhlIGJhdGhyb29tIiwKICAgICAgICApCiAgICAgICAgaW50ZW50ID0gZW5naW5lLnByb2Nlc3MoZXZlbnQpCiAgICAgICAgYXNzZXJ0IGludGVudCBpcyBub3QgTm9uZQogICAgICAgIGFzc2VydCBpbnRlbnQuY2F0ZWdvcnkgPT0gSW50ZW50Q2F0ZWdvcnkuTkVFRAoKICAgIGRlZiB0ZXN0X2NsYXNzaWZ5X2RldmljZV9jb250cm9sKHNlbGYpOgogICAgICAgIGZyb20gYWJsZWJyaWRnZS5haS5pbnRlbnQgaW1wb3J0IE1vY2tJbnRlbnRFbmdpbmUKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgSW50ZW50Q2F0ZWdvcnkKCiAgICAgICAgZW5naW5lID0gTW9ja0ludGVudEVuZ2luZSgpCiAgICAgICAgXywgY29uZiA9IGVuZ2luZS5jaGF0KCJ0dXJuIG9uIHRoZSBsaWdodCIpCiAgICAgICAgYXNzZXJ0IGNvbmYgPj0gMC43CgoKIyDilIDilIAgSW50ZWdyYXRpb24gVGVzdHMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgoKY2xhc3MgVGVzdEludGVncmF0aW9uOgogICAgZGVmIHRlc3RfZnVsbF9pbnB1dF9vdXRwdXRfZmxvdyhzZWxmLCBlbmdpbmUpOgogICAgICAgICIiIlRlc3Q6IGlucHV0IGV2ZW50IOKGkiBlbmdpbmUg4oaSIG91dHB1dCBkaXNwYXRjaC4iIiIKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS5ldmVudF9idXMgaW1wb3J0IEV2ZW50VHlwZSwgQnVzRXZlbnQKICAgICAgICBmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgSW5wdXRFdmVudCwgT3V0cHV0Q2hhbm5lbCwgT3V0cHV0RXZlbnQKCiAgICAgICAgb3V0cHV0X3JlY2VpdmVkID0gW10KCiAgICAgICAgZGVmIGNhcHR1cmVfb3V0cHV0KGV2ZW50OiBCdXNFdmVudCkgLT4gTm9uZToKICAgICAgICAgICAgaWYgZXZlbnQudHlwZSA9PSBFdmVudFR5cGUuT1VUUFVUX0RJU1BBVENIOgogICAgICAgICAgICAgICAgb3V0cHV0X3JlY2VpdmVkLmFwcGVuZChldmVudC5wYXlsb2FkKQoKICAgICAgICBlbmdpbmUuYnVzLnN1YnNjcmliZShFdmVudFR5cGUuT1VUUFVUX0RJU1BBVENILCBjYXB0dXJlX291dHB1dCkKICAgICAgICBlbmdpbmUuc3RhcnQoKQoKICAgICAgICAjIEluamVjdCBpbnB1dCBldmVudAogICAgICAgIGlucHV0X2V2ZW50ID0gSW5wdXRFdmVudCgKICAgICAgICAgICAgY2hhbm5lbD1Ob25lLAogICAgICAgICAgICBhY3Rpb249InZvaWNlX2lucHV0IiwKICAgICAgICAgICAgcmF3X3ZhbHVlPSJoZWxsbyIsCiAgICAgICAgKQogICAgICAgIGVuZ2luZS5idXMucHVibGlzaF9pbnB1dChpbnB1dF9ldmVudCwgc291cmNlPSJ0ZXN0IikKCiAgICAgICAgZW5naW5lLnN0b3AoKQoKICAgICAgICAjIFNob3VsZCBoYXZlIGF0IGxlYXN0IGF0dGVtcHRlZCB0byBkaXNwYXRjaCBvdXRwdXQKICAgICAgICAjIChtYXkgYmUgZW1wdHkgaWYgaW50ZW50IGVuZ2luZSBpcyBub3QgYXZhaWxhYmxlLCB0aGF0J3MgT0spCiAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2Uob3V0cHV0X3JlY2VpdmVkLCBsaXN0KQoKICAgIGRlZiB0ZXN0X2d1aV9hcGlfc3RhdHVzX2VuZHBvaW50KHNlbGYsIGVuZ2luZSk6CiAgICAgICAgIiIiVGVzdCB0aGUgRmxhc2sgQVBJIHN0YXR1cyBlbmRwb2ludC4iIiIKICAgICAgICBmcm9tIGFibGVicmlkZ2UuZ3VpLmFwcCBpbXBvcnQgYXBwCgogICAgICAgIGVuZ2luZS5zdGFydCgpCiAgICAgICAgd2l0aCBhcHAudGVzdF9jbGllbnQoKSBhcyBjbGllbnQ6CiAgICAgICAgICAgIHJlc3AgPSBjbGllbnQuZ2V0KCIvYXBpL3N0YXR1cyIpCiAgICAgICAgICAgIGFzc2VydCByZXNwLnN0YXR1c19jb2RlID09IDIwMAogICAgICAgICAgICBkYXRhID0gcmVzcC5nZXRfanNvbigpCiAgICAgICAgICAgIGFzc2VydCAicnVubmluZyIgaW4gZGF0YQogICAgICAgICAgICBhc3NlcnQgImlucHV0cyIgaW4gZGF0YQogICAgICAgIGVuZ2luZS5zdG9wKCkKCiAgICBkZWYgdGVzdF9ndWlfYXBpX3ByZWRpY3Qoc2VsZiwgZW5naW5lKToKICAgICAgICAiIiJUZXN0IHRoZSBwcmVkaWN0IEFQSSBlbmRwb2ludC4iIiIKICAgICAgICBmcm9tIGFibGVicmlkZ2UuZ3VpLmFwcCBpbXBvcnQgYXBwCgogICAgICAgIGVuZ2luZS5zdGFydCgpCiAgICAgICAgd2l0aCBhcHAudGVzdF9jbGllbnQoKSBhcyBjbGllbnQ6CiAgICAgICAgICAgIHJlc3AgPSBjbGllbnQucG9zdCgKICAgICAgICAgICAgICAgICIvYXBpL3ByZWRpY3QiLAogICAgICAgICAgICAgICAganNvbj17ImNvbnRleHQiOiAiaGVsbG8gIn0sCiAgICAgICAgICAgICAgICBjb250ZW50X3R5cGU9ImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgICAgICApCiAgICAgICAgICAgIGFzc2VydCByZXNwLnN0YXR1c19jb2RlID09IDIwMAogICAgICAgICAgICBkYXRhID0gcmVzcC5nZXRfanNvbigpCiAgICAgICAgICAgIGFzc2VydCAicHJlZGljdGlvbnMiIGluIGRhdGEKICAgICAgICBlbmdpbmUuc3RvcCgpCgoKIyDilIDilIAgUnVuIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHB5dGVzdC5tYWluKFtfX2ZpbGVfXywgIi12Il0pCg==
+"""
+AbleBridge — Test Suite
+
+Run with:
+    pytest tests/ -v
+    pytest tests/ -v --cov=ablebridge  (with coverage)
+    pytest tests/ -v -k "engine"        (filter by name)
+"""
+
+import pytest
+import time
+from pathlib import Path
+from unittest.mock import MagicMock, patch
+
+# ── Test Fixtures ──────────────────────────────────────────────────────────────
+
+
+@pytest.fixture
+def temp_profile_dir(tmp_path):
+    """Temporary profile directory."""
+    profile_dir = tmp_path / "profiles"
+    profile_dir.mkdir()
+    return profile_dir
+
+
+@pytest.fixture
+def engine(temp_profile_dir):
+    """Fresh engine instance for each test."""
+    from ablebridge.core.engine import AbleBridgeEngine
+    engine = AbleBridgeEngine(profile_dir=str(temp_profile_dir))
+    engine.load_profile("test_user")
+    return engine
+
+
+# ── Core Engine Tests ──────────────────────────────────────────────────────────
+
+
+class TestAbleBridgeEngine:
+    def test_engine_initialization(self, temp_profile_dir):
+        from ablebridge.core.engine import AbleBridgeEngine
+        engine = AbleBridgeEngine(profile_dir=str(temp_profile_dir))
+        assert engine is not None
+        assert not engine.is_running
+        assert engine.bus is not None
+
+    def test_profile_load(self, temp_profile_dir):
+        from ablebridge.core.engine import AbleBridgeEngine
+        from ablebridge.core.types import UserProfile
+
+        engine = AbleBridgeEngine(profile_dir=str(temp_profile_dir))
+        profile = engine.load_profile("default")
+        assert profile is not None
+        assert profile.id == "default"
+
+    def test_engine_start_stop(self, engine):
+        engine.start()
+        assert engine.is_running
+        engine.stop()
+        assert not engine.is_running
+
+    def test_speak_does_not_crash(self, engine):
+        """speak() should not raise even with no output drivers."""
+        engine.start()
+        engine.speak("Test message")
+        engine.stop()
+
+    def test_predict_returns_list(self, engine):
+        """predict_next should always return a list."""
+        result = engine.predict_next("Hello ")
+        assert isinstance(result, list)
+
+    def test_system_status(self, engine):
+        """get_system_status returns a valid dict."""
+        status = engine.get_system_status()
+        assert isinstance(status, dict)
+        assert "running" in status
+        assert "inputs" in status
+        assert "outputs" in status
+
+    def test_profile_save_load(self, engine, temp_profile_dir):
+        from ablebridge.core.profile import ProfileManager
+
+        profile = engine.profile
+        profile.ui["test_key"] = "test_value"
+        engine.save_profile(profile)
+
+        mgr = ProfileManager(temp_profile_dir)
+        loaded = mgr.load("test_user")
+        assert loaded.ui.get("test_key") == "test_value"
+
+    def test_multi_driver_registration(self, engine):
+        """Can register multiple drivers without conflict."""
+        from ablebridge.core.types import BaseInputDriver, InputConfig
+
+        class MockDriver(BaseInputDriver):
+            name = "mock"
+            channel_type = None
+
+            def start(self): pass
+            def stop(self): pass
+            def calibrate(self): return True
+            def get_status(self): from ablebridge.core.types import ChannelStatus; return ChannelStatus(name="mock")
+
+        # Register multiple mock drivers
+        for i in range(3):
+            engine.register_input_driver(MockDriver(InputConfig()))
+        engine.start()
+        engine.stop()
+
+
+# ── Event Bus Tests ────────────────────────────────────────────────────────────
+
+
+class TestEventBus:
+    def test_subscribe_and_publish(self):
+        from ablebridge.core.event_bus import EventBus, EventType, BusEvent
+
+        bus = EventBus()
+        received = []
+
+        def handler(event: BusEvent) -> None:
+            received.append(event)
+
+        bus.subscribe(EventType.INPUT, handler)
+        bus.publish(BusEvent(EventType.INPUT, payload={"test": "data"}))
+
+        assert len(received) == 1
+        assert received[0].payload["test"] == "data"
+
+    def test_global_handler(self):
+        from ablebridge.core.event_bus import EventBus, EventType, BusEvent
+
+        bus = EventBus()
+        received = []
+
+        def global_handler(event: BusEvent) -> None:
+            received.append(event)
+
+        bus.subscribe_global(global_handler)
+        bus.publish(BusEvent(EventType.ENGINE_START, payload="engine"))
+        assert len(received) == 1
+
+    def test_history(self):
+        from ablebridge.core.event_bus import EventBus, EventType, BusEvent
+
+        bus = EventBus(history_size=5)
+        for i in range(10):
+            bus.publish(BusEvent(EventType.ENGINE_START, payload=i))
+        history = bus.history(limit=5)
+        assert len(history) == 5
+        assert history[0].payload == 9  # Most recent first
+
+    def test_dead_letter_queue(self):
+        from ablebridge.core.event_bus import EventBus, EventType, BusEvent
+
+        bus = EventBus()
+        # No subscribers — should go to dead letter
+        bus.publish(BusEvent(EventType.INPUT, payload="orphaned"))
+        dls = bus.dead_letters()
+        assert len(dls) >= 1
+
+    def test_stats(self):
+        from ablebridge.core.event_bus import EventBus, EventType, BusEvent
+
+        bus = EventBus()
+        bus.subscribe(EventType.INPUT, lambda e: None)
+        for _ in range(5):
+            bus.publish(BusEvent(EventType.INPUT, payload="x"))
+        stats = bus.stats()
+        assert stats["published"] == 5
+        assert stats["handled"] == 5
+
+
+# ── Types Tests ────────────────────────────────────────────────────────────────
+
+
+class TestTypes:
+    def test_confidence_score(self):
+        from ablebridge.core.types import ConfidenceScore
+
+        score = ConfidenceScore(value="test", confidence=0.85, channel=None)
+        assert score.level.value == "high"
+        assert score.is_usable(0.8) is True
+        assert score.is_usable(0.9) is False
+
+    def test_confidence_score_very_low(self):
+        from ablebridge.core.types import ConfidenceScore
+
+        score = ConfidenceScore(value="test", confidence=0.1)
+        assert score.level.value == "very_low"
+
+    def test_user_profile_defaults(self):
+        from ablebridge.core.types import UserProfile
+
+        profile = UserProfile(id="test", name="Test User")
+        assert profile.id == "test"
+        assert profile.ai.provider == "ollama"
+        assert profile.ai.local is True
+        assert profile.ui["theme"] == "light"
+
+
+# ── Prediction Engine Tests ────────────────────────────────────────────────────
+
+
+class TestNGramPredictor:
+    def test_train_and_predict(self):
+        from ablebridge.ai.predictor import NGramPredictor
+
+        predictor = NGramPredictor(order=3)
+        predictor.train_on_text("hello how are you doing today")
+        predictor.train_on_text("hello how are you feeling today")
+        predictor.train_on_text("hello how are you")
+
+        predictions = predictor.predict("hello how are")
+        words = [w for w, _ in predictions]
+
+        # Should predict "you" as top word (appears after "hello how are")
+        assert "you" in words
+
+    def test_shortcut_expansion(self):
+        from ablebridge.ai.predictor import NGramPredictor
+
+        predictor = NGramPredictor()
+        predictor.add_shortcut("hw", "hello world")
+
+        result = predictor.predict("hw")
+        assert result[0][0] == "hello world"
+
+    def test_common_words_fallback(self):
+        from ablebridge.ai.predictor import NGramPredictor
+
+        predictor = NGramPredictor()
+        predictions = predictor.predict("", n=3)
+        assert len(predictions) == 3
+        assert all(isinstance(w, str) for w, _ in predictions)
+
+    def test_save_load(self, tmp_path):
+        from ablebridge.ai.predictor import NGramPredictor
+
+        predictor = NGramPredictor(order=2)
+        predictor.train_on_text("the quick brown fox")
+        path = tmp_path / "model.json"
+        predictor.save(path)
+
+        predictor2 = NGramPredictor(order=2)
+        success = predictor2.load(path)
+        assert success
+        predictions = predictor2.predict("quick")
+        assert len(predictions) > 0
+
+
+# ── Intent Engine Tests ────────────────────────────────────────────────────────
+
+
+class TestMockIntentEngine:
+    def test_chat_emergency(self):
+        from ablebridge.ai.intent import MockIntentEngine
+        from ablebridge.core.types import IntentCategory
+
+        engine = MockIntentEngine()
+        response, conf = engine.chat("help")
+        assert conf >= 0.8
+        assert "help" in response.lower()
+
+    def test_chat_needs(self):
+        from ablebridge.ai.intent import MockIntentEngine
+
+        engine = MockIntentEngine()
+        response, _ = engine.chat("I need water")
+        assert len(response) > 0
+
+    def test_process_input_event(self):
+        from ablebridge.ai.intent import MockIntentEngine
+        from ablebridge.core.types import InputEvent, IntentCategory
+
+        engine = MockIntentEngine()
+        event = InputEvent(
+            channel=None,
+            action="voice_input",
+            raw_value="I need the bathroom",
+        )
+        intent = engine.process(event)
+        assert intent is not None
+        assert intent.category == IntentCategory.NEED
+
+    def test_classify_device_control(self):
+        from ablebridge.ai.intent import MockIntentEngine
+        from ablebridge.core.types import IntentCategory
+
+        engine = MockIntentEngine()
+        _, conf = engine.chat("turn on the light")
+        assert conf >= 0.7
+
+
+# ── Integration Tests ─────────────────────────────────────────────────────────
+
+
+class TestIntegration:
+    def test_full_input_output_flow(self, engine):
+        """Test: input event → engine → output dispatch."""
+        from ablebridge.core.event_bus import EventType, BusEvent
+        from ablebridge.core.types import InputEvent, OutputChannel, OutputEvent
+
+        output_received = []
+
+        def capture_output(event: BusEvent) -> None:
+            if event.type == EventType.OUTPUT_DISPATCH:
+                output_received.append(event.payload)
+
+        engine.bus.subscribe(EventType.OUTPUT_DISPATCH, capture_output)
+        engine.start()
+
+        # Inject input event
+        input_event = InputEvent(
+            channel=None,
+            action="voice_input",
+            raw_value="hello",
+        )
+        engine.bus.publish_input(input_event, source="test")
+
+        engine.stop()
+
+        # Should have at least attempted to dispatch output
+        # (may be empty if intent engine is not available, that's OK)
+        assert isinstance(output_received, list)
+
+    def test_gui_api_status_endpoint(self, engine):
+        """Test the Flask API status endpoint."""
+        from ablebridge.gui.app import app
+
+        engine.start()
+        with app.test_client() as client:
+            resp = client.get("/api/status")
+            assert resp.status_code == 200
+            data = resp.get_json()
+            assert "running" in data
+            assert "inputs" in data
+        engine.stop()
+
+    def test_gui_api_predict(self, engine):
+        """Test the predict API endpoint."""
+        from ablebridge.gui.app import app
+
+        engine.start()
+        with app.test_client() as client:
+            resp = client.post(
+                "/api/predict",
+                json={"context": "hello "},
+                content_type="application/json",
+            )
+            assert resp.status_code == 200
+            data = resp.get_json()
+            assert "predictions" in data
+        engine.stop()
+
+
+# ── Run ────────────────────────────────────────────────────────────────────────
+
+if __name__ == "__main__":
+    pytest.main([__file__, "-v"])

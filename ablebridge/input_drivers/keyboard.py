@@ -1,1 +1,170 @@
-IiIiCmFibGVicmlkZ2UuaW5wdXRfZHJpdmVycy5rZXlib2FyZCDigJQgU3RhbmRhcmQga2V5Ym9hcmQgaW5wdXQgZHJpdmVyLgoKV29ya3Mgb24gYW55IHBsYXRmb3JtIHVzaW5nIHB5bnB1dC4gSGFuZGxlczoKLSBEaXJlY3Qga2V5IHByZXNzZXMgKGZvciBvbi1zY3JlZW4ga2V5Ym9hcmQpCi0gTW9kaWZpZXIga2V5IHRyYWNraW5nIChTaGlmdCwgQ3RybCkKLSBEd2VsbC10aW1lIGF1dG8tcmVwZWF0Ci0gQ29uZmlndXJhYmxlIGlucHV0IGNoYW5uZWwgYmluZGluZwoKVGhpcyBpcyBhbHdheXMgdGhlIGZhbGxiYWNrIGlucHV0IOKAlCBldmVyeSBBYmxlQnJpZGdlIHNldHVwIGhhcyBhIGtleWJvYXJkLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCB0aHJlYWRpbmcKaW1wb3J0IHRpbWUKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgoKZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0ICgKICAgIEJhc2VJbnB1dERyaXZlciwKICAgIENoYW5uZWxTdGF0dXMsCiAgICBEcml2ZXJTdGF0ZSwKICAgIElucHV0Q2hhbm5lbCwKICAgIElucHV0Q29uZmlnLAogICAgSW5wdXRFdmVudCwKKQoKdHJ5OgogICAgZnJvbSBweW5wdXQgaW1wb3J0IGtleWJvYXJkIGFzIHB5bnB1dF9rZXlib2FyZAoKICAgIFBZTlBVVF9BVkFJTEFCTEUgPSBUcnVlCmV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgIFBZTlBVVF9BVkFJTEFCTEUgPSBGYWxzZQoKCmNsYXNzIEtleWJvYXJkRHJpdmVyKEJhc2VJbnB1dERyaXZlcik6CiAgICAiIiIKICAgIFN0YW5kYXJkIGtleWJvYXJkIGlucHV0IGRyaXZlciB1c2luZyBweW5wdXQuCgogICAgRW1pdHM6CiAgICAtICJrZXlfcHJlc3MiIOKAlCBzaW5nbGUga2V5IHByZXNzZWQKICAgIC0gImtleV9yZWxlYXNlIiDigJQga2V5IHJlbGVhc2VkCiAgICAtICJ0ZXh0X2lucHV0IiDigJQgdGV4dCBjaGFyYWN0ZXIgZW50ZXJlZCAocHJlZmVycmVkIGZvciBBQUMpCiAgICAiIiIKCiAgICBuYW1lOiBzdHIgPSAia2V5Ym9hcmRfaW5wdXQiCiAgICBjaGFubmVsX3R5cGUgPSBJbnB1dENoYW5uZWwuS0VZQk9BUkQKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY29uZmlnOiBJbnB1dENvbmZpZyk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhjb25maWcpCiAgICAgICAgc2VsZi5fbGlzdGVuZXI6IHB5bnB1dF9rZXlib2FyZC5MaXN0ZW5lciB8IE5vbmUgPSBOb25lCiAgICAgICAgc2VsZi5fYWN0aXZlX2tleXM6IHNldFtzdHJdID0gc2V0KCkKICAgICAgICBzZWxmLl9zaGlmdF9oZWxkID0gRmFsc2UKICAgICAgICBzZWxmLl9jdHJsX2hlbGQgPSBGYWxzZQogICAgICAgIHNlbGYuX2xpc3RlbmVyX3RocmVhZDogdGhyZWFkaW5nLlRocmVhZCB8IE5vbmUgPSBOb25lCiAgICAgICAgc2VsZi5fc3RvcF9ldmVudCA9IHRocmVhZGluZy5FdmVudCgpCgogICAgIyDilIDilIAgQmFzZUlucHV0RHJpdmVyIEltcGxlbWVudGF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBzdGFydChzZWxmKSAtPiBOb25lOgogICAgICAgIGlmIG5vdCBQWU5QVVRfQVZBSUxBQkxFOgogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoInB5bnB1dCBub3QgaW5zdGFsbGVkLiBSdW46IHBpcCBpbnN0YWxsIHB5bnB1dCIpCgogICAgICAgIHNlbGYuX3N0b3BfZXZlbnQuY2xlYXIoKQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RBUlRJTkcKCiAgICAgICAgZGVmIG9uX3ByZXNzKGtleTogQW55KSAtPiBOb25lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBjaGFyID0gc2VsZi5fa2V5X3RvX2NoYXIoa2V5KQogICAgICAgICAgICAgICAgaWYgY2hhcjoKICAgICAgICAgICAgICAgICAgICBzZWxmLl9hY3RpdmVfa2V5cy5hZGQoY2hhcikKICAgICAgICAgICAgICAgICAgICBzZWxmLl9lbWl0KCJrZXlfcHJlc3MiLCBjaGFyLCBjb25maWRlbmNlPTEuMCkKCiAgICAgICAgICAgICAgICAgICAgIyBIYW5kbGUgbW9kaWZpZXJzCiAgICAgICAgICAgICAgICAgICAgaWYgY2hhciA9PSAiU2hpZnQiOgogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9zaGlmdF9oZWxkID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgIGVsaWYgY2hhciA9PSAiQ3RybCI6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGYuX2N0cmxfaGVsZCA9IFRydWUKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGxvZ2dlci5leGNlcHRpb24oIltLZXlib2FyZERyaXZlcl0gb25fcHJlc3MgZXJyb3IiKQoKICAgICAgICBkZWYgb25fcmVsZWFzZShrZXk6IEFueSkgLT4gTm9uZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgY2hhciA9IHNlbGYuX2tleV90b19jaGFyKGtleSkKICAgICAgICAgICAgICAgIGlmIGNoYXI6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fYWN0aXZlX2tleXMuZGlzY2FyZChjaGFyKQogICAgICAgICAgICAgICAgICAgIHNlbGYuX2VtaXQoImtleV9yZWxlYXNlIiwgY2hhciwgY29uZmlkZW5jZT0xLjApCgogICAgICAgICAgICAgICAgICAgIGlmIGNoYXIgPT0gIlNoaWZ0IjoKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fc2hpZnRfaGVsZCA9IEZhbHNlCiAgICAgICAgICAgICAgICAgICAgZWxpZiBjaGFyID09ICJDdHJsIjoKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fY3RybF9oZWxkID0gRmFsc2UKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGxvZ2dlci5leGNlcHRpb24oIltLZXlib2FyZERyaXZlcl0gb25fcmVsZWFzZSBlcnJvciIpCgogICAgICAgIHNlbGYuX2xpc3RlbmVyID0gcHlucHV0X2tleWJvYXJkLkxpc3RlbmVyKAogICAgICAgICAgICBvbl9wcmVzcz1vbl9wcmVzcywKICAgICAgICAgICAgb25fcmVsZWFzZT1vbl9yZWxlYXNlLAogICAgICAgICAgICBzdXBwcmVzcz1GYWxzZSwKICAgICAgICApCiAgICAgICAgc2VsZi5fbGlzdGVuZXIuZGFlbW9uID0gVHJ1ZQogICAgICAgIHNlbGYuX2xpc3RlbmVyLnN0YXJ0KCkKCiAgICAgICAgc2VsZi5fc3RhdGUgPSBEcml2ZXJTdGF0ZS5SVU5OSU5HCiAgICAgICAgbG9nZ2VyLmluZm8oIltLZXlib2FyZERyaXZlcl0gU3RhcnRlZCIpCgogICAgZGVmIHN0b3Aoc2VsZikgLT4gTm9uZToKICAgICAgICBzZWxmLl9zdG9wX2V2ZW50LnNldCgpCiAgICAgICAgaWYgc2VsZi5fbGlzdGVuZXI6CiAgICAgICAgICAgIHNlbGYuX2xpc3RlbmVyLnN0b3AoKQogICAgICAgICAgICBzZWxmLl9saXN0ZW5lciA9IE5vbmUKICAgICAgICBzZWxmLl9zdGF0ZSA9IERyaXZlclN0YXRlLlNUT1BQRUQKICAgICAgICBsb2dnZXIuaW5mbygiW0tleWJvYXJkRHJpdmVyXSBTdG9wcGVkIikKCiAgICBkZWYgY2FsaWJyYXRlKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIyBLZXlib2FyZCBkb2Vzbid0IG5lZWQgY2FsaWJyYXRpb24KICAgICAgICByZXR1cm4gVHJ1ZQoKICAgIGRlZiBnZXRfc3RhdHVzKHNlbGYpIC0+IENoYW5uZWxTdGF0dXM6CiAgICAgICAgcmV0dXJuIENoYW5uZWxTdGF0dXMoCiAgICAgICAgICAgIG5hbWU9c2VsZi5uYW1lLAogICAgICAgICAgICBjaGFubmVsX3R5cGU9ImlucHV0IiwKICAgICAgICAgICAgc3RhdGU9c2VsZi5fc3RhdGUsCiAgICAgICAgICAgIGlzX2VuYWJsZWQ9c2VsZi5fY29uZmlnLmVuYWJsZWQsCiAgICAgICAgICAgIGNvbmZpZGVuY2U9MS4wLAogICAgICAgICAgICBsYXRlbmN5X21zPTAuMCwKICAgICAgICAgICAgZXh0cmE9eyJhY3RpdmVfa2V5cyI6IGxpc3Qoc2VsZi5fYWN0aXZlX2tleXMpfSwKICAgICAgICApCgogICAgIyDilIDilIAgSW50ZXJuYWwg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIF9rZXlfdG9fY2hhcihzZWxmLCBrZXk6IEFueSkgLT4gc3RyOgogICAgICAgICIiIkNvbnZlcnQgYSBweW5wdXQga2V5IG9iamVjdCB0byBhIHN0cmluZyByZXByZXNlbnRhdGlvbi4iIiIKICAgICAgICB0cnk6CiAgICAgICAgICAgICMgSGFuZGxlIHNwZWNpYWwga2V5cwogICAgICAgICAgICBpZiBpc2luc3RhbmNlKGtleSwgcHlucHV0X2tleWJvYXJkLktleSk6CiAgICAgICAgICAgICAgICBuYW1lID0ga2V5Lm5hbWUudXBwZXIoKQogICAgICAgICAgICAgICAgaWYgbmFtZSA9PSAiU1BBQ0UiOgogICAgICAgICAgICAgICAgICAgIHJldHVybiAiICIKICAgICAgICAgICAgICAgIHJldHVybiBuYW1lCgogICAgICAgICAgICAjIEhhbmRsZSBjaGFyIGtleXMKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShrZXksIHB5bnB1dF9rZXlib2FyZC5LZXlDb2RlKToKICAgICAgICAgICAgICAgIGlmIGtleS5jaGFyOgogICAgICAgICAgICAgICAgICAgIGMgPSBrZXkuY2hhcgogICAgICAgICAgICAgICAgICAgIHJldHVybiBjLnVwcGVyKCkgaWYgc2VsZi5fc2hpZnRfaGVsZCBlbHNlIGMubG93ZXIoKQogICAgICAgICAgICByZXR1cm4gIiIKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICByZXR1cm4gIiIKCiAgICAjIOKUgOKUgCBQdWJsaWMgQVBJIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBzaW11bGF0ZV9rZXkoc2VsZiwgY2hhcjogc3RyKSAtPiBOb25lOgogICAgICAgICIiIgogICAgICAgIFNpbXVsYXRlIGEga2V5IHByZXNzIChmb3IgdGVzdGluZyB0aGUgR1VJIG9uLXNjcmVlbiBrZXlib2FyZCkuCiAgICAgICAgIiIiCiAgICAgICAgc2VsZi5fZW1pdCgidGV4dF9pbnB1dCIsIGNoYXIsIGNvbmZpZGVuY2U9MS4wKQogICAgICAgIGxvZ2dlci5kZWJ1ZyhmIltLZXlib2FyZERyaXZlcl0gU2ltdWxhdGVkIGtleTogJ3tjaGFyfSciKQoKICAgIGRlZiBnZXRfYWN0aXZlX2tleXMoc2VsZikgLT4gc2V0W3N0cl06CiAgICAgICAgcmV0dXJuIHNldChzZWxmLl9hY3RpdmVfa2V5cykKCiAgICBkZWYgaXNfbW9kaWZpZXJfaGVsZChzZWxmLCBtb2RpZmllcjogc3RyKSAtPiBib29sOgogICAgICAgIGlmIG1vZGlmaWVyLmxvd2VyKCkgPT0gInNoaWZ0IjoKICAgICAgICAgICAgcmV0dXJuIHNlbGYuX3NoaWZ0X2hlbGQKICAgICAgICBlbGlmIG1vZGlmaWVyLmxvd2VyKCkgPT0gImN0cmwiOgogICAgICAgICAgICByZXR1cm4gc2VsZi5fY3RybF9oZWxkCiAgICAgICAgcmV0dXJuIEZhbHNlCg==
+"""
+ablebridge.input_drivers.keyboard — Standard keyboard input driver.
+
+Works on any platform using pynput. Handles:
+- Direct key presses (for on-screen keyboard)
+- Modifier key tracking (Shift, Ctrl)
+- Dwell-time auto-repeat
+- Configurable input channel binding
+
+This is always the fallback input — every AbleBridge setup has a keyboard.
+"""
+
+from __future__ import annotations
+
+import threading
+import time
+from typing import Any
+
+from loguru import logger
+
+from ablebridge.core.types import (
+    BaseInputDriver,
+    ChannelStatus,
+    DriverState,
+    InputChannel,
+    InputConfig,
+    InputEvent,
+)
+
+try:
+    from pynput import keyboard as pynput_keyboard
+
+    PYNPUT_AVAILABLE = True
+except ImportError:
+    PYNPUT_AVAILABLE = False
+
+
+class KeyboardDriver(BaseInputDriver):
+    """
+    Standard keyboard input driver using pynput.
+
+    Emits:
+    - "key_press" — single key pressed
+    - "key_release" — key released
+    - "text_input" — text character entered (preferred for AAC)
+    """
+
+    name: str = "keyboard_input"
+    channel_type = InputChannel.KEYBOARD
+
+    def __init__(self, config: InputConfig):
+        super().__init__(config)
+        self._listener: pynput_keyboard.Listener | None = None
+        self._active_keys: set[str] = set()
+        self._shift_held = False
+        self._ctrl_held = False
+        self._listener_thread: threading.Thread | None = None
+        self._stop_event = threading.Event()
+
+    # ── BaseInputDriver Implementation ────────────────────────────────────────
+
+    def start(self) -> None:
+        if not PYNPUT_AVAILABLE:
+            raise RuntimeError("pynput not installed. Run: pip install pynput")
+
+        self._stop_event.clear()
+        self._state = DriverState.STARTING
+
+        def on_press(key: Any) -> None:
+            try:
+                char = self._key_to_char(key)
+                if char:
+                    self._active_keys.add(char)
+                    self._emit("key_press", char, confidence=1.0)
+
+                    # Handle modifiers
+                    if char == "Shift":
+                        self._shift_held = True
+                    elif char == "Ctrl":
+                        self._ctrl_held = True
+            except Exception:
+                logger.exception("[KeyboardDriver] on_press error")
+
+        def on_release(key: Any) -> None:
+            try:
+                char = self._key_to_char(key)
+                if char:
+                    self._active_keys.discard(char)
+                    self._emit("key_release", char, confidence=1.0)
+
+                    if char == "Shift":
+                        self._shift_held = False
+                    elif char == "Ctrl":
+                        self._ctrl_held = False
+            except Exception:
+                logger.exception("[KeyboardDriver] on_release error")
+
+        self._listener = pynput_keyboard.Listener(
+            on_press=on_press,
+            on_release=on_release,
+            suppress=False,
+        )
+        self._listener.daemon = True
+        self._listener.start()
+
+        self._state = DriverState.RUNNING
+        logger.info("[KeyboardDriver] Started")
+
+    def stop(self) -> None:
+        self._stop_event.set()
+        if self._listener:
+            self._listener.stop()
+            self._listener = None
+        self._state = DriverState.STOPPED
+        logger.info("[KeyboardDriver] Stopped")
+
+    def calibrate(self) -> bool:
+        # Keyboard doesn't need calibration
+        return True
+
+    def get_status(self) -> ChannelStatus:
+        return ChannelStatus(
+            name=self.name,
+            channel_type="input",
+            state=self._state,
+            is_enabled=self._config.enabled,
+            confidence=1.0,
+            latency_ms=0.0,
+            extra={"active_keys": list(self._active_keys)},
+        )
+
+    # ── Internal ─────────────────────────────────────────────────────────────
+
+    def _key_to_char(self, key: Any) -> str:
+        """Convert a pynput key object to a string representation."""
+        try:
+            # Handle special keys
+            if isinstance(key, pynput_keyboard.Key):
+                name = key.name.upper()
+                if name == "SPACE":
+                    return " "
+                return name
+
+            # Handle char keys
+            if isinstance(key, pynput_keyboard.KeyCode):
+                if key.char:
+                    c = key.char
+                    return c.upper() if self._shift_held else c.lower()
+            return ""
+        except Exception:
+            return ""
+
+    # ── Public API ─────────────────────────────────────────────────────────────
+
+    def simulate_key(self, char: str) -> None:
+        """
+        Simulate a key press (for testing the GUI on-screen keyboard).
+        """
+        self._emit("text_input", char, confidence=1.0)
+        logger.debug(f"[KeyboardDriver] Simulated key: '{char}'")
+
+    def get_active_keys(self) -> set[str]:
+        return set(self._active_keys)
+
+    def is_modifier_held(self, modifier: str) -> bool:
+        if modifier.lower() == "shift":
+            return self._shift_held
+        elif modifier.lower() == "ctrl":
+            return self._ctrl_held
+        return False

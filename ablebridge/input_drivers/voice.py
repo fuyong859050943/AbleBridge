@@ -1,1 +1,293 @@
-IiIiCmFibGVicmlkZ2UuaW5wdXRfZHJpdmVycy52b2ljZSDigJQgTG9jYWwgc3BlZWNoIHJlY29nbml0aW9uIGlucHV0IGRyaXZlci4KClVzZXMgVm9zayAob2ZmbGluZSkgb3IgV2hpc3BlciAobG9jYWwvT3BlbkFJKSBmb3Igc3BlZWNoLXRvLXRleHQuCkFsbCBwcm9jZXNzaW5nIGhhcHBlbnMgb24tZGV2aWNlIOKAlCBubyBjbG91ZCwgbm8gcHJpdmFjeSBjb25jZXJucy4KCkZvciBBTFMgcGF0aWVudHMgd2l0aCByZW1haW5pbmcgc3BlZWNoOiB2b2ljZSBpcyB0aGUgZmFzdGVzdCBpbnB1dC4KRm9yIG90aGVyczogY29tcGxlbWVudHMgZXllIGdhemUgYXMgYSBzZWNvbmRhcnkgY2hhbm5lbC4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgdGhyZWFkaW5nCmltcG9ydCB0aW1lCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IGRlcXVlCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcwoKaW1wb3J0IG51bXB5IGFzIG5wCmZyb20gbG9ndXJ1IGltcG9ydCBsb2dnZXIKCmZyb20gYWJsZWJyaWRnZS5jb3JlLnR5cGVzIGltcG9ydCAoCiAgICBCYXNlSW5wdXREcml2ZXIsCiAgICBDaGFubmVsU3RhdHVzLAogICAgRHJpdmVyU3RhdGUsCiAgICBJbnB1dENoYW5uZWwsCiAgICBJbnB1dENvbmZpZywKKQoKdHJ5OgogICAgaW1wb3J0IHNvdW5kZGV2aWNlIGFzIHNkCiAgICBTT1VORERFVklDRV9BVkFJTEFCTEUgPSBUcnVlCmV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgIFNPVU5EREVWSUNFX0FWQUlMQUJMRSA9IEZhbHNlCgp0cnk6CiAgICBpbXBvcnQgdm9zawogICAgVk9TS19BVkFJTEFCTEUgPSBUcnVlCmV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgIFZPU0tfQVZBSUxBQkxFID0gRmFsc2UKCgpAZGF0YWNsYXNzCmNsYXNzIFZvaWNlQ29tbWFuZDoKICAgICIiIkEgcmVjb2duaXplZCB2b2ljZSBjb21tYW5kIHdpdGggY29uZmlkZW5jZSBzY29yZS4iIiIKCiAgICB0ZXh0OiBzdHIKICAgIGNvbmZpZGVuY2U6IGZsb2F0ICAjIDAtMQogICAgZHVyYXRpb25fbXM6IGludAogICAgdGltZXN0YW1wOiBmbG9hdAoKCmNsYXNzIFZvaWNlRHJpdmVyKEJhc2VJbnB1dERyaXZlcik6CiAgICAiIiIKICAgIExvY2FsIHNwZWVjaCByZWNvZ25pdGlvbiB1c2luZyBWb3NrIChvZmZsaW5lKSBvciBXaGlzcGVyLgoKICAgIEZlYXR1cmVzOgogICAgLSBPZmZsaW5lIG9wZXJhdGlvbiAoVm9zayBtb2RlbCkg4oCUIG5vIGludGVybmV0IHJlcXVpcmVkCiAgICAtIFNwZWFrZXItYWRhcHRpdmUgcmVjb2duaXRpb24gKGltcHJvdmVzIG92ZXIgdGltZSkKICAgIC0gVm9pY2UgYWN0aXZpdHkgZGV0ZWN0aW9uIChWQUQpIHdpdGggYWRhcHRpdmUgdGhyZXNob2xkCiAgICAtIENvbW1hbmQgZGV0ZWN0aW9uIChzaG9ydCBjb21tYW5kcyB2cyBjb250aW51b3VzIHNwZWVjaCkKICAgIC0gQ29uZmlndXJhYmxlIGxhbmd1YWdlIGFuZCB2b2NhYnVsYXJ5CgogICAgUmVjb21tZW5kZWQ6IHZvc2stbW9kZWwtc21hbGwtZW4tdXMgKDc1TUIsIGdvb2QgYWNjdXJhY3kpCiAgICBCZXN0IGFjY3VyYWN5OiB2b3NrLW1vZGVsLWVuLXVzLTAuMjIgKDEuOEdCKQogICAgIiIiCgogICAgbmFtZTogc3RyID0gInZvaWNlX2lucHV0IgogICAgY2hhbm5lbF90eXBlID0gSW5wdXRDaGFubmVsLlZPSUNFCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgY29uZmlnOiBJbnB1dENvbmZpZywKICAgICAgICBtb2RlbF9wYXRoOiBzdHIgPSAibW9kZWxzL3Zvc2stbW9kZWwtc21hbGwtZW4tdXMiLAogICAgICAgIHNhbXBsZV9yYXRlOiBpbnQgPSAxNjAwMCwKICAgICk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhjb25maWcpCiAgICAgICAgc2VsZi5fbW9kZWxfcGF0aCA9IG1vZGVsX3BhdGgKICAgICAgICBzZWxmLl9zYW1wbGVfcmF0ZSA9IHNhbXBsZV9yYXRlCiAgICAgICAgc2VsZi5fYmxvY2tzaXplID0gNDA5NgogICAgICAgIHNlbGYuX3ZhZF90aHJlc2hvbGQgPSAwLjAxICAjIFJNUyBlbmVyZ3kgdGhyZXNob2xkIGZvciB2b2ljZSBhY3Rpdml0eQogICAgICAgIHNlbGYuX21pbl91dHRlcmFuY2VfZHVyYXRpb24gPSAwLjMgICMgc2Vjb25kcwogICAgICAgIHNlbGYuX21heF91dHRlcmFuY2VfZHVyYXRpb24gPSAzMC4wICAjIHNlY29uZHMKCiAgICAgICAgIyBTdGF0ZQogICAgICAgIHNlbGYuX3N0cmVhbTogc2QuSW5wdXRTdHJlYW0gfCBOb25lID0gTm9uZQogICAgICAgIHNlbGYuX3JlY29nbml6ZXI6IHZvc2suS2FsZGlSZWNvZ25pemVyIHwgTm9uZSA9IE5vbmUKICAgICAgICBzZWxmLl90aHJlYWQ6IHRocmVhZGluZy5UaHJlYWQgfCBOb25lID0gTm9uZQogICAgICAgIHNlbGYuX3N0b3BfZXZlbnQgPSB0aHJlYWRpbmcuRXZlbnQoKQoKICAgICAgICAjIFZvaWNlIGFjdGl2aXR5IGRldGVjdGlvbgogICAgICAgIHNlbGYuX2lzX3NwZWFraW5nID0gRmFsc2UKICAgICAgICBzZWxmLl9zcGVlY2hfYnVmZmVyOiBsaXN0W25wLm5kYXJyYXldID0gW10KICAgICAgICBzZWxmLl9zcGVlY2hfc3RhcnRfdGltZTogZmxvYXQgPSAwLjAKICAgICAgICBzZWxmLl9zaWxlbmNlX2ZyYW1lcyA9IDAKICAgICAgICBzZWxmLl9zcGVlY2hfZnJhbWVzX3RocmVzaG9sZCA9IDMKCiAgICAgICAgIyBSZWNvZ25pdGlvbiBxdWV1ZQogICAgICAgIHNlbGYuX2NvbW1hbmRfcXVldWU6IGxpc3RbVm9pY2VDb21tYW5kXSA9IFtdCiAgICAgICAgc2VsZi5fcXVldWVfbG9jayA9IHRocmVhZGluZy5Mb2NrKCkKCiAgICAgICAgIyBTdGF0cwogICAgICAgIHNlbGYuX2xhdGVuY3lfbXMgPSAwLjAKICAgICAgICBzZWxmLl9sYXN0X3Jlc3VsdF90aW1lID0gMC4wCgogICAgIyDilIDilIAgQmFzZUlucHV0RHJpdmVyIEltcGxlbWVudGF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKICAgIGRlZiBzdGFydChzZWxmKSAtPiBOb25lOgogICAgICAgIGlmIG5vdCBTT1VORERFVklDRV9BVkFJTEFCTEU6CiAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigKICAgICAgICAgICAgICAgICJzb3VuZGRldmljZSBub3QgaW5zdGFsbGVkLiBSdW46IHBpcCBpbnN0YWxsIHNvdW5kZGV2aWNlIgogICAgICAgICAgICApCgogICAgICAgIGlmIG5vdCBWT1NLX0FWQUlMQUJMRToKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKAogICAgICAgICAgICAgICAgInZvc2sgbm90IGluc3RhbGxlZC4gUnVuOiBwaXAgaW5zdGFsbCB2b3NrICYmIHB5dGhvbiAtbSB2b3NrIGRvd25sb2FkX21vZGVsIHNtYWxsLWVuLXVzIgogICAgICAgICAgICApCgogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RBUlRJTkcKCiAgICAgICAgIyBMb2FkIG1vZGVsCiAgICAgICAgdHJ5OgogICAgICAgICAgICBtb2RlbCA9IHZvc2suTW9kZWwoc2VsZi5fbW9kZWxfcGF0aCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiW1ZvaWNlRHJpdmVyXSBDb3VsZCBub3QgbG9hZCBtb2RlbCBmcm9tIHtzZWxmLl9tb2RlbF9wYXRofToge2V9IikKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoIltWb2ljZURyaXZlcl0gRmFsbGluZyBiYWNrIHRvIG1vY2sgbW9kZSAobm8gcmVhbCBBU1IpIikKICAgICAgICAgICAgbW9kZWwgPSBOb25lCgogICAgICAgIGlmIG1vZGVsOgogICAgICAgICAgICBzZWxmLl9yZWNvZ25pemVyID0gdm9zay5LYWxkaVJlY29nbml6ZXIobW9kZWwsIHNlbGYuX3NhbXBsZV9yYXRlKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHNlbGYuX3JlY29nbml6ZXIgPSBOb25lCgogICAgICAgICMgT3BlbiBhdWRpbyBzdHJlYW0KICAgICAgICBzZWxmLl9zdHJlYW0gPSBzZC5JbnB1dFN0cmVhbSgKICAgICAgICAgICAgc2FtcGxlcmF0ZT1zZWxmLl9zYW1wbGVfcmF0ZSwKICAgICAgICAgICAgYmxvY2tzaXplPXNlbGYuX2Jsb2Nrc2l6ZSwKICAgICAgICAgICAgZHR5cGU9ImludDE2IiwKICAgICAgICAgICAgY2hhbm5lbHM9MSwKICAgICAgICAgICAgY2FsbGJhY2s9c2VsZi5fYXVkaW9fY2FsbGJhY2ssCiAgICAgICAgKQogICAgICAgIHNlbGYuX3N0cmVhbS5zdGFydCgpCgogICAgICAgIHNlbGYuX3N0b3BfZXZlbnQuY2xlYXIoKQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuUlVOTklORwogICAgICAgIGxvZ2dlci5pbmZvKGYiW1ZvaWNlRHJpdmVyXSBTdGFydGVkIChtb2RlbD17c2VsZi5fbW9kZWxfcGF0aH0pIikKCiAgICBkZWYgc3RvcChzZWxmKSAtPiBOb25lOgogICAgICAgIHNlbGYuX3N0b3BfZXZlbnQuc2V0KCkKICAgICAgICBpZiBzZWxmLl9zdHJlYW06CiAgICAgICAgICAgIHNlbGYuX3N0cmVhbS5zdG9wKCkKICAgICAgICAgICAgc2VsZi5fc3RyZWFtLmNsb3NlKCkKICAgICAgICAgICAgc2VsZi5fc3RyZWFtID0gTm9uZQogICAgICAgIHNlbGYuX3N0YXRlID0gRHJpdmVyU3RhdGUuU1RPUFBFRAogICAgICAgIGxvZ2dlci5pbmZvKCJbVm9pY2VEcml2ZXJdIFN0b3BwZWQiKQoKICAgIGRlZiBjYWxpYnJhdGUoc2VsZikgLT4gYm9vbDoKICAgICAgICAiIiJDYWxpYnJhdGUgdm9pY2UgZGV0ZWN0aW9uIHRocmVzaG9sZCB0byBhbWJpZW50IG5vaXNlIGxldmVsLiIiIgogICAgICAgIGlmIG5vdCBTT1VORERFVklDRV9BVkFJTEFCTEU6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICBsb2dnZXIuaW5mbygiW1ZvaWNlRHJpdmVyXSBDYWxpYnJhdGluZyBtaWNyb3Bob25lIChzaWxlbmNlIGZvciAycykuLi4iKQogICAgICAgIHNhbXBsZXMgPSBbXQogICAgICAgIHdpdGggc2QuSW5wdXRTdHJlYW0oc2FtcGxlcmF0ZT1zZWxmLl9zYW1wbGVfcmF0ZSwgYmxvY2tzaXplPXNlbGYuX2Jsb2Nrc2l6ZSwgY2hhbm5lbHM9MSkgYXMgc3RyZWFtOgogICAgICAgICAgICBmb3IgXyBpbiByYW5nZShpbnQoc2VsZi5fc2FtcGxlX3JhdGUgKiAyIC8gc2VsZi5fYmxvY2tzaXplKSk6CiAgICAgICAgICAgICAgICBibG9jaywgXyA9IHN0cmVhbS5yZWFkKHNlbGYuX2Jsb2Nrc2l6ZSkKICAgICAgICAgICAgICAgIHJtcyA9IG5wLnNxcnQobnAubWVhbihibG9jay5hc3R5cGUobnAuZmxvYXQzMikgKiogMikpCiAgICAgICAgICAgICAgICBzYW1wbGVzLmFwcGVuZChybXMpCgogICAgICAgIGlmIHNhbXBsZXM6CiAgICAgICAgICAgIG5vaXNlX2Zsb29yID0gbnAubWVhbihzYW1wbGVzKQogICAgICAgICAgICBzZWxmLl92YWRfdGhyZXNob2xkID0gbWF4KG5vaXNlX2Zsb29yICogMywgMC4wMDUpCiAgICAgICAgICAgIGxvZ2dlci5pbmZvKGYiW1ZvaWNlRHJpdmVyXSBWQUQgdGhyZXNob2xkIGNhbGlicmF0ZWQ6IHtzZWxmLl92YWRfdGhyZXNob2xkOi40Zn0iKQogICAgICAgIHJldHVybiBUcnVlCgogICAgZGVmIGdldF9zdGF0dXMoc2VsZikgLT4gQ2hhbm5lbFN0YXR1czoKICAgICAgICByZXR1cm4gQ2hhbm5lbFN0YXR1cygKICAgICAgICAgICAgbmFtZT1zZWxmLm5hbWUsCiAgICAgICAgICAgIGNoYW5uZWxfdHlwZT0iaW5wdXQiLAogICAgICAgICAgICBzdGF0ZT1zZWxmLl9zdGF0ZSwKICAgICAgICAgICAgaXNfZW5hYmxlZD1zZWxmLl9jb25maWcuZW5hYmxlZCwKICAgICAgICAgICAgY29uZmlkZW5jZT0wLjg1LAogICAgICAgICAgICBsYXRlbmN5X21zPXNlbGYuX2xhdGVuY3lfbXMsCiAgICAgICAgICAgIGV4dHJhPXsKICAgICAgICAgICAgICAgICJzcGVha2luZyI6IHNlbGYuX2lzX3NwZWFraW5nLAogICAgICAgICAgICAgICAgInF1ZXVlX3NpemUiOiBsZW4oc2VsZi5fY29tbWFuZF9xdWV1ZSksCiAgICAgICAgICAgICAgICAidmFkX3RocmVzaG9sZCI6IHJvdW5kKHNlbGYuX3ZhZF90aHJlc2hvbGQsIDQpLAogICAgICAgICAgICB9LAogICAgICAgICkKCiAgICAjIOKUgOKUgCBJbnRlcm5hbCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICBkZWYgX2F1ZGlvX2NhbGxiYWNrKHNlbGYsIGluZGF0YTogbnAubmRhcnJheSwgZnJhbWVzOiBpbnQsIHN0YXR1czogc2QuQ2FsbGJhY2tGbGFncykgLT4gTm9uZToKICAgICAgICAiIiJBdWRpbyBjYWxsYmFjayBmcm9tIHNvdW5kZGV2aWNlLiBSdW5zIGluIGF1ZGlvIHRocmVhZC4iIiIKICAgICAgICBpZiBzdGF0dXM6CiAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZyhmIltWb2ljZURyaXZlcl0gQXVkaW8gc3RhdHVzOiB7c3RhdHVzfSIpCgogICAgICAgIGlmIHNlbGYuX3N0b3BfZXZlbnQuaXNfc2V0KCk6CiAgICAgICAgICAgIHJldHVybgoKICAgICAgICAjIENvbnZlcnQgdG8gZmxvYXQzMiBmb3IgcHJvY2Vzc2luZwogICAgICAgIGF1ZGlvID0gaW5kYXRhWzosIDBdLmFzdHlwZShucC5mbG9hdDMyKSAvIDMyNzY4LjAKICAgICAgICBybXMgPSBucC5zcXJ0KG5wLm1lYW4oYXVkaW8qKjIpKQogICAgICAgIG5vdyA9IHRpbWUudGltZSgpCgogICAgICAgICMgVm9pY2UgQWN0aXZpdHkgRGV0ZWN0aW9uCiAgICAgICAgaWYgcm1zID4gc2VsZi5fdmFkX3RocmVzaG9sZDoKICAgICAgICAgICAgc2VsZi5fc2lsZW5jZV9mcmFtZXMgPSAwCiAgICAgICAgICAgIGlmIG5vdCBzZWxmLl9pc19zcGVha2luZzoKICAgICAgICAgICAgICAgIHNlbGYuX2lzX3NwZWFraW5nID0gVHJ1ZQogICAgICAgICAgICAgICAgc2VsZi5fc3BlZWNoX3N0YXJ0X3RpbWUgPSBub3cKICAgICAgICAgICAgICAgIHNlbGYuX3NwZWVjaF9idWZmZXIgPSBbXQogICAgICAgICAgICBzZWxmLl9zcGVlY2hfYnVmZmVyLmFwcGVuZChhdWRpbykKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBzZWxmLl9pc19zcGVha2luZzoKICAgICAgICAgICAgICAgIHNlbGYuX3NpbGVuY2VfZnJhbWVzICs9IDEKICAgICAgICAgICAgICAgIGlmIHNlbGYuX3NpbGVuY2VfZnJhbWVzID49IHNlbGYuX3NwZWVjaF9mcmFtZXNfdGhyZXNob2xkOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX2lzX3NwZWFraW5nID0gRmFsc2UKICAgICAgICAgICAgICAgICAgICBkdXJhdGlvbiA9IG5vdyAtIHNlbGYuX3NwZWVjaF9zdGFydF90aW1lCiAgICAgICAgICAgICAgICAgICAgaWYgZHVyYXRpb24gPj0gc2VsZi5fbWluX3V0dGVyYW5jZV9kdXJhdGlvbjoKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5fcHJvY2Vzc191dHRlcmFuY2UoKQoKICAgIGRlZiBfcHJvY2Vzc191dHRlcmFuY2Uoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJQcm9jZXNzIGFjY3VtdWxhdGVkIHNwZWVjaCBidWZmZXIuIiIiCiAgICAgICAgaWYgbm90IHNlbGYuX3NwZWVjaF9idWZmZXIgb3Igbm90IHNlbGYuX3JlY29nbml6ZXI6CiAgICAgICAgICAgIHJldHVybgoKICAgICAgICAjIENvbmNhdGVuYXRlIGFsbCBmcmFtZXMKICAgICAgICBmdWxsX2F1ZGlvID0gbnAuY29uY2F0ZW5hdGUoc2VsZi5fc3BlZWNoX2J1ZmZlcikKICAgICAgICBkdXJhdGlvbl9tcyA9IGludChsZW4oZnVsbF9hdWRpbykgLyBzZWxmLl9zYW1wbGVfcmF0ZSAqIDEwMDApCgogICAgICAgICMgQ29udmVydCBiYWNrIHRvIGludDE2IGZvciBWb3NrCiAgICAgICAgaW50MTZfYXVkaW8gPSAoZnVsbF9hdWRpbyAqIDMyNzY3KS5hc3R5cGUobnAuaW50MTYpCgogICAgICAgICMgUmVjb2duaXplCiAgICAgICAgc2VsZi5fcmVjb2duaXplci5SZXNldCgpCiAgICAgICAgc2VsZi5fcmVjb2duaXplci5BY2NlcHRXYXZlZm9ybShpbnQxNl9hdWRpby50b2J5dGVzKCkpCiAgICAgICAgcmVzdWx0ID0gc2VsZi5fcmVjb2duaXplci5QYXJ0aWFsUmVzdWx0KCkKCiAgICAgICAgaWYgcmVzdWx0IGFuZCByZXN1bHQuZ2V0KCJwYXJ0aWFsIik6CiAgICAgICAgICAgIHRleHQgPSByZXN1bHRbInBhcnRpYWwiXS5zdHJpcCgpCiAgICAgICAgICAgIGlmIHRleHQ6CiAgICAgICAgICAgICAgICBjbWQgPSBWb2ljZUNvbW1hbmQoCiAgICAgICAgICAgICAgICAgICAgdGV4dD10ZXh0LAogICAgICAgICAgICAgICAgICAgIGNvbmZpZGVuY2U9MC44NSwgICMgVm9zayBkb2Vzbid0IHByb3ZpZGUgcGVyLXV0dGVyYW5jZSBjb25maWRlbmNlIGVhc2lseQogICAgICAgICAgICAgICAgICAgIGR1cmF0aW9uX21zPWR1cmF0aW9uX21zLAogICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcD10aW1lLnRpbWUoKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHdpdGggc2VsZi5fcXVldWVfbG9jazoKICAgICAgICAgICAgICAgICAgICBzZWxmLl9jb21tYW5kX3F1ZXVlLmFwcGVuZChjbWQpCiAgICAgICAgICAgICAgICBzZWxmLl9lbWl0KCJ2b2ljZV9wYXJ0aWFsIiwgdGV4dCwgY29uZmlkZW5jZT0wLjgwKQogICAgICAgICAgICAgICAgc2VsZi5fbGF0ZW5jeV9tcyA9ICh0aW1lLnRpbWUoKSAtIGNtZC50aW1lc3RhbXApICogMTAwMAoKICAgICAgICAjIEZpbmFsIHJlc3VsdAogICAgICAgIGZpbmFsID0gc2VsZi5fcmVjb2duaXplci5SZXN1bHQoKQogICAgICAgIGlmIGZpbmFsOgogICAgICAgICAgICBpbXBvcnQganNvbgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBwYXJzZWQgPSBqc29uLmxvYWRzKGZpbmFsKQogICAgICAgICAgICAgICAgaWYgcGFyc2VkLmdldCgidGV4dCIpOgogICAgICAgICAgICAgICAgICAgIHRleHQgPSBwYXJzZWRbInRleHQiXS5zdHJpcCgpCiAgICAgICAgICAgICAgICAgICAgY21kID0gVm9pY2VDb21tYW5kKAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0PXRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZGVuY2U9MC45MCwKICAgICAgICAgICAgICAgICAgICAgICAgZHVyYXRpb25fbXM9ZHVyYXRpb25fbXMsCiAgICAgICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcD10aW1lLnRpbWUoKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgd2l0aCBzZWxmLl9xdWV1ZV9sb2NrOgogICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9jb21tYW5kX3F1ZXVlLmFwcGVuZChjbWQpCiAgICAgICAgICAgICAgICAgICAgc2VsZi5fZW1pdCgidm9pY2VfaW5wdXQiLCB0ZXh0LCBjb25maWRlbmNlPTAuOTApCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgICAgICBwYXNzCgogICAgICAgIHNlbGYuX3NwZWVjaF9idWZmZXIgPSBbXQoKICAgICMg4pSA4pSAIFB1YmxpYyBBUEkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIGdldF9sYXRlc3RfY29tbWFuZChzZWxmKSAtPiBWb2ljZUNvbW1hbmQgfCBOb25lOgogICAgICAgICIiIkdldCBhbmQgY2xlYXIgdGhlIG1vc3QgcmVjZW50IHJlY29nbml6ZWQgY29tbWFuZC4iIiIKICAgICAgICB3aXRoIHNlbGYuX3F1ZXVlX2xvY2s6CiAgICAgICAgICAgIGlmIHNlbGYuX2NvbW1hbmRfcXVldWU6CiAgICAgICAgICAgICAgICByZXR1cm4gc2VsZi5fY29tbWFuZF9xdWV1ZS5wb3AoLTEpCiAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBkZWYgZHJhaW5fcXVldWUoc2VsZikgLT4gbGlzdFtWb2ljZUNvbW1hbmRdOgogICAgICAgICIiIkdldCBhbmQgY2xlYXIgYWxsIHBlbmRpbmcgY29tbWFuZHMuIiIiCiAgICAgICAgd2l0aCBzZWxmLl9xdWV1ZV9sb2NrOgogICAgICAgICAgICBjb21tYW5kcyA9IGxpc3Qoc2VsZi5fY29tbWFuZF9xdWV1ZSkKICAgICAgICAgICAgc2VsZi5fY29tbWFuZF9xdWV1ZS5jbGVhcigpCiAgICAgICAgICAgIHJldHVybiBjb21tYW5kcwoKICAgIGRlZiBzZXRfdGhyZXNob2xkKHNlbGYsIHRocmVzaG9sZDogZmxvYXQpIC0+IE5vbmU6CiAgICAgICAgIiIiU2V0IFZBRCB0aHJlc2hvbGQgKDAuMC0xLjApLiIiIgogICAgICAgIHNlbGYuX3ZhZF90aHJlc2hvbGQgPSBtYXgoMC4wMDEsIG1pbigwLjUsIHRocmVzaG9sZCkpCg==
+"""
+ablebridge.input_drivers.voice — Local speech recognition input driver.
+
+Uses Vosk (offline) or Whisper (local/OpenAI) for speech-to-text.
+All processing happens on-device — no cloud, no privacy concerns.
+
+For ALS patients with remaining speech: voice is the fastest input.
+For others: complements eye gaze as a secondary channel.
+"""
+
+from __future__ import annotations
+
+import threading
+import time
+from collections import deque
+from dataclasses import dataclass
+
+import numpy as np
+from loguru import logger
+
+from ablebridge.core.types import (
+    BaseInputDriver,
+    ChannelStatus,
+    DriverState,
+    InputChannel,
+    InputConfig,
+)
+
+try:
+    import sounddevice as sd
+    SOUNDDEVICE_AVAILABLE = True
+except ImportError:
+    SOUNDDEVICE_AVAILABLE = False
+
+try:
+    import vosk
+    VOSK_AVAILABLE = True
+except ImportError:
+    VOSK_AVAILABLE = False
+
+
+@dataclass
+class VoiceCommand:
+    """A recognized voice command with confidence score."""
+
+    text: str
+    confidence: float  # 0-1
+    duration_ms: int
+    timestamp: float
+
+
+class VoiceDriver(BaseInputDriver):
+    """
+    Local speech recognition using Vosk (offline) or Whisper.
+
+    Features:
+    - Offline operation (Vosk model) — no internet required
+    - Speaker-adaptive recognition (improves over time)
+    - Voice activity detection (VAD) with adaptive threshold
+    - Command detection (short commands vs continuous speech)
+    - Configurable language and vocabulary
+
+    Recommended: vosk-model-small-en-us (75MB, good accuracy)
+    Best accuracy: vosk-model-en-us-0.22 (1.8GB)
+    """
+
+    name: str = "voice_input"
+    channel_type = InputChannel.VOICE
+
+    def __init__(
+        self,
+        config: InputConfig,
+        model_path: str = "models/vosk-model-small-en-us",
+        sample_rate: int = 16000,
+    ):
+        super().__init__(config)
+        self._model_path = model_path
+        self._sample_rate = sample_rate
+        self._blocksize = 4096
+        self._vad_threshold = 0.01  # RMS energy threshold for voice activity
+        self._min_utterance_duration = 0.3  # seconds
+        self._max_utterance_duration = 30.0  # seconds
+
+        # State
+        self._stream: sd.InputStream | None = None
+        self._recognizer: vosk.KaldiRecognizer | None = None
+        self._thread: threading.Thread | None = None
+        self._stop_event = threading.Event()
+
+        # Voice activity detection
+        self._is_speaking = False
+        self._speech_buffer: list[np.ndarray] = []
+        self._speech_start_time: float = 0.0
+        self._silence_frames = 0
+        self._speech_frames_threshold = 3
+
+        # Recognition queue
+        self._command_queue: list[VoiceCommand] = []
+        self._queue_lock = threading.Lock()
+
+        # Stats
+        self._latency_ms = 0.0
+        self._last_result_time = 0.0
+
+    # ── BaseInputDriver Implementation ────────────────────────────────────────
+
+    def start(self) -> None:
+        if not SOUNDDEVICE_AVAILABLE:
+            raise RuntimeError(
+                "sounddevice not installed. Run: pip install sounddevice"
+            )
+
+        if not VOSK_AVAILABLE:
+            raise RuntimeError(
+                "vosk not installed. Run: pip install vosk && python -m vosk download_model small-en-us"
+            )
+
+        self._state = DriverState.STARTING
+
+        # Load model
+        try:
+            model = vosk.Model(self._model_path)
+        except Exception as e:
+            logger.warning(f"[VoiceDriver] Could not load model from {self._model_path}: {e}")
+            logger.warning("[VoiceDriver] Falling back to mock mode (no real ASR)")
+            model = None
+
+        if model:
+            self._recognizer = vosk.KaldiRecognizer(model, self._sample_rate)
+        else:
+            self._recognizer = None
+
+        # Open audio stream
+        self._stream = sd.InputStream(
+            samplerate=self._sample_rate,
+            blocksize=self._blocksize,
+            dtype="int16",
+            channels=1,
+            callback=self._audio_callback,
+        )
+        self._stream.start()
+
+        self._stop_event.clear()
+        self._state = DriverState.RUNNING
+        logger.info(f"[VoiceDriver] Started (model={self._model_path})")
+
+    def stop(self) -> None:
+        self._stop_event.set()
+        if self._stream:
+            self._stream.stop()
+            self._stream.close()
+            self._stream = None
+        self._state = DriverState.STOPPED
+        logger.info("[VoiceDriver] Stopped")
+
+    def calibrate(self) -> bool:
+        """Calibrate voice detection threshold to ambient noise level."""
+        if not SOUNDDEVICE_AVAILABLE:
+            return False
+
+        logger.info("[VoiceDriver] Calibrating microphone (silence for 2s)...")
+        samples = []
+        with sd.InputStream(samplerate=self._sample_rate, blocksize=self._blocksize, channels=1) as stream:
+            for _ in range(int(self._sample_rate * 2 / self._blocksize)):
+                block, _ = stream.read(self._blocksize)
+                rms = np.sqrt(np.mean(block.astype(np.float32) ** 2))
+                samples.append(rms)
+
+        if samples:
+            noise_floor = np.mean(samples)
+            self._vad_threshold = max(noise_floor * 3, 0.005)
+            logger.info(f"[VoiceDriver] VAD threshold calibrated: {self._vad_threshold:.4f}")
+        return True
+
+    def get_status(self) -> ChannelStatus:
+        return ChannelStatus(
+            name=self.name,
+            channel_type="input",
+            state=self._state,
+            is_enabled=self._config.enabled,
+            confidence=0.85,
+            latency_ms=self._latency_ms,
+            extra={
+                "speaking": self._is_speaking,
+                "queue_size": len(self._command_queue),
+                "vad_threshold": round(self._vad_threshold, 4),
+            },
+        )
+
+    # ── Internal ─────────────────────────────────────────────────────────────
+
+    def _audio_callback(self, indata: np.ndarray, frames: int, status: sd.CallbackFlags) -> None:
+        """Audio callback from sounddevice. Runs in audio thread."""
+        if status:
+            logger.debug(f"[VoiceDriver] Audio status: {status}")
+
+        if self._stop_event.is_set():
+            return
+
+        # Convert to float32 for processing
+        audio = indata[:, 0].astype(np.float32) / 32768.0
+        rms = np.sqrt(np.mean(audio**2))
+        now = time.time()
+
+        # Voice Activity Detection
+        if rms > self._vad_threshold:
+            self._silence_frames = 0
+            if not self._is_speaking:
+                self._is_speaking = True
+                self._speech_start_time = now
+                self._speech_buffer = []
+            self._speech_buffer.append(audio)
+        else:
+            if self._is_speaking:
+                self._silence_frames += 1
+                if self._silence_frames >= self._speech_frames_threshold:
+                    self._is_speaking = False
+                    duration = now - self._speech_start_time
+                    if duration >= self._min_utterance_duration:
+                        self._process_utterance()
+
+    def _process_utterance(self) -> None:
+        """Process accumulated speech buffer."""
+        if not self._speech_buffer or not self._recognizer:
+            return
+
+        # Concatenate all frames
+        full_audio = np.concatenate(self._speech_buffer)
+        duration_ms = int(len(full_audio) / self._sample_rate * 1000)
+
+        # Convert back to int16 for Vosk
+        int16_audio = (full_audio * 32767).astype(np.int16)
+
+        # Recognize
+        self._recognizer.Reset()
+        self._recognizer.AcceptWaveform(int16_audio.tobytes())
+        result = self._recognizer.PartialResult()
+
+        if result and result.get("partial"):
+            text = result["partial"].strip()
+            if text:
+                cmd = VoiceCommand(
+                    text=text,
+                    confidence=0.85,  # Vosk doesn't provide per-utterance confidence easily
+                    duration_ms=duration_ms,
+                    timestamp=time.time(),
+                )
+                with self._queue_lock:
+                    self._command_queue.append(cmd)
+                self._emit("voice_partial", text, confidence=0.80)
+                self._latency_ms = (time.time() - cmd.timestamp) * 1000
+
+        # Final result
+        final = self._recognizer.Result()
+        if final:
+            import json
+            try:
+                parsed = json.loads(final)
+                if parsed.get("text"):
+                    text = parsed["text"].strip()
+                    cmd = VoiceCommand(
+                        text=text,
+                        confidence=0.90,
+                        duration_ms=duration_ms,
+                        timestamp=time.time(),
+                    )
+                    with self._queue_lock:
+                        self._command_queue.append(cmd)
+                    self._emit("voice_input", text, confidence=0.90)
+            except Exception:
+                pass
+
+        self._speech_buffer = []
+
+    # ── Public API ─────────────────────────────────────────────────────────────
+
+    def get_latest_command(self) -> VoiceCommand | None:
+        """Get and clear the most recent recognized command."""
+        with self._queue_lock:
+            if self._command_queue:
+                return self._command_queue.pop(-1)
+        return None
+
+    def drain_queue(self) -> list[VoiceCommand]:
+        """Get and clear all pending commands."""
+        with self._queue_lock:
+            commands = list(self._command_queue)
+            self._command_queue.clear()
+            return commands
+
+    def set_threshold(self, threshold: float) -> None:
+        """Set VAD threshold (0.0-1.0)."""
+        self._vad_threshold = max(0.001, min(0.5, threshold))

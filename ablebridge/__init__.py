@@ -1,1 +1,36 @@
-IiIiCkFibGVCcmlkZ2Ug4oCUIEEgdW5pdmVyc2FsIEFJLXBvd2VyZWQgYWNjZXNzaWJpbGl0eSBicmlkZ2UuCgpBcmNoaXRlY3R1cmU6CiAgICBVc2VyIOKGkiBbSW5wdXQgRHJpdmVyc10g4oaSIFtDb3JlIEVuZ2luZV0g4oaSIFtBSSBJbnRlbnRdIOKGkiBbT3V0cHV0IERyaXZlcnNdIOKGkiBEZXZpY2UvQWN0aW9uCgpNaXNzaW9uOgogICAgQnVpbGQgYnJpZGdlcywgbm90IHdhbGxzLiBFdmVyeSBpbnB1dCBjaGFubmVsIGRlc2VydmVzIGV2ZXJ5IG91dHB1dCBjaGFubmVsLgoiIiIKCl9fdmVyc2lvbl9fID0gIjAuMS4wIgpfX2F1dGhvcl9fID0gIkFibGVCcmlkZ2UgQ29tbXVuaXR5IgpfX2xpY2Vuc2VfXyA9ICJNSVQiCgpmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgKAogICAgSW5wdXRFdmVudCwKICAgIE91dHB1dEV2ZW50LAogICAgSW50ZW50RXZlbnQsCiAgICBQcmVkaWN0aW9uUmVzdWx0LAogICAgVXNlclByb2ZpbGUsCiAgICBDaGFubmVsU3RhdHVzLAogICAgQ29uZmlkZW5jZVNjb3JlLAopCmZyb20gYWJsZWJyaWRnZS5jb3JlLmVuZ2luZSBpbXBvcnQgQWJsZUJyaWRnZUVuZ2luZQoKX19hbGxfXyA9IFsKICAgICJfX3ZlcnNpb25fXyIsCiAgICAiQWJsZUJyaWRnZUVuZ2luZSIsCiAgICAiSW5wdXRFdmVudCIsCiAgICAiT3V0cHV0RXZlbnQiLAogICAgIkludGVudEV2ZW50IiwKICAgICJQcmVkaWN0aW9uUmVzdWx0IiwKICAgICJVc2VyUHJvZmlsZSIsCiAgICAiQ2hhbm5lbFN0YXR1cyIsCiAgICAiQ29uZmlkZW5jZVNjb3JlIiwKXQo=
+"""
+AbleBridge — A universal AI-powered accessibility bridge.
+
+Architecture:
+    User → [Input Drivers] → [Core Engine] → [AI Intent] → [Output Drivers] → Device/Action
+
+Mission:
+    Build bridges, not walls. Every input channel deserves every output channel.
+"""
+
+__version__ = "0.1.0"
+__author__ = "AbleBridge Community"
+__license__ = "MIT"
+
+from ablebridge.core.types import (
+    InputEvent,
+    OutputEvent,
+    IntentEvent,
+    PredictionResult,
+    UserProfile,
+    ChannelStatus,
+    ConfidenceScore,
+)
+from ablebridge.core.engine import AbleBridgeEngine
+
+__all__ = [
+    "__version__",
+    "AbleBridgeEngine",
+    "InputEvent",
+    "OutputEvent",
+    "IntentEvent",
+    "PredictionResult",
+    "UserProfile",
+    "ChannelStatus",
+    "ConfidenceScore",
+]

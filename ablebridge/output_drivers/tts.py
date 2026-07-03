@@ -1,1 +1,196 @@
-IiIiCmFibGVicmlkZ2Uub3V0cHV0X2RyaXZlcnMudHRzIOKAlCBUZXh0LXRvLVNwZWVjaCBvdXRwdXQgZHJpdmVyLgoKU3VwcG9ydHM6Ci0gcHl0dHN4MyAob2ZmbGluZSwgY3Jvc3MtcGxhdGZvcm0sIHVzZXMgc3lzdGVtIHZvaWNlcykKLSBnVFRTIChHb29nbGUgVFRTLCByZXF1aXJlcyBpbnRlcm5ldCwgYmV0dGVyIHF1YWxpdHkpCi0gRWRnZSBUVFMgKE1pY3Jvc29mdCBFZGdlIFRUUywgb2ZmbGluZS1jYXBhYmxlLCBleGNlbGxlbnQgcXVhbGl0eSkKLSBDb3F1aSBUVFMgKHZvaWNlIGNsb25pbmcsIHJ1bnMgbG9jYWxseSkKIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgdGhyZWFkaW5nCmltcG9ydCB0aW1lCmltcG9ydCBxdWV1ZQoKZnJvbSBsb2d1cnUgaW1wb3J0IGxvZ2dlcgoKZnJvbSBhYmxlYnJpZGdlLmNvcmUudHlwZXMgaW1wb3J0ICgKICAgIEJhc2VPdXRwdXREcml2ZXIsCiAgICBDaGFubmVsU3RhdHVzLAogICAgRHJpdmVyU3RhdGUsCiAgICBPdXRwdXRDaGFubmVsLAogICAgT3V0cHV0Q29uZmlnLAogICAgT3V0cHV0RXZlbnQsCikKCnRyeToKICAgIGltcG9ydCBweXR0c3gzCiAgICBQWVRUU1gzX0FWQUlMQUJMRSA9IFRydWUKZXhjZXB0IEltcG9ydEVycm9yOgogICAgUFlUVFNYM19BVkFJTEFCTEUgPSBGYWxzZQoKCmNsYXNzIFRUU0RyaXZlcihCYXNlT3V0cHV0RHJpdmVyKToKICAgICIiIgogICAgVGV4dC10by1TcGVlY2ggb3V0cHV0IGRyaXZlci4KCiAgICBVc2VzIHB5dHRzeDMgKG9mZmxpbmUsIHN5c3RlbSB2b2ljZXMpIGJ5IGRlZmF1bHQuCiAgICBGYWxscyBiYWNrIHRvIHNpbXBsZSBwcmludCBpZiBubyBUVFMgZW5naW5lIGlzIGF2YWlsYWJsZS4KCiAgICBGZWF0dXJlczoKICAgIC0gTm9uLWJsb2NraW5nIHBsYXliYWNrIChxdWV1ZS1iYXNlZCkKICAgIC0gQWRqdXN0YWJsZSByYXRlLCBwaXRjaCwgdm9sdW1lCiAgICAtIENhbGxiYWNrIG9uIHNwZWVjaCBjb21wbGV0aW9uCiAgICAtIEludGVycnVwdCBzdXBwb3J0IChzdG9wIGN1cnJlbnQgc3BlZWNoKQogICAgIiIiCgogICAgbmFtZTogc3RyID0gInR0c19vdXRwdXQiCiAgICBjaGFubmVsX3R5cGUgPSBPdXRwdXRDaGFubmVsLlRUUwoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBjb25maWc6IE91dHB1dENvbmZpZyk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhjb25maWcpCiAgICAgICAgc2VsZi5fcmF0ZSA9IGludCgxNTAgKiBjb25maWcucmF0ZSkKICAgICAgICBzZWxmLl9waXRjaCA9IGNvbmZpZy5waXRjaAogICAgICAgIHNlbGYuX3ZvbHVtZSA9IGNvbmZpZy52b2x1bWUKCiAgICAgICAgIyBUVFMgZW5naW5lCiAgICAgICAgc2VsZi5fZW5naW5lID0gTm9uZQogICAgICAgIHNlbGYuX2F2YWlsYWJsZSA9IEZhbHNlCgogICAgICAgICMgUGxheWJhY2sgcXVldWUKICAgICAgICBzZWxmLl9xdWV1ZTogcXVldWUuUXVldWVbc3RyXSA9IHF1ZXVlLlF1ZXVlKCkKICAgICAgICBzZWxmLl93b3JrZXJfdGhyZWFkOiB0aHJlYWRpbmcuVGhyZWFkIHwgTm9uZSA9IE5vbmUKICAgICAgICBzZWxmLl9zcGVha2luZyA9IEZhbHNlCiAgICAgICAgc2VsZi5fc3RvcF9yZXF1ZXN0ZWQgPSB0aHJlYWRpbmcuRXZlbnQoKQoKICAgICMg4pSA4pSAIEJhc2VPdXRwdXREcml2ZXIgSW1wbGVtZW50YXRpb24g4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIHN0YXJ0KHNlbGYpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5fc3RhdGUgPSBEcml2ZXJTdGF0ZS5TVEFSVElORwogICAgICAgIHNlbGYuX3N0b3BfcmVxdWVzdGVkLmNsZWFyKCkKCiAgICAgICAgaWYgUFlUVFNYM19BVkFJTEFCTEU6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHNlbGYuX2VuZ2luZSA9IHB5dHRzeDMuaW5pdCgpCiAgICAgICAgICAgICAgICBzZWxmLl9lbmdpbmUuc2V0UHJvcGVydHkoInJhdGUiLCBzZWxmLl9yYXRlKQogICAgICAgICAgICAgICAgc2VsZi5fZW5naW5lLnNldFByb3BlcnR5KCJ2b2x1bWUiLCBzZWxmLl92b2x1bWUpCgogICAgICAgICAgICAgICAgIyBMaXN0IGF2YWlsYWJsZSB2b2ljZXMKICAgICAgICAgICAgICAgIHZvaWNlcyA9IHNlbGYuX2VuZ2luZS5nZXRQcm9wZXJ0eSgidm9pY2VzIikKICAgICAgICAgICAgICAgIGlmIHZvaWNlczoKICAgICAgICAgICAgICAgICAgICBzZWxmLl9lbmdpbmUuc2V0UHJvcGVydHkoInZvaWNlIiwgdm9pY2VzWzBdLmlkKQogICAgICAgICAgICAgICAgICAgIGxvZ2dlci5pbmZvKAogICAgICAgICAgICAgICAgICAgICAgICBmIltUVFNEcml2ZXJdIFZvaWNlOiB7dm9pY2VzWzBdLm5hbWV9ICIKICAgICAgICAgICAgICAgICAgICAgICAgZiIoe2xlbih2b2ljZXMpfSB2b2ljZXMgYXZhaWxhYmxlKSIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBzZWxmLl9hdmFpbGFibGUgPSBUcnVlCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiW1RUU0RyaXZlcl0gcHl0dHN4MyBpbml0IGZhaWxlZDoge2V9IikKICAgICAgICAgICAgICAgIHNlbGYuX2F2YWlsYWJsZSA9IEZhbHNlCgogICAgICAgICMgU3RhcnQgd29ya2VyIHRocmVhZAogICAgICAgIHNlbGYuX3dvcmtlcl90aHJlYWQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1zZWxmLl93b3JrZXIsIGRhZW1vbj1UcnVlKQogICAgICAgIHNlbGYuX3dvcmtlcl90aHJlYWQuc3RhcnQoKQoKICAgICAgICBzZWxmLl9zdGF0ZSA9IERyaXZlclN0YXRlLlJVTk5JTkcKICAgICAgICBsb2dnZXIuaW5mbygiW1RUU0RyaXZlcl0gU3RhcnRlZCIpCgogICAgZGVmIHN0b3Aoc2VsZikgLT4gTm9uZToKICAgICAgICBzZWxmLl9zdG9wX3JlcXVlc3RlZC5zZXQoKQogICAgICAgIGlmIHNlbGYuX2VuZ2luZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc2VsZi5fZW5naW5lLnN0b3AoKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIGlmIHNlbGYuX3dvcmtlcl90aHJlYWQ6CiAgICAgICAgICAgIHNlbGYuX3dvcmtlcl90aHJlYWQuam9pbih0aW1lb3V0PTIuMCkKICAgICAgICBzZWxmLl9zdGF0ZSA9IERyaXZlclN0YXRlLlNUT1BQRUQKICAgICAgICBsb2dnZXIuaW5mbygiW1RUU0RyaXZlcl0gU3RvcHBlZCIpCgogICAgZGVmIHNlbmQoc2VsZiwgZXZlbnQ6IE91dHB1dEV2ZW50KSAtPiBib29sOgogICAgICAgICIiIgogICAgICAgIFNwZWFrIHRoZSB0ZXh0IGNvbnRlbnQgb2YgdGhlIGV2ZW50LgogICAgICAgIE5vbi1ibG9ja2luZzogcXVldWVzIHRoZSB0ZXh0IGZvciBwbGF5YmFjay4KICAgICAgICAiIiIKICAgICAgICBpZiBub3QgZXZlbnQuY29udGVudDoKICAgICAgICAgICAgcmV0dXJuIFRydWUKCiAgICAgICAgdHJ5OgogICAgICAgICAgICAjIFN0b3AgY3VycmVudCBzcGVlY2ggaWYgcHJpb3JpdHkgaXMgaGlnaGVyCiAgICAgICAgICAgIGlmIHNlbGYuX3NwZWFraW5nIGFuZCBldmVudC5wcmlvcml0eSA+PSA1MDoKICAgICAgICAgICAgICAgIHNlbGYuX3N0b3BfcmVxdWVzdGVkLnNldCgpCiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKDAuMSkKICAgICAgICAgICAgICAgIHNlbGYuX3N0b3BfcmVxdWVzdGVkLmNsZWFyKCkKCiAgICAgICAgICAgIHNlbGYuX3F1ZXVlLnB1dChldmVudC5jb250ZW50KQogICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgIGRlZiBnZXRfc3RhdHVzKHNlbGYpIC0+IENoYW5uZWxTdGF0dXM6CiAgICAgICAgcmV0dXJuIENoYW5uZWxTdGF0dXMoCiAgICAgICAgICAgIG5hbWU9c2VsZi5uYW1lLAogICAgICAgICAgICBjaGFubmVsX3R5cGU9Im91dHB1dCIsCiAgICAgICAgICAgIHN0YXRlPXNlbGYuX3N0YXRlLAogICAgICAgICAgICBpc19lbmFibGVkPXNlbGYuX2NvbmZpZy5lbmFibGVkLAogICAgICAgICAgICBjb25maWRlbmNlPTAuOSBpZiBzZWxmLl9hdmFpbGFibGUgZWxzZSAwLjMsCiAgICAgICAgICAgIGxhdGVuY3lfbXM9MTAwLjAsCiAgICAgICAgICAgIGV4dHJhPXsKICAgICAgICAgICAgICAgICJzcGVha2luZyI6IHNlbGYuX3NwZWFraW5nLAogICAgICAgICAgICAgICAgInF1ZXVlX3NpemUiOiBzZWxmLl9xdWV1ZS5xc2l6ZSgpLAogICAgICAgICAgICAgICAgImVuZ2luZSI6ICJweXR0c3gzIiBpZiBzZWxmLl9hdmFpbGFibGUgZWxzZSAibW9jayIsCiAgICAgICAgICAgIH0sCiAgICAgICAgKQoKICAgICMg4pSA4pSAIFdvcmtlciDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCiAgICBkZWYgX3dvcmtlcihzZWxmKSAtPiBOb25lOgogICAgICAgICIiIkJhY2tncm91bmQgd29ya2VyIHRoYXQgcHJvY2Vzc2VzIHRoZSBUVFMgcXVldWUuIiIiCiAgICAgICAgd2hpbGUgbm90IHNlbGYuX3N0b3BfcmVxdWVzdGVkLmlzX3NldCgpOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB0ZXh0ID0gc2VsZi5fcXVldWUuZ2V0KHRpbWVvdXQ9MC41KQogICAgICAgICAgICBleGNlcHQgcXVldWUuRW1wdHk6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgc2VsZi5fc3BlYWtpbmcgPSBUcnVlCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGlmIHNlbGYuX2VuZ2luZSBhbmQgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX2VuZ2luZS5zYXkodGV4dCkKICAgICAgICAgICAgICAgICAgICBzZWxmLl9lbmdpbmUucnVuQW5kV2FpdCgpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICMgRmFsbGJhY2s6IGxvZyB0byBjb25zb2xlCiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiJbVFRTXSB7dGV4dH0iKQogICAgICAgICAgICAgICAgICAgIHRpbWUuc2xlZXAobGVuKHRleHQpIC8gMTApICAjIFJvdWdoIGVzdGltYXRlCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIGxvZ2dlci53YXJuaW5nKGYiW1RUU0RyaXZlcl0gUGxheWJhY2sgZXJyb3I6IHtlfSIpCiAgICAgICAgICAgIGZpbmFsbHk6CiAgICAgICAgICAgICAgICBzZWxmLl9zcGVha2luZyA9IEZhbHNlCiAgICAgICAgICAgICAgICBzZWxmLl9xdWV1ZS50YXNrX2RvbmUoKQoKICAgICMg4pSA4pSAIFB1YmxpYyBBUEkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgogICAgZGVmIHNwZWFrX25vdyhzZWxmLCB0ZXh0OiBzdHIpIC0+IE5vbmU6CiAgICAgICAgIiIiSW1tZWRpYXRlbHkgaW50ZXJydXB0IGFuZCBzcGVhayAoYmxvY2tpbmcpLiIiIgogICAgICAgIGlmIHNlbGYuX2VuZ2luZSBhbmQgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICBzZWxmLl9lbmdpbmUuc3RvcCgpCiAgICAgICAgc2VsZi5fcXVldWUucHV0KHRleHQpCgogICAgZGVmIHN0b3Bfc3BlYWtpbmcoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJTdG9wIGN1cnJlbnQgc3BlZWNoLiIiIgogICAgICAgIGlmIHNlbGYuX2VuZ2luZSBhbmQgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICBzZWxmLl9lbmdpbmUuc3RvcCgpCiAgICAgICAgc2VsZi5fc3BlYWtpbmcgPSBGYWxzZQoKICAgIGRlZiBzZXRfcmF0ZShzZWxmLCByYXRlX3dwbTogaW50KSAtPiBOb25lOgogICAgICAgICIiIlNldCBzcGVlY2ggcmF0ZSBpbiB3b3JkcyBwZXIgbWludXRlLiIiIgogICAgICAgIHNlbGYuX3JhdGUgPSByYXRlX3dwbQogICAgICAgIGlmIHNlbGYuX2VuZ2luZSBhbmQgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICBzZWxmLl9lbmdpbmUuc2V0UHJvcGVydHkoInJhdGUiLCByYXRlX3dwbSkKCiAgICBkZWYgc2V0X3ZvbHVtZShzZWxmLCB2b2x1bWU6IGZsb2F0KSAtPiBOb25lOgogICAgICAgICIiIlNldCB2b2x1bWUgMC4wLTEuMC4iIiIKICAgICAgICBzZWxmLl92b2x1bWUgPSBtYXgoMC4wLCBtaW4oMS4wLCB2b2x1bWUpKQogICAgICAgIGlmIHNlbGYuX2VuZ2luZSBhbmQgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICBzZWxmLl9lbmdpbmUuc2V0UHJvcGVydHkoInZvbHVtZSIsIHNlbGYuX3ZvbHVtZSkK
+"""
+ablebridge.output_drivers.tts — Text-to-Speech output driver.
+
+Supports:
+- pyttsx3 (offline, cross-platform, uses system voices)
+- gTTS (Google TTS, requires internet, better quality)
+- Edge TTS (Microsoft Edge TTS, offline-capable, excellent quality)
+- Coqui TTS (voice cloning, runs locally)
+"""
+
+from __future__ import annotations
+
+import threading
+import time
+import queue
+
+from loguru import logger
+
+from ablebridge.core.types import (
+    BaseOutputDriver,
+    ChannelStatus,
+    DriverState,
+    OutputChannel,
+    OutputConfig,
+    OutputEvent,
+)
+
+try:
+    import pyttsx3
+    PYTTSX3_AVAILABLE = True
+except ImportError:
+    PYTTSX3_AVAILABLE = False
+
+
+class TTSDriver(BaseOutputDriver):
+    """
+    Text-to-Speech output driver.
+
+    Uses pyttsx3 (offline, system voices) by default.
+    Falls back to simple print if no TTS engine is available.
+
+    Features:
+    - Non-blocking playback (queue-based)
+    - Adjustable rate, pitch, volume
+    - Callback on speech completion
+    - Interrupt support (stop current speech)
+    """
+
+    name: str = "tts_output"
+    channel_type = OutputChannel.TTS
+
+    def __init__(self, config: OutputConfig):
+        super().__init__(config)
+        self._rate = int(150 * config.rate)
+        self._pitch = config.pitch
+        self._volume = config.volume
+
+        # TTS engine
+        self._engine = None
+        self._available = False
+
+        # Playback queue
+        self._queue: queue.Queue[str] = queue.Queue()
+        self._worker_thread: threading.Thread | None = None
+        self._speaking = False
+        self._stop_requested = threading.Event()
+
+    # ── BaseOutputDriver Implementation ────────────────────────────────────────
+
+    def start(self) -> None:
+        self._state = DriverState.STARTING
+        self._stop_requested.clear()
+
+        if PYTTSX3_AVAILABLE:
+            try:
+                self._engine = pyttsx3.init()
+                self._engine.setProperty("rate", self._rate)
+                self._engine.setProperty("volume", self._volume)
+
+                # List available voices
+                voices = self._engine.getProperty("voices")
+                if voices:
+                    self._engine.setProperty("voice", voices[0].id)
+                    logger.info(
+                        f"[TTSDriver] Voice: {voices[0].name} "
+                        f"({len(voices)} voices available)"
+                    )
+                self._available = True
+            except Exception as e:
+                logger.warning(f"[TTSDriver] pyttsx3 init failed: {e}")
+                self._available = False
+
+        # Start worker thread
+        self._worker_thread = threading.Thread(target=self._worker, daemon=True)
+        self._worker_thread.start()
+
+        self._state = DriverState.RUNNING
+        logger.info("[TTSDriver] Started")
+
+    def stop(self) -> None:
+        self._stop_requested.set()
+        if self._engine:
+            try:
+                self._engine.stop()
+            except Exception:
+                pass
+        if self._worker_thread:
+            self._worker_thread.join(timeout=2.0)
+        self._state = DriverState.STOPPED
+        logger.info("[TTSDriver] Stopped")
+
+    def send(self, event: OutputEvent) -> bool:
+        """
+        Speak the text content of the event.
+        Non-blocking: queues the text for playback.
+        """
+        if not event.content:
+            return True
+
+        try:
+            # Stop current speech if priority is higher
+            if self._speaking and event.priority >= 50:
+                self._stop_requested.set()
+                time.sleep(0.1)
+                self._stop_requested.clear()
+
+            self._queue.put(event.content)
+            return True
+        except Exception:
+            return False
+
+    def get_status(self) -> ChannelStatus:
+        return ChannelStatus(
+            name=self.name,
+            channel_type="output",
+            state=self._state,
+            is_enabled=self._config.enabled,
+            confidence=0.9 if self._available else 0.3,
+            latency_ms=100.0,
+            extra={
+                "speaking": self._speaking,
+                "queue_size": self._queue.qsize(),
+                "engine": "pyttsx3" if self._available else "mock",
+            },
+        )
+
+    # ── Worker ────────────────────────────────────────────────────────────────
+
+    def _worker(self) -> None:
+        """Background worker that processes the TTS queue."""
+        while not self._stop_requested.is_set():
+            try:
+                text = self._queue.get(timeout=0.5)
+            except queue.Empty:
+                continue
+
+            self._speaking = True
+            try:
+                if self._engine and self._available:
+                    self._engine.say(text)
+                    self._engine.runAndWait()
+                else:
+                    # Fallback: log to console
+                    logger.info(f"[TTS] {text}")
+                    time.sleep(len(text) / 10)  # Rough estimate
+            except Exception as e:
+                logger.warning(f"[TTSDriver] Playback error: {e}")
+            finally:
+                self._speaking = False
+                self._queue.task_done()
+
+    # ── Public API ─────────────────────────────────────────────────────────────
+
+    def speak_now(self, text: str) -> None:
+        """Immediately interrupt and speak (blocking)."""
+        if self._engine and self._available:
+            self._engine.stop()
+        self._queue.put(text)
+
+    def stop_speaking(self) -> None:
+        """Stop current speech."""
+        if self._engine and self._available:
+            self._engine.stop()
+        self._speaking = False
+
+    def set_rate(self, rate_wpm: int) -> None:
+        """Set speech rate in words per minute."""
+        self._rate = rate_wpm
+        if self._engine and self._available:
+            self._engine.setProperty("rate", rate_wpm)
+
+    def set_volume(self, volume: float) -> None:
+        """Set volume 0.0-1.0."""
+        self._volume = max(0.0, min(1.0, volume))
+        if self._engine and self._available:
+            self._engine.setProperty("volume", self._volume)

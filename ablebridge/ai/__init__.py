@@ -1,1 +1,326 @@
-IiIiCmFibGVicmlkZ2UuYWkuaW50ZW50IOKAlCBBSSBJbnRlbnQgRW5naW5lLgoKUm91dGVzIGlucHV0IGV2ZW50cyB0aHJvdWdoIGEgbG9jYWwgTExNIChPbGxhbWEpIHRvIGRldGVybWluZToKMS4gV2hhdCB0aGUgdXNlciBpcyB0cnlpbmcgdG8gY29tbXVuaWNhdGUKMi4gV2hhdCBhY3Rpb24gdG8gdGFrZQozLiBXaGF0IHJlc3BvbnNlIHRvIGdpdmUgKGZvciBBQUMpCgpUaGUgaW50ZW50IGVuZ2luZSBpcyB0aGUgImJyYWluIiBvZiBBYmxlQnJpZGdlLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmltcG9ydCB0aW1lCmZyb20gYWJjIGltcG9ydCBBQkMsIGFic3RyYWN0bWV0aG9kCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmltcG9ydCByZXF1ZXN0cwpmcm9tIGxvZ3VydSBpbXBvcnQgbG9nZ2VyCgpmcm9tIGFibGVicmlkZ2UuY29yZS50eXBlcyBpbXBvcnQgSW5wdXRFdmVudCwgSW50ZW50RXZlbnQsIEludGVudENhdGVnb3J5CgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBCYXNlIEludGVudCBFbmdpbmUKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpjbGFzcyBJbnRlbnRFbmdpbmUoQUJDKToKICAgICIiIgogICAgQWJzdHJhY3QgYmFzZSBmb3IgaW50ZW50IGVuZ2luZXMuCiAgICBJbXBsZW1lbnQgdGhpcyB0byBhZGQgYSBuZXcgQUkgYmFja2VuZCAoT3BlbkFJLCBBbnRocm9waWMsIGxvY2FsLCBldGMuKQogICAgIiIiCgogICAgbmFtZTogc3RyID0gImJhc2VfaW50ZW50IgoKICAgIEBhYnN0cmFjdG1ldGhvZAogICAgZGVmIHByb2Nlc3Moc2VsZiwgZXZlbnQ6IElucHV0RXZlbnQpIC0+IEludGVudEV2ZW50IHwgTm9uZToKICAgICAgICAiIiJQcm9jZXNzIGFuIGlucHV0IGV2ZW50IGFuZCByZXR1cm4gYSByZXNvbHZlZCBpbnRlbnQuIiIiCiAgICAgICAgLi4uCgogICAgQGFic3RyYWN0bWV0aG9kCiAgICBkZWYgY2hhdChzZWxmLCBtZXNzYWdlOiBzdHIsIGNvbnRleHQ6IHN0ciA9ICIiKSAtPiB0dXBsZVtzdHIsIGZsb2F0XToKICAgICAgICAiIiIKICAgICAgICBTaW1wbGUgY2hhdCBpbnRlcmZhY2UuIFJldHVybnMgKHJlc3BvbnNlX3RleHQsIGNvbmZpZGVuY2UpLgogICAgICAgIFVzZWQgZm9yIEFBQyBjb252ZXJzYXRpb24gbW9kZS4KICAgICAgICAiIiIKICAgICAgICAuLi4KCiAgICBkZWYgY2xvc2Uoc2VsZikgLT4gTm9uZToKICAgICAgICAiIiJDbGVhbiB1cCByZXNvdXJjZXMuIiIiCiAgICAgICAgcGFzcwoKCiMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiMgT2xsYW1hIEludGVudCBFbmdpbmUgKGxvY2FsIExMTSkKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCgpTWVNURU1fUFJPTVBUID0gIiIiWW91IGFyZSB0aGUgaW50ZW50IHVuZGVyc3RhbmRpbmcgbW9kdWxlIG9mIEFibGVCcmlkZ2UsCmFuIEFJIGFjY2Vzc2liaWxpdHkgYnJpZGdlIGZvciBwZW9wbGUgd2l0aCBkaXNhYmlsaXRpZXMuCgpZb3VyIHRhc2sgaXMgdG8gY2xhc3NpZnkgdXNlciBpbnB1dCBhbmQgZXh0cmFjdCBzdHJ1Y3R1cmVkIGludGVudC4KQWx3YXlzIGJlIGhlbHBmdWwsIHBhdGllbnQsIGFuZCBzdXBwb3J0aXZlLgoKUmVzcG9uZCBPTkxZIHdpdGggdmFsaWQgSlNPTiBpbiB0aGlzIGZvcm1hdDoKewogICJjYXRlZ29yeSI6ICJDT01NVU5JQ0FURXxDT05UUk9MX0RFVklDRXxFTUVSR0VOQ1l8TkFWSUdBVElPTnxFTU9USU9OfE5FRUR8UVVFU1RJT058Q09ORklSTSIsCiAgInJhd190ZXh0IjogInRoZSB1c2VyJ3MgbWVzc2FnZSIsCiAgInJlc3BvbnNlIjogImEgaGVscGZ1bCByZXNwb25zZSAoZm9yIEFBQyBjb252ZXJzYXRpb24gbW9kZSkiLAogICJlbnRpdGllcyI6IHsiZGV2aWNlIjogIi4uLiIsICJhY3Rpb24iOiAiLi4uIiwgInRhcmdldCI6ICIuLi4ifSwKICAidXJnZW5jeSI6IDAuMC0xLjAsCiAgInNlbnRpbWVudCI6IC0xLjAgdG8gMS4wLAogICJjb25maWRlbmNlIjogMC4wLTEuMAp9CgpDYXRlZ29yaWVzOgotIENPTU1VTklDQVRFOiBHZW5lcmFsIGNvbnZlcnNhdGlvbiwgZ3JlZXRpbmcsIHN0YXRlbWVudAotIENPTlRST0xfREVWSUNFOiBTbWFydCBob21lIGNvbnRyb2wgKGxpZ2h0cywgVFYsIHRoZXJtb3N0YXQpCi0gRU1FUkdFTkNZOiBIZWxwIHJlcXVlc3QsIGRpc3RyZXNzLCB1cmdlbnQgbmVlZAotIE5BVklHQVRJT046IE1vdmUgd2hlZWxjaGFpciwgZ2V0IHNvbWV3aGVyZQotIEVNT1RJT046IEV4cHJlc3MgZmVlbGluZ3MsIG1vb2QsIHBhaW4gbGV2ZWwKLSBORUVEOiBCYXNpYyBuZWVkcyAod2F0ZXIsIGZvb2QsIGJhdGhyb29tLCBtZWRpY2F0aW9uKQotIFFVRVNUSU9OOiBVc2VyIGlzIGFza2luZyBhIHF1ZXN0aW9uCi0gQ09ORklSTTogWWVzL05vIGNvbmZpcm1hdGlvbgoKSWYgdGhlIGlucHV0IGlzIHVuY2xlYXIsIHJlc3BvbmQgd2l0aCBjb25maWRlbmNlIGJlbG93IDAuNS4KIiIiCgoKY2xhc3MgT2xsYW1hSW50ZW50RW5naW5lKEludGVudEVuZ2luZSk6CiAgICAiIiIKICAgIExvY2FsIExMTSBpbnRlbnQgZW5naW5lIHVzaW5nIE9sbGFtYS4KCiAgICBBZHZhbnRhZ2VzOgogICAgLSAxMDAlIG9mZmxpbmUgKG5vIGRhdGEgbGVhdmVzIHRoZSBkZXZpY2UpCiAgICAtIEZyZWUgKG5vIEFQSSBjb3N0cykKICAgIC0gRmFzdCAoZXNwZWNpYWxseSB3aXRoIHF1YW50aXphdGlvbikKICAgIC0gUHJpdmF0ZSAocGVyZmVjdCBmb3IgbWVkaWNhbC9wZXJzb25hbCBkYXRhKQoKICAgIFNldHVwOgogICAgICAgIDEuIEluc3RhbGwgT2xsYW1hOiBodHRwczovL29sbGFtYS5haQogICAgICAgIDIuIFB1bGwgYSBtb2RlbDogb2xsYW1hIHB1bGwgbGxhbWEzLjIKICAgICAgICAzLiBTdGFydCBzZXJ2ZXI6IG9sbGFtYSBzZXJ2ZSAgKGF1dG9tYXRpYyBvbiBmaXJzdCB1c2UpCiAgICAiIiIKCiAgICBuYW1lID0gIm9sbGFtYV9pbnRlbnQiCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgYmFzZV91cmw6IHN0ciA9ICJodHRwOi8vbG9jYWxob3N0OjExNDM0IiwKICAgICAgICBtb2RlbDogc3RyID0gImxsYW1hMy4yOmxhdGVzdCIsCiAgICAgICAgdGhyZXNob2xkOiBmbG9hdCA9IDAuNjAsCiAgICAgICAgdGVtcGVyYXR1cmU6IGZsb2F0ID0gMC43LAogICAgICAgIG1heF90b2tlbnM6IGludCA9IDI1NiwKICAgICk6CiAgICAgICAgc2VsZi5fYmFzZV91cmwgPSBiYXNlX3VybC5yc3RyaXAoIi8iKQogICAgICAgIHNlbGYuX21vZGVsID0gbW9kZWwKICAgICAgICBzZWxmLl90aHJlc2hvbGQgPSB0aHJlc2hvbGQKICAgICAgICBzZWxmLl90ZW1wZXJhdHVyZSA9IHRlbXBlcmF0dXJlCiAgICAgICAgc2VsZi5fbWF4X3Rva2VucyA9IG1heF90b2tlbnMKICAgICAgICBzZWxmLl9hdmFpbGFibGUgPSBzZWxmLl9jaGVja19hdmFpbGFiaWxpdHkoKQoKICAgIGRlZiBfY2hlY2tfYXZhaWxhYmlsaXR5KHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIiIiQ2hlY2sgaWYgT2xsYW1hIGlzIHJ1bm5pbmcgYW5kIHRoZSBtb2RlbCBpcyBhdmFpbGFibGUuIiIiCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXNwID0gcmVxdWVzdHMuZ2V0KGYie3NlbGYuX2Jhc2VfdXJsfS9hcGkvdGFncyIsIHRpbWVvdXQ9MykKICAgICAgICAgICAgaWYgcmVzcC5zdGF0dXNfY29kZSA9PSAyMDA6CiAgICAgICAgICAgICAgICBtb2RlbHMgPSByZXNwLmpzb24oKS5nZXQoIm1vZGVscyIsIFtdKQogICAgICAgICAgICAgICAgYXZhaWxhYmxlID0gW21bIm5hbWUiXSBmb3IgbSBpbiBtb2RlbHNdCiAgICAgICAgICAgICAgICBpZiBzZWxmLl9tb2RlbCBpbiBhdmFpbGFibGUgb3IgYW55KAogICAgICAgICAgICAgICAgICAgIHNlbGYuX21vZGVsLnNwbGl0KCI6IilbMF0gaW4gbSBmb3IgbSBpbiBhdmFpbGFibGUKICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgbG9nZ2VyLmluZm8oZiJbT2xsYW1hSW50ZW50XSBNb2RlbCAne3NlbGYuX21vZGVsfScgaXMgYXZhaWxhYmxlIikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoCiAgICAgICAgICAgICAgICAgICAgZiJbT2xsYW1hSW50ZW50XSBNb2RlbCAne3NlbGYuX21vZGVsfScgbm90IGZvdW5kLiAiCiAgICAgICAgICAgICAgICAgICAgZiJBdmFpbGFibGU6IHthdmFpbGFibGV9LiBQdWxsIGl0IHdpdGg6IG9sbGFtYSBwdWxsIHtzZWxmLl9tb2RlbH0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJbT2xsYW1hSW50ZW50XSBPbGxhbWEgbm90IGF2YWlsYWJsZToge2V9IikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGVmIHByb2Nlc3Moc2VsZiwgZXZlbnQ6IElucHV0RXZlbnQpIC0+IEludGVudEV2ZW50IHwgTm9uZToKICAgICAgICAiIiJDbGFzc2lmeSBhbiBpbnB1dCBldmVudCBhbmQgcmV0dXJuIHN0cnVjdHVyZWQgaW50ZW50LiIiIgogICAgICAgIGlmIG5vdCBzZWxmLl9hdmFpbGFibGU6CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgIHRleHQgPSBzZWxmLl9leHRyYWN0X3RleHQoZXZlbnQpCiAgICAgICAgaWYgbm90IHRleHQ6CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzcG9uc2VfdGV4dCwgY29uZmlkZW5jZSA9IHNlbGYuY2hhdCh0ZXh0KQogICAgICAgICAgICBwYXJzZWQgPSBzZWxmLl9wYXJzZV9sbG1fcmVzcG9uc2UocmVzcG9uc2VfdGV4dCwgdGV4dCkKICAgICAgICAgICAgcGFyc2VkLnNvdXJjZXMgPSBbZXZlbnQuY2hhbm5lbF0KICAgICAgICAgICAgcmV0dXJuIHBhcnNlZAogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIGxvZ2dlci5leGNlcHRpb24oIltPbGxhbWFJbnRlbnRdIEVycm9yIHByb2Nlc3NpbmcgaW50ZW50IikKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBkZWYgY2hhdChzZWxmLCBtZXNzYWdlOiBzdHIsIGNvbnRleHQ6IHN0ciA9ICIiKSAtPiB0dXBsZVtzdHIsIGZsb2F0XToKICAgICAgICAiIiJTZW5kIGEgbWVzc2FnZSB0byB0aGUgTExNIGFuZCBnZXQgYSByZXNwb25zZS4iIiIKICAgICAgICBpZiBub3Qgc2VsZi5fYXZhaWxhYmxlOgogICAgICAgICAgICByZXR1cm4gIiIsIDAuMAoKICAgICAgICBmdWxsX3Byb21wdCA9IGYie1NZU1RFTV9QUk9NUFR9XG5cblVzZXI6IHttZXNzYWdlfSIKICAgICAgICBpZiBjb250ZXh0OgogICAgICAgICAgICBmdWxsX3Byb21wdCA9IGYiQ29udGV4dDoge2NvbnRleHR9XG5cbntmdWxsX3Byb21wdH0iCgogICAgICAgIHBheWxvYWQgPSB7CiAgICAgICAgICAgICJtb2RlbCI6IHNlbGYuX21vZGVsLAogICAgICAgICAgICAicHJvbXB0IjogZnVsbF9wcm9tcHQsCiAgICAgICAgICAgICJzdHJlYW0iOiBGYWxzZSwKICAgICAgICAgICAgIm9wdGlvbnMiOiB7CiAgICAgICAgICAgICAgICAidGVtcGVyYXR1cmUiOiBzZWxmLl90ZW1wZXJhdHVyZSwKICAgICAgICAgICAgICAgICJudW1fcHJlZGljdCI6IHNlbGYuX21heF90b2tlbnMsCiAgICAgICAgICAgIH0sCiAgICAgICAgfQoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJlc3AgPSByZXF1ZXN0cy5wb3N0KAogICAgICAgICAgICAgICAgZiJ7c2VsZi5fYmFzZV91cmx9L2FwaS9nZW5lcmF0ZSIsCiAgICAgICAgICAgICAgICBqc29uPXBheWxvYWQsCiAgICAgICAgICAgICAgICB0aW1lb3V0PTMwLAogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIHJlc3Auc3RhdHVzX2NvZGUgPT0gMjAwOgogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzcC5qc29uKCkKICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQuZ2V0KCJyZXNwb25zZSIsICIiKSwgcmVzdWx0LmdldCgiY29uZmlkZW5jZSIsIDAuODUpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIltPbGxhbWFJbnRlbnRdIEhUVFAge3Jlc3Auc3RhdHVzX2NvZGV9OiB7cmVzcC50ZXh0WzoxMDBdfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gIiIsIDAuMAogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHJldHVybiAiIiwgMC4wCgogICAgZGVmIF9leHRyYWN0X3RleHQoc2VsZiwgZXZlbnQ6IElucHV0RXZlbnQpIC0+IHN0cjoKICAgICAgICAiIiJFeHRyYWN0IHRleHQgY29udGVudCBmcm9tIGFuIGlucHV0IGV2ZW50LiIiIgogICAgICAgIGlmIGlzaW5zdGFuY2UoZXZlbnQucmF3X3ZhbHVlLCBzdHIpOgogICAgICAgICAgICByZXR1cm4gZXZlbnQucmF3X3ZhbHVlCiAgICAgICAgaWYgaXNpbnN0YW5jZShldmVudC5yYXdfdmFsdWUsIHR1cGxlKSBhbmQgbGVuKGV2ZW50LnJhd192YWx1ZSkgPT0gMjoKICAgICAgICAgICAgIyBHYXplIHBvc2l0aW9uIG9yIHNpbWlsYXIKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgcmV0dXJuIHN0cihldmVudC5yYXdfdmFsdWUgb3IgIiIpCgogICAgZGVmIF9wYXJzZV9sbG1fcmVzcG9uc2Uoc2VsZiwgbGxtX3RleHQ6IHN0ciwgb3JpZ2luYWxfdGV4dDogc3RyKSAtPiBJbnRlbnRFdmVudDoKICAgICAgICAiIiJQYXJzZSBMTE0gSlNPTiByZXNwb25zZSBpbnRvIGFuIEludGVudEV2ZW50LiIiIgogICAgICAgICMgVHJ5IHRvIGV4dHJhY3QgSlNPTiBmcm9tIHRoZSByZXNwb25zZQogICAgICAgIHRyeToKICAgICAgICAgICAgIyBGaW5kIEpTT04gYmxvY2sKICAgICAgICAgICAgc3RhcnQgPSBsbG1fdGV4dC5maW5kKCJ7IikKICAgICAgICAgICAgZW5kID0gbGxtX3RleHQucmZpbmQoIn0iKSArIDEKICAgICAgICAgICAgaWYgc3RhcnQgPj0gMCBhbmQgZW5kID4gc3RhcnQ6CiAgICAgICAgICAgICAgICBqc29uX3N0ciA9IGxsbV90ZXh0W3N0YXJ0OmVuZF0KICAgICAgICAgICAgICAgIGRhdGEgPSBqc29uLmxvYWRzKGpzb25fc3RyKQoKICAgICAgICAgICAgICAgIGNhdGVnb3J5X3N0ciA9IGRhdGEuZ2V0KCJjYXRlZ29yeSIsICJDT01NVU5JQ0FURSIpLnVwcGVyKCkKICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IEludGVudENhdGVnb3J5W2NhdGVnb3J5X3N0cl0KICAgICAgICAgICAgICAgIGV4Y2VwdCBLZXlFcnJvcjoKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IEludGVudENhdGVnb3J5LkNPTU1VTklDQVRFCgogICAgICAgICAgICAgICAgcmV0dXJuIEludGVudEV2ZW50KAogICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5PWNhdGVnb3J5LAogICAgICAgICAgICAgICAgICAgIHJhd190ZXh0PW9yaWdpbmFsX3RleHQsCiAgICAgICAgICAgICAgICAgICAgc3RydWN0dXJlZD1kYXRhLAogICAgICAgICAgICAgICAgICAgIGVudGl0aWVzPWRhdGEuZ2V0KCJlbnRpdGllcyIsIHt9KSwKICAgICAgICAgICAgICAgICAgICBzZW50aW1lbnQ9ZGF0YS5nZXQoInNlbnRpbWVudCIsIDAuMCksCiAgICAgICAgICAgICAgICAgICAgdXJnZW5jeT1kYXRhLmdldCgidXJnZW5jeSIsIDAuMCksCiAgICAgICAgICAgICAgICAgICAgY29uZmlkZW5jZT1kYXRhLmdldCgiY29uZmlkZW5jZSIsIDAuNSksCiAgICAgICAgICAgICAgICAgICAgc291cmNlcz1bXSwKICAgICAgICAgICAgICAgICkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGxvZ2dlci5kZWJ1ZyhmIltPbGxhbWFJbnRlbnRdIENvdWxkIG5vdCBwYXJzZSBKU09OOiB7ZX0iKQoKICAgICAgICAjIEZhbGxiYWNrOiByZXR1cm4gYXMgZ2VuZXJhbCBjb21tdW5pY2F0aW9uCiAgICAgICAgcmV0dXJuIEludGVudEV2ZW50KAogICAgICAgICAgICBjYXRlZ29yeT1JbnRlbnRDYXRlZ29yeS5DT01NVU5JQ0FURSwKICAgICAgICAgICAgcmF3X3RleHQ9b3JpZ2luYWxfdGV4dCwKICAgICAgICAgICAgc3RydWN0dXJlZD17InJlc3BvbnNlIjogbGxtX3RleHQgb3Igb3JpZ2luYWxfdGV4dH0sCiAgICAgICAgICAgIGNvbmZpZGVuY2U9MC41LAogICAgICAgICkKCiAgICBkZWYgY2xvc2Uoc2VsZikgLT4gTm9uZToKICAgICAgICBwYXNzCgoKIyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKIyBNb2NrIEludGVudCBFbmdpbmUgKGZvciB0ZXN0aW5nIC8gbm8gTExNKQojIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKCmNsYXNzIE1vY2tJbnRlbnRFbmdpbmUoSW50ZW50RW5naW5lKToKICAgICIiIgogICAgTW9jayBpbnRlbnQgZW5naW5lIGZvciB0ZXN0aW5nIHdpdGhvdXQgT2xsYW1hLgogICAgUHJvdmlkZXMgYmFzaWMga2V5d29yZC1iYXNlZCBpbnRlbnQgY2xhc3NpZmljYXRpb24uCiAgICAiIiIKCiAgICBuYW1lID0gIm1vY2tfaW50ZW50IgoKICAgIEVNRVJHRU5DWV9XT1JEUyA9IFsiaGVscCIsICJlbWVyZ2VuY3kiLCAidXJnZW50IiwgInBhaW4iLCAiY2FsbCA5MTEiLCAi5pWR5oiRIiwgIuaVkeWRvSJdCiAgICBORUVEX1dPUkRTID0gWyJ3YXRlciIsICJiYXRocm9vbSIsICJ0b2lsZXQiLCAiZm9vZCIsICJodW5ncnkiLCAidGhpcnN0eSIsICJtZWRpY2luZSIsICLlm7AiLCAi6aW/IiwgIua4tCJdCiAgICBERVZJQ0VfV09SRFMgPSBbImxpZ2h0IiwgInR2IiwgIm11c2ljIiwgImRvb3IiLCAibG9jayIsICJ0ZW1wZXJhdHVyZSIsICLnga8iLCAi56m66LCDIiwgIueUteinhiJdCiAgICBFTU9USU9OX1dPUkRTID0gWyJoYXBweSIsICJzYWQiLCAidGlyZWQiLCAiYW5ncnkiLCAiY29uZnVzZWQiLCAiZmVlbCIsICJtb29kIiwgIueWvCIsICLntK8iLCAi5byA5b+DIl0KCiAgICBkZWYgcHJvY2VzcyhzZWxmLCBldmVudDogSW5wdXRFdmVudCkgLT4gSW50ZW50RXZlbnQgfCBOb25lOgogICAgICAgIHRleHQgPSBzZWxmLl9leHRyYWN0X3RleHQoZXZlbnQpCiAgICAgICAgaWYgbm90IHRleHQ6CiAgICAgICAgICAgIHJldHVybiBOb25lCgogICAgICAgIGNhdGVnb3J5LCBjb25maWRlbmNlID0gc2VsZi5fY2xhc3NpZnlfa2V5d29yZCh0ZXh0KQoKICAgICAgICByZXR1cm4gSW50ZW50RXZlbnQoCiAgICAgICAgICAgIGNhdGVnb3J5PWNhdGVnb3J5LAogICAgICAgICAgICByYXdfdGV4dD10ZXh0LAogICAgICAgICAgICBzdHJ1Y3R1cmVkPXsicmVzcG9uc2UiOiBmIkkgdW5kZXJzdG9vZDoge3RleHR9In0sCiAgICAgICAgICAgIGNvbmZpZGVuY2U9Y29uZmlkZW5jZSwKICAgICAgICAgICAgdXJnZW5jeT0xLjAgaWYgY2F0ZWdvcnkgPT0gSW50ZW50Q2F0ZWdvcnkuRU1FUkdFTkNZIGVsc2UgMC4zLAogICAgICAgICkKCiAgICBkZWYgY2hhdChzZWxmLCBtZXNzYWdlOiBzdHIsIGNvbnRleHQ6IHN0ciA9ICIiKSAtPiB0dXBsZVtzdHIsIGZsb2F0XToKICAgICAgICAiIiJNb2NrIGNoYXQ6IGVjaG8gYmFjayB3aXRoIGJhc2ljIGFja25vd2xlZGdlbWVudC4iIiIKICAgICAgICBpZiBub3QgbWVzc2FnZS5zdHJpcCgpOgogICAgICAgICAgICByZXR1cm4gIiIsIDAuMAoKICAgICAgICAjIEtleXdvcmQtYmFzZWQgcmVzcG9uc2VzCiAgICAgICAgbG93ZXIgPSBtZXNzYWdlLmxvd2VyKCkKICAgICAgICBpZiBhbnkodyBpbiBsb3dlciBmb3IgdyBpbiBzZWxmLkVNRVJHRU5DWV9XT1JEUyk6CiAgICAgICAgICAgIHJldHVybiAiSSB1bmRlcnN0YW5kIHlvdSBuZWVkIGhlbHAuIEknbSBoZXJlIGZvciB5b3UuIFdoYXQgZG8geW91IG5lZWQ/IiwgMC44NQogICAgICAgIGVsaWYgYW55KHcgaW4gbG93ZXIgZm9yIHcgaW4gc2VsZi5ORUVEX1dPUkRTKToKICAgICAgICAgICAgcmV0dXJuICJJIHVuZGVyc3RhbmQgeW91IGhhdmUgYSBuZWVkLiBJJ20gY2hlY2tpbmcgaG93IHRvIGhlbHAuIiwgMC44MAogICAgICAgIGVsaWYgYW55KHcgaW4gbG93ZXIgZm9yIHcgaW4gc2VsZi5ERVZJQ0VfV09SRFMpOgogICAgICAgICAgICByZXR1cm4gIkkgY2FuIGhlbHAgeW91IGNvbnRyb2wgdGhlIGRldmljZS4gV2hpY2ggb25lIHdvdWxkIHlvdSBsaWtlPyIsIDAuNzUKICAgICAgICBlbGlmIGFueSh3IGluIGxvd2VyIGZvciB3IGluIHNlbGYuRU1PVElPTl9XT1JEUyk6CiAgICAgICAgICAgIHJldHVybiAiSSBoZWFyIGhvdyB5b3UncmUgZmVlbGluZy4gVGhhbmsgeW91IGZvciBzaGFyaW5nIHdpdGggbWUuIiwgMC44MAogICAgICAgIGVsaWYgIj8iIGluIG1lc3NhZ2Ugb3IgbWVzc2FnZS5zdHJpcCgpLmVuZHN3aXRoKCI/Iik6CiAgICAgICAgICAgIHJldHVybiAiVGhhdCdzIGEgZ3JlYXQgcXVlc3Rpb24uIExldCBtZSBoZWxwIHlvdSB0aGluayBhYm91dCB0aGF0LiIsIDAuNzAKICAgICAgICBlbGlmIGxlbihtZXNzYWdlLnNwbGl0KCkpIDw9IDM6CiAgICAgICAgICAgIHJldHVybiBmIkdvdCBpdDogJ3ttZXNzYWdlfSciLCAwLjYwCgogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIGYiSSBoZWFyIHlvdSBzYXlpbmc6ICd7bWVzc2FnZX0nLiAiCiAgICAgICAgICAgICJUZWxsIG1lIG1vcmUgYW5kIEknbGwgZG8gbXkgYmVzdCB0byBoZWxwLiIsCiAgICAgICAgICAgIDAuNjAsCiAgICAgICAgKQoKICAgIGRlZiBfZXh0cmFjdF90ZXh0KHNlbGYsIGV2ZW50OiBJbnB1dEV2ZW50KSAtPiBzdHI6CiAgICAgICAgaWYgaXNpbnN0YW5jZShldmVudC5yYXdfdmFsdWUsIHN0cik6CiAgICAgICAgICAgIHJldHVybiBldmVudC5yYXdfdmFsdWUKICAgICAgICByZXR1cm4gIiIKCiAgICBkZWYgX2NsYXNzaWZ5X2tleXdvcmQoc2VsZiwgdGV4dDogc3RyKSAtPiB0dXBsZVtJbnRlbnRDYXRlZ29yeSwgZmxvYXRdOgogICAgICAgICIiIlNpbXBsZSBrZXl3b3JkLWJhc2VkIGNsYXNzaWZpY2F0aW9uLiIiIgogICAgICAgIGxvd2VyID0gdGV4dC5sb3dlcigpCiAgICAgICAgaWYgYW55KHcgaW4gbG93ZXIgZm9yIHcgaW4gc2VsZi5FTUVSR0VOQ1lfV09SRFMpOgogICAgICAgICAgICByZXR1cm4gSW50ZW50Q2F0ZWdvcnkuRU1FUkdFTkNZLCAwLjkwCiAgICAgICAgZWxpZiBhbnkodyBpbiBsb3dlciBmb3IgdyBpbiBzZWxmLk5FRURfV09SRFMpOgogICAgICAgICAgICByZXR1cm4gSW50ZW50Q2F0ZWdvcnkuTkVFRCwgMC44NQogICAgICAgIGVsaWYgYW55KHcgaW4gbG93ZXIgZm9yIHcgaW4gc2VsZi5ERVZJQ0VfV09SRFMpOgogICAgICAgICAgICByZXR1cm4gSW50ZW50Q2F0ZWdvcnkuQ09OVFJPTF9ERVZJQ0UsIDAuODAKICAgICAgICBlbGlmIGFueSh3IGluIGxvd2VyIGZvciB3IGluIHNlbGYuRU1PVElPTl9XT1JEUyk6CiAgICAgICAgICAgIHJldHVybiBJbnRlbnRDYXRlZ29yeS5FTU9USU9OLCAwLjc1CiAgICAgICAgZWxpZiAiPyIgaW4gdGV4dDoKICAgICAgICAgICAgcmV0dXJuIEludGVudENhdGVnb3J5LlFVRVNUSU9OLCAwLjcwCiAgICAgICAgcmV0dXJuIEludGVudENhdGVnb3J5LkNPTU1VTklDQVRFLCAwLjYwCg==
+"""
+ablebridge.ai.intent — AI Intent Engine.
+
+Routes input events through a local LLM (Ollama) to determine:
+1. What the user is trying to communicate
+2. What action to take
+3. What response to give (for AAC)
+
+The intent engine is the "brain" of AbleBridge.
+"""
+
+from __future__ import annotations
+
+import json
+import time
+from abc import ABC, abstractmethod
+from typing import Any
+
+import requests
+from loguru import logger
+
+from ablebridge.core.types import InputEvent, IntentEvent, IntentCategory
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Base Intent Engine
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+class IntentEngine(ABC):
+    """
+    Abstract base for intent engines.
+    Implement this to add a new AI backend (OpenAI, Anthropic, local, etc.)
+    """
+
+    name: str = "base_intent"
+
+    @abstractmethod
+    def process(self, event: InputEvent) -> IntentEvent | None:
+        """Process an input event and return a resolved intent."""
+        ...
+
+    @abstractmethod
+    def chat(self, message: str, context: str = "") -> tuple[str, float]:
+        """
+        Simple chat interface. Returns (response_text, confidence).
+        Used for AAC conversation mode.
+        """
+        ...
+
+    def close(self) -> None:
+        """Clean up resources."""
+        pass
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Ollama Intent Engine (local LLM)
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+SYSTEM_PROMPT = """You are the intent understanding module of AbleBridge,
+an AI accessibility bridge for people with disabilities.
+
+Your task is to classify user input and extract structured intent.
+Always be helpful, patient, and supportive.
+
+Respond ONLY with valid JSON in this format:
+{
+  "category": "COMMUNICATE|CONTROL_DEVICE|EMERGENCY|NAVIGATION|EMOTION|NEED|QUESTION|CONFIRM",
+  "raw_text": "the user's message",
+  "response": "a helpful response (for AAC conversation mode)",
+  "entities": {"device": "...", "action": "...", "target": "..."},
+  "urgency": 0.0-1.0,
+  "sentiment": -1.0 to 1.0,
+  "confidence": 0.0-1.0
+}
+
+Categories:
+- COMMUNICATE: General conversation, greeting, statement
+- CONTROL_DEVICE: Smart home control (lights, TV, thermostat)
+- EMERGENCY: Help request, distress, urgent need
+- NAVIGATION: Move wheelchair, get somewhere
+- EMOTION: Express feelings, mood, pain level
+- NEED: Basic needs (water, food, bathroom, medication)
+- QUESTION: User is asking a question
+- CONFIRM: Yes/No confirmation
+
+If the input is unclear, respond with confidence below 0.5.
+"""
+
+
+class OllamaIntentEngine(IntentEngine):
+    """
+    Local LLM intent engine using Ollama.
+
+    Advantages:
+    - 100% offline (no data leaves the device)
+    - Free (no API costs)
+    - Fast (especially with quantization)
+    - Private (perfect for medical/personal data)
+
+    Setup:
+        1. Install Ollama: https://ollama.ai
+        2. Pull a model: ollama pull llama3.2
+        3. Start server: ollama serve  (automatic on first use)
+    """
+
+    name = "ollama_intent"
+
+    def __init__(
+        self,
+        base_url: str = "http://localhost:11434",
+        model: str = "llama3.2:latest",
+        threshold: float = 0.60,
+        temperature: float = 0.7,
+        max_tokens: int = 256,
+    ):
+        self._base_url = base_url.rstrip("/")
+        self._model = model
+        self._threshold = threshold
+        self._temperature = temperature
+        self._max_tokens = max_tokens
+        self._available = self._check_availability()
+
+    def _check_availability(self) -> bool:
+        """Check if Ollama is running and the model is available."""
+        try:
+            resp = requests.get(f"{self._base_url}/api/tags", timeout=3)
+            if resp.status_code == 200:
+                models = resp.json().get("models", [])
+                available = [m["name"] for m in models]
+                if self._model in available or any(
+                    self._model.split(":")[0] in m for m in available
+                ):
+                    logger.info(f"[OllamaIntent] Model '{self._model}' is available")
+                    return True
+                logger.warning(
+                    f"[OllamaIntent] Model '{self._model}' not found. "
+                    f"Available: {available}. Pull it with: ollama pull {self._model}"
+                )
+            return False
+        except Exception as e:
+            logger.warning(f"[OllamaIntent] Ollama not available: {e}")
+            return False
+
+    def process(self, event: InputEvent) -> IntentEvent | None:
+        """Classify an input event and return structured intent."""
+        if not self._available:
+            return None
+
+        text = self._extract_text(event)
+        if not text:
+            return None
+
+        try:
+            response_text, confidence = self.chat(text)
+            parsed = self._parse_llm_response(response_text, text)
+            parsed.sources = [event.channel]
+            return parsed
+        except Exception:
+            logger.exception("[OllamaIntent] Error processing intent")
+            return None
+
+    def chat(self, message: str, context: str = "") -> tuple[str, float]:
+        """Send a message to the LLM and get a response."""
+        if not self._available:
+            return "", 0.0
+
+        full_prompt = f"{SYSTEM_PROMPT}\n\nUser: {message}"
+        if context:
+            full_prompt = f"Context: {context}\n\n{full_prompt}"
+
+        payload = {
+            "model": self._model,
+            "prompt": full_prompt,
+            "stream": False,
+            "options": {
+                "temperature": self._temperature,
+                "num_predict": self._max_tokens,
+            },
+        }
+
+        try:
+            resp = requests.post(
+                f"{self._base_url}/api/generate",
+                json=payload,
+                timeout=30,
+            )
+            if resp.status_code == 200:
+                result = resp.json()
+                return result.get("response", ""), result.get("confidence", 0.85)
+            else:
+                logger.warning(f"[OllamaIntent] HTTP {resp.status_code}: {resp.text[:100]}")
+                return "", 0.0
+        except Exception:
+            return "", 0.0
+
+    def _extract_text(self, event: InputEvent) -> str:
+        """Extract text content from an input event."""
+        if isinstance(event.raw_value, str):
+            return event.raw_value
+        if isinstance(event.raw_value, tuple) and len(event.raw_value) == 2:
+            # Gaze position or similar
+            return ""
+        return str(event.raw_value or "")
+
+    def _parse_llm_response(self, llm_text: str, original_text: str) -> IntentEvent:
+        """Parse LLM JSON response into an IntentEvent."""
+        # Try to extract JSON from the response
+        try:
+            # Find JSON block
+            start = llm_text.find("{")
+            end = llm_text.rfind("}") + 1
+            if start >= 0 and end > start:
+                json_str = llm_text[start:end]
+                data = json.loads(json_str)
+
+                category_str = data.get("category", "COMMUNICATE").upper()
+                try:
+                    category = IntentCategory[category_str]
+                except KeyError:
+                    category = IntentCategory.COMMUNICATE
+
+                return IntentEvent(
+                    category=category,
+                    raw_text=original_text,
+                    structured=data,
+                    entities=data.get("entities", {}),
+                    sentiment=data.get("sentiment", 0.0),
+                    urgency=data.get("urgency", 0.0),
+                    confidence=data.get("confidence", 0.5),
+                    sources=[],
+                )
+        except Exception as e:
+            logger.debug(f"[OllamaIntent] Could not parse JSON: {e}")
+
+        # Fallback: return as general communication
+        return IntentEvent(
+            category=IntentCategory.COMMUNICATE,
+            raw_text=original_text,
+            structured={"response": llm_text or original_text},
+            confidence=0.5,
+        )
+
+    def close(self) -> None:
+        pass
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Mock Intent Engine (for testing / no LLM)
+# ──────────────────────────────────────────────────────────────────────────────
+
+
+class MockIntentEngine(IntentEngine):
+    """
+    Mock intent engine for testing without Ollama.
+    Provides basic keyword-based intent classification.
+    """
+
+    name = "mock_intent"
+
+    EMERGENCY_WORDS = ["help", "emergency", "urgent", "pain", "call 911", "救我", "救命"]
+    NEED_WORDS = ["water", "bathroom", "toilet", "food", "hungry", "thirsty", "medicine", "困", "饿", "渴"]
+    DEVICE_WORDS = ["light", "tv", "music", "door", "lock", "temperature", "灯", "空调", "电视"]
+    EMOTION_WORDS = ["happy", "sad", "tired", "angry", "confused", "feel", "mood", "疼", "累", "开心"]
+
+    def process(self, event: InputEvent) -> IntentEvent | None:
+        text = self._extract_text(event)
+        if not text:
+            return None
+
+        category, confidence = self._classify_keyword(text)
+
+        return IntentEvent(
+            category=category,
+            raw_text=text,
+            structured={"response": f"I understood: {text}"},
+            confidence=confidence,
+            urgency=1.0 if category == IntentCategory.EMERGENCY else 0.3,
+        )
+
+    def chat(self, message: str, context: str = "") -> tuple[str, float]:
+        """Mock chat: echo back with basic acknowledgement."""
+        if not message.strip():
+            return "", 0.0
+
+        # Keyword-based responses
+        lower = message.lower()
+        if any(w in lower for w in self.EMERGENCY_WORDS):
+            return "I understand you need help. I'm here for you. What do you need?", 0.85
+        elif any(w in lower for w in self.NEED_WORDS):
+            return "I understand you have a need. I'm checking how to help.", 0.80
+        elif any(w in lower for w in self.DEVICE_WORDS):
+            return "I can help you control the device. Which one would you like?", 0.75
+        elif any(w in lower for w in self.EMOTION_WORDS):
+            return "I hear how you're feeling. Thank you for sharing with me.", 0.80
+        elif "?" in message or message.strip().endswith("?"):
+            return "That's a great question. Let me help you think about that.", 0.70
+        elif len(message.split()) <= 3:
+            return f"Got it: '{message}'", 0.60
+
+        return (
+            f"I hear you saying: '{message}'. "
+            "Tell me more and I'll do my best to help.",
+            0.60,
+        )
+
+    def _extract_text(self, event: InputEvent) -> str:
+        if isinstance(event.raw_value, str):
+            return event.raw_value
+        return ""
+
+    def _classify_keyword(self, text: str) -> tuple[IntentCategory, float]:
+        """Simple keyword-based classification."""
+        lower = text.lower()
+        if any(w in lower for w in self.EMERGENCY_WORDS):
+            return IntentCategory.EMERGENCY, 0.90
+        elif any(w in lower for w in self.NEED_WORDS):
+            return IntentCategory.NEED, 0.85
+        elif any(w in lower for w in self.DEVICE_WORDS):
+            return IntentCategory.CONTROL_DEVICE, 0.80
+        elif any(w in lower for w in self.EMOTION_WORDS):
+            return IntentCategory.EMOTION, 0.75
+        elif "?" in text:
+            return IntentCategory.QUESTION, 0.70
+        return IntentCategory.COMMUNICATE, 0.60
